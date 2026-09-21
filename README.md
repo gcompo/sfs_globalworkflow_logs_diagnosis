@@ -1,0 +1,1 @@
+# sfs_globalworkflow_logs_diagnosis
