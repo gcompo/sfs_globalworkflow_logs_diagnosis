@@ -1,0 +1,900 @@
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112       25800          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           2           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/IMS-NIC.blen
+  0:  ded.ice.monthly.clim.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/IMS-NIC.blen
+  0:  ded.ice.monthly.clim.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7         120         255         192          91
+  0:          102           0          20           1           1
+  0:   kpds(11-20)=           0           0           1           0           0
+  0:           10          31           1           2           0
+  0:   kpds(21-  )=          21           2
+204: NOTE from PE     0: updating fields with increments ncount:        1.
+204: NOTE from PE     0: updating fields with weight inc_wt:0.09090909
+  0:   input grib file dates=          20           2           1           0
+  0:  imax,jmax,ijmax=        7200        3600    25920000
+  0:   kgds( 1-12)=           0        7200        3600       89975          25
+  0:          192      -89975      359975          50          50           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:         7200        3600    25920000  5.000000000000000E-002
+  0:  -5.000000000000000E-002 T  2.500000000000000E-002   89.9750000000000     
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_snocl
+  0:  im.1.875.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_snocl
+  0:  im.1.875.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          80         255         128          65
+  0:            1           0           0           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:           51           1           1           2           0
+  0:   kpds(21-  )=          20           1
+  0:   input grib file dates=           0           2           1           0
+  0:  imax,jmax,ijmax=         192          95       18240
+  0:   kgds( 1-12)=           0         192          95       88125           0
+  0:          128      -88125       -1875        1875        1875           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          192          95       18240   1.87500000000000     
+  0:   -1.87500000000000      T  0.000000000000000E+000   88.1250000000000     
+  0:  roughness length to be set from igbp veg type
+  0:   in fixrdc_tile for mon=           2  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.vegetation_greenness.tile1.nc
+  0:  climatological vegetation cover read in for mon=           2
+  0:   mon1s=           1  mon2s=           2  sea1s=           1  sea2s=           4
+  0:  monthly albedo weights are   0.978813559322034       for k           1
+  0:   2.118644067796616E-002  for k           2
+  0:  qc of sea ice
+  0:   
+  0:  qc of snow
+  0:  snow set to zero over open sea at         1200  points (
+  0:    78.1250000000000      percent)
+  0:  performing qc of snow     mode=           1 (0=count only, 1=replace)
+  0:  set snow temp to tsfsmx if greater
+  0:  performing qc of tsfc     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of tsf2     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albc     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albc     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albc     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albc     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of zorc     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of tg3c     mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld=-0.9990E+03 to  0.2000E+03
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld=-0.9990E+03 to  0.2000E+03
+  0:  open ocean min check.  modified to    200.0 at  1200 points  78.1percent
+  0:  performing qc of stc-1            mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min check.  modified to      1.0 at  1200 points  78.1percent
+  0:  performing qc of stc-2            mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min check.  modified to      1.0 at  1200 points  78.1percent
+  0:  performing qc of stc-3            mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min check.  modified to      1.0 at  1200 points  78.1percent
+  0:  performing qc of stc-4            mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld= 0.0000E+00 to  0.1000E+01
+  0:  open ocean min check.  modified to      1.0 at  1200 points  78.1percent
+  0:  performing qc of stc-1            mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stc-2            mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stc-3            mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stc-4            mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vegc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min check.  modified to      0.0 at  1200 points  78.1percent
+  0:  performing qc of vetc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean max. check. lat=-35.4 lon= 305.6 fld= 0.1700E+02 to  0.0000E+00
+  0:  open ocean max. check. lat=-35.5 lon= 306.0 fld= 0.1700E+02 to  0.0000E+00
+  0:  open sea max check. modified to      0.0 at  1200 points  78.1percent
+  0:  performing qc of sotc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean max. check. lat=-35.4 lon= 305.6 fld= 0.1400E+02 to  0.0000E+00
+  0:  open ocean max. check. lat=-35.5 lon= 306.0 fld= 0.1400E+02 to  0.0000E+00
+  0:  open sea max check. modified to      0.0 at  1200 points  78.1percent
+  0:  performing qc of socc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min check.  modified to      0.0 at  1200 points  78.1percent
+  0:  performing qc of sihc     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vmnc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min check.  modified to      0.0 at  1200 points  78.1percent
+  0:  performing qc of vmxc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min check.  modified to      0.0 at  1200 points  78.1percent
+  0:  performing qc of slpc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min check.  modified to      0.0 at  1200 points  78.1percent
+  0:  performing qc of absc     mode=           1 (0=count only, 1=replace)
+  0:  open ocean min. check. lat=-35.4 lon= 305.6 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min. check. lat=-35.5 lon= 306.0 fld=-0.9990E+03 to  0.0000E+00
+  0:  open ocean min check.  modified to      0.0 at  1200 points  78.1percent
+  0:  ==============
+  0:     analysis
+  0:  ==============
+  0:  no tsf analysis available.  climatology used
+  0:  no albedo analysis available.  climatology used
+  0:  no vegfalbedo analysis available.  climatology used
+  0:  no soil wetness analysis available.  climatology used
+  0:  no snow/snocov analysis available.  climatology used
+  0:  no sea-ice analysis available.  climatology used
+  0:  no srfc roughness analysis available. climatology used
+  0:  no deep soil temp analy available.  climatology used
+  0:  no vegetation cover anly available. climatology used
+  0:  no vegetation type anly available. climatology used
+  0:  no soil type anly available. climatology used
+  0:  no soil color anly available. climatology used
+  0:  no shdmin anly available. climatology used
+  0:  no shdmax anly available. climatology used
+  0:  no slope type anly available. climatology used
+  0:  no snoalb anly available. climatology used
+  0:  qc of sea ice
+  0:  performing qc of siha     mode=           1 (0=count only, 1=replace)
+  0:   
+  0:  qc of snow
+  0:  snow set to zero over open sea at         1200  points (
+  0:    78.1250000000000      percent)
+  0:  performing qc of sncva    mode=           1 (0=count only, 1=replace)
+  0:  snodpth
+  0:   
+  0:  qc of snow
+  0:  snow set to zero over open sea at         1200  points (
+  0:    78.1250000000000      percent)
+  0:  set snow temp to tsfsmx if greater
+  0:  performing qc of snowa    mode=           1 (0=count only, 1=replace)
+  0:  performing qc of tsfa     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of alba     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of alba     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of alba     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of alba     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of zora     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of tg3a     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smca-1           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smca-2           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smca-3           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smca-4           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stca-1           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stca-2           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stca-3           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stca-4           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vega     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of veta     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of sota     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of soca     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vmna     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vmxa     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of slpa     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of absa     mode=           1 (0=count only, 1=replace)
+  0:  ==============
+  0:    fcst guess
+  0:  ==============
+  0:   
+  0:  qcsli
+  0:  performing qc of snof     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of tsff     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of albf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of zorf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of tg3f     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of sihf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smcfcw-1         mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smcfcw-2         mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smcfcw-3         mode=           1 (0=count only, 1=replace)
+  0:  performing qc of smcfcw-4         mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stcf-1           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stcf-2           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stcf-3           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of stcf-4           mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vegf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vetf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of sotf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of socf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vmnf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vmxf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of slpf     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of absf     mode=           1 (0=count only, 1=replace)
+  0:  qc of snow and sea-ice analysis
+  0:  ==============
+  0:     merging
+  0:  ==============
+  0:  use forecast land-sea-ice mask
+  0: rtsfl,ralbl,raisl,rsnol,rsmcl,rzorl,rvegl=  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  0.000  0.000
+  0: rtsfs,ralbs,raiss,rsnos,rsmcs,rzors,rvegs,rsics=  0.996  0.000  1.000  1.000  0.000  0.000  0.000  0.000  1.000  1.000  0.000
+  0: rsoc1, rsocs =  0.000  0.000
+  0:  dbgx-- csmcl:   1.00000000000000        1.00000000000000     
+  0:    1.00000000000000        1.00000000000000     
+  0:  dbgx-- rsmcl:   1.00000000000000        1.00000000000000     
+  0:    1.00000000000000        1.00000000000000     
+  0:  dbgx-- csnol, csnos:   1.00000000000000        1.00000000000000     
+  0:  dbgx-- rsnol, rsnos:   1.00000000000000        1.00000000000000     
+  0:  newice
+  0:  set snow temp to tsfsmx if greater
+  0:  performing qc of snowm    mode=           0 (0=count only, 1=replace)
+  0:  performing qc of tsfm     mode=           0 (0=count only, 1=replace)
+  0:  performing qc of albm     mode=           0 (0=count only, 1=replace)
+  0:  performing qc of albm     mode=           0 (0=count only, 1=replace)
+  0:  performing qc of albm     mode=           0 (0=count only, 1=replace)
+  0:  performing qc of albm     mode=           0 (0=count only, 1=replace)
+  0:  performing qc of zorm     mode=           0 (0=count only, 1=replace)
+  0:  performing qc of stcm-1           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of stcm-2           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of stcm-3           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of stcm-4           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of smcm-1           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of smcm-2           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of smcm-3           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of smcm-4           mode=           0 (0=count only, 1=replace)
+  0:  performing qc of vegm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vetm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of sotm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of socm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of sihm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vmnm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of vmxm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of slpm     mode=           1 (0=count only, 1=replace)
+  0:  performing qc of absm     mode=           1 (0=count only, 1=replace)
+  0:  ==============
+  0:  final results
+  0:  ==============
+  0:  dbgx --fixratio: F F F F
+  0: Thompson MP is using 2 inner loops per time step with an effective time step of 300.00 seconds
+  0:  in setiauforcing  4.6296296E-05
+  0:  apply iau forcing t1,t,t2,filter wt=   3.00000000000000     
+  0:    3.16666666666667        9.00000000000000       6.760516523752372E-003
+  0: PASS: fcstRUN phase 1, n_atmsteps =               18 time is         9.185340
+  0:  in atmos_model update, fhzero=   6.00000000000000      fhour=   3.166667    
+  0:   0.0000000E+00
+  0:  zeroing coupling accumulated fields at kdt=           19
+  0:  zeroing coupling accumulated fields at kdt=           19
+  0: PASS: fcstRUN phase 2, n_atmsteps =               18 time is         2.152167
+314:   
+314:  Warning: Departure points out of bounds in remap
+314:  my_task, i, j =          10          69          62
+314:  dpx, dpy =  -11720.7361603618       -16307.2533435228     
+314:  HTN(i,j), HTN(i+1,j) =   7268.21158993416        7268.21158993416     
+314:  HTE(i,j), HTE(i,j+1) =   11273.8444519481        11273.8444519481     
+314:  (print_state) bad departure points
+314:  (print_state) istep1, my_task, i, j, iblk:        2180          10          69
+314:           62           1
+314:  (print_state) Global block:          11
+314:  (print_state) Global i and j:         788          61
+314:  (print_state) Lat, Lon (degrees):  -74.9110905537429     
+314:   -103.125000000000     
+314:   
+314:  aice   0.999996077917210     
+314:  aice0  3.922082790208670E-006
+314:   
+314:  n =           1
+314:  aicen  0.000000000000000E+000
+314:  vicen  0.000000000000000E+000
+314:  vsnon  0.000000000000000E+000
+314:  Tsfcn  -1.78086079129344     
+314:   
+314:   
+314:  n =           2
+314:  aicen  0.000000000000000E+000
+314:  vicen  0.000000000000000E+000
+314:  vsnon  0.000000000000000E+000
+314:  Tsfcn  -1.78086079129344     
+314:   
+314:   
+314:  n =           3
+314:  aicen  0.000000000000000E+000
+314:  vicen  0.000000000000000E+000
+314:  vsnon  0.000000000000000E+000
+314:  Tsfcn  -1.78086079129344     
+314:   
+314:   
+314:  n =           4
+314:  aicen  1.674038879409649E-006
+314:  vicen  7.643476257936838E-006
+314:  vsnon  0.000000000000000E+000
+314:  hin   4.56588933025995     
+314:  hsn  0.000000000000000E+000
+314:  Tsfcn  -7.29986674591544     
+314:   
+314:   
+314:  n =           5
+314:  aicen  0.999994403878330     
+314:  vicen   1118.49864086044     
+314:  vsnon  0.000000000000000E+000
+314:  hin   1118.50490014995     
+314:  hsn  0.000000000000000E+000
+314:  Tsfcn  -7.29986674591544     
+314:   
+314:  qice, cat            1  layer            1  0.000000000000000E+000
+314:  qice, cat            1  layer            2  0.000000000000000E+000
+314:  qice, cat            1  layer            3  0.000000000000000E+000
+314:  qice, cat            1  layer            4  0.000000000000000E+000
+314:  qice, cat            1  layer            5  0.000000000000000E+000
+314:  qice, cat            1  layer            6  0.000000000000000E+000
+314:  qice, cat            1  layer            7  0.000000000000000E+000
+314:   
+314:  qice, cat            2  layer            1  0.000000000000000E+000
+314:  qice, cat            2  layer            2  0.000000000000000E+000
+314:  qice, cat            2  layer            3  0.000000000000000E+000
+314:  qice, cat            2  layer            4  0.000000000000000E+000
+314:  qice, cat            2  layer            5  0.000000000000000E+000
+314:  qice, cat            2  layer            6  0.000000000000000E+000
+314:  qice, cat            2  layer            7  0.000000000000000E+000
+314:   
+314:  qice, cat            3  layer            1  0.000000000000000E+000
+314:  qice, cat            3  layer            2  0.000000000000000E+000
+314:  qice, cat            3  layer            3  0.000000000000000E+000
+314:  qice, cat            3  layer            4  0.000000000000000E+000
+314:  qice, cat            3  layer            5  0.000000000000000E+000
+314:  qice, cat            3  layer            6  0.000000000000000E+000
+314:  qice, cat            3  layer            7  0.000000000000000E+000
+314:   
+314:  qice, cat            4  layer            1  -332429610.861164     
+314:  qi/rhoi  -362518.659608685     
+314:  qice, cat            4  layer            2  -298092204.894618     
+314:  qi/rhoi  -325073.287780390     
+314:  qice, cat            4  layer            3  -290104270.011458     
+314:  qi/rhoi  -316362.344614458     
+314:  qice, cat            4  layer            4  -285500349.640381     
+314:  qi/rhoi  -311341.711712520     
+314:  qice, cat            4  layer            5  -283253723.519823     
+314:  qi/rhoi  -308891.737753352     
+314:  qice, cat            4  layer            6  -282300412.775490     
+314:  qi/rhoi  -307852.140431286     
+314:  qice, cat            4  layer            7  -281991245.621390     
+314:  qi/rhoi  -307514.989772509     
+314:   
+314:  qice, cat            5  layer            1  -332429610.861164     
+314:  qi/rhoi  -362518.659608685     
+314:  qice, cat            5  layer            2  -298092204.894618     
+314:  qi/rhoi  -325073.287780390     
+314:  qice, cat            5  layer            3  -290104270.011458     
+314:  qi/rhoi  -316362.344614458     
+314:  qice, cat            5  layer            4  -285500349.640381     
+314:  qi/rhoi  -311341.711712520     
+314:  qice, cat            5  layer            5  -283253723.519823     
+314:  qi/rhoi  -308891.737753352     
+314:  qice, cat            5  layer            6  -282300412.775490     
+314:  qi/rhoi  -307852.140431287     
+314:  qice, cat            5  layer            7  -281991245.621390     
+314:  qi/rhoi  -307514.989772509     
+314:   
+314:  qice(i,j)  -4107343634.64865     
+314:   
+314:  qsnow(i,j)  0.000000000000000E+000
+314:   
+314:  sice, cat            1  layer            1  0.000000000000000E+000
+314:  sice, cat            1  layer            2  0.000000000000000E+000
+314:  sice, cat            1  layer            3  0.000000000000000E+000
+314:  sice, cat            1  layer            4  0.000000000000000E+000
+314:  sice, cat            1  layer            5  0.000000000000000E+000
+314:  sice, cat            1  layer            6  0.000000000000000E+000
+314:  sice, cat            1  layer            7  0.000000000000000E+000
+314:  sice, cat            2  layer            1  0.000000000000000E+000
+314:  sice, cat            2  layer            2  0.000000000000000E+000
+314:  sice, cat            2  layer            3  0.000000000000000E+000
+314:  sice, cat            2  layer            4  0.000000000000000E+000
+314:  sice, cat            2  layer            5  0.000000000000000E+000
+314:  sice, cat            2  layer            6  0.000000000000000E+000
+314:  sice, cat            2  layer            7  0.000000000000000E+000
+314:  sice, cat            3  layer            1  0.000000000000000E+000
+314:  sice, cat            3  layer            2  0.000000000000000E+000
+314:  sice, cat            3  layer            3  0.000000000000000E+000
+314:  sice, cat            3  layer            4  0.000000000000000E+000
+314:  sice, cat            3  layer            5  0.000000000000000E+000
+314:  sice, cat            3  layer            6  0.000000000000000E+000
+314:  sice, cat            3  layer            7  0.000000000000000E+000
+314:  sice, cat            4  layer            1  0.273586574079127     
+314:  sice, cat            4  layer            2   1.35368705128712     
+314:  sice, cat            4  layer            3   2.26719341594314     
+314:  sice, cat            4  layer            4   2.79457896715181     
+314:  sice, cat            4  layer            5   3.05193306307024     
+314:  sice, cat            4  layer            6   3.16113577911601     
+314:  sice, cat            4  layer            7   3.19654596849640     
+314:  sice, cat            5  layer            1  0.273586574079127     
+314:  sice, cat            5  layer            2   1.35368705128712     
+314:  sice, cat            5  layer            3   2.26719341594314     
+314:  sice, cat            5  layer            4   2.79457896715181     
+314:  sice, cat            5  layer            5   3.05193306307024     
+314:  sice, cat            5  layer            6   3.16113577911601     
+314:  sice, cat            5  layer            7   3.19654596849641     
+314:   
+314:  uvel(i,j)   19.5345602672697     
+314:  vvel(i,j)   27.1787555725380     
+314:   
+314:  atm states and fluxes
+314:              uatm    =   -4.60309144032609     
+314:              vatm    =    5.40986981089648     
+314:              potT    =    271.029646935873     
+314:              Tair    =    267.970969410102     
+314:              Qa      =   1.632847872988415E-003
+314:              rhoa    =    1.24817997028257     
+314:              swvdr   =    44.2601204568805     
+314:              swvdf   =    48.4550801849035     
+314:              swidr   =    94.1167191952089     
+314:              swidf   =    17.3593573258931     
+314:              flw     =    196.912544616437     
+314:              frain   =   0.000000000000000E+000
+314:              fsnow   =   0.000000000000000E+000
+314:   
+314:  ocn states and fluxes
+314:              frzmlt  =   -3454.63650620254     
+314:              sst     =   -1.02838749033521     
+314:              sss     =    32.9789035424712     
+314:              Tf      =   -1.78086079129344     
+314:              uocn    =    2.53992885381157     
+314:              vocn    =   0.896997794806910     
+314:              strtltxU=   -10.0661358923656     
+314:              strtltyU=   -27.2606257896748     
+314:   
+314:  srf states and fluxes
+314:              Tref    =    269.440082145570     
+314:              Qref    =   1.758078045452279E-003
+314: MPICH ERROR [Rank 314] [job id 221391455.0] [Mon Sep 21 15:47:06 2026] [c6n0448] - Abort(128) (rank 314 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 128) - process 314
+314: 
+314: aborting job:
+314: application called MPI_Abort(MPI_COMM_WORLD, 128) - process 314
+314:              Uref    =    5.80501721441916     
+314:              fsens   =    55.3016928588207     
+314:              flat    =   -14.4279892829846     
+314:              evap    =  -5.038675537302758E-006
+314:              flwout  =   -281.498113553106     
+314:   
+314:   
+314:  (abort_ice)ABORTED: 
+314:  (abort_ice) error = (diagnostic_abort)ERROR: bad departure points
+srun: error: c6n0448: task 314: Exited with exit code 255
+srun: Terminating StepId=221391455.0
+  0: [2026-09-21T15:47:07.000] error: *** STEP 221391455.0 ON c6n0276 CANCELLED AT 2026-09-21T15:47:06 DUE TO TASK FAILURE ***
+360: forrtl: error (78): process killed (SIGTERM)
+360: Image              PC                Routine            Line        Source             
+360: libc.so.6          000014966FA01980  Unknown               Unknown  Unknown
+360: libc.so.6          000014966FABE1E7  __sched_yield         Unknown  Unknown
+360: libmpi_intel.so.1  00001496709023F8  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  00001496714EC666  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  00001496714F831D  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  000014967141DBDF  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  000014966FE00730  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  000014966FE008E5  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  0000149671678FE3  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  0000149671CB6BC6  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  0000149671E37145  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  0000149671852DB6  Unknown               Unknown  Unknown
+360: libmpi_intel.so.1  00001496701E2164  MPI_Finalize          Unknown  Unknown
+360: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+360: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+360: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+360: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+360: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+360: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+360: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+360: libc.so.6          000014966F9EAEEC  Unknown               Unknown  Unknown
+360: libc.so.6          000014966F9EAFB5  __libc_start_main     Unknown  Unknown
+360: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+365: forrtl: error (78): process killed (SIGTERM)
+365: Image              PC                Routine            Line        Source             
+365: libc.so.6          0000147A53A01980  Unknown               Unknown  Unknown
+365: libc.so.6          0000147A53ABE1E7  __sched_yield         Unknown  Unknown
+365: libmpi_intel.so.1  0000147A549023F8  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A554EC666  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A554F831D  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A5541DBDF  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A53E00730  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A53E008E5  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A55678FE3  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A55CB6BC6  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A55E37145  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A55852DB6  Unknown               Unknown  Unknown
+365: libmpi_intel.so.1  0000147A541E2164  MPI_Finalize          Unknown  Unknown
+365: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+365: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+365: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+365: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+365: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+365: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+365: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+365: libc.so.6          0000147A539EAEEC  Unknown               Unknown  Unknown
+365: libc.so.6          0000147A539EAFB5  __libc_start_main     Unknown  Unknown
+365: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+349: forrtl: error (78): process killed (SIGTERM)
+349: Image              PC                Routine            Line        Source             
+349: libc.so.6          0000146B8D801980  Unknown               Unknown  Unknown
+349: libc.so.6          0000146B8D8BE1E7  __sched_yield         Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8E7023F8  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8F2EC666  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8F2F831D  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8F21DBDF  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8DC00730  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8DC008E5  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8F478FE3  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8FAB6BC6  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8FC37145  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8F652DB6  Unknown               Unknown  Unknown
+349: libmpi_intel.so.1  0000146B8DFE2164  MPI_Finalize          Unknown  Unknown
+349: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+349: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+349: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+349: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+349: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+349: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+349: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+349: libc.so.6          0000146B8D7EAEEC  Unknown               Unknown  Unknown
+349: libc.so.6          0000146B8D7EAFB5  __libc_start_main     Unknown  Unknown
+349: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+372: forrtl: error (78): process killed (SIGTERM)
+372: Image              PC                Routine            Line        Source             
+372: libc.so.6          00001551D5201980  Unknown               Unknown  Unknown
+372: libc.so.6          00001551D52BE1E7  __sched_yield         Unknown  Unknown
+372: libmpi_intel.so.1  00001551D61023F8  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D6CEC666  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D6CF831D  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D6C1DBDF  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D5600730  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D56008E5  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D6E78FE3  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D74B6BC6  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D7637145  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D7052DB6  Unknown               Unknown  Unknown
+372: libmpi_intel.so.1  00001551D59E2164  MPI_Finalize          Unknown  Unknown
+372: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+372: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+372: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+372: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+372: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+372: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+372: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+372: libc.so.6          00001551D51EAEEC  Unknown               Unknown  Unknown
+372: libc.so.6          00001551D51EAFB5  __libc_start_main     Unknown  Unknown
+372: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+369: forrtl: error (78): process killed (SIGTERM)
+369: Image              PC                Routine            Line        Source             
+369: libc.so.6          0000153B65201980  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B6610228A  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B66CEC666  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B66CF831D  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B66C1DBDF  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B65600730  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B656008E5  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B66E78FE3  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B674B6BC6  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B67637145  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B67052DB6  Unknown               Unknown  Unknown
+369: libmpi_intel.so.1  0000153B659E2164  MPI_Finalize          Unknown  Unknown
+369: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+369: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+369: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+369: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+369: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+369: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+369: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+369: libc.so.6          0000153B651EAEEC  Unknown               Unknown  Unknown
+369: libc.so.6          0000153B651EAFB5  __libc_start_main     Unknown  Unknown
+369: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+370: forrtl: error (78): process killed (SIGTERM)
+370: Image              PC                Routine            Line        Source             
+370: libc.so.6          000015071FE01980  Unknown               Unknown  Unknown
+370: libc.so.6          000015071FEBE1E7  __sched_yield         Unknown  Unknown
+370: libmpi_intel.so.1  0000150720D023F8  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  00001507218EC666  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  00001507218F831D  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  000015072181DBDF  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  0000150720200730  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  00001507202008E5  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  0000150721A78FE3  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  00001507220B6BC6  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  0000150722237145  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  0000150721C52DB6  Unknown               Unknown  Unknown
+370: libmpi_intel.so.1  00001507205E2164  MPI_Finalize          Unknown  Unknown
+370: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+370: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+370: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+370: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+370: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+370: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+370: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+370: libc.so.6          000015071FDEAEEC  Unknown               Unknown  Unknown
+370: libc.so.6          000015071FDEAFB5  __libc_start_main     Unknown  Unknown
+370: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+347: forrtl: error (78): process killed (SIGTERM)
+347: Image              PC                Routine            Line        Source             
+347: libc.so.6          000014588A401980  Unknown               Unknown  Unknown
+347: libc.so.6          000014588A4BE1E7  __sched_yield         Unknown  Unknown
+347: libmpi_intel.so.1  000014588B3023F8  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588BEEC666  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588BEF831D  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588BE1DBDF  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588A800730  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588A8008E5  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588C078FE3  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588C6B6BC6  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588C837145  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588C252DB6  Unknown               Unknown  Unknown
+347: libmpi_intel.so.1  000014588ABE2164  MPI_Finalize          Unknown  Unknown
+347: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+347: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+347: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+347: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+347: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+347: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+347: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+347: libc.so.6          000014588A3EAEEC  Unknown               Unknown  Unknown
+347: libc.so.6          000014588A3EAFB5  __libc_start_main     Unknown  Unknown
+347: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+379: forrtl: error (78): process killed (SIGTERM)
+379: Image              PC                Routine            Line        Source             
+379: libc.so.6          00001511A0A01980  Unknown               Unknown  Unknown
+379: libc.so.6          00001511A0ABE1E7  __sched_yield         Unknown  Unknown
+379: libmpi_intel.so.1  00001511A19023F8  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A24EC666  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A24F831D  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A241DBDF  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A0E00730  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A0E008E5  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A2678FE3  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A2CB6BC6  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A2E37145  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A2852DB6  Unknown               Unknown  Unknown
+379: libmpi_intel.so.1  00001511A11E2164  MPI_Finalize          Unknown  Unknown
+379: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+379: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+379: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+379: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+379: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+379: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+379: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+379: libc.so.6          00001511A09EAEEC  Unknown               Unknown  Unknown
+379: libc.so.6          00001511A09EAFB5  __libc_start_main     Unknown  Unknown
+379: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+356: forrtl: error (78): process killed (SIGTERM)
+356: Image              PC                Routine            Line        Source             
+356: libc.so.6          000014B1ABE01980  Unknown               Unknown  Unknown
+356: libc.so.6          000014B1ABEBE1E7  __sched_yield         Unknown  Unknown
+356: libmpi_intel.so.1  000014B1ACD023F8  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AD8EC666  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AD8F831D  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AD81DBDF  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AC200730  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AC2008E5  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1ADA78FE3  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AE0B6BC6  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AE237145  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1ADC52DB6  Unknown               Unknown  Unknown
+356: libmpi_intel.so.1  000014B1AC5E2164  MPI_Finalize          Unknown  Unknown
+356: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+356: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+356: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+356: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+356: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+356: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+356: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+356: libc.so.6          000014B1ABDEAEEC  Unknown               Unknown  Unknown
+356: libc.so.6          000014B1ABDEAFB5  __libc_start_main     Unknown  Unknown
+356: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+361: forrtl: error (78): process killed (SIGTERM)
+361: Image              PC                Routine            Line        Source             
+361: libc.so.6          000014772A001980  Unknown               Unknown  Unknown
+361: libc.so.6          000014772A0BE1E7  __sched_yield         Unknown  Unknown
+361: libmpi_intel.so.1  000014772AF023F8  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772BAEC666  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772BAF831D  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772BA1DBDF  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772A400730  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772A4008E5  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772BC78FE3  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772C2B6BC6  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772C437145  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772BE52DB6  Unknown               Unknown  Unknown
+361: libmpi_intel.so.1  000014772A7E2164  MPI_Finalize          Unknown  Unknown
+361: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+361: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+361: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+361: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+361: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+361: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+361: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+361: libc.so.6          0000147729FEAEEC  Unknown               Unknown  Unknown
+361: libc.so.6          0000147729FEAFB5  __libc_start_main     Unknown  Unknown
+361: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+350: forrtl: error (78): process killed (SIGTERM)
+350: Image              PC                Routine            Line        Source             
+350: libc.so.6          00001535E7801980  Unknown               Unknown  Unknown
+350: libc.so.6          00001535E78BE1E7  __sched_yield         Unknown  Unknown
+350: libmpi_intel.so.1  00001535E87023F8  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E92EC666  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E92F831D  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E921DBDF  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E7C00730  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E7C008E5  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E9478FE3  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E9AB6BC6  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E9C37145  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E9652DB6  Unknown               Unknown  Unknown
+350: libmpi_intel.so.1  00001535E7FE2164  MPI_Finalize          Unknown  Unknown
+350: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+350: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+350: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+350: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+350: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+350: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+350: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+350: libc.so.6          00001535E77EAEEC  Unknown               Unknown  Unknown
+350: libc.so.6          00001535E77EAFB5  __libc_start_main     Unknown  Unknown
+350: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+362: forrtl: error (78): process killed (SIGTERM)
+362: Image              PC                Routine            Line        Source             
+362: libc.so.6          000014ACFB201980  Unknown               Unknown  Unknown
+362: libc.so.6          000014ACFB2BE1E7  __sched_yield         Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFC1023F8  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFCCEC666  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFCCF831D  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFCC1DBDF  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFB600730  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFB6008E5  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFCE78FE3  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFD4B6BC6  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFD637145  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFD052DB6  Unknown               Unknown  Unknown
+362: libmpi_intel.so.1  000014ACFB9E2164  MPI_Finalize          Unknown  Unknown
+362: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+362: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+362: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+362: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+362: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+362: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+362: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+362: libc.so.6          000014ACFB1EAEEC  Unknown               Unknown  Unknown
+362: libc.so.6          000014ACFB1EAFB5  __libc_start_main     Unknown  Unknown
+362: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+376: forrtl: error (78): process killed (SIGTERM)
+376: Image              PC                Routine            Line        Source             
+376: libc.so.6          0000153B04401980  Unknown               Unknown  Unknown
+376: libc.so.6          0000153B044BE1E7  __sched_yield         Unknown  Unknown
+376: libmpi_intel.so.1  0000153B053023F8  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B05EEC666  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B05EF831D  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B05E1DBDF  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B04800730  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B048008E5  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B06078FE3  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B066B6BC6  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B06837145  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B06252DB6  Unknown               Unknown  Unknown
+376: libmpi_intel.so.1  0000153B04BE2164  MPI_Finalize          Unknown  Unknown
+376: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+376: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+376: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+376: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+376: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+376: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+376: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+376: libc.so.6          0000153B043EAEEC  Unknown               Unknown  Unknown
+376: libc.so.6          0000153B043EAFB5  __libc_start_main     Unknown  Unknown
+376: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+355: forrtl: error (78): process killed (SIGTERM)
+355: Image              PC                Routine            Line        Source             
+355: libc.so.6          000014BADE001980  Unknown               Unknown  Unknown
+355: libc.so.6          000014BADE0BE1E7  __sched_yield         Unknown  Unknown
+355: libmpi_intel.so.1  000014BADEF023F8  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADFAEC666  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADFAF831D  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADFA1DBDF  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADE400730  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADE4008E5  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADFC78FE3  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BAE02B6BC6  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BAE0437145  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADFE52DB6  Unknown               Unknown  Unknown
+355: libmpi_intel.so.1  000014BADE7E2164  MPI_Finalize          Unknown  Unknown
+355: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+355: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+355: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+355: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+355: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+355: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+355: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+355: libc.so.6          000014BADDFEAEEC  Unknown               Unknown  Unknown
+355: libc.so.6          000014BADDFEAFB5  __libc_start_main     Unknown  Unknown
+355: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+366: forrtl: error (78): process killed (SIGTERM)
+366: Image              PC                Routine            Line        Source             
+366: libc.so.6          0000146C5E001980  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5EF01B99  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5FAEC666  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5FAF831D  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5FA1DBDF  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5E400730  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5E4008E5  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5FC78FE3  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C602B6BC6  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C60437145  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5FE52DB6  Unknown               Unknown  Unknown
+366: libmpi_intel.so.1  0000146C5E7E2164  MPI_Finalize          Unknown  Unknown
+366: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+366: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+366: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+366: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+366: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+366: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+366: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+366: libc.so.6          0000146C5DFEAEEC  Unknown               Unknown  Unknown
+366: libc.so.6          0000146C5DFEAFB5  __libc_start_main     Unknown  Unknown
+366: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+352: forrtl: error (78): process killed (SIGTERM)
+352: Image              PC                Routine            Line        Source             
+352: libc.so.6          0000147B54801980  Unknown               Unknown  Unknown
+352: libc.so.6          0000147B548BE1E7  __sched_yield         Unknown  Unknown
+352: libmpi_intel.so.1  0000147B557023F8  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B562EC666  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B562F831D  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B5621DBDF  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B54C00730  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B54C008E5  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B56478FE3  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B56AB6BC6  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B56C37145  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B56652DB6  Unknown               Unknown  Unknown
+352: libmpi_intel.so.1  0000147B54FE2164  MPI_Finalize          Unknown  Unknown
+352: ufs_model_gfs.x    0000000000C910C9  Unknown               Unknown  Unknown
+352: ufs_model_gfs.x    0000000000CB703A  Unknown               Unknown  Unknown
+352: ufs_model_gfs.x    0000000000C89AD0  Unknown               Unknown  Unknown
+352: ufs_model_gfs.x    000000000055BB77  Unknown               Unknown  Unknown
+352: ufs_model_gfs.x    00000000006774E4  Unknown               Unknown  Unknown
+352: ufs_model_gfs.x    0000000000436A5A  MAIN__                    473  UFS.F90
+352: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+352: libc.so.6          0000147B547EAEEC  Unknown               Unknown  Unknown
+352: libc.so.6          0000147B547EAFB5  __libc_start_main     Unknown  Unknown

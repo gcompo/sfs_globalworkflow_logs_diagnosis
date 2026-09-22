@@ -1,0 +1,900 @@
++ source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/detect_machine.sh
+++ [[ -n gaeac6 ]]
+++ return
++ [[ gaeac6 == \w\c\o\s\s\2 ]]
++ source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/dev/ush/load_modules.sh run
+++ [[ hxB == *x* ]]
+++ set_x=YES
+++ [[ NO == \N\O ]]
+++ echo 'Loading modules quietly...'
+Loading modules quietly...
+++ set +x
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/modulefiles
+
+The following have been reloaded with a version change:
+  1) PrgEnv-intel/8.5.0 => PrgEnv-intel/8.6.0
+  2) craype/2.7.30 => craype/2.7.34
+  3) libfabric/1.20.1 => libfabric/1.22.0
+
+
+Lmod is automatically replacing "intel/2025.2" with "intel-classic/2023.2.0".
+
+
+The following have been reloaded with a version change:
+  1) PrgEnv-intel/8.6.0 => PrgEnv-intel/8.5.0
+  2) cray-mpich/8.1.32 => cray-mpich/8.1.30
+  3) craype/2.7.34 => craype/2.7.30
+
+
+Currently Loaded Modules:
+  1) craype-x86-genoa                52) gsl/2.8
+  2) perftools-base/25.03.0          53) nco/5.2.4
+  3) xpmem/2.11.5-1.3_g73ade43320bc  54) bacio/2.4.1
+  4) cray-pmi/6.1.15                 55) w3emc/2.10.0
+  5) CmrsEnv/default                 56) prod_util/2.1.1
+  6) TimeZoneEDT/default             57) g2/3.5.1
+  7) Core/24.11                      58) ip/5.1.0
+  8) DefApps                         59) grib-util/1.4.0
+  9) cray-dsmml/0.3.1                60) g2tmpl/1.13.0
+ 10) PrgEnv-intel/8.5.0              61) gsi-ncdiag/1.1.2
+ 11) intel-classic/2023.2.0          62) crtm-fix/2.4.0.1_emc
+ 12) craype/2.7.30                   63) git-lfs/2.11.0
+ 13) stack-intel/2023.2.0            64) crtm/2.4.0.1
+ 14) libfabric/1.22.0                65) bufr/11.7.0
+ 15) craype-network-ofi              66) py-f90nml/1.4.3
+ 16) cray-mpich/8.1.30               67) py-certifi/2023.7.22
+ 17) stack-cray-mpich/8.1.30         68) py-cftime/1.0.3.4
+ 18) gettext/0.20.2                  69) py-netcdf4/1.7.1.post2
+ 19) glibc/2.31                      70) libyaml/0.2.5
+ 20) zlib/1.2.13                     71) py-pyyaml/6.0.2
+ 21) sqlite/3.46.0                   72) py-markupsafe/2.1.3
+ 22) util-linux-uuid/2.40.2          73) py-jinja2/3.1.4
+ 23) python/3.11.7                   74) py-pytz/2023.3
+ 24) stack-python/3.11.7             75) py-tzdata/2023.3
+ 25) cmake/3.27.9                    76) py-pandas/2.2.3
+ 26) libjpeg/2.1.0                   77) py-six/1.16.0
+ 27) jasper/2.0.32                   78) py-python-dateutil/2.8.2
+ 28) libpng/1.6.37                   79) py-packaging/24.1
+ 29) openjpeg/2.3.1                  80) py-setuptools/69.2.0
+ 30) eccodes/2.33.0                  81) py-xarray/2024.7.0
+ 31) fftw/3.3.10                     82) py-awscrt/0.19.19
+ 32) nghttp2/1.63.0                  83) py-colorama/0.4.6
+ 33) curl/8.10.1                     84) py-pycparser/2.21
+ 34) proj/9.4.1                      85) py-cffi/1.17.1
+ 35) udunits/2.2.28                  86) py-cryptography/38.0.1
+ 36) cdo/2.3.0                       87) py-distro/1.8.0
+ 37) hdf5/1.14.3                     88) py-docutils/0.19
+ 38) snappy/1.2.1                    89) py-flit-core/3.8.0
+ 39) zstd/1.5.6                      90) py-jmespath/1.0.1
+ 40) c-blosc/1.21.5                  91) py-wcwidth/0.2.7
+ 41) netcdf-c/4.9.2                  92) py-prompt-toolkit/3.0.38
+ 42) netcdf-fortran/4.6.1            93) py-ruamel-yaml/0.17.16
+ 43) parallel-netcdf/1.12.3          94) py-urllib3/1.26.12
+ 44) parallelio/2.6.2                95) awscli-v2/2.15.53
+ 45) python-venv/1.0                 96) gw_run.common
+ 46) py-mpi4py/4.0.1                 97) perlbrew/5.38.2
+ 47) openblas/0.3.24                 98) prepobs/1.1.3
+ 48) py-numpy/1.26.4                 99) fit2obs/1.1.10
+ 49) py-pip/23.1.2                  100) hsi/9.3
+ 50) esmf/8.8.0                     101) gw_run.gaeac6
+ 51) antlr/2.7.7
+
+ 
+
+++ [[ -d /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/sorc/wxflow/src ]]
+++ PYTHONPATH=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/sorc/wxflow/src:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/awscli-v2-2.15.53-no5jf2y/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-urllib3-1.26.12-2uqdxke/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-ruamel-yaml-0.17.16-wnpmf4w/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-prompt-toolkit-3.0.38-pl7tyk4/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-wcwidth-0.2.7-fzxcsmw/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-jmespath-1.0.1-62l3o7i/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-flit-core-3.8.0-n2hhfa3/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-docutils-0.19-q7hf5ps/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-distro-1.8.0-vutg4lg/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cryptography-38.0.1-hfqy3tq/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cffi-1.17.1-r32keed/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pycparser-2.21-njsy2ih/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-colorama-0.4.6-gz4qfwq/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-awscrt-0.19.19-5ahskxs/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-xarray-2024.7.0-v7pxjmr/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-setuptools-69.2.0-q5x6352/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-packaging-24.1-acctrjw/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-python-dateutil-2.8.2-adj27qi/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-six-1.16.0-t2uhjfg/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pandas-2.2.3-4bngjxo/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-tzdata-2023.3-t2nvl22/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pytz-2023.3-wutyxsa/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-jinja2-3.1.4-pvwvqnp/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-markupsafe-2.1.3-3mredvv/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pyyaml-6.0.2-4bqqjxa/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-netcdf4-1.7.1.post2-c25ja2t/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cftime-1.0.3.4-t5euxp3/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-certifi-2023.7.22-5i3gpxz/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-f90nml-1.4.3-egb7j6f/lib/python3.11/site-packages:/ncrc/proj/ira-da/usw/bufr-11.7/lib64/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/esmf-8.8.0-yzvp7jx/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pip-23.1.2-nlzr4dk/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-numpy-1.26.4-oqfay67/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-mpi4py-4.0.1-xqxmfsx/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/python-venv-1.0-7sbmn7s/lib/python3.11/site-packages:/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/sorc/wxflow/src
+++ PYTHONPATH=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/sorc/wxflow/src:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/awscli-v2-2.15.53-no5jf2y/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-urllib3-1.26.12-2uqdxke/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-ruamel-yaml-0.17.16-wnpmf4w/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-prompt-toolkit-3.0.38-pl7tyk4/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-wcwidth-0.2.7-fzxcsmw/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-jmespath-1.0.1-62l3o7i/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-flit-core-3.8.0-n2hhfa3/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-docutils-0.19-q7hf5ps/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-distro-1.8.0-vutg4lg/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cryptography-38.0.1-hfqy3tq/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cffi-1.17.1-r32keed/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pycparser-2.21-njsy2ih/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-colorama-0.4.6-gz4qfwq/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-awscrt-0.19.19-5ahskxs/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-xarray-2024.7.0-v7pxjmr/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-setuptools-69.2.0-q5x6352/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-packaging-24.1-acctrjw/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-python-dateutil-2.8.2-adj27qi/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-six-1.16.0-t2uhjfg/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pandas-2.2.3-4bngjxo/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-tzdata-2023.3-t2nvl22/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pytz-2023.3-wutyxsa/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-jinja2-3.1.4-pvwvqnp/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-markupsafe-2.1.3-3mredvv/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pyyaml-6.0.2-4bqqjxa/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-netcdf4-1.7.1.post2-c25ja2t/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cftime-1.0.3.4-t5euxp3/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-certifi-2023.7.22-5i3gpxz/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-f90nml-1.4.3-egb7j6f/lib/python3.11/site-packages:/ncrc/proj/ira-da/usw/bufr-11.7/lib64/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/esmf-8.8.0-yzvp7jx/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pip-23.1.2-nlzr4dk/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-numpy-1.26.4-oqfay67/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-mpi4py-4.0.1-xqxmfsx/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/python-venv-1.0-7sbmn7s/lib/python3.11/site-packages:/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/sorc/wxflow/src:/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/python
+++ export PYTHONPATH
+++ ulimit -S -s 1048576
+++ unset ulimit_s
+++ [[ NO == \Y\E\S ]]
++ status=0
++ [[ 0 -ne 0 ]]
++ export job=fcst
++ job=fcst
++ export jobid=fcst.2752138
++ jobid=fcst.2752138
++ /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/dev/jobs/JGLOBAL_FORECAST
++ [[ 10#-1 -ge 0 ]]
++ export DATAjob=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606
++ DATAjob=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606
++ export DATA=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
++ DATA=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
++ source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/jjob_header.sh -e fcst -c 'base fcst'
++++ basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/dev/jobs/JGLOBAL_FORECAST
+++ _calling_script=JGLOBAL_FORECAST
+++ source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/err_exit.sh
++++ declare -xf err_exit
+++ pgm=JGLOBAL_FORECAST
+++ export pgm
+++ OPTIND=1
+++ getopts c:e: option
+++ case "${option}" in
+++ env_job=fcst
+++ getopts c:e: option
+++ case "${option}" in
+++ read -ra configs
+++ getopts c:e: option
+++ shift 4
+++ [[ -z fcst ]]
+++ export EXPDIR=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023
+++ EXPDIR=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023
+++ for config in "${configs[@]:-''}"
+++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.base
++++ echo 'BEGIN: config.base'
+BEGIN: config.base
++++ export machine=GAEAC6
++++ machine=GAEAC6
++++ export RUN_ENVIR=emc
++++ RUN_ENVIR=emc
++++ export ACCOUNT=ira-da
++++ ACCOUNT=ira-da
++++ export QUEUE=normal
++++ QUEUE=normal
++++ export QUEUE_SERVICE=normal
++++ QUEUE_SERVICE=normal
++++ export QUEUE_EXCLUSIVE=normal
++++ QUEUE_EXCLUSIVE=normal
++++ export QUEUE_DTN=hpss
++++ QUEUE_DTN=hpss
++++ export PARTITION_BATCH=batch
++++ PARTITION_BATCH=batch
++++ export PARTITION_SERVICE=batch
++++ PARTITION_SERVICE=batch
++++ export PARTITION_EXCLUSIVE=
++++ PARTITION_EXCLUSIVE=
++++ export PARTITION_DTN=dtn_f5_f6
++++ PARTITION_DTN=dtn_f5_f6
++++ export RESERVATION=
++++ RESERVATION=
++++ export CLUSTERS=c6
++++ CLUSTERS=c6
++++ export CLUSTERS_SERVICE=c6
++++ CLUSTERS_SERVICE=c6
++++ export CLUSTERS_EXCLUSIVE=c6
++++ CLUSTERS_EXCLUSIVE=c6
++++ export CLUSTERS_DTN=es
++++ CLUSTERS_DTN=es
++++ export HPSS_PROJECT=ira-da
++++ HPSS_PROJECT=ira-da
++++ export HOMEglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs
++++ HOMEglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs
++++ export EXECglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/exec
++++ EXECglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/exec
++++ export FIXglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix
++++ FIXglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix
++++ export PARMglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm
++++ PARMglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm
++++ export SCRglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts
++++ SCRglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts
++++ export USHglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush
++++ USHglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush
++++ export FIXam=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am
++++ FIXam=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am
++++ export FIXaer=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer
++++ FIXaer=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer
++++ export FIXcpl=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cpl
++++ FIXcpl=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cpl
++++ export FIXlut=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut
++++ FIXlut=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut
++++ export FIXcice=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice
++++ FIXcice=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice
++++ export FIXmom=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6
++++ FIXmom=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6
++++ export FIXreg2grb2=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/reg2grb2
++++ FIXreg2grb2=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/reg2grb2
++++ export FIXgdas=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/gdas
++++ FIXgdas=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/gdas
++++ export FIXCO2=/gpfs/f6/ira-da/world-shared/co2dat_4a
++++ FIXCO2=/gpfs/f6/ira-da/world-shared/co2dat_4a
++++ export PACKAGEROOT=/gpfs/f6/drsa-precip3/world-shared/role.glopara/nwpara
++++ PACKAGEROOT=/gpfs/f6/drsa-precip3/world-shared/role.glopara/nwpara
++++ export COMROOT=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT
++++ COMROOT=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT
++++ export DCOMROOT=/lfs/h1/ops/prod/dcom
++++ DCOMROOT=/lfs/h1/ops/prod/dcom
++++ export COMINsyn=/gpfs/f6/drsa-precip3/world-shared/role.glopara/com/syndat
++++ COMINsyn=/gpfs/f6/drsa-precip3/world-shared/role.glopara/com/syndat
++++ export DMPDIR=/gpfs/f6/ira-da/world-shared/Joao.Souza/obs
++++ DMPDIR=/gpfs/f6/ira-da/world-shared/Joao.Souza/obs
++++ export IODADIR=/gpfs/f6/drsa-precip3/world-shared/role.glopara/dump_ioda
++++ IODADIR=/gpfs/f6/drsa-precip3/world-shared/role.glopara/dump_ioda
++++ export 'USE_IODADIR={{ USE_IODADIR }}'
++++ USE_IODADIR='{{ USE_IODADIR }}'
++++ export 'COMINnam={{ COMINnam }}'
++++ COMINnam='{{ COMINnam }}'
++++ export HOMEDIR=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ HOMEDIR=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ export STMP=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ STMP=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ export PTMP=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ PTMP=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ export NOSCRUB=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ NOSCRUB=/gpfs/f6/ira-da/world-shared/Baiding.Liu
++++ export BASE_GIT=/gpfs/f6/drsa-precip3/world-shared/role.glopara/git
++++ BASE_GIT=/gpfs/f6/drsa-precip3/world-shared/role.glopara/git
++++ export BASE_DATA=/gpfs/f6/drsa-precip3/world-shared/role.glopara/data
++++ BASE_DATA=/gpfs/f6/drsa-precip3/world-shared/role.glopara/data
++++ export DO_PREP_SFC=NO
++++ DO_PREP_SFC=NO
++++ export DO_GOES=NO
++++ DO_GOES=NO
++++ export DO_BUFRSND=NO
++++ DO_BUFRSND=NO
++++ export DO_GEMPAK=NO
++++ DO_GEMPAK=NO
++++ export DO_AWIPS=NO
++++ DO_AWIPS=NO
++++ export DO_NPOESS=NO
++++ DO_NPOESS=NO
++++ export DO_TRACKER=YES
++++ DO_TRACKER=YES
++++ export DO_GENESIS=YES
++++ DO_GENESIS=YES
++++ export DO_GENESIS_FSU=NO
++++ DO_GENESIS_FSU=NO
++++ export DO_VERFOZN=YES
++++ DO_VERFOZN=YES
++++ export DO_VERFRAD=YES
++++ DO_VERFRAD=YES
++++ export DO_VMINMON=YES
++++ DO_VMINMON=YES
++++ export DO_ANLSTAT=NO
++++ DO_ANLSTAT=NO
++++ export DO_GSI_ANLSTAT=NO
++++ DO_GSI_ANLSTAT=NO
++++ export MODE=cycled
++++ MODE=cycled
++++ export DO_TEST_MODE=NO
++++ DO_TEST_MODE=NO
++++ export FIXgsi=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/gsi
++++ FIXgsi=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/gsi
++++ export HOMEpost=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs
++++ HOMEpost=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs
++++ export HOMEobsproc=/gpfs/f6/drsa-precip3/world-shared/role.glopara/git/obsproc/v1.2.0
++++ HOMEobsproc=/gpfs/f6/drsa-precip3/world-shared/role.glopara/git/obsproc/v1.2.0
++++ export NMV=/bin/mv
++++ NMV=/bin/mv
++++ export 'NLN=/bin/ln -sf'
++++ NLN='/bin/ln -sf'
++++ export VERBOSE=YES
++++ VERBOSE=YES
++++ export DEBUG_POSTSCRIPT=NO
++++ DEBUG_POSTSCRIPT=NO
++++ export CHGRP_RSTPROD=NO
++++ CHGRP_RSTPROD=NO
++++ export 'CHGRP_CMD=chgrp ira-da'
++++ CHGRP_CMD='chgrp ira-da'
++++ export NCDUMP=/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/netcdf-c-4.9.2-rq4wo2g/bin/ncdump
++++ NCDUMP=/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/netcdf-c-4.9.2-rq4wo2g/bin/ncdump
++++ export NCLEN=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/getncdimlen
++++ NCLEN=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/getncdimlen
++++ export BASE_ENV=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/env
++++ BASE_ENV=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/env
++++ export SDATE=2023010106
++++ SDATE=2023010106
++++ export EDATE=2024010100
++++ EDATE=2024010100
++++ export EXP_WARM_START=.true.
++++ EXP_WARM_START=.true.
++++ export assim_freq=6
++++ assim_freq=6
++++ export PSLOT=sfs2023
++++ PSLOT=sfs2023
++++ export EXPDIR=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023
++++ EXPDIR=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023
++++ export ROTDIR=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023
++++ ROTDIR=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023
++++ export DUMP_SUFFIX=
++++ DUMP_SUFFIX=
++++ [[ 2023011606 -ge 2019092100 ]]
++++ [[ 2023011606 -le 2019110700 ]]
++++ export ARCDIR=/gpfs/f6/ira-da/world-shared/Baiding.Liu/archive/sfs2023
++++ ARCDIR=/gpfs/f6/ira-da/world-shared/Baiding.Liu/archive/sfs2023
++++ export ATARDIR=/gpfs/f6/ira-da/world-shared/Baiding.Liu/gw_archive/sfs2
++++ ATARDIR=/gpfs/f6/ira-da/world-shared/Baiding.Liu/gw_archive/sfs2
++++ export 'FETCHDIR={{ FETCHDIR }}'
++++ FETCHDIR='{{ FETCHDIR }}'
++++ export NET=gfs
++++ NET=gfs
++++ export RUN=gdas
++++ RUN=gdas
++++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.com
+++++ echo 'BEGIN: config.com'
+BEGIN: config.com
+++++ [[ emc == \n\c\o ]]
+++++ COM_OBSPROC_TMPL='${DMPDIR}/${RUN}${DUMP_SUFFIX}.${YMD}/${HH}/atmos'
+++++ COM_OBSFORGE_TMPL='${IODADIR}/${RUN}${DUMP_SUFFIX}.${YMD}/${HH}'
+++++ COM_RTOFS_TMPL='${DMPDIR}'
+++++ COM_TCVITAL_TMPL='${DMPDIR}/${RUN}.${YMD}/${HH}/atmos'
+++++ declare -rx 'COM_OBS_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/obs'
+++++ declare -rx COM_OBSPROC_TMPL COM_RTOFS_TMPL COM_OBSFORGE_TMPL
+++++ COM_BASE='${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}'
+++++ declare -rx 'COM_TOP_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}'
+++++ declare -rx 'COM_CONF_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/conf'
+++++ declare -rx 'COM_ATMOS_INPUT_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/atmos/input'
+++++ declare -rx 'COM_ATMOS_RESTART_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/atmos/restart'
+++++ declare -rx 'COM_ATMOS_ANALYSIS_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/analysis/atmos'
+++++ declare -rx 'COM_SNOW_ANALYSIS_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/analysis/snow'
+++++ declare -rx 'COM_SNOW_ANLMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/snow/anlmon'
+++++ declare -rx 'COM_ATMOS_HISTORY_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/atmos/history'
+++++ declare -rx 'COM_ATMOS_MASTER_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/atmos/master'
+++++ declare -rx 'COM_ATMOS_GRIB_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/grib2'
+++++ declare -rx 'COM_ATMOS_GRIB_GRID_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/grib2/${GRID}'
+++++ declare -rx 'COM_ATMOS_BUFR_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/bufr'
+++++ declare -rx 'COM_ATMOS_GEMPAK_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/gempak/${GRID}'
+++++ declare -rx 'COM_ATMOS_GENESIS_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/cyclone/genesis_vital'
+++++ declare -rx 'COM_ATMOS_TRACK_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/cyclone/tracks'
+++++ declare -rx 'COM_ATMOS_GOES_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/goes_sim'
+++++ declare -rx 'COM_ATMOS_IMAGERY_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/imagery'
+++++ declare -rx 'COM_ATMOS_OZNMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/oznmon'
+++++ declare -rx 'COM_ATMOS_RADMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/radmon'
+++++ declare -rx 'COM_ATMOS_MINMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/minmon'
+++++ declare -rx 'COM_ATMOS_ANLMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/anlmon'
+++++ declare -rx 'COM_ATMOS_WMO_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/atmos/wmo'
+++++ declare -rx 'COM_WAVE_RESTART_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/wave/restart'
+++++ declare -rx 'COM_WAVE_INIT_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/wave/init'
+++++ declare -rx 'COM_WAVE_HISTORY_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/wave/history'
+++++ declare -rx 'COM_WAVE_GRID_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/wave/gridded'
+++++ declare -rx 'COM_WAVE_GRID_RES_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/wave/gridded/${GRDRESNAME}'
+++++ declare -rx 'COM_WAVE_STATION_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/wave/station'
+++++ declare -rx 'COM_WAVE_GEMPAK_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/wave/gempak'
+++++ declare -rx 'COM_WAVE_WMO_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/wave/wmo'
+++++ declare -rx 'COM_OCEAN_HISTORY_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/ocean/history'
+++++ declare -rx 'COM_OCEAN_RESTART_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/ocean/restart'
+++++ declare -rx 'COM_OCEAN_INPUT_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/ocean/input'
+++++ declare -rx 'COM_OCEAN_ANALYSIS_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/analysis/ocean'
+++++ declare -rx 'COM_OCEAN_ANLMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ocean/anlmon'
+++++ declare -rx 'COM_OCEAN_BMATRIX_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/bmatrix/ocean'
+++++ declare -rx 'COM_OCEAN_NETCDF_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ocean/netcdf'
+++++ declare -rx 'COM_OCEAN_GRIB_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ocean/grib2'
+++++ declare -rx 'COM_OCEAN_GRIB_GRID_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ocean/grib2/${GRID}'
+++++ declare -rx 'COM_ICE_ANALYSIS_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/analysis/ice'
+++++ declare -rx 'COM_ICE_ANLMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ice/anlmon'
+++++ declare -rx 'COM_ICE_BMATRIX_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/bmatrix/ice'
+++++ declare -rx 'COM_ICE_INPUT_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/ice/input'
+++++ declare -rx 'COM_ICE_HISTORY_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/ice/history'
+++++ declare -rx 'COM_ICE_RESTART_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/ice/restart'
+++++ declare -rx 'COM_ICE_NETCDF_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ice/netcdf'
+++++ declare -rx 'COM_ICE_GRIB_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ice/grib2'
+++++ declare -rx 'COM_ICE_GRIB_GRID_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/ice/grib2/${GRID}'
+++++ declare -rx 'COM_CHEM_HISTORY_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/chem/history'
+++++ declare -rx 'COM_CHEM_ANALYSIS_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/analysis/chem'
+++++ declare -rx 'COM_CHEM_BMAT_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/analysis/chem/bmatrix'
+++++ declare -rx 'COM_CHEM_ANLMON_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/products/chem/anlmon'
+++++ declare -rx 'COM_CHEM_INPUT_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/chem/input'
+++++ declare -rx 'COM_CHEM_RESTART_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/chem/restart'
+++++ declare -rx 'COM_MED_RESTART_TMPL=${ROTDIR}/${RUN}.${YMD}/${HH}/${MEMDIR}/model/med/restart'
++++ export LOGSCRIPT=
++++ LOGSCRIPT=
++++ export SENDSDM=NO
++++ SENDSDM=NO
++++ export SENDAWIP=NO
++++ SENDAWIP=NO
++++ export APP=S2S
++++ APP=S2S
++++ shopt -s extglob
++++ case "${RUN}" in
++++ shopt -u extglob
++++ export DO_ATM=YES
++++ DO_ATM=YES
++++ export DO_COUPLED=NO
++++ DO_COUPLED=NO
++++ export DO_WAVE=NO
++++ DO_WAVE=NO
++++ export DO_OCN=NO
++++ DO_OCN=NO
++++ export DO_ICE=NO
++++ DO_ICE=NO
++++ DO_AERO=NO
++++ export DO_PREP_OBS_AERO=NO
++++ DO_PREP_OBS_AERO=NO
++++ aero_fcst_runs=gdas
++++ aero_anl_runs='gdas gfs'
++++ export DO_AERO_FCST=NO
++++ DO_AERO_FCST=NO
++++ export DO_AERO_ANL=NO
++++ DO_AERO_ANL=NO
++++ [[ gdas == \g\f\s ]]
++++ export DOBNDPNT_WAVE=NO
++++ DOBNDPNT_WAVE=NO
++++ export FRAC_GRID=.true.
++++ FRAC_GRID=.true.
++++ export DO_NEST=NO
++++ DO_NEST=NO
++++ [[ NO == \Y\E\S ]]
++++ export ntiles=6
++++ ntiles=6
++++ export FIXugwd=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd
++++ FIXugwd=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd
++++ export FIXorog=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog
++++ FIXorog=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog
++++ export OPS_RES=C768
++++ OPS_RES=C768
++++ export LEVS=128
++++ LEVS=128
++++ export CASE=C192
++++ CASE=C192
++++ export 'CASE_ENS={{ CASE_ENS }}'
++++ CASE_ENS='{{ CASE_ENS }}'
++++ export CASE_ANL=C192
++++ CASE_ANL=C192
++++ export CASE_HIST=C192
++++ CASE_HIST=C192
++++ export OCNRES=025
++++ OCNRES=025
++++ export ICERES=025
++++ ICERES=025
++++ case "${CASE}" in
++++ export waveGRD=uglo_100km
++++ waveGRD=uglo_100km
++++ case "${APP}" in
++++ export DO_COUPLED=YES
++++ DO_COUPLED=YES
++++ export DO_OCN=YES
++++ DO_OCN=YES
++++ export DO_ICE=YES
++++ DO_ICE=YES
++++ [[ S2S =~ A$ ]]
++++ [[ S2S =~ ^S2SW ]]
++++ [[ NO == \Y\E\S ]]
++++ [[ gdas =~ gdas ]]
++++ export FHCYC=1
++++ FHCYC=1
++++ export FTSFS=10
++++ FTSFS=10
++++ export FHMIN=0
++++ FHMIN=0
++++ export FHMAX=9
++++ FHMAX=9
++++ export FHOUT=3
++++ FHOUT=3
++++ export FHOUT_OCN=3
++++ FHOUT_OCN=3
++++ export FHOUT_ICE=3
++++ FHOUT_ICE=3
++++ export FHOUT_AERO=3
++++ FHOUT_AERO=3
++++ export EUPD_CYC=gdas
++++ EUPD_CYC=gdas
++++ export INTERVAL_GFS=0
++++ INTERVAL_GFS=0
++++ export SDATE_GFS=2023010112
++++ SDATE_GFS=2023010112
++++ export FHMIN_GFS=0
++++ FHMIN_GFS=0
++++ export FHMAX_GFS=120
++++ FHMAX_GFS=120
++++ breakpnts=
++++ export FCST_SEGMENTS=0,120
++++ FCST_SEGMENTS=0,120
++++ export FHOUT_GFS=3
++++ FHOUT_GFS=3
++++ export FHMAX_HF_GFS=48
++++ FHMAX_HF_GFS=48
++++ export FHMAX_HF_GFS=48
++++ FHMAX_HF_GFS=48
++++ export FHOUT_HF_GFS=1
++++ FHOUT_HF_GFS=1
++++ export FHMIN_WAV=0
++++ FHMIN_WAV=0
++++ export FHOUT_WAV=1
++++ FHOUT_WAV=1
++++ export FHMAX_WAV=9
++++ FHMAX_WAV=9
++++ export FHMAX_WAV=9
++++ FHMAX_WAV=9
++++ export FHOUT_WAV_GFS=3
++++ FHOUT_WAV_GFS=3
++++ export FHMAX_WAV_GFS=120
++++ FHMAX_WAV_GFS=120
++++ export FHOUT_HF_WAV=1
++++ FHOUT_HF_WAV=1
++++ export FHMAX_HF_WAV=48
++++ FHMAX_HF_WAV=48
++++ export FHMAX_HF_WAV=48
++++ FHMAX_HF_WAV=48
++++ export FHOUT_OCN_GFS=6
++++ FHOUT_OCN_GFS=6
++++ export FHOUT_ICE_GFS=6
++++ FHOUT_ICE_GFS=6
++++ export ILPOST=1
++++ ILPOST=1
++++ ((  FHMAX_HF_GFS < 120  ))
++++ export ILPOST=3
++++ ILPOST=3
++++ export FHMAX_GOES=180
++++ FHMAX_GOES=180
++++ export FHOUT_GOES=3
++++ FHOUT_GOES=3
++++ ((  FHMAX_GOES > FHMAX_GFS  ))
++++ export FHMAX_GOES=120
++++ FHMAX_GOES=120
++++ export restart_interval_gfs=12
++++ restart_interval_gfs=12
++++ export QUILTING=.true.
++++ QUILTING=.true.
++++ export OUTPUT_GRID=gaussian_grid
++++ OUTPUT_GRID=gaussian_grid
++++ export WRITE_DOPOST=.true.
++++ WRITE_DOPOST=.true.
++++ export WRITE_NSFLIP=.true.
++++ WRITE_NSFLIP=.true.
++++ export DOIAU=YES
++++ DOIAU=YES
++++ export IAUFHRS=3,6,9
++++ IAUFHRS=3,6,9
++++ export IAU_FHROT=3
++++ IAU_FHROT=3
++++ export IAU_DELTHRS=6
++++ IAU_DELTHRS=6
++++ export IAU_OFFSET=6
++++ IAU_OFFSET=6
++++ export DOIAU_ENKF=YES
++++ DOIAU_ENKF=YES
++++ export IAUFHRS_ENKF=3,6,9
++++ IAUFHRS_ENKF=3,6,9
++++ export IAU_DELTHRS_ENKF=6
++++ IAU_DELTHRS_ENKF=6
++++ export imp_physics=8
++++ imp_physics=8
++++ export DO_JEDIATMVAR=NO
++++ DO_JEDIATMVAR=NO
++++ export DO_JEDIATMENS=NO
++++ DO_JEDIATMENS=NO
++++ export DO_JEDIATMENS_SPLIT_OBSSOL=YES
++++ DO_JEDIATMENS_SPLIT_OBSSOL=YES
++++ export DO_JEDIOCNVAR=YES
++++ DO_JEDIOCNVAR=YES
++++ export DO_JEDISNOWDA=YES
++++ DO_JEDISNOWDA=YES
++++ export DO_MERGENSST=NO
++++ DO_MERGENSST=NO
++++ [[ .true. = \.\t\r\u\e\. ]]
++++ export DO_STARTMEM_FROM_JEDIICE=YES
++++ DO_STARTMEM_FROM_JEDIICE=YES
++++ export DOHYBVAR=NO
++++ DOHYBVAR=NO
++++ export DOHYBVAR_OCN=NO
++++ DOHYBVAR_OCN=NO
++++ export DOLETKF_OCN=NO
++++ DOLETKF_OCN=NO
++++ export DOLETKF_OCN_INC=NO
++++ DOLETKF_OCN_INC=NO
++++ export NMEM_ENS=0
++++ NMEM_ENS=0
++++ export SMOOTH_ENKF=NO
++++ SMOOTH_ENKF=NO
++++ export l4densvar=.true.
++++ l4densvar=.true.
++++ export lwrite4danl=.true.
++++ lwrite4danl=.true.
++++ export DO_CALC_INCREMENT=NO
++++ DO_CALC_INCREMENT=NO
++++ export USE_BUILD_GSINFO=YES
++++ USE_BUILD_GSINFO=YES
++++ export BUILD_GSINFO_DIR=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/gsinfo
++++ BUILD_GSINFO_DIR=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/gsinfo
++++ export NMEM_ENS_GFS=30
++++ NMEM_ENS_GFS=30
++++ export NMEM_ENS_GFS_OFFSET=20
++++ NMEM_ENS_GFS_OFFSET=20
++++ export DO_CALC_INCREMENT_ENKF_GFS=NO
++++ DO_CALC_INCREMENT_ENKF_GFS=NO
++++ export DOENKFONLY_ATM=NO
++++ DOENKFONLY_ATM=NO
++++ [[ NO = \Y\E\S ]]
++++ [[ NO = \Y\E\S ]]
++++ [[ NO == \N\O ]]
++++ [[ YES == \Y\E\S ]]
++++ export IAUFHRS=6,
++++ IAUFHRS=6,
++++ export IAU_FHROT=3
++++ IAU_FHROT=3
++++ export IAU_FILTER_INCREMENTS=.true.
++++ IAU_FILTER_INCREMENTS=.true.
++++ export IAUFHRS_ENKF=6,
++++ IAUFHRS_ENKF=6,
++++ export ENKF_SPREAD=YES
++++ ENKF_SPREAD=YES
++++ export DO_WDQMS=NO
++++ DO_WDQMS=NO
++++ [[ gdas == \g\d\a\s ]]
++++ export DO_GSISOILDA=YES
++++ DO_GSISOILDA=YES
++++ export DO_LAND_IAU=.false.
++++ DO_LAND_IAU=.false.
++++ export LSOIL_INCR=2
++++ LSOIL_INCR=2
++++ [[ cycled = \c\y\c\l\e\d ]]
++++ [[ 2023010106 = \2\0\2\3\0\1\1\6\0\6 ]]
++++ [[ YES = \N\O ]]
++++ [[ cycled = \f\o\r\e\c\a\s\t\-\o\n\l\y ]]
++++ [[ YES = \N\O ]]
++++ [[ YES == \Y\E\S ]]
++++ export restart_interval_enkfgdas=3
++++ restart_interval_enkfgdas=3
++++ export restart_interval_enkfgfs=3
++++ restart_interval_enkfgfs=3
++++ [[ YES == \Y\E\S ]]
++++ export restart_interval_gdas=3
++++ restart_interval_gdas=3
++++ export DONST=YES
++++ DONST=YES
++++ [[ YES = \Y\E\S ]]
++++ export 'FNTSFA=        '
++++ FNTSFA='        '
++++ export nst_anl=.true.
++++ nst_anl=.true.
++++ export 'INCREMENTS_TO_ZERO='\''liq_wat_inc'\'','\''icmr_inc'\'','\''rwmr_inc'\'','\''snmr_inc'\'','\''grle_inc'\'''
++++ INCREMENTS_TO_ZERO=''\''liq_wat_inc'\'','\''icmr_inc'\'','\''rwmr_inc'\'','\''snmr_inc'\'','\''grle_inc'\'''
++++ export 'INCVARS_ZERO_STRAT='\''sphum_inc'\'','\''liq_wat_inc'\'','\''icmr_inc'\'','\''rwmr_inc'\'','\''snmr_inc'\'','\''grle_inc'\'''
++++ INCVARS_ZERO_STRAT=''\''sphum_inc'\'','\''liq_wat_inc'\'','\''icmr_inc'\'','\''rwmr_inc'\'','\''snmr_inc'\'','\''grle_inc'\'''
++++ export INCVARS_EFOLD=5
++++ INCVARS_EFOLD=5
++++ export netcdf_diag=.true.
++++ netcdf_diag=.true.
++++ export binary_diag=.false.
++++ binary_diag=.false.
++++ export DO_CA=YES
++++ DO_CA=YES
++++ case "${machine}" in
++++ export DO_METP=NO
++++ DO_METP=NO
++++ export DO_FIT2OBS=YES
++++ DO_FIT2OBS=YES
++++ export FHMAX_FITS=132
++++ FHMAX_FITS=132
++++ [[ 132 -gt 120 ]]
++++ export FHMAX_FITS=120
++++ FHMAX_FITS=120
++++ export DO_FETCH_HPSS=NO
++++ DO_FETCH_HPSS=NO
++++ export DO_FETCH_LOCAL=NO
++++ DO_FETCH_LOCAL=NO
++++ export DO_ARCHCOM=YES
++++ DO_ARCHCOM=YES
++++ export ARCHCOM_TO=local
++++ ARCHCOM_TO=local
++++ export 'CLIENT_GLOBUS_UUID={{ CLIENT_GLOBUS_UUID }}'
++++ CLIENT_GLOBUS_UUID='{{ CLIENT_GLOBUS_UUID }}'
++++ [[ NO = \Y\E\S ]]
++++ [[ NO = \Y\E\S ]]
++++ [[ YES = \Y\E\S ]]
++++ export DO_ANLSTAT=YES
++++ DO_ANLSTAT=YES
++++ [[ NO == \Y\E\S ]]
++++ export OFFSET_START_HOUR=0
++++ OFFSET_START_HOUR=0
++++ export NUM_SND_COLLECTIVES=9
++++ NUM_SND_COLLECTIVES=9
++++ export MOM6_INTERP_ICS=NO
++++ MOM6_INTERP_ICS=NO
++++ [[ NO == \Y\E\S ]]
++++ export MOM6_INTERP_ICS=NO
++++ MOM6_INTERP_ICS=NO
++++ echo 'END: config.base'
+END: config.base
+++ true
+++ export err=0
+++ err=0
+++ [[ 0 -ne 0 ]]
+++ for config in "${configs[@]:-''}"
+++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.fcst
++++ echo 'BEGIN: config.fcst'
+BEGIN: config.fcst
++++ export USE_ESMF_THREADING=YES
++++ USE_ESMF_THREADING=YES
++++ export COPY_FINAL_RESTARTS=NO
++++ COPY_FINAL_RESTARTS=NO
++++ string='--fv3 C192'
++++ [[ YES == \Y\E\S ]]
++++ string='--fv3 C192 --mom6 025'
++++ [[ YES == \Y\E\S ]]
++++ string='--fv3 C192 --mom6 025 --cice6 025'
++++ [[ NO == \Y\E\S ]]
++++ [[ NO == \Y\E\S ]]
++++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.ufs --fv3 C192 --mom6 025 --cice6 025
+++++ echo 'BEGIN: config.ufs'
+BEGIN: config.ufs
+++++ ((  6 <= 1  ))
+++++ skip_mom6=true
+++++ skip_cice6=true
+++++ skip_ww3=true
+++++ skip_gocart=true
+++++ skip_mediator=true
+++++ ((  6 > 0  ))
+++++ key=--fv3
+++++ case "${key}" in
+++++ fv3_res=C192
+++++ shift
+++++ shift
+++++ ((  4 > 0  ))
+++++ key=--mom6
+++++ case "${key}" in
+++++ mom6_res=025
+++++ skip_mom6=false
+++++ shift
+++++ shift
+++++ ((  2 > 0  ))
+++++ key=--cice6
+++++ case "${key}" in
+++++ cice6_res=025
+++++ skip_cice6=false
+++++ shift
+++++ shift
+++++ ((  0 > 0  ))
+++++ [[ false == \f\a\l\s\e ]]
+++++ skip_mediator=false
+++++ [[ NO == \Y\E\S ]]
+++++ export grid_type=-1
+++++ grid_type=-1
+++++ case "${fv3_res}" in
+++++ [[ NO == \Y\E\S ]]
+++++ export layout_x=4
+++++ layout_x=4
+++++ export layout_y=6
+++++ layout_y=6
+++++ [[ gdas = *gdas ]]
+++++ export nthreads_fv3=1
+++++ nthreads_fv3=1
+++++ export nthreads_ufs=1
+++++ nthreads_ufs=1
+++++ export WRITE_GROUP=1
+++++ WRITE_GROUP=1
+++++ export WRTTASK_PER_GROUP_PER_THREAD_PER_TILE=10
+++++ WRTTASK_PER_GROUP_PER_THREAD_PER_TILE=10
+++++ export DELTIM=600
+++++ DELTIM=600
+++++ export cdmbgwd=0.23,1.5,1.0,1.0
+++++ cdmbgwd=0.23,1.5,1.0,1.0
+++++ export cdmbgwd_gsl=10.0,3.5,1.0,1.0
+++++ cdmbgwd_gsl=10.0,3.5,1.0,1.0
+++++ export psl_gwd_dx_factor=6.0
+++++ psl_gwd_dx_factor=6.0
+++++ export knob_ugwp_tauamp=1.5e-3
+++++ knob_ugwp_tauamp=1.5e-3
+++++ export k_split=2
+++++ k_split=2
+++++ export n_split=4
+++++ n_split=4
+++++ export tau=6.0
+++++ tau=6.0
+++++ export rf_cutoff=300.0
+++++ rf_cutoff=300.0
+++++ export fv_sg_adj=1800
+++++ fv_sg_adj=1800
+++++ ((  WRTTASK_PER_GROUP_PER_THREAD = WRTTASK_PER_GROUP_PER_THREAD_PER_TILE * 6  ))
+++++ export WRTTASK_PER_GROUP_PER_THREAD
+++++ ((  ntasks_fv3 = layout_x * layout_y * 6  ))
+++++ [[ NO == \Y\E\S ]]
+++++ export ntasks_fv3
+++++ ((  ntasks_quilt = WRITE_GROUP * WRTTASK_PER_GROUP_PER_THREAD  ))
+++++ export ntasks_quilt
+++++ case ${fv3_res} in
+++++ zstandard_level=0
+++++ ideflate=0
+++++ quantize_nsd=0
+++++ OUTPUT_FILETYPE_ATM=netcdf
+++++ OUTPUT_FILETYPE_SFC=netcdf
+++++ export zstandard_level ideflate quantize_nsd
+++++ export OUTPUT_FILETYPE_ATM OUTPUT_FILETYPE_SFC
+++++ export cpl=.false.
+++++ cpl=.false.
+++++ export cplflx=.false.
+++++ cplflx=.false.
+++++ export cplice=.false.
+++++ cplice=.false.
+++++ export cplchm=.false.
+++++ cplchm=.false.
+++++ export cplwav=.false.
+++++ cplwav=.false.
+++++ export cplwav2atm=.false.
+++++ cplwav2atm=.false.
+++++ [[ NO == \Y\E\S ]]
+++++ export CCPP_SUITE=FV3_GFS_v17_p8_ugwpv1
+++++ CCPP_SUITE=FV3_GFS_v17_p8_ugwpv1
+++++ model_list=atm
+++++ [[ false == \f\a\l\s\e ]]
+++++ export cpl=.true.
+++++ cpl=.true.
+++++ export nthreads_mediator=1
+++++ nthreads_mediator=1
+++++ export CCPP_SUITE=FV3_GFS_v17_coupled_p8_ugwpv1
+++++ CCPP_SUITE=FV3_GFS_v17_coupled_p8_ugwpv1
+++++ [[ false == \f\a\l\s\e ]]
+++++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.ocn
++++++ echo 'BEGIN: config.ocn'
+BEGIN: config.ocn
++++++ export MESH_OCN=mesh.mx025.nc
++++++ MESH_OCN=mesh.mx025.nc
++++++ export DO_OCN_SPPT=NO
++++++ DO_OCN_SPPT=NO
++++++ export DO_OCN_PERT_EPBL=NO
++++++ DO_OCN_PERT_EPBL=NO
++++++ export MOM6_USE_LI2016=True
++++++ MOM6_USE_LI2016=True
++++++ export MOM6_THERMO_SPAN=False
++++++ MOM6_THERMO_SPAN=False
++++++ export MOM6_WRITE_GEOM=0
++++++ MOM6_WRITE_GEOM=0
++++++ export MOM6_GUST_CONST=0.02
++++++ MOM6_GUST_CONST=0.02
++++++ export MOM6_HFREEZE=2.0
++++++ MOM6_HFREEZE=2.0
++++++ [[ YES == \Y\E\S ]]
++++++ export ODA_INCUPD=True
++++++ ODA_INCUPD=True
++++++ [[ YES == \Y\E\S ]]
++++++ export ODA_INCUPD_NHOURS=6.0
++++++ ODA_INCUPD_NHOURS=6.0
++++++ [[ NO == \Y\E\S ]]
++++++ echo 'END: config.ocn'
+END: config.ocn
+++++ export cplflx=.true.
+++++ cplflx=.true.
+++++ model_list=atm.ocean
+++++ nthreads_mom6=1
+++++ case "${mom6_res}" in
+++++ [[ gdas = enkfgdas ]]
+++++ [[ gdas = gdas ]]
+++++ ntasks_mom6=100
+++++ OCNTIM=1800
+++++ NX_GLB=1440
+++++ NY_GLB=1080
+++++ DT_DYNAM_MOM6=900
+++++ DT_THERM_MOM6=1800
+++++ FRUNOFF=runoff.daitren.clim.1440x1080.v20180328.nc
+++++ CHLCLIM=seawifs-clim-1997-2010.1440x1080.v20180328.nc
+++++ MOM6_RIVER_RUNOFF=True
+++++ MOM6_RESTART_SETTING=r
+++++ eps_imesh=1.0e-1
+++++ case ${RUN} in
+++++ MOM6_DIAG_COORD_DEF_Z_FILE=oceanda_zgrid_75L.nc
+++++ MOM6_DIAG_MISVAL=0.0
+++++ MOM6_ALLOW_LANDMASK_CHANGES=False
+++++ TOPOEDITS=
+++++ export nthreads_mom6 ntasks_mom6
+++++ export OCNTIM
+++++ export NX_GLB NY_GLB
+++++ export DT_DYNAM_MOM6 DT_THERM_MOM6
+++++ export FRUNOFF
+++++ export CHLCLIM
+++++ export TOPOEDITS
+++++ export MOM6_RIVER_RUNOFF
+++++ export MOM6_RESTART_SETTING
+++++ export eps_imesh
+++++ export MOM6_DIAG_COORD_DEF_Z_FILE
+++++ export MOM6_DIAG_MISVAL
+++++ export MOM6_ALLOW_LANDMASK_CHANGES
+++++ [[ false == \f\a\l\s\e ]]
+++++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.ice
++++++ echo 'BEGIN: config.ice'
+BEGIN: config.ice
++++++ export min_seaice=1.0e-6
++++++ min_seaice=1.0e-6
++++++ export use_cice_alb=.true.
++++++ use_cice_alb=.true.
++++++ export MESH_ICE=mesh.mx025.nc
++++++ MESH_ICE=mesh.mx025.nc
++++++ export CICE_GRID=grid_cice_NEMS_mx025.nc
++++++ CICE_GRID=grid_cice_NEMS_mx025.nc
++++++ export CICE_MASK=kmtu_cice_NEMS_mx025.nc
++++++ CICE_MASK=kmtu_cice_NEMS_mx025.nc
++++++ export CICE_FBOT_XFER_TYPE=mushy
++++++ CICE_FBOT_XFER_TYPE=mushy
++++++ export CICE_TFREEZE_OPTION=linear_salt
++++++ CICE_TFREEZE_OPTION=linear_salt
++++++ export CICE_R_ICE=2.8
++++++ CICE_R_ICE=2.8
++++++ export CICE_R_PND=2.8
++++++ CICE_R_PND=2.8
++++++ export CICE_R_SNW=2.8
++++++ CICE_R_SNW=2.8
++++++ export CICE_EMISSIVITY=0.98
++++++ CICE_EMISSIVITY=0.98
++++++ export CICE_TR_POND_TOPO=.true.
++++++ CICE_TR_POND_TOPO=.true.
++++++ export CICE_RESTART_POND_TOPO=.true.
++++++ CICE_RESTART_POND_TOPO=.true.
++++++ export CICE_TR_POND_LVL=.false.

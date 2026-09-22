@@ -1,0 +1,10 @@
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/MOM6_RESTART
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/MOM6_OUTPUT
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_2.nc
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM_override
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res.nc
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM_channels_global_025
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_1.nc
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM_layout
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM_input
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_3.nc

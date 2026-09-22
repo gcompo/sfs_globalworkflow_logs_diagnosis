@@ -1,0 +1,900 @@
++ parsing_namelists_FV3.sh[141]local HORD_MT=5
++ parsing_namelists_FV3.sh[142]local HORD_VT=5
++ parsing_namelists_FV3.sh[143]local HORD_TM=5
++ parsing_namelists_FV3.sh[144]local HORD_DP=-5
++ parsing_namelists_FV3.sh[145]local HORD_TR=8
++ parsing_namelists_FV3.sh[146]local ADJUST_DRY_MASS=.true.
++ parsing_namelists_FV3.sh[147]local DRY_MASS=98320.0
++ parsing_namelists_FV3.sh[148]local CONSV_TE=1.
++ parsing_namelists_FV3.sh[149]local DO_SAT_ADJ=.false.
++ parsing_namelists_FV3.sh[150]local PRINT_FREQ=6
++ parsing_namelists_FV3.sh[151]local WARM_START=.true.
++ parsing_namelists_FV3.sh[152]local NO_DYCORE=.false.
++ parsing_namelists_FV3.sh[153]local AGRID_VEL_RST=.true.
++ parsing_namelists_FV3.sh[154]local READ_INCREMENT=.false.
++ parsing_namelists_FV3.sh[155]local 'RES_LATLON_DYNAMICS=""'
++ parsing_namelists_FV3.sh[156]local ATM_IGNORE_RST_CKSUM=.false.
++ parsing_namelists_FV3.sh[157]local INCREMENT_FILE_ON_NATIVE_GRID=.false.
++ parsing_namelists_FV3.sh[159]local FILTERED_TERRAIN=.true.
++ parsing_namelists_FV3.sh[160]local NPZP=128
++ parsing_namelists_FV3.sh[161]local GFS_DWINDS=.true.
++ parsing_namelists_FV3.sh[163]local FHZERO=6
++ parsing_namelists_FV3.sh[164]local H2O_PHYS=.true.
++ parsing_namelists_FV3.sh[165]local LDIAG3D=.false.
++ parsing_namelists_FV3.sh[166]local QDIAG3D=.false.
++ parsing_namelists_FV3.sh[167]local PRINT_DIFF_PGR=.false.
++ parsing_namelists_FV3.sh[168]local FHCYC=1
++ parsing_namelists_FV3.sh[169]local USE_UFO=.true.
++ parsing_namelists_FV3.sh[170]local PRE_RAD=.false.
++ parsing_namelists_FV3.sh[171]local IMP_PHYSICS=8
++ parsing_namelists_FV3.sh[173]local default_dt_inner=300
++ parsing_namelists_FV3.sh[174]local IOVR=3
++ parsing_namelists_FV3.sh[175]local LTAEROSOL=.false.
++ parsing_namelists_FV3.sh[176]local MRAEROSOL=.false.
++ parsing_namelists_FV3.sh[177]local LTHAILAWARE=.false.
++ parsing_namelists_FV3.sh[178]local LRADAR=.true.
++ parsing_namelists_FV3.sh[179]local TTENDLIM=-999
++ parsing_namelists_FV3.sh[180]local DT_INNER=300
++ parsing_namelists_FV3.sh[181]local SEDI_SEMI=.true.
++ parsing_namelists_FV3.sh[182]local DECFL=10
++ parsing_namelists_FV3.sh[183]local OZ_PHYS_NEW=.false.
++ parsing_namelists_FV3.sh[184]local OZ_PHYS_OLD=.true.
++ parsing_namelists_FV3.sh[185]local LSOIL_LSM=4
++ parsing_namelists_FV3.sh[186]local DO_MYNNEDMF=.false.
++ parsing_namelists_FV3.sh[187]local DO_MYNNSFCLAY=.false.
++ parsing_namelists_FV3.sh[188]local ICLOUD_BL=1
++ parsing_namelists_FV3.sh[189]local BL_MYNN_EDMF=1
++ parsing_namelists_FV3.sh[190]local BL_MYNN_TKEADVECT=.true.
++ parsing_namelists_FV3.sh[191]local BL_MYNN_EDMF_MOM=1
++ parsing_namelists_FV3.sh[192]local TTE_EDMF=.true.
++ parsing_namelists_FV3.sh[193]local CSCALE=0.2
++ parsing_namelists_FV3.sh[194]local DO_NGW_EC=.true.
++ parsing_namelists_FV3.sh[195]local DO_UGWP=.false.
++ parsing_namelists_FV3.sh[196]local DO_TOFD=.false.
++ parsing_namelists_FV3.sh[197]local GWD_OPT=2
++ parsing_namelists_FV3.sh[198]local DO_UGWP_V0=.false.
++ parsing_namelists_FV3.sh[199]local DO_UGWP_V1=.true.
++ parsing_namelists_FV3.sh[200]local DO_UGWP_V0_OROG_ONLY=.false.
++ parsing_namelists_FV3.sh[201]local DO_UGWP_V0_NST_ONLY=.false.
++ parsing_namelists_FV3.sh[202]local DO_GSL_DRAG_LS_BL=.true.
++ parsing_namelists_FV3.sh[203]local DO_GSL_DRAG_SS=.false.
++ parsing_namelists_FV3.sh[204]local DO_GSL_DRAG_TOFD=.true.
++ parsing_namelists_FV3.sh[205]local DO_GWD_OPT_PSL=.false.
++ parsing_namelists_FV3.sh[206]local ALPHA_FD=35.0
++ parsing_namelists_FV3.sh[207]local DO_UGWP_V1_OROG_ONLY=.false.
++ parsing_namelists_FV3.sh[208]local MIN_LAKEICE=0.15
++ parsing_namelists_FV3.sh[209]local MIN_SEAICE=1.0e-6
++ parsing_namelists_FV3.sh[210]local USE_CICE_ALB=.true.
++ parsing_namelists_FV3.sh[212]local PDFCLD=.false.
++ parsing_namelists_FV3.sh[213]local FHSWR=3600.
++ parsing_namelists_FV3.sh[214]local FHLWR=3600.
++ parsing_namelists_FV3.sh[215]local IALB=2
++ parsing_namelists_FV3.sh[216]local IEMS=2
++ parsing_namelists_FV3.sh[217]local IAER=1011
++ parsing_namelists_FV3.sh[218]local ICLIQ_SW=2
++ parsing_namelists_FV3.sh[219]local ICO2=2
++ parsing_namelists_FV3.sh[220]local ISUBC_SW=2
++ parsing_namelists_FV3.sh[221]local ISUBC_LW=2
++ parsing_namelists_FV3.sh[222]local ISOL=2
++ parsing_namelists_FV3.sh[223]local LWHTR=.true.
++ parsing_namelists_FV3.sh[224]local SWHTR=.true.
++ parsing_namelists_FV3.sh[225]local CNVGWD=.true.
++ parsing_namelists_FV3.sh[226]local SHAL_CNV=.true.
++ parsing_namelists_FV3.sh[227]local CAL_PRE=.false.
++ parsing_namelists_FV3.sh[228]local REDRAG=.true.
++ parsing_namelists_FV3.sh[229]local DSPHEAT=.true.
++ parsing_namelists_FV3.sh[230]local HYBEDMF=.false.
++ parsing_namelists_FV3.sh[231]local SATMEDMF=.true.
++ parsing_namelists_FV3.sh[232]local ISATMEDMF=1
++ parsing_namelists_FV3.sh[233]local LHEATSTRG=.false.
++ parsing_namelists_FV3.sh[234]local LSEASPRAY=.true.
++ parsing_namelists_FV3.sh[235]local RANDOM_CLDS=.false.
++ parsing_namelists_FV3.sh[236]local TRANS_TRAC=.true.
++ parsing_namelists_FV3.sh[237]local CNVCLD=.true.
++ parsing_namelists_FV3.sh[238]local XR_CNVCLD=.true.
++ parsing_namelists_FV3.sh[239]local IMFSHALCNV=2
++ parsing_namelists_FV3.sh[240]local IMFDEEPCNV=2
++ parsing_namelists_FV3.sh[241]local PROGSIGMA=.true.
++ parsing_namelists_FV3.sh[242]local BETASCU=8.0
++ parsing_namelists_FV3.sh[243]local BETAMCU=1.0
++ parsing_namelists_FV3.sh[244]local BETADCU=2.0
++ parsing_namelists_FV3.sh[245]local RAS=.false.
++ parsing_namelists_FV3.sh[246]local CDMBGWD=10.0,3.5,1.0,1.0
++ parsing_namelists_FV3.sh[247]local PSL_GWD_DX_FACTOR=6.0
++ parsing_namelists_FV3.sh[248]local PRSLRD0=0.
++ parsing_namelists_FV3.sh[249]local IVEGSRC=1
++ parsing_namelists_FV3.sh[250]local ISOT=1
++ parsing_namelists_FV3.sh[251]local LSOIL=4
++ parsing_namelists_FV3.sh[252]local LSM=2
++ parsing_namelists_FV3.sh[253]local IOPT_DVEG=4
++ parsing_namelists_FV3.sh[254]local IOPT_CRS=2
++ parsing_namelists_FV3.sh[255]local IOPT_BTR=1
++ parsing_namelists_FV3.sh[256]local IOPT_RUN=1
++ parsing_namelists_FV3.sh[257]local IOPT_SFC=3
++ parsing_namelists_FV3.sh[258]local IOPT_TRS=2
++ parsing_namelists_FV3.sh[259]local IOPT_DIAG=2
++ parsing_namelists_FV3.sh[260]local IOPT_FRZ=1
++ parsing_namelists_FV3.sh[261]local IOPT_INF=1
++ parsing_namelists_FV3.sh[262]local IOPT_RAD=3
++ parsing_namelists_FV3.sh[263]local IOPT_ALB=1
++ parsing_namelists_FV3.sh[264]local IOPT_SNF=4
++ parsing_namelists_FV3.sh[265]local IOPT_TBOT=2
++ parsing_namelists_FV3.sh[266]local IOPT_STC=3
++ parsing_namelists_FV3.sh[267]local DEBUG=.false.
++ parsing_namelists_FV3.sh[268]local NSTF_NAME=2,0,0,0,0
++ parsing_namelists_FV3.sh[269]local NST_ANL=.true.
++ parsing_namelists_FV3.sh[270]local PSAUTCO=0.0008,0.0005
++ parsing_namelists_FV3.sh[271]local PRAUTCO=0.00015,0.00015
++ parsing_namelists_FV3.sh[272]local LGFDLMPRAD=.false.
++ parsing_namelists_FV3.sh[273]local EFFR_IN=.true.
++ parsing_namelists_FV3.sh[274]local LDIAG_UGWP=.false.
++ parsing_namelists_FV3.sh[275]local DO_RRTMGP=.false.
++ parsing_namelists_FV3.sh[276]local 'ACTIVE_GASES='\''h2o_co2_o3_n2o_ch4_o2'\'''
++ parsing_namelists_FV3.sh[277]local NGASES=6
++ parsing_namelists_FV3.sh[278]local 'LW_FILE_GAS='\''rrtmgp-data-lw-g128-210809.nc'\'''
++ parsing_namelists_FV3.sh[279]local 'LW_FILE_CLOUDS='\''rrtmgp-cloud-optics-coeffs-lw.nc'\'''
++ parsing_namelists_FV3.sh[280]local 'SW_FILE_GAS='\''rrtmgp-data-sw-g112-210809.nc'\'''
++ parsing_namelists_FV3.sh[281]local 'SW_FILE_CLOUDS='\''rrtmgp-cloud-optics-coeffs-sw.nc'\'''
++ parsing_namelists_FV3.sh[282]local RRTMGP_NGPTSSW=112
++ parsing_namelists_FV3.sh[283]local RRTMGP_NGPTSLW=128
++ parsing_namelists_FV3.sh[284]local RRTMGP_NBANDSLW=16
++ parsing_namelists_FV3.sh[285]local RRTMGP_NBANDSSW=14
++ parsing_namelists_FV3.sh[286]local DOGP_CLDOPTICS_LUT=.false.
++ parsing_namelists_FV3.sh[287]local DOGP_LWSCAT=.false.
++ parsing_namelists_FV3.sh[288]local DOGP_SGS_CNV=.true.
++ parsing_namelists_FV3.sh[290]local DO_SPPT=.false.
++ parsing_namelists_FV3.sh[291]local DO_SHUM=.false.
++ parsing_namelists_FV3.sh[292]local DO_SKEB=.false.
++ parsing_namelists_FV3.sh[293]local FRAC_GRID=.true.
++ parsing_namelists_FV3.sh[294]local CPLCHM=.false.
++ parsing_namelists_FV3.sh[295]local CPLFLX=.true.
++ parsing_namelists_FV3.sh[296]local CPLICE=.true.
++ parsing_namelists_FV3.sh[297]local CPLWAV=.false.
++ parsing_namelists_FV3.sh[298]local CPLCAT=.false.
++ parsing_namelists_FV3.sh[299]local CPLWAV2ATM=.false.
++ parsing_namelists_FV3.sh[300]local USE_MED_FLUX=.false.
++ parsing_namelists_FV3.sh[301]local CPLLND=.false.
++ parsing_namelists_FV3.sh[302]local CPLLND2ATM=.false.
++ parsing_namelists_FV3.sh[303]local USE_OCEANUV=.false.
++ parsing_namelists_FV3.sh[306][[ .false. = \.\t\r\u\e\. ]]
++ parsing_namelists_FV3.sh[309]local 'FSCAV_AERO="*:0.3","so2:0.0","msa:0.0","dms:0.0","nh3:0.4","nh4:0.6","bc1:0.6","bc2:0.6","oc1:0.4","oc2:0.4","dust1:0.6","dust2:0.6","dust3:0.6","dust4:0.6","dust5:0.6","seas1:0.5","seas2:0.5","seas3:0.5","seas4:0.5","seas5:0.5"'
++ parsing_namelists_FV3.sh[312]local IAUFHRS=6,
++ parsing_namelists_FV3.sh[313]local IAU_DELTHRS=6
++ parsing_namelists_FV3.sh[314]local 'IAU_INC_FILES='\''increment.atm.i006.nc'\'''
++ parsing_namelists_FV3.sh[315]local IAU_DRYMASSFIXER=.false.
++ parsing_namelists_FV3.sh[316]local IAU_FILTER_INCREMENTS=.true.
++ parsing_namelists_FV3.sh[319]local DO_CA=.true.
++ parsing_namelists_FV3.sh[320]local CA_GLOBAL=.false.
++ parsing_namelists_FV3.sh[321]local CA_SGS=.true.
++ parsing_namelists_FV3.sh[322]local NCA=1
++ parsing_namelists_FV3.sh[323]local NCELLS=5
++ parsing_namelists_FV3.sh[324]local NLIVES=12
++ parsing_namelists_FV3.sh[325]local NSEED=1
++ parsing_namelists_FV3.sh[326]local NFRACSEED=0.5
++ parsing_namelists_FV3.sh[327]local NTHRESH=18
++ parsing_namelists_FV3.sh[328]local CA_TRIGGER=.true.
++ parsing_namelists_FV3.sh[329]local NSPINUP=1
++ parsing_namelists_FV3.sh[330]local ISEED_CA=820105278
++ parsing_namelists_FV3.sh[333]local LNDP_TYPE=2
++ parsing_namelists_FV3.sh[334]local N_VAR_LNDP=0
++ parsing_namelists_FV3.sh[336]local LCNORM=.false.
++ parsing_namelists_FV3.sh[337]local PERT_MP=.false.
++ parsing_namelists_FV3.sh[338]local PERT_RADTEND=.false.
++ parsing_namelists_FV3.sh[339]local PERT_CLDS=.false.
++ parsing_namelists_FV3.sh[341][[ .false. = \.\t\r\u\e\. ]]
++ parsing_namelists_FV3.sh[345][[ YES = \Y\E\S ]]
++ parsing_namelists_FV3.sh[346]local 'HIDE_AIAU= '
++ parsing_namelists_FV3.sh[352][[ 1 -eq 0 ]]
++ parsing_namelists_FV3.sh[355][[ 1 -eq 1 ]]
++ parsing_namelists_FV3.sh[356]local 'HIDE_UGWPV0=!'
++ parsing_namelists_FV3.sh[357]local 'HIDE_UGWPV1= '
++ parsing_namelists_FV3.sh[364]local KNOB_UGWP_SOLVER=2
++ parsing_namelists_FV3.sh[365]local KNOB_UGWP_SOURCE=1,1,0,0
++ parsing_namelists_FV3.sh[366]local KNOB_UGWP_WVSPEC=1,25,25,25
++ parsing_namelists_FV3.sh[367]local KNOB_UGWP_AZDIR=2,4,4,4
++ parsing_namelists_FV3.sh[368]local KNOB_UGWP_STOCH=0,0,0,0
++ parsing_namelists_FV3.sh[369]local KNOB_UGWP_EFFAC=1,1,1,1
++ parsing_namelists_FV3.sh[370]local KNOB_UGWP_DOAXYZ=1
++ parsing_namelists_FV3.sh[371]local KNOB_UGWP_DOHEAT=1
++ parsing_namelists_FV3.sh[373]local KNOB_UGWP_DOKDIS=1
++ parsing_namelists_FV3.sh[374]local KNOB_UGWP_NDX4LH=1
++ parsing_namelists_FV3.sh[375]local KNOB_UGWP_VERSION=1
++ parsing_namelists_FV3.sh[376]local LAUNCH_LEVEL=54
++ parsing_namelists_FV3.sh[378]local KNOB_UGWP_DOKDIS=2
++ parsing_namelists_FV3.sh[379]local KNOB_UGWP_NDX4LH=4
++ parsing_namelists_FV3.sh[380]local KNOB_UGWP_VERSION=1
++ parsing_namelists_FV3.sh[381]local KNOB_UGWP_PALAUNCH=275.0e2
++ parsing_namelists_FV3.sh[382]local KNOB_UGWP_NSLOPE=1
++ parsing_namelists_FV3.sh[383]local KNOB_UGWP_LZMAX=15.750e3
++ parsing_namelists_FV3.sh[384]local KNOB_UGWP_LZMIN=0.75e3
++ parsing_namelists_FV3.sh[385]local KNOB_UGWP_LZSTAR=2.0e3
++ parsing_namelists_FV3.sh[386]local KNOB_UGWP_TAUMIN=0.25e-3
++ parsing_namelists_FV3.sh[387]local KNOB_UGWP_TAUAMP=1.5e-3
++ parsing_namelists_FV3.sh[388]local KNOB_UGWP_LHMET=200.0e3
++ parsing_namelists_FV3.sh[389]local 'KNOB_UGWP_OROSOLV='\''pss-1986'\'''
++ parsing_namelists_FV3.sh[392]local REIFLAG=2
++ parsing_namelists_FV3.sh[397]local 'FNGLAC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_glacier.2x2.grb'\'''
++ parsing_namelists_FV3.sh[398]local 'FNMXIC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_maxice.2x2.grb'\'''
++ parsing_namelists_FV3.sh[399]local 'FNTSFC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.2012.monthly.clim.grb'\'''
++ parsing_namelists_FV3.sh[400]local 'FNSNOC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_snoclim.1.875.grb'\'''
++ parsing_namelists_FV3.sh[401]local 'FNZORC='\''igbp'\'''
++ parsing_namelists_FV3.sh[402]local 'FNALBC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.snowfree_albedo.tileX.nc'\'''
++ parsing_namelists_FV3.sh[403]local 'FNALBC2='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.facsf.tileX.nc'\'''
++ parsing_namelists_FV3.sh[404]local 'FNAISC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/IMS-NIC.blended.ice.monthly.clim.grb'\'''
++ parsing_namelists_FV3.sh[405]local 'FNTG3C='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.substrate_temperature.tileX.nc'\'''
++ parsing_namelists_FV3.sh[406]local 'FNVEGC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_greenness.tileX.nc'\'''
++ parsing_namelists_FV3.sh[407]local 'FNVETC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_type.tileX.nc'\'''
++ parsing_namelists_FV3.sh[408]local 'FNSOTC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.soil_type.tileX.nc'\'''
++ parsing_namelists_FV3.sh[409]local 'FNSOCC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.soil_color.tileX.nc'\'''
++ parsing_namelists_FV3.sh[410]local 'FNSMCC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilmgldas.statsgo.t382.768.384.grb'\'''
++ parsing_namelists_FV3.sh[411]local 'FNMSKH='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_slmask.t1534.3072.1536.grb'\'''
++ parsing_namelists_FV3.sh[412]local 'FNTSFA='\''        '\'''
++ parsing_namelists_FV3.sh[413]local 'FNACNA='\'''\'''
++ parsing_namelists_FV3.sh[414]local 'FNSNOA='\'''\'''
++ parsing_namelists_FV3.sh[415]local 'FNVMNC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_greenness.tileX.nc'\'''
++ parsing_namelists_FV3.sh[416]local 'FNVMXC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_greenness.tileX.nc'\'''
++ parsing_namelists_FV3.sh[417]local 'FNSLPC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.slope_type.tileX.nc'\'''
++ parsing_namelists_FV3.sh[418]local 'FNABSC='\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.maximum_snow_albedo.tileX.nc'\'''
++ parsing_namelists_FV3.sh[419]local LDEBUG=.false.
++ parsing_namelists_FV3.sh[420]local FSMCL2=99999
++ parsing_namelists_FV3.sh[421]local FSMCL3=99999
++ parsing_namelists_FV3.sh[422]local FSMCL4=99999
++ parsing_namelists_FV3.sh[423]local LANDICE=.false.
++ parsing_namelists_FV3.sh[424]local FTSFS=10
++ parsing_namelists_FV3.sh[425]local FAISL=99999
++ parsing_namelists_FV3.sh[426]local FAISS=99999
++ parsing_namelists_FV3.sh[427]local FSNOL=99999
++ parsing_namelists_FV3.sh[428]local FSNOS=99999
++ parsing_namelists_FV3.sh[429]local FSICL=99999
++ parsing_namelists_FV3.sh[430]local FSICS=0
++ parsing_namelists_FV3.sh[431]local FTSFL=99999
++ parsing_namelists_FV3.sh[432]local FVETL=99999
++ parsing_namelists_FV3.sh[433]local FSOTL=99999
++ parsing_namelists_FV3.sh[434]local FVMNL=99999
++ parsing_namelists_FV3.sh[435]local FVMXL=99999
++ parsing_namelists_FV3.sh[436]local FSLPL=99999
++ parsing_namelists_FV3.sh[437]local FABSL=99999
++ parsing_namelists_FV3.sh[438]local 'FNTSFA='\'''\''        '\'''\'''
++ parsing_namelists_FV3.sh[443]local NEW_LSCALE=.false.
++ parsing_namelists_FV3.sh[444]local STOCHINI=.false.
++ parsing_namelists_FV3.sh[445]local SKEB=0
++ parsing_namelists_FV3.sh[446]local ISEED_SKEB=0
++ parsing_namelists_FV3.sh[447]local SKEB_TAU=-999.
++ parsing_namelists_FV3.sh[448]local SKEB_LSCALE=-999.
++ parsing_namelists_FV3.sh[449]local SKEBNORM=1
++ parsing_namelists_FV3.sh[450]local SKEB_NPASS=30
++ parsing_namelists_FV3.sh[451]local SKEB_VDOF=5
++ parsing_namelists_FV3.sh[452]local SKEBINT=0
++ parsing_namelists_FV3.sh[453]local SHUM=-999.
++ parsing_namelists_FV3.sh[454]local ISEED_SHUM=0
++ parsing_namelists_FV3.sh[455]local SHUM_TAU=-999.
++ parsing_namelists_FV3.sh[456]local SHUM_LSCALE=-999.
++ parsing_namelists_FV3.sh[457]local SHUMINT=0
++ parsing_namelists_FV3.sh[458]local SPPT=-999.
++ parsing_namelists_FV3.sh[459]local ISEED_SPPT=0
++ parsing_namelists_FV3.sh[460]local SPPT_TAU=-999.
++ parsing_namelists_FV3.sh[461]local SPPT_LSCALE=-999.
++ parsing_namelists_FV3.sh[462]local SPPT_LOGIT=.true.
++ parsing_namelists_FV3.sh[463]local SPPT_SFCLIMIT=.true.
++ parsing_namelists_FV3.sh[464]local USE_ZMTNBLCK=.true.
++ parsing_namelists_FV3.sh[465]local SPPTINT=0
++ parsing_namelists_FV3.sh[466]local PBL_TAPER=0,0,0,0.1,0.2,0.4,0.6
++ parsing_namelists_FV3.sh[467]local OCNSPPT=0.8,0.4,0.2,0.08,0.04
++ parsing_namelists_FV3.sh[468]local OCNSPPT_LSCALE=500.E3,1000.E3,2000.E3,2000.E3,2000.E3
++ parsing_namelists_FV3.sh[469]local OCNSPPT_TAU=2.16E4,2.592E5,2.592E6,7.776E6,3.1536E7
++ parsing_namelists_FV3.sh[470]local ISEED_OCNSPPT=0
++ parsing_namelists_FV3.sh[471]local EPBL=0.8,0.4,0.2,0.08,0.04
++ parsing_namelists_FV3.sh[472]local EPBL_LSCALE=500.E3,1000.E3,2000.E3,2000.E3,2000.E3
++ parsing_namelists_FV3.sh[473]local EPBL_TAU=2.16E4,2.592E5,2.592E6,7.776E6,3.1536E7
++ parsing_namelists_FV3.sh[474]local ISEED_EPBL=0
++ parsing_namelists_FV3.sh[475]local LNDP_TYPE=0
++ parsing_namelists_FV3.sh[476]local LNDP_MODEL_TYPE=0
++ parsing_namelists_FV3.sh[477]local LNDP_TAU=21600
++ parsing_namelists_FV3.sh[478]local LNDP_LSCALE=500000
++ parsing_namelists_FV3.sh[479]local ISEED_LNDP=0
++ parsing_namelists_FV3.sh[480]local 'LNDP_VAR_LIST='\''XXX'\'''
++ parsing_namelists_FV3.sh[481]local LNDP_PRT_LIST=-999
++ parsing_namelists_FV3.sh[483]local MOM6_OUTPUT_DIR=MOM6_OUTPUT/
++ parsing_namelists_FV3.sh[484]local MOM6_RESTART_SETTING=r
++ parsing_namelists_FV3.sh[485]local MOM6_RESTART_DIR=MOM6_RESTART/
++ parsing_namelists_FV3.sh[488]local DO_LAND_IAU=.false.
++ parsing_namelists_FV3.sh[489]local LAND_IAU_FHRS=6,
++ parsing_namelists_FV3.sh[490]local LAND_IAU_DELHRS=6
++ parsing_namelists_FV3.sh[491]local 'LAND_IAU_INC_FILES='\''sfc_inc'\'','\'''\'''
++ parsing_namelists_FV3.sh[492]local LSOIL_INCR=2
++ parsing_namelists_FV3.sh[493]local LAND_IAU_FILTER_INC=.false.
++ parsing_namelists_FV3.sh[494]local LAND_IAU_UPD_STC=.true.
++ parsing_namelists_FV3.sh[495]local LAND_IAU_UPD_SLC=.true.
++ parsing_namelists_FV3.sh[496]local LAND_IAU_DO_STCSMC_ADJ=.true.
++ parsing_namelists_FV3.sh[497]local LAND_IAU_MIN_T_INC=0.0001
++ parsing_namelists_FV3.sh[498]local LAND_IAU_MIN_SLC_INC=0.000001
++ parsing_namelists_FV3.sh[502][[ .false. = \.\t\r\u\e\. ]]
++ parsing_namelists_FV3.sh[505]local 'HIDE_LIAU=!'
++ parsing_namelists_FV3.sh[508]local global_template=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/global_control.nml.IN
++ parsing_namelists_FV3.sh[509]atparse
++ atparse.bash[13]local __text
++ atparse.bash[14]local __before
++ atparse.bash[15]local __after
++ atparse.bash[16]local __during
++ atparse.bash[17]local __set_x=:
++ atparse.bash[18]local __set_u=:
++ atparse.bash[19]local __set_e=:
++ atparse.bash[20]local __abort_on_undefined=NO
++ atparse.bash[24][[ -o xtrace ]]
++ atparse.bash[25]__set_x='set -x'
++ atparse.bash[27][[ -o errexit ]]
++ atparse.bash[28]__set_e='set -e'
++ atparse.bash[30][[ -o nounset ]]
++ atparse.bash[31]__set_u='set -u'
++ atparse.bash[32]__abort_on_undefined=YES
++ atparse.bash[34]set +eux
++ atparse.bash[102]eval 'set -u'
+++ atparse.bash[102]set -u
++ atparse.bash[103]eval 'set -e'
+++ atparse.bash[103]set -e
++ forecast_postdet.sh[394]FV3_model_configure
++ parsing_model_configure_FV3.sh[20]local restile=192
++ parsing_model_configure_FV3.sh[25]local model_start_date
++ parsing_model_configure_FV3.sh[26][[ YES == \Y\E\S ]]
++ parsing_model_configure_FV3.sh[27]model_start_date=2023011600
++ parsing_model_configure_FV3.sh[32]local SYEAR=2023
++ parsing_model_configure_FV3.sh[33]local SMONTH=01
++ parsing_model_configure_FV3.sh[34]local SDAY=16
++ parsing_model_configure_FV3.sh[35]local SHOUR=00
++ parsing_model_configure_FV3.sh[37]local FHROT=3
++ parsing_model_configure_FV3.sh[38]local DT_ATMOS=600
++ parsing_model_configure_FV3.sh[39]local 'RESTART_INTERVAL=9 12 15 18 21'
++ parsing_model_configure_FV3.sh[40]local 'RESTART_FH=6 9 12 15 18'
++ parsing_model_configure_FV3.sh[42]local QUILTING_RESTART=.true.
++ parsing_model_configure_FV3.sh[43]local WRITE_GROUP=1
++ parsing_model_configure_FV3.sh[44]local WRTTASK_PER_GROUP=60
++ parsing_model_configure_FV3.sh[45]local ITASKS=1
++ parsing_model_configure_FV3.sh[46]local OUTPUT_HISTORY=.true.
++ parsing_model_configure_FV3.sh[47][[ NO == \Y\E\S ]]
++ parsing_model_configure_FV3.sh[47][[ NO == \Y\E\S ]]
++ parsing_model_configure_FV3.sh[50]local HISTORY_FILE_ON_NATIVE_GRID=.false.
++ parsing_model_configure_FV3.sh[52]local WRITE_DOPOST=.true.
++ parsing_model_configure_FV3.sh[53]local WRITE_NSFLIP=.true.
++ parsing_model_configure_FV3.sh[54]local NUM_FILES=2
++ parsing_model_configure_FV3.sh[55]local 'FILENAME_BASE='\''atm'\'' '\''sfc'\'''
++ parsing_model_configure_FV3.sh[57]local 'OUTPUT_FILE='\''netcdf'\'' '\''netcdf'\'''
++ parsing_model_configure_FV3.sh[58]local ZSTANDARD_LEVEL=0
++ parsing_model_configure_FV3.sh[59]local IDEFLATE=0
++ parsing_model_configure_FV3.sh[60]local QUANTIZE_NSD=0
++ parsing_model_configure_FV3.sh[61]local ICHUNK2D=768
++ parsing_model_configure_FV3.sh[62]local JCHUNK2D=384
++ parsing_model_configure_FV3.sh[63]local ICHUNK3D=768
++ parsing_model_configure_FV3.sh[64]local JCHUNK3D=384
++ parsing_model_configure_FV3.sh[65]local KCHUNK3D=1
++ parsing_model_configure_FV3.sh[66]local IMO=768
++ parsing_model_configure_FV3.sh[67]local JMO=384
++ parsing_model_configure_FV3.sh[68]local 'OUTPUT_FH= 0 3 6 9'
++ parsing_model_configure_FV3.sh[69]local IAU_OFFSET=6
++ parsing_model_configure_FV3.sh[70]local USE_FV3_ROUTEHANDLES=.false.
++ parsing_model_configure_FV3.sh[73]local FV3ATM_OUTPUT_DIR=./FV3ATM_OUTPUT
++ parsing_model_configure_FV3.sh[76][[ NO == \Y\E\S ]]
++ parsing_model_configure_FV3.sh[81]template=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/model_configure.IN
++ parsing_model_configure_FV3.sh[83][[ ! -f /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/model_configure.IN ]]
++ parsing_model_configure_FV3.sh[87]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/model_configure
++ parsing_model_configure_FV3.sh[88]atparse
++ atparse.bash[13]local __text
++ atparse.bash[14]local __before
++ atparse.bash[15]local __after
++ atparse.bash[16]local __during
++ atparse.bash[17]local __set_x=:
++ atparse.bash[18]local __set_u=:
++ atparse.bash[19]local __set_e=:
++ atparse.bash[20]local __abort_on_undefined=NO
++ atparse.bash[24][[ -o xtrace ]]
++ atparse.bash[25]__set_x='set -x'
++ atparse.bash[27][[ -o errexit ]]
++ atparse.bash[28]__set_e='set -e'
++ atparse.bash[30][[ -o nounset ]]
++ atparse.bash[31]__set_u='set -u'
++ atparse.bash[32]__abort_on_undefined=YES
++ atparse.bash[34]set +eux
++ atparse.bash[102]eval 'set -u'
+++ atparse.bash[102]set -u
++ atparse.bash[103]eval 'set -e'
+++ atparse.bash[103]set -e
++ parsing_model_configure_FV3.sh[89]echo 'Rendered model_configure'
+Rendered model_configure
++ parsing_model_configure_FV3.sh[90]cat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/model_configure
+start_year:              2023
+start_month:             01
+start_day:               16
+start_hour:              00
+start_minute:            0
+start_second:            0
+nhours_fcst:             15
+fhrot:                   3
+
+dt_atmos:                600
+restart_interval:        9 12 15 18 21
+restart_fh:              6 9 12 15 18
+
+use_saved_routehandles:  .false.
+quilting:                .true.
+quilting_restart:        .true.
+write_groups:            1
+write_tasks_per_group:   60
+itasks:                  1
+output_history:          .true.
+history_file_on_native_grid: .false.
+write_dopost:            .true.
+write_nsflip:            .true.
+num_files:               2
+fv3atm_output_dir:       ./FV3ATM_OUTPUT
+filename_base:           'atm' 'sfc'
+output_grid:             gaussian_grid
+output_file:             'netcdf' 'netcdf'
+zstandard_level:         0
+ideflate:                0
+quantize_mode:           'quantize_bitround'
+quantize_nsd:            0
+ichunk2d:                768
+jchunk2d:                384
+ichunk3d:                768
+jchunk3d:                384
+kchunk3d:                1
+imo:                     768
+jmo:                     384
+output_fh:                0 3 6 9
+iau_offset:              6
++ forecast_postdet.sh[396]echo 'SUB FV3_nml: FV3 name lists and model configure file created'
+SUB FV3_nml: FV3 name lists and model configure file created
++ exglobal_forecast.sh[153][[ .true. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[154]MOM6_nml
++ forecast_postdet.sh[734]echo 'SUB MOM6_nml: Creating name list for MOM6'
+SUB MOM6_nml: Creating name list for MOM6
++ forecast_postdet.sh[735]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/parsing_namelists_MOM6.sh
++ forecast_postdet.sh[736]MOM6_namelists
++ parsing_namelists_MOM6.sh[25]local MOM6_INIT_FROM_Z=True
++ parsing_namelists_MOM6.sh[26]local MOM6_WARMSTART_FILE=none
++ parsing_namelists_MOM6.sh[27]local MOM6_INIT_UV=zero
++ parsing_namelists_MOM6.sh[36]local MOM6_TOPOEDITS=
++ parsing_namelists_MOM6.sh[42]local MOM6_CHLCLIM=seawifs-clim-1997-2010.1440x1080.v20180328.nc
++ parsing_namelists_MOM6.sh[45][[ .false. == \.\t\r\u\e\. ]]
++ parsing_namelists_MOM6.sh[48]local MOM6_USE_WAVES=False
++ parsing_namelists_MOM6.sh[51]local ODA_TEMPINC_VAR=Temp
++ parsing_namelists_MOM6.sh[52]local ODA_SALTINC_VAR=Salt
++ parsing_namelists_MOM6.sh[53]local ODA_THK_VAR=h
++ parsing_namelists_MOM6.sh[54]local ODA_INCUPD_UV=True
++ parsing_namelists_MOM6.sh[55]local ODA_UINC_VAR=u
++ parsing_namelists_MOM6.sh[56]local ODA_VINC_VAR=v
++ parsing_namelists_MOM6.sh[62][[ NO == \Y\E\S ]]
++ parsing_namelists_MOM6.sh[65]local DO_OCN_SPPT=False
++ parsing_namelists_MOM6.sh[67][[ NO == \Y\E\S ]]
++ parsing_namelists_MOM6.sh[70]local PERT_EPBL=False
++ parsing_namelists_MOM6.sh[72]local MOM6_HFREEZE=2.0
++ parsing_namelists_MOM6.sh[74]local template=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/MOM_input_025.IN
++ parsing_namelists_MOM6.sh[75][[ ! -f /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/MOM_input_025.IN ]]
++ parsing_namelists_MOM6.sh[79]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM_input
++ parsing_namelists_MOM6.sh[80]atparse
++ atparse.bash[13]local __text
++ atparse.bash[14]local __before
++ atparse.bash[15]local __after
++ atparse.bash[16]local __during
++ atparse.bash[17]local __set_x=:
++ atparse.bash[18]local __set_u=:
++ atparse.bash[19]local __set_e=:
++ atparse.bash[20]local __abort_on_undefined=NO
++ atparse.bash[24][[ -o xtrace ]]
++ atparse.bash[25]__set_x='set -x'
++ atparse.bash[27][[ -o errexit ]]
++ atparse.bash[28]__set_e='set -e'
++ atparse.bash[30][[ -o nounset ]]
++ atparse.bash[31]__set_u='set -u'
++ atparse.bash[32]__abort_on_undefined=YES
++ atparse.bash[34]set +eux
++ atparse.bash[102]eval 'set -u'
+++ atparse.bash[102]set -u
++ atparse.bash[103]eval 'set -e'
+++ atparse.bash[103]set -e
++ parsing_namelists_MOM6.sh[81]echo 'Rendered MOM_input:'
+Rendered MOM_input:
++ parsing_namelists_MOM6.sh[82]cat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM_input
+! This input file provides the adjustable run-time parameters for version 6 of the Modular Ocean Model (MOM6).
+! Where appropriate, parameters use usually given in MKS units.
+
+! This particular file is for the example in ice_ocean_SIS2/OM4_025.
+
+! This MOM_input file typically contains only the non-default values that are needed to reproduce this example.
+! A full list of parameters for this example can be found in the corresponding MOM_parameter_doc.all file
+! which is generated by the model at run-time.
+
+ENABLE_BUGS_BY_DEFAULT = False  ! [Boolean] default = True
+                                ! If true, the defaults for certain recently added bug-fix flags are set to
+                                ! recreate the bugs so that the code can be moved forward without changing
+                                ! answers for existing configurations.  The defaults for groups of bug-fix flags
+                                ! are periodcially changed to correct the bugs, at which point this parameter
+                                ! will no longer be used to set their default.  Setting this to false means that
+                                ! bugs are only used if they are actively selected, but it also means that
+                                ! answers may change when code is updated due to newly found bugs.
+! === module MOM_domains ===
+TRIPOLAR_N = True               !   [Boolean] default = False
+                                ! Use tripolar connectivity at the northern edge of the domain.  With
+                                ! TRIPOLAR_N, NIGLOBAL must be even.
+NIGLOBAL = 1440            !
+                                ! The total number of thickness grid points in the x-direction in the physical
+                                ! domain. With STATIC_MEMORY_ this is set in MOM_memory.h at compile time.
+NJGLOBAL = 1080            !
+                                ! The total number of thickness grid points in the y-direction in the physical
+                                ! domain. With STATIC_MEMORY_ this is set in MOM_memory.h at compile time.
+NIHALO = 4                      ! default = 4
+                                ! The number of halo points on each side in the x-direction.  With
+                                ! STATIC_MEMORY_ this is set as NIHALO_ in MOM_memory.h at compile time; without
+                                ! STATIC_MEMORY_ the default is NIHALO_ in MOM_memory.h (if defined) or 2.
+NJHALO = 4                      ! default = 4
+                                ! The number of halo points on each side in the y-direction.  With
+                                ! STATIC_MEMORY_ this is set as NJHALO_ in MOM_memory.h at compile time; without
+                                ! STATIC_MEMORY_ the default is NJHALO_ in MOM_memory.h (if defined) or 2.
+! LAYOUT = 32, 18               !
+                                ! The processor layout that was actually used.
+! IO_LAYOUT = 1, 1              ! default = 1
+                                ! The processor layout to be used, or 0,0 to automatically set the io_layout to
+                                ! be the same as the layout.
+
+! === module MOM ===
+USE_REGRIDDING = True           !   [Boolean] default = False
+                                ! If True, use the ALE algorithm (regridding/remapping). If False, use the
+                                ! layered isopycnal algorithm.
+THICKNESSDIFFUSE = True         !   [Boolean] default = False
+                                ! If true, interface heights are diffused with a coefficient of KHTH.
+THICKNESSDIFFUSE_FIRST = True   !   [Boolean] default = False
+                                ! If true, do thickness diffusion before dynamics. This is only used if
+                                ! THICKNESSDIFFUSE is true.
+DT = 900           !   [s]
+                                ! The (baroclinic) dynamics time step.  The time-step that is actually used will
+                                ! be an integer fraction of the forcing time-step (DT_FORCING in ocean-only mode
+                                ! or the coupling timestep in coupled mode.)
+DT_THERM = 1800     !   [s] default = 1800.0
+                                ! The thermodynamic and tracer advection time step. Ideally DT_THERM should be
+                                ! an integer multiple of DT and less than the forcing or coupling time-step,
+                                ! unless THERMO_SPANS_COUPLING is true, in which case DT_THERM can be an integer
+                                ! multiple of the coupling timestep.  By default DT_THERM is set to DT.
+THERMO_SPANS_COUPLING = False    !   [Boolean] default = False
+                                ! If true, the MOM will take thermodynamic and tracer timesteps that can be
+                                ! longer than the coupling timestep. The actual thermodynamic timestep that is
+                                ! used in this case is the largest integer multiple of the coupling timestep
+                                ! that is less than or equal to DT_THERM.
+HFREEZE = 2.0       !   [m] default = -1.0
+                                ! If HFREEZE > 0, melt potential will be computed. The actual depth
+                                ! over which melt potential is computed will be min(HFREEZE, OBLD)
+                                ! where OBLD is the boundary layer depth. If HFREEZE <= 0 (default)
+                                ! melt potential will not be computed.
+USE_PSURF_IN_EOS = False        !   [Boolean] default = False
+                                ! If true, always include the surface pressure contributions in equation of
+                                ! state calculations.
+FRAZIL = True                   !   [Boolean] default = False
+                                ! If true, water freezes if it gets too cold, and the accumulated heat deficit
+                                ! is returned in the surface state.  FRAZIL is only used if
+                                ! ENABLE_THERMODYNAMICS is true.
+DO_GEOTHERMAL = True            !   [Boolean] default = False
+                                ! If true, apply geothermal heating.
+BOUND_SALINITY = True           !   [Boolean] default = False
+                                ! If true, limit salinity to being positive. (The sea-ice model may ask for more
+                                ! salt than is available and drive the salinity negative otherwise.)
+MIN_SALINITY = 0.01             !   [PPT] default = 0.01
+                                ! The minimum value of salinity when BOUND_SALINITY=True. The default is 0.01
+                                ! for backward compatibility but ideally should be 0.
+C_P = 3992.0                    !   [J kg-1 K-1] default = 3991.86795711963
+                                ! The heat capacity of sea water, approximated as a constant. This is only used
+                                ! if ENABLE_THERMODYNAMICS is true. The default value is from the TEOS-10
+                                ! definition of conservative temperature.
+CHECK_BAD_SURFACE_VALS = True   !   [Boolean] default = False
+                                ! If true, check the surface state for ridiculous values.
+BAD_VAL_SSH_MAX = 50.0          !   [m] default = 20.0
+                                ! The value of SSH above which a bad value message is triggered, if
+                                ! CHECK_BAD_SURFACE_VALS is true.
+BAD_VAL_SSS_MAX = 75.0          !   [PPT] default = 45.0
+                                ! The value of SSS above which a bad value message is triggered, if
+                                ! CHECK_BAD_SURFACE_VALS is true.
+BAD_VAL_SST_MAX = 55.0          !   [deg C] default = 45.0
+                                ! The value of SST above which a bad value message is triggered, if
+                                ! CHECK_BAD_SURFACE_VALS is true.
+BAD_VAL_SST_MIN = -3.0          !   [deg C] default = -2.1
+                                ! The value of SST below which a bad value message is triggered, if
+                                ! CHECK_BAD_SURFACE_VALS is true.
+DEFAULT_ANSWER_DATE = 20250818  ! default = 99991231
+                                ! This sets the default value for the various _ANSWER_DATE parameters.
+WAVE_INTERFACE_ANSWER_DATE = 20230101
+
+WRITE_GEOM = 0 ! default = 1
+                                ! If =0, never write the geometry and vertical grid files. If =1, write the
+                                ! geometry and vertical grid files only for a new simulation. If =2, always
+                                ! write the geometry and vertical grid files. Other values are invalid.
+SAVE_INITIAL_CONDS = False      !   [Boolean] default = False
+                                ! If true, write the initial conditions to a file given by IC_OUTPUT_FILE.
+
+! === module MOM_hor_index ===
+! Sets the horizontal array index types.
+
+! === module MOM_fixed_initialization ===
+INPUTDIR = "INPUT"              ! default = "."
+                                ! The directory in which input files are found.
+
+! === module MOM_grid_init ===
+GRID_CONFIG = "mosaic"          !
+                                ! A character string that determines the method for defining the horizontal
+                                ! grid.  Current options are:
+                                !     mosaic - read the grid from a mosaic (supergrid)
+                                !              file set by GRID_FILE.
+                                !     cartesian - use a (flat) Cartesian grid.
+                                !     spherical - use a simple spherical grid.
+                                !     mercator - use a Mercator spherical grid.
+GRID_FILE = "ocean_hgrid.nc"    !
+                                ! Name of the file from which to read horizontal grid data.
+TOPO_CONFIG = "file"            !
+                                ! This specifies how bathymetry is specified:
+                                !     file - read bathymetric information from the file
+                                !       specified by (TOPO_FILE).
+                                !     flat - flat bottom set to MAXIMUM_DEPTH.
+                                !     bowl - an analytically specified bowl-shaped basin
+                                !       ranging between MAXIMUM_DEPTH and MINIMUM_DEPTH.
+                                !     spoon - a similar shape to 'bowl', but with an vertical
+                                !       wall at the southern face.
+                                !     halfpipe - a zonally uniform channel with a half-sine
+                                !       profile in the meridional direction.
+                                !     benchmark - use the benchmark test case topography.
+                                !     Neverland - use the Neverland test case topography.
+                                !     DOME - use a slope and channel configuration for the
+                                !       DOME sill-overflow test case.
+                                !     ISOMIP - use a slope and channel configuration for the
+                                !       ISOMIP test case.
+                                !     DOME2D - use a shelf and slope configuration for the
+                                !       DOME2D gravity current/overflow test case.
+                                !     Kelvin - flat but with rotated land mask.
+                                !     seamount - Gaussian bump for spontaneous motion test case.
+                                !     dumbbell - Sloshing channel with reservoirs on both ends.
+                                !     shelfwave - exponential slope for shelfwave test case.
+                                !     Phillips - ACC-like idealized topography used in the Phillips config.
+                                !     dense - Denmark Strait-like dense water formation and overflow.
+                                !     USER - call a user modified routine.
+TOPO_FILE = "ocean_topog.nc"    ! default = "topog.nc"
+                                ! The file from which the bathymetry is read.
+TOPO_EDITS_FILE = "All_edits.nc" ! default = ""
+                                ! The file from which to read a list of i,j,z topography overrides.
+ALLOW_LANDMASK_CHANGES = False   ! default = "False"
+                                ! If true, allow topography overrides to change ocean points to land
+MAXIMUM_DEPTH = 6500.0          !   [m]
+                                ! The maximum depth of the ocean.
+MINIMUM_DEPTH = 9.5             !   [m] default = 0.0
+                                ! If MASKING_DEPTH is unspecified, then anything shallower than MINIMUM_DEPTH is
+                                ! assumed to be land and all fluxes are masked out. If MASKING_DEPTH is
+                                ! specified, then all depths shallower than MINIMUM_DEPTH but deeper than
+                                ! MASKING_DEPTH are rounded to MINIMUM_DEPTH.
+
+! === module MOM_open_boundary ===
+! Controls where open boundaries are located, what kind of boundary condition to impose, and what data to apply,
+! if any.
+MASKING_DEPTH = 0.0             !   [m] default = -9999.0
+                                ! The depth below which to mask points as land points, for which all fluxes are
+                                ! zeroed out. MASKING_DEPTH is ignored if negative.
+CHANNEL_CONFIG = "list"         ! default = "none"
+                                ! A parameter that determines which set of channels are
+                                ! restricted to specific  widths.  Options are:
+                                !     none - All channels have the grid width.
+                                !     global_1deg - Sets 16 specific channels appropriate
+                                !       for a 1-degree model, as used in CM2G.
+                                !     list - Read the channel locations and widths from a
+                                !       text file, like MOM_channel_list in the MOM_SIS
+                                !       test case.
+                                !     file - Read open face widths everywhere from a
+                                !       NetCDF file on the model grid.
+CHANNEL_LIST_FILE = "MOM_channels_global_025" ! default = "MOM_channel_list"
+                                ! The file from which the list of narrowed channels is read.
+
+! === module MOM_verticalGrid ===
+! Parameters providing information about the vertical grid.
+NK = 75                         !   [nondim]
+                                ! The number of model layers.
+
+! === module MOM_tracer_registry ===
+
+! === module MOM_EOS ===
+EQN_OF_STATE = "WRIGHT_FULL"    ! default = "WRIGHT_FULL"
+                                ! EQN_OF_STATE determines which ocean equation of state should be used.
+                                ! Currently, the valid choices are "LINEAR", "UNESCO", "JACKETT_MCD", "WRIGHT",
+                                ! "WRIGHT_REDUCED", "WRIGHT_FULL", "NEMO", "ROQUET_RHO", "ROQUET_SPV" and
+                                ! "TEOS10".  This is only used if USE_EOS is true.
+DTFREEZE_DP = -7.75E-08         !   [deg C Pa-1] default = 0.0
+                                ! When TFREEZE_FORM=LINEAR, this is the derivative of the freezing potential
+                                ! temperature with pressure.
+
+! === module MOM_restart ===
+PARALLEL_RESTARTFILES = True    !   [Boolean] default = False
+                                ! If true, each processor writes its own restart file, otherwise a single
+                                ! restart file is generated
+
+! === module MOM_tracer_flow_control ===
+USE_IDEAL_AGE_TRACER = False    !   [Boolean] default = False
+                                ! If true, use the ideal_age_example tracer package.
+
+! === module ideal_age_example ===
+
+! === module MOM_coord_initialization ===
+COORD_CONFIG = "file"           !
+                                ! This specifies how layers are to be defined:
+                                !     ALE or none - used to avoid defining layers in ALE mode
+                                !     file - read coordinate information from the file
+                                !       specified by (COORD_FILE).
+                                !     BFB - Custom coords for buoyancy-forced basin case
+                                !       based on SST_S, T_BOT and DRHO_DT.
+                                !     linear - linear based on interfaces not layers
+                                !     layer_ref - linear based on layer densities
+                                !     ts_ref - use reference temperature and salinity
+                                !     ts_range - use range of temperature and salinity
+                                !       (T_REF and S_REF) to determine surface density
+                                !       and GINT calculate internal densities.
+                                !     gprime - use reference density (RHO_0) for surface
+                                !       density and GINT calculate internal densities.
+                                !     ts_profile - use temperature and salinity profiles
+                                !       (read from COORD_FILE) to set layer densities.
+                                !     USER - call a user modified routine.
+COORD_FILE = "layer_coord.nc"   !
+                                ! The file from which the coordinate densities are read.
+REMAP_UV_USING_OLD_ALG = True   !   [Boolean] default = True
+                                ! If true, uses the old remapping-via-a-delta-z method for remapping u and v. If
+                                ! false, uses the new method that remaps between grids described by an old and
+                                ! new thickness.
+REGRIDDING_COORDINATE_MODE = "HYCOM1" ! default = "LAYER"
+                                ! Coordinate mode for vertical regridding. Choose among the following
+                                ! possibilities:  LAYER - Isopycnal or stacked shallow water layers
+                                !  ZSTAR, Z* - stretched geopotential z*
+                                !  SIGMA_SHELF_ZSTAR - stretched geopotential z* ignoring shelf
+                                !  SIGMA - terrain following coordinates
+                                !  RHO   - continuous isopycnal
+                                !  HYCOM1 - HyCOM-like hybrid coordinate
+                                !  SLIGHT - stretched coordinates above continuous isopycnal
+                                !  ADAPTIVE - optimize for smooth neutral density surfaces
+BOUNDARY_EXTRAPOLATION = True   !   [Boolean] default = False
+                                ! When defined, a proper high-order reconstruction scheme is used within
+                                ! boundary cells rather than PCM. E.g., if PPM is used for remapping, a PPM
+                                ! reconstruction will also be used within boundary cells.
+ALE_COORDINATE_CONFIG = "HYBRID:hycom1_75_800m.nc,sigma2,FNC1:2,4000,4.5,.01" ! default = "UNIFORM"
+                                ! Determines how to specify the coordinate resolution. Valid options are:
+                                !  PARAM       - use the vector-parameter ALE_RESOLUTION
+                                !  UNIFORM[:N] - uniformly distributed
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,dz
+                                !                or FILE:lev.nc,interfaces=zw
+                                !  WOA09[:N]   - the WOA09 vertical grid (approximately)
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+                                !  HYBRID:string - read from a file. The string specifies
+                                !                the filename and two variable names, separated
+                                !                by a comma or space, for sigma-2 and dz. e.g.
+                                !                HYBRID:vgrid.nc,sigma2,dz
+!ALE_RESOLUTION = 7*2.0, 2*2.01, 2.02, 2.03, 2.05, 2.08, 2.11, 2.15, 2.21, 2.2800000000000002, 2.37, 2.48, 2.61, 2.77, 2.95, 3.17, 3.4299999999999997, 3.74, 4.09, 4.49, 4.95, 5.48, 6.07, 6.74, 7.5, 8.34, 9.280000000000001, 10.33, 11.49, 12.77, 14.19, 15.74, 17.450000000000003, 19.31, 21.35, 23.56, 25.97, 28.580000000000002, 31.41, 34.47, 37.77, 41.32, 45.14, 49.25, 53.65, 58.370000000000005, 63.42, 68.81, 74.56, 80.68, 87.21000000000001, 94.14, 101.51, 109.33, 117.62, 126.4, 135.68, 145.5, 155.87, 166.81, 178.35, 190.51, 203.31, 216.78, 230.93, 245.8, 261.42, 277.83 !   [m]
+                                ! The distribution of vertical resolution for the target
+                                ! grid used for Eulerian-like coordinates. For example,
+                                ! in z-coordinate mode, the parameter is a list of level
+                                ! thicknesses (in m). In sigma-coordinate mode, the list
+                                ! is of non-dimensional fractions of the water column.
+!TARGET_DENSITIES = 1010.0, 1014.3034, 1017.8088, 1020.843, 1023.5566, 1025.813, 1027.0275, 1027.9114, 1028.6422, 1029.2795, 1029.852, 1030.3762, 1030.8626, 1031.3183, 1031.7486, 1032.1572, 1032.5471, 1032.9207, 1033.2798, 1033.6261, 1033.9608, 1034.2519, 1034.4817, 1034.6774, 1034.8508, 1035.0082, 1035.1533, 1035.2886, 1035.4159, 1035.5364, 1035.6511, 1035.7608, 1035.8661, 1035.9675, 1036.0645, 1036.1554, 1036.2411, 1036.3223, 1036.3998, 1036.4739, 1036.5451, 1036.6137, 1036.68, 1036.7441, 1036.8062, 1036.8526, 1036.8874, 1036.9164, 1036.9418, 1036.9647, 1036.9857, 1037.0052, 1037.0236, 1037.0409, 1037.0574, 1037.0738, 1037.0902, 1037.1066, 1037.123, 1037.1394, 1037.1558, 1037.1722, 1037.1887, 1037.206, 1037.2241, 1037.2435, 1037.2642, 1037.2866, 1037.3112, 1037.3389, 1037.3713, 1037.4118, 1037.475, 1037.6332, 1037.8104, 1038.0 !   [m]
+                                ! HYBRID target densities for interfaces
+REGRID_COMPRESSIBILITY_FRACTION = 0.01 !   [nondim] default = 0.0
+                                ! When interpolating potential density profiles we can add some artificial
+                                ! compressibility solely to make homogeneous regions appear stratified.
+MAXIMUM_INT_DEPTH_CONFIG = "FNC1:5,8000.0,1.0,.01" ! default = "NONE"
+                                ! Determines how to specify the maximum interface depths.
+                                ! Valid options are:
+                                !  NONE        - there are no maximum interface depths
+                                !  PARAM       - use the vector-parameter MAXIMUM_INTERFACE_DEPTHS
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,Z
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+!MAXIMUM_INT_DEPTHS = 0.0, 5.0, 12.75, 23.25, 36.49, 52.480000000000004, 71.22, 92.71000000000001, 116.94000000000001, 143.92000000000002, 173.65, 206.13, 241.36, 279.33000000000004, 320.05000000000007, 363.5200000000001, 409.7400000000001, 458.7000000000001, 510.4100000000001, 564.8700000000001, 622.0800000000002, 682.0300000000002, 744.7300000000002, 810.1800000000003, 878.3800000000003, 949.3300000000004, 1023.0200000000004, 1099.4600000000005, 1178.6500000000005, 1260.5900000000006, 1345.2700000000007, 1432.7000000000007, 1522.8800000000008, 1615.8100000000009, 1711.490000000001, 1809.910000000001, 1911.080000000001, 2015.0000000000011, 2121.670000000001, 2231.080000000001, 2343.2400000000007, 2458.1500000000005, 2575.8100000000004, 2696.2200000000003, 2819.3700000000003, 2945.2700000000004, 3073.9200000000005, 3205.3200000000006, 3339.4600000000005, 3476.3500000000004, 3615.9900000000002, 3758.38, 3903.52, 4051.4, 4202.03, 4355.41, 4511.54, 4670.41, 4832.03, 4996.4, 5163.5199999999995, 5333.379999999999, 5505.989999999999, 5681.3499999999985, 5859.459999999998, 6040.319999999998, 6223.919999999998, 6410.269999999999, 6599.369999999999, 6791.219999999999, 6985.8099999999995, 7183.15, 7383.24, 7586.08, 7791.67, 8000.0
+                                ! The list of maximum depths for each interface.
+MAX_LAYER_THICKNESS_CONFIG = "FNC1:400,31000.0,0.1,.01" ! default = "NONE"
+                                ! Determines how to specify the maximum layer thicknesses.
+                                ! Valid options are:
+                                !  NONE        - there are no maximum layer thicknesses
+                                !  PARAM       - use the vector-parameter MAX_LAYER_THICKNESS
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,Z
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+!MAX_LAYER_THICKNESS = 400.0, 409.63, 410.32, 410.75, 411.07, 411.32, 411.52, 411.7, 411.86, 412.0, 412.13, 412.24, 412.35, 412.45, 412.54, 412.63, 412.71, 412.79, 412.86, 412.93, 413.0, 413.06, 413.12, 413.18, 413.24, 413.29, 413.34, 413.39, 413.44, 413.49, 413.54, 413.58, 413.62, 413.67, 413.71, 413.75, 413.78, 413.82, 413.86, 413.9, 413.93, 413.97, 414.0, 414.03, 414.06, 414.1, 414.13, 414.16, 414.19, 414.22, 414.24, 414.27, 414.3, 414.33, 414.35, 414.38, 414.41, 414.43, 414.46, 414.48, 414.51, 414.53, 414.55, 414.58, 414.6, 414.62, 414.65, 414.67, 414.69, 414.71, 414.73, 414.75, 414.77, 414.79, 414.83 !   [m]
+                                ! The list of maximum thickness for each layer.
+REMAPPING_SCHEME = "PPM_H4"     ! default = "PLM"
+                                ! This sets the reconstruction scheme used for vertical remapping for all
+                                ! variables. It can be one of the following schemes: PCM         (1st-order
+                                ! accurate)
+                                ! PLM         (2nd-order accurate)
+                                ! PPM_H4      (3rd-order accurate)
+                                ! PPM_IH4     (3rd-order accurate)
+                                ! PQM_IH4IH3  (4th-order accurate)
+                                ! PQM_IH6IH5  (5th-order accurate)
+
+! === module MOM_grid ===
+! Parameters providing information about the lateral grid.
+
+! === module MOM_state_initialization ===
+INIT_LAYERS_FROM_Z_FILE = True !   [Boolean] default = False
+                                ! If true, initialize the layer thicknesses, temperatures, and salinities from a
+                                ! Z-space file on a latitude-longitude grid.
+
+! === module MOM_initialize_layers_from_Z ===
+TEMP_SALT_Z_INIT_FILE = "MOM6_IC_TS.nc"  ! default = "temp_salt_z.nc"
+                                ! The name of the z-space input file used to initialize
+                                ! temperatures (T) and salinities (S). If T and S are not
+                                ! in the same file, TEMP_Z_INIT_FILE and SALT_Z_INIT_FILE
+                                ! must be set.
+Z_INIT_FILE_PTEMP_VAR = "temp"  ! default = "ptemp"
+                                ! The name of the potential temperature variable in
+                                ! TEMP_Z_INIT_FILE.
+Z_INIT_FILE_SALT_VAR = "salt"   ! default = "salt"
+                                ! The name of the salinity variable in
+                                ! SALT_Z_INIT_FILE.
+
+Z_INIT_ALE_REMAPPING = True     !   [Boolean] default = False
+                                ! If True, then remap straight to model coordinate from file.
+Z_INIT_REMAP_OLD_ALG = True     !   [Boolean] default = True
+                                ! If false, uses the preferred remapping algorithm for initialization. If true,
+                                ! use an older, less robust algorithm for remapping.
+! === MOM6 WarmStarts ===
+THICKNESS_CONFIG = "file"       ! default = "uniform"
+                                ! A string that determines how the initial layer thicknesses are specified for a
+                                ! new run:
+                                !     file - read interface heights from the file specified
+                                !       by (THICKNESS_FILE).
+                                !     thickness_file - read thicknesses from the file specified
+                                !       by (THICKNESS_FILE).
+                                !     mass_file - read thicknesses in units of mass per unit area from the file
+                                !       specified by (THICKNESS_FILE).
+                                !     coord - determined by ALE coordinate.
+                                !     uniform - uniform thickness layers evenly distributed
+                                !       between the surface and MAXIMUM_DEPTH.
+                                !     list - read a list of positive interface depths.
+                                !     DOME - use a slope and channel configuration for the
+                                !       DOME sill-overflow test case.
+                                !     ISOMIP - use a configuration for the
+                                !       ISOMIP test case.
+                                !     benchmark - use the benchmark test case thicknesses.
+                                !     Neverworld - use the Neverworld test case thicknesses.
+                                !     search - search a density profile for the interface
+                                !       densities. This is not yet implemented.
+                                !     circle_obcs - the circle_obcs test case is used.
+                                !     DOME2D - 2D version of DOME initialization.
+                                !     adjustment2d - 2D lock exchange thickness ICs.
+                                !     sloshing - sloshing gravity thickness ICs.
+                                !     seamount - no motion test with seamount ICs.
+                                !     dumbbell - sloshing channel ICs.
+                                !     soliton - Equatorial Rossby soliton.
+                                !     rossby_front - a mixed layer front in thermal wind balance.
+                                !     USER - call a user modified routine.
+
+THICKNESS_FILE = none !
+                                ! The name of the thickness file.
+ADJUST_THICKNESS = True         !   [Boolean] default = False
+                                ! If true, all mass below the bottom removed if the topography is shallower than
+                                ! the thickness input file would indicate.
+THICKNESS_TOLERANCE = 0.1       !   [m] default = 0.1
+                                ! A parameter that controls the tolerance when adjusting the thickness to fit
+                                ! the bathymetry. Used when ADJUST_THICKNESS=True.
+INTERFACE_IC_VAR = "eta"        ! default = "eta"
+                                ! The variable name for initial conditions for interface heights relative to
+                                ! mean sea level, positive upward unless otherwise rescaled.
+
+INTERFACE_IC_RESCALE = 1.0      !   [various] default = 1.0
+                                ! A factor by which to rescale the initial interface heights to convert them to
+                                ! units of m or correct sign conventions to positive upward.
+TS_CONFIG = "file"              !
+                                ! A string that determines how the initial temperatures and salinities are
+                                ! specified for a new run:
+                                !     file - read velocities from the file specified
+                                !       by (TS_FILE).
+                                !     fit - find the temperatures that are consistent with
+                                !       the layer densities and salinity S_REF.
+                                !     TS_profile - use temperature and salinity profiles
+                                !       (read from TS_FILE) to set layer densities.
+                                !     benchmark - use the benchmark test case T & S.
+                                !     linear - linear in logical layer space.
+                                !     DOME2D - 2D DOME initialization.
+                                !     ISOMIP - ISOMIP initialization.
+                                !     adjustment2d - 2d lock exchange T/S ICs.
+                                !     sloshing - sloshing mode T/S ICs.
+                                !     seamount - no motion test with seamount ICs.

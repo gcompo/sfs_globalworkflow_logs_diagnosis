@@ -1,0 +1,900 @@
+  0:  ufsatm_cap: field bundles in fcstComp export state, FBCount=            8
+  0:  af allco wrtComp,write_groups=           1
+144: NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+144:  &MPP_IO_NML
+144:  HEADER_BUFFER_VAL       =       16384,
+144:  GLOBAL_FIELD_ON_ROOT_PE = T,
+144:  IO_CLOCKS_ON    = F,
+144:  SHUFFLE =           0,
+144:  DEFLATE_LEVEL   =          -1,
+144:  CF_COMPLIANCE   = F
+144:  /
+144: NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+144: NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to 16000000.
+204: 
+204: WARNING from PE     0: read_vector_3d:The variable u has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+204: 
+204: WARNING from PE     0: read_vector_3d:The variable u has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+204: 
+204: WARNING from PE     0: read_vector_3d:The variable v has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+204: 
+204: WARNING from PE     0: read_vector_3d:The variable v has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+  0:  af wrtState reconcile, FBcount=           8
+  0:  computing regrid/redist routehandles
+  0:  FB:  1 atm_bilinear                     grid_id  1 output_grid: gaussian_grid            is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  1    0.332176
+  0:  FB:  2 restart_fv_core.res              grid_id  1 output_grid: restart_grid             is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  2    0.047831
+  0:  FB:  3 restart_fv_srf_wnd.res           grid_id  1 output_grid: restart_grid             is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  3    0.014636
+  0:  FB:  4 restart_fv_tracer.res            grid_id  1 output_grid: restart_grid             is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  4    0.017619
+  0:  FB:  5 restart_phy_data                 grid_id  1 output_grid: restart_grid             is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  5    0.026850
+  0:  FB:  6 restart_sfc_data                 grid_id  1 output_grid: restart_grid             is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  6    0.026893
+  0:  FB:  7 sfc_bilinear                     grid_id  1 output_grid: gaussian_grid            is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  7    0.190448
+  0:  FB:  8 sfc_nearest_stod                 grid_id  1 output_grid: gaussian_grid            is_moving:  F needs_dst_mask:  F
+  0:         done computing routehandle for field bundle:  8    0.086956
+  0:  done computing all routehandles:     0.743469
+  0:  in ufsatm_cap init, time wrtcrt/regrdst   1.06620888399993     
+  0:  in ufsatm cap init, output_startfh=   6.000000      iau_offset=           6
+  0:  output_fh=   6.000000       9.000000       12.00000       15.00000     
+  0:  lflname_fulltime= F
+  0:  fcst_advertise, cpl_grid_id=           1
+204: NOTE from PE     0: incupd using increments fields
+204:  MOM_in domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+204:  MOM_in domain decomposition
+204: whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+204:   X-AXIS =   72  72  72  72  72  72  72  72  72  72
+204:   Y-AXIS =   54  54  54  54  54  54  54  54  54  54
+204: 
+204: WARNING from PE     0: set_diffusivity_init: SIMPLE_TKE_TO_KD can not be used reliably with USE_REGRIDDING.
+204: 
+204: 
+204: WARNING from PE     0: set_diffusivity_init: SIMPLE_TKE_TO_KD can not be used reliably with USE_REGRIDDING.
+204: 
+204: 
+204: WARNING from PE     0: MOM_file_parser : ENERGYSAVEDAYS over-ridden.  Line: 'ENERGYSAVEDAYS = 0.125' in file INPUT/MOM_override.
+204: 
+204: 
+204: WARNING from PE     0: MOM_file_parser : ENERGYSAVEDAYS over-ridden.  Line: 'ENERGYSAVEDAYS = 0.125' in file INPUT/MOM_override.
+204: 
+204: 
+204: WARNING from PE     0: read_field_2d:time level specified, but the variable tideamp does not have an unlimited dimension in INPUT/tidal_amplitude.v20140616.nc
+204: 
+204: 
+204: WARNING from PE     0: read_field_2d:time level specified, but the variable tideamp does not have an unlimited dimension in INPUT/tidal_amplitude.v20140616.nc
+204: 
+204: NOTE from PE     0: You are using the legacy table.
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : THICKNESS_CONFIG = "file"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : THICKNESS_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : ADJUST_THICKNESS = True
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : THICKNESS_TOLERANCE = 0.1
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : INTERFACE_IC_VAR = "eta"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : THICKNESS_CONFIG = "file"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : THICKNESS_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : ADJUST_THICKNESS = True
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : THICKNESS_TOLERANCE = 0.1
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : INTERFACE_IC_VAR = "eta"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : INTERFACE_IC_RESCALE = 1.0
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : INTERFACE_IC_RESCALE = 1.0
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : TS_CONFIG = "file"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : TS_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : TEMP_IC_VAR = "Temp"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SALT_IC_VAR = "Salt"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : TS_CONFIG = "file"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : TS_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : TEMP_IC_VAR = "Temp"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SALT_IC_VAR = "Salt"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SALT_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SALT_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : VELOCITY_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : U_IC_VAR = "u"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : V_IC_VAR = "v"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : VELOCITY_FILE = none
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : U_IC_VAR = "u"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : V_IC_VAR = "v"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : WAVE_METHOD = "SURFACE_BANDS"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SURFBAND_SOURCE = "COUPLER"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : WAVE_METHOD = "SURFACE_BANDS"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SURFBAND_SOURCE = "COUPLER"
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : STK_BAND_COUPLER = 3
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SURFBAND_WAVENUMBERS = 0.04, 0.11, 0.3305
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : STK_BAND_COUPLER = 3
+204: 
+204: 
+204: WARNING from PE     0: Unused line in INPUT/MOM_input : SURFBAND_WAVENUMBERS = 0.04, 0.11, 0.3305
+204: 
+204: 
+204:             ======== COMPLETED MOM INITIALIZATION ========
+204: 
+  0:  fcst_realize, cpl_grid_id=           1
+  0:  zeroing coupling accumulated fields at kdt=           19
+  0:  zeroing coupling accumulated fields at kdt=           19
+204:  mesh file for mom6 domain is mesh.mx025.nc
+  0: -------->(med_phases_restart_read) mediating for: 2023  1 16  3  0  0   0
+  0:  Rayleigh_Super in sec tau=   518400.0      tau_w=   518400.0    
+  0:            1  1.2781460E-02
+  0:            2  2.0334043E-02
+  0:            3  3.1773422E-02
+  0:            4  4.8782814E-02
+  0:            5  7.3618531E-02
+  0:            6  0.1092587    
+  0:            7  0.1595392    
+  0:            8  0.2292877    
+  0:            9  0.3244748    
+  0:           10  0.4523215    
+  0:           11  0.6213929    
+  0:           12  0.8416426    
+  0:           13   1.124391    
+  0:           14   1.482229    
+  0:           15   1.928879    
+  0:           16   2.478976    
+  0:           17   3.147754    
+  0:           18   3.950707    
+  0:           19   4.903191    
+  0:           20   6.020020    
+  0:           21   7.315027    
+  0:           22   8.800694    
+  0:           23   10.48782    
+  0:           24   12.38528    
+  0:           25   14.49982    
+  0:           26   16.83605    
+  0:           27   19.39651    
+  0:           28   22.18178    
+  0:           29   25.19090    
+  0:           30   28.42169    
+  0:           31   31.87126    
+  0:           32   35.53666    
+  0:           33   39.41548    
+  0:           34   43.50648    
+  0:           35   47.81046    
+  0:           36   52.33090    
+  0:           37   57.07489    
+  0:           38   62.05362    
+  0:           39   67.28377    
+  0:           40   72.78607    
+  0:  Rayleigh_Super E-folding time (mb days):
+  0:            1  1.2781460E-02   6.027705    
+  0:            2  2.0334043E-02   6.235770    
+  0:            3  3.1773422E-02   6.652705    
+  0:            4  4.8782814E-02   7.306780    
+  0:            5  7.3618531E-02   8.254927    
+  0:            6  0.1092587       9.594194    
+  0:            7  0.1595392       11.48359    
+  0:            8  0.2292877       14.18656    
+  0:            9  0.3244748       18.15716    
+  0:           10  0.4523215       24.22192    
+  0:           11  0.6213929       34.00442    
+  0:           12  0.8416426       51.03804    
+  0:           13   1.124391       84.20146    
+  0:           14   1.482229       161.2108    
+  0:           15   1.928879       407.6900    
+  0:           16   2.478976       2176.623    
+204: MOM Date   2023/01/16 03:00:00      0: En 3.125759E-01, MaxCFL  0.49271, Mass 1.381866232783E+21, Salt  34.72437625370, Temp   3.75116082377
+204:     Total Energy: 44376A5878FFA98D  4.3193812150074717E+20
+204:     Total Mass:   1.3818662327827334E+21, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+204:     Total Salt:   4.7984442999424410E+19, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+204:     Total Heat:   2.0692941084627689E+25, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+  0:    Updating solar constant with cycle approx
+  0:     Opened solar constant data file: solarconstant_noaa_an.txt 
+  0:   CHECK: Solar constant data used for year        2023   1361.20000000000     
+  0:    1361.20000000000     
+  0: 0 FORECAST DATE          16 JAN.  2023 AT  3 HRS  0.00 MINS
+  0:   JULIAN DAY             2459960  PLUS   0.625000
+  0:   RADIUS VECTOR          0.9836756
+  0:   RIGHT ASCENSION OF SUN  19.8464940 HRS, OR  19 HRS  50 MINS  47.4 SECS
+  0:   DECLINATION OF THE SUN -20.9977494 DEGS, OR  -20 DEGS  59 MINS  51.9 SECS
+  0:   EQUATION OF TIME        -9.5467449 MINS, OR   -572.80 SECS, OR-0.041770 RADIANS
+  0:   SOLAR CONSTANT        1406.7539474 (DISTANCE AJUSTED)
+  0: 
+  0: 
+  0:     for cosz calculations: nswr,deltim,deltsw,dtswh =           6
+  0:    600.000000000000        3600.00000000000        1.00000000000000      
+  0:    anginc,nstp =  4.363323129985824E-002           6
+  0:     Opened co2 data file: co2historicaldata_2023.txt
+  0:         2023 
+  0:   MONTHLY CO2 (PPMV)   24  12  LON/LAT (N-S/0-360E) IN 15 DEGREE RESOLUTION,  GL
+  0:  B ANNUAL MEAN =   421.310000000000        GROWTH RATE =   2.68000000000000     
+  0:     Global annual mean CO2 data for year        2023  4.213100000000000E-004
+  0:   CHECK: Sample of selected months of CO2 data used for year:        2023
+  0:          Month =           1
+  0:   4.261800000000000E-004  4.309500000000000E-004  4.353700000000000E-004
+  0:   4.290500000000000E-004  4.242600000000000E-004  4.199400000000000E-004
+  0:   4.174200000000000E-004  4.170299999999999E-004  4.166400000000000E-004
+  0:   4.163900000000000E-004  4.161100000000000E-004  4.156399999999999E-004
+  0:          Month =           4
+  0:   4.287900000000000E-004  4.285500000000000E-004  4.279600000000000E-004
+  0:   4.280700000000000E-004  4.243900000000000E-004  4.194500000000000E-004
+  0:   4.157100000000000E-004  4.155100000000000E-004  4.155700000000000E-004
+  0:   4.160100000000000E-004  4.158500000000000E-004  4.154100000000000E-004
+  0:          Month =           7
+  0:   4.186600000000000E-004  4.177800000000000E-004  4.191300000000000E-004
+  0:   4.182100000000000E-004  4.179000000000000E-004  4.183900000000000E-004
+  0:   4.189500000000000E-004  4.184000000000000E-004  4.178399999999999E-004
+  0:   4.173100000000000E-004  4.168300000000000E-004  4.165200000000000E-004
+  0:          Month =          10
+  0:   4.221200000000000E-004  4.222900000000000E-004  4.244400000000000E-004
+  0:   4.233700000000000E-004  4.215600000000000E-004  4.201000000000000E-004
+  0:   4.190400000000000E-004  4.185899999999999E-004  4.183100000000000E-004
+  0:   4.181499999999999E-004  4.180600000000000E-004  4.179500000000000E-004
+  0:   ftsfl,falbl,faisl,fsnol,fzorl=   99999.0000000000       0.000000000000000E+000
+  0:    99999.0000000000        99999.0000000000       0.000000000000000E+000
+  0:   fsmcl=   99999.0000000000        99999.0000000000        99999.0000000000     
+  0:    99999.0000000000     
+  0:   fstcl=   99999.0000000000        99999.0000000000        99999.0000000000     
+  0:    99999.0000000000     
+  0:   ftsfs,falbs,faiss,fsnos,fzors=   10.0000000000000       0.000000000000000E+000
+  0:    99999.0000000000        99999.0000000000        99999.0000000000     
+  0:   fsmcs=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:   fstcs=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:   aislim=  0.150000000000000       sihnew=  0.200000000000000     
+  0:   isot=           1  ivegsrc=           1
+  0:   fnsotc =
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.soil_type.tileX.nc                                                   
+  0:                                                                                 
+  0:                                                                                 
+  0:                                                                                 
+  0:                                                                                 
+  0:                            
+  0:   imsk=        7200  jmsk=        3600  xdata=        7200  ydata=        3600
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_slmas
+  0:  k.t1534.3072.1536.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          78         255         128          81
+  0:            1           0         212           1           1
+  0:   kpds(11-20)=           0           0           4           0           1
+  0:           51           1           1           1           0
+  0:   kpds(21-  )=          20           1
+  0:  idim,jdim=        3072        1536  gaus= T  blno=  0.000000000000000E+000 
+  0:   blto=   89.9100000000000     
+  0:   
+  0:   lugb=        9998  len=        1536  lsoil=           4
+  0:  iy=        2023  im=           1  id=          16  ih=           0  fh=
+  0:    3.00000000000000       sig1t(1)=  0.000000000000000E+000  gausm= T  blnmsk=
+  0:   0.000000000000000E+000  bltmsk=   89.9100000000000     
+  0:   
+  0:   in fixrdc for mon=          -1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_glaci
+  0:  er.2x2.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_glaci
+  0:  er.2x2.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          80         255         128         238
+  0:            1           0           0           1           1
+  0:   kpds(11-20)=           0           0           4           0           1
+  0:           51           1           1           2           0
+  0:   kpds(21-  )=          20           1
+  0:   input grib file dates=           0           1           1           0
+  0:  imax,jmax,ijmax=         180          91       16380
+  0:   kgds( 1-12)=           0         180          91       90000           0
+  0:          128      -90000       -2000        2000        2000           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          180          91       16380   2.00000000000000     
+  0:   -2.00000000000000      T  0.000000000000000E+000   90.0000000000000     
+  0:   in fixrdc for mon=          -1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_maxic
+  0:  e.2x2.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_maxic
+  0:  e.2x2.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          80         255         128          91
+  0:            1           0           0           1           1
+  0:   kpds(11-20)=           0           0           4           0           1
+  0:           51           1           1           2           0
+  0:   kpds(21-  )=          20           1
+  0:   input grib file dates=           0           1           1           0
+  0:  imax,jmax,ijmax=         180          91       16380
+  0:   kgds( 1-12)=           0         180          91       90000           0
+  0:          128      -90000       -2000        2000        2000           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          180          91       16380   2.00000000000000     
+  0:   -2.00000000000000      T  0.000000000000000E+000   90.0000000000000     
+  0:  qc of maximum ice extent
+  0:  ==============
+  0:  climatology
+  0:  ==============
+  0:  bosu fh gt 0
+  0:   forecast jy,jm,jd,jh        2023           1          16           0
+  0:  forecast jy,jm,jd,jh=        2023           1          16           0
+  0:  rjday,mon1,mon2,wei1m,wei2m=   16.0000000000000                1           2
+  0:   0.983050847457627       1.694915254237284E-002
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7         120         173         128          11
+  0:            1           0          96           1          15
+  0:   kpds(11-20)=           0           0           1           0           0
+  0:           10           0           1           1           0
+  0:   kpds(21-  )=          20           2
+  0:   input grib file dates=          96           1          15           0
+  0:  imax,jmax,ijmax=        4320        2160     9331200
+  0:   kgds( 1-12)=           0        4320        2160       89958          42
+  0:          128      -89958         -42          83          83           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:         4320        2160     9331200  8.300000000000000E-002
+  0:  -8.300000000000000E-002 T  4.200000000000000E-002   89.9580000000000     
+  0:  i1,i2,j1,j2=        3662        3663        1498        1499
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          49  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.195036168490       outlat=  -34.8044257092705     
+  0:  i1,i2,j1,j2=        3667        3668        1495        1496
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          98  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.586427110870       outlat=  -34.6169296008278     
+  0:   unable to interpolate.  filled with nearest point value at           21  point
+  0:  s
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7         120         173         128          11
+  0:            1           0          96           1          15
+  0:   kpds(11-20)=           0           0           1           0           0
+  0:           10           0           1           1           0
+  0:   kpds(21-  )=          20           2
+  0:   input grib file dates=          96           2          15           0
+  0:  imax,jmax,ijmax=        4320        2160     9331200
+  0:   kgds( 1-12)=           0        4320        2160       89958          42
+  0:          128      -89958         -42          83          83           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:         4320        2160     9331200  8.300000000000000E-002
+  0:  -8.300000000000000E-002 T  4.200000000000000E-002   89.9580000000000     
+  0:  i1,i2,j1,j2=        3662        3663        1498        1499
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          49  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.195036168490       outlat=  -34.8044257092705     
+  0:  i1,i2,j1,j2=        3667        3668        1495        1496
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          98  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.586427110870       outlat=  -34.6169296008278     
+  0:   unable to interpolate.  filled with nearest point value at           21  point
+  0:  s
+  0:   forecast jy,jm,jd,jh,rjday=        2023           1          16           3
+  0:    16.1250000000000     
+  0:  forecast jy,jm,jd,jh=        2023           1          16           3
+  0:  rjday,mon1,mon2,wei1m,wei2m=   16.1250000000000                1           2
+  0:   0.978813559322034       2.118644067796616E-002
+  0:  rjday,sea1,sea2,wei1s,wei2s=   16.1250000000000                1           4
+  0:   0.993016759776536       6.983240223463638E-003
+  0:  rjday,hyr1,hyr2,wei1y,wei2y=   16.1250000000000                1           7
+  0:   0.996546961325967       3.453038674033126E-003
+  0:  bosu first time thru
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.facsf.tile1.nc
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.substrate_temperature.tile1.nc
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.vegetation_type.tile1.nc
+  0:  climatological vegetation type read in.
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.soil_type.tile1.nc
+  0:  climatological soil type read in.
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.soil_color.tile1.nc
+  0:  Soil color data name is
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.soil_color.tileX.nc                                                  
+  0:                                                                                 
+  0:                                                                                 
+  0:                                                                                 
+  0:                                                                                 
+  0:                            
+  0:  climatological soil color read in.
+  0:   in fixrdc_tile for mon=          99  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.vegetation_greenness.tile1.nc
+  0:  climatological shdmin read in.
+  0:   in fixrdc_tile for mon=          99  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.vegetation_greenness.tile1.nc
+  0:  climatological shdmax read in.
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.slope_type.tile1.nc
+  0:  climatological slope read in.
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.maximum_snow_albedo.tile1.nc
+  0:  climatological snoalb read in.
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7         120         173         128          11
+  0:            1           0          96           1          15
+  0:   kpds(11-20)=           0           0           1           0           0
+  0:           10           0           1           1           0
+  0:   kpds(21-  )=          20           2
+  0:   input grib file dates=          96           1          15           0
+  0:  imax,jmax,ijmax=        4320        2160     9331200
+  0:   kgds( 1-12)=           0        4320        2160       89958          42
+  0:          128      -89958         -42          83          83           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:         4320        2160     9331200  8.300000000000000E-002
+  0:  -8.300000000000000E-002 T  4.200000000000000E-002   89.9580000000000     
+  0:  i1,i2,j1,j2=        3662        3663        1498        1499
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          49  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.195036168490       outlat=  -34.8044257092705     
+  0:  i1,i2,j1,j2=        3667        3668        1495        1496
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          98  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.586427110870       outlat=  -34.6169296008278     
+  0:   unable to interpolate.  filled with nearest point value at           21  point
+  0:  s
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112          10          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           1           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112        2600          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           1           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112       10340          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           1           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112       25800          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           1           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/IMS-NIC.blen
+  0:  ded.ice.monthly.clim.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/IMS-NIC.blen
+  0:  ded.ice.monthly.clim.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7         120         255         192          91
+  0:          102           0          20           1           1
+  0:   kpds(11-20)=           0           0           1           0           0
+  0:           10          31           1           2           0
+  0:   kpds(21-  )=          21           2
+  0:   input grib file dates=          20           1           1           0
+  0:  imax,jmax,ijmax=        7200        3600    25920000
+  0:   kgds( 1-12)=           0        7200        3600       89975          25
+  0:          192      -89975      359975          50          50           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:         7200        3600    25920000  5.000000000000000E-002
+  0:  -5.000000000000000E-002 T  2.500000000000000E-002   89.9750000000000     
+  0:   in fixrdc for mon=           1  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_snocl
+  0:  im.1.875.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_snocl
+  0:  im.1.875.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          80         255         128          65
+  0:            1           0           0           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:           51           1           1           2           0
+  0:   kpds(21-  )=          20           1
+  0:   input grib file dates=           0           1           1           0
+  0:  imax,jmax,ijmax=         192          95       18240
+  0:   kgds( 1-12)=           0         192          95       88125           0
+  0:          128      -88125       -1875        1875        1875           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          192          95       18240   1.87500000000000     
+  0:   -1.87500000000000      T  0.000000000000000E+000   88.1250000000000     
+  0:  roughness length to be set from igbp veg type
+  0:   in fixrdc_tile for mon=           1  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.vegetation_greenness.tile1.nc
+  0:  climatological vegetation cover read in for mon=           1
+  0:   in fixrdc_tile for mon=           2  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc_tile for mon=           2  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc_tile for mon=           2  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc_tile for mon=           2  filename=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C
+  0:  192.mx025.snowfree_albedo.tile1.nc
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.
+  0:  2012.monthly.clim.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7         120         173         128          11
+  0:            1           0          96           1          15
+  0:   kpds(11-20)=           0           0           1           0           0
+  0:           10           0           1           1           0
+  0:   kpds(21-  )=          20           2
+  0:   input grib file dates=          96           2          15           0
+  0:  imax,jmax,ijmax=        4320        2160     9331200
+  0:   kgds( 1-12)=           0        4320        2160       89958          42
+  0:          128      -89958         -42          83          83           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  lat/lon grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:         4320        2160     9331200  8.300000000000000E-002
+  0:  -8.300000000000000E-002 T  4.200000000000000E-002   89.9580000000000     
+  0:  i1,i2,j1,j2=        3662        3663        1498        1499
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          49  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.195036168490       outlat=  -34.8044257092705     
+  0:  i1,i2,j1,j2=        3667        3668        1495        1496
+  0:  rslmsk=   1.00000000000000        1.00000000000000        1.00000000000000     
+  0:    1.00000000000000     
+  0:  i=          98  slmask(i)=  0.000000000000000E+000  outlon=
+  0:    305.586427110870       outlat=  -34.6169296008278     
+  0:   unable to interpolate.  filled with nearest point value at           21  point
+  0:  s
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112          10          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           2           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112        2600          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           2           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         584  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972401297345       outlat=  -31.9257448107419     
+  0:   unable to interpolate.  filled with nearest point value at           20  point
+  0:  s
+  0:   in fixrdc for mon=           2  fngrib=
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb
+  0:   file 
+  0:  /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilm
+  0:  gldas.statsgo.t382.768.384.grb opened. unit=        9998
+  0:   first grib record.
+  0:   kpds( 1-10)=           7          82         255         192         144
+  0:          112       10340          18           1           1
+  0:   kpds(11-20)=           0           0           3           0           1
+  0:            3          30           1           2           0
+  0:   kpds(21-  )=          21           4
+  0:   input grib file dates=          18           2           1           0
+  0:  imax,jmax,ijmax=         768         384      294912
+  0:   kgds( 1-12)=           4         768         384       89641           0
+  0:          128      -89641        -469         469         192           0
+  0:            0
+  0:   kgds(13-22)=          -1          -1          -1          -1          -1
+  0:           -1           0         255          -1          -1
+  0:  gaussian grid
+  0:  imax,jmax,ijmax,dlon,dlat,ijordr,wlon,rnlat=
+  0:          768         384      294912  0.469000000000000     
+  0:   -99.0000000000000      T  0.000000000000000E+000   99.0000000000000     
+  0:  i1,i2,j1,j2=         658         659         261         262
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0:   0.000000000000000E+000
+  0:  i=         536  slmask(i)=   1.00000000000000       outlon=
+  0:    307.972397525412       outlat=  -32.3013990879784     
+  0:  i1,i2,j1,j2=         658         659         260         261
+  0:  rslmsk=  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000

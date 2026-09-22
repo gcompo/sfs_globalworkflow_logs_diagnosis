@@ -1,0 +1,900 @@
+  0:  ice_wat  5.7132158E-04 -7.6229056E-21  2.1667063E-07
+  0:  rainwat  2.0224992E-03 -2.9625746E-21  1.5213013E-06
+  0:  snowwat  4.4114776E-03 -7.8331863E-21  2.5975980E-06
+  0:  graupel  4.3288345E-04 -2.6475337E-21  4.1396081E-08
+  0:  ice_nc  1.5710215E+07 -5.3842880E-10   12296.95    
+  0:  rain_nc   28308.86     -3.4105978E-13   46.61198    
+  0:  o3mr  1.8239925E-05  2.3348595E-13  5.2906973E-08
+  0:  sgs_tke   65.73398     -1.0245188E-16  0.9455341    
+  0:  sigmab  0.9567081      0.0000000E+00  3.8525935E-02
+  0:  U  max =    133.0915      min =   -137.1836    
+  0:  V  max =    190.0665      min =   -157.3824    
+  0:  W    2.144790     -0.9102752     -9.8086137E-04
+  0:  
+  0:  mp_top=           1 pfull=  1.2781459E-02
+  0:  Mean specific humidity (mg/kg) above 75 mb=   2.985818    
+  0:  Total surface pressure (mb) =    985.5213    
+  0:  mean dry surface pressure =    983.1999    
+  0:  Total Water Vapor (kg/m**2) =   23.56348    
+  0:  --- Micro Phys water substances (kg/m**2) ---
+  0:  Total cloud water=  4.9317077E-02
+  0:  Total rain  water=  3.9934474E-03
+  0:  Total cloud ice  =  1.6813749E-02
+  0:  Total snow       =  3.8308915E-02
+  0:  Total graupel    =  1.6236103E-04
+  0:  ---------------------------------------------
+  0: NOTE from PE     0: READING FROM SST_restart DISABLED
+  0: NOTE from PE     0: No adiabatic initialization correction in use
+  0:  NO FLAG: gwd is generic
+  0:  FLAG: satmedmf and isatedmf=1 so pbl not generic
+  0:  NO FLAG: scnv is generic
+  0:  NO FLAG: dcnv is generic
+  0:   model init,iaufhrs=   6.00000000000000       -1.00000000000000     
+  0:   -1.00000000000000       -1.00000000000000       -1.00000000000000     
+  0:   -1.00000000000000       -1.00000000000000     
+  0:  Reading in o3data from global_o3prdlos.f77 
+  0:        oz_coeff =            6
+  0:         latsozp =           71
+  0:          levozp =           53
+  0:          timeoz =           12
+  0:  in atm phys init, phour=   3.00000000000000      fhour=   3.16666666666667     
+  0:  zhour=   3.00000000000000      kdt=          19
+  0:   dxmax=   18.1991080870045       dxmin=   24.5164135836650       dxinv=
+  0:  -0.158295336600173      max_lon=        5000  max_lat=        2000  min_lon=
+  0:          192  min_lat=          94  rhc_max=  0.999999900000000       huge=
+  0:   9.969209968386869E+036
+  0:  New Noah MP Land Surface Model will be used
+  0:  The Physics options are
+  0:  iopt_dveg  =             4
+  0:  iopt_crs   =             2
+  0:  iopt_btr   =             1
+  0:  iopt_run   =             1
+  0:  iopt_sfc   =             3
+  0:  iopt_frz   =             1
+  0:  iopt_inf   =             1
+  0:  iopt_rad   =             3
+  0:  iopt_alb   =             1
+  0:  iopt_snf   =             4
+  0:  iopt_tbot   =             2
+  0:  iopt_stc   =             3
+  0:  iopt_trs   =             2
+  0:  iopt_diag  =             2
+  0:   nst_anl= T  use_ufo= T  frac_grid= T  ignore_lake= T  frac_ice= T
+  0:   min_lakeice=  0.150000000000000       min_seaice=  1.000000000000000E-006 
+  0:  min_lake_height=   250.000000000000     
+  0:  lake model parameters
+  0:   lake master flag lkm   :            0
+  0:   NSSTM is active 
+  0:   nstf_name(1)=           2
+  0:   nstf_name(2)=           0
+  0:   nstf_name(3)=           0
+  0:   nstf_name(4)=           0
+  0:   nstf_name(5)=           0
+  0:   scale & aerosol-aware mass-flux deep conv scheme
+  0:   update version (May 2019) of sale-aware TKE-based moist EDMF scheme used
+  0:   scale- & aerosol-aware mass-flux shallow conv scheme (2017)
+  0:  GSL unified oragraphic gravity wave drag parameterization used
+  0:   do_gwd= T
+  0:   exponential-decorr cloud overlap for Radiation IOVR=           3
+  0:   sub-grid cloud for Shortwave ISUBC_SW=           2
+  0:   sub-grid cloud for Longwave ISUBC_LW=           2
+  0:   Using Thompson/TEMPO double moment microphysics ltaerosol =  F  mraerosol =  F
+  0:   lthailaware =  F  ttendlim =  -999.000000000000       ext_diag_thompson = F 
+  0:   dt_inner =   300.000000000000       sedi_semi= T  decfl=          10  nt_c_l=
+  0:    150000000.000000       nt_c_o=   50000000.0000000       av_i=
+  0:   -999.000000000000       xnc_max=   1000000.00000000       ssati_min
+  0:   0.150000000000000       Nt_i_max   4999000.00000000       rr_min
+  0:    1000.00000000000       fs_fac_rain   1.00000000000000       fs_fac_snow
+  0:    1.00000000000000       effr_in = T  lradar = T  nsfullradar_diag =
+  0:   -999.000000000000       num_p3d =           3  num_p2d =           1
+  0:   num_p3d=           3  num_p2d=           1  crtrh=  0.900000000000000     
+  0:   0.900000000000000       0.900000000000000       npdf3d=           0  pdfcld= F
+  0:   shcnvcw= F  cnvcld= T  ncnvcld3d=           1  do_shoc= F  nshoc3d=
+  0:            0  nshoc_2d=           0  shoc_cld= F  nkbfshoc=        -999 
+  0:   nahdshoc=        -999  nscfshoc=        -999  xr_cnvcld= T  uni_cld= F  ntot3d
+  0:  =           4  ntot2d=           1  shocaftcnv= F  indcld=          -1 
+  0:   shoc_parm=   7000.00000000000        1.00000000000000     
+  0:    4.28571430000000       0.700000000000000       -999.000000000000       ncnvw=
+  0:            4  ncnvc=        -999
+  0:   
+  0:  basic control parameters
+  0:   me                :            0
+  0:   master            :            0
+  0:   communicator      :  -1006632868
+  0:   nlunit            :         9999
+  0:   fn_nml            : using internal file
+  0:   fhzero            :    6.00000000000000     
+  0:   fhzero_array      :   0.000000000000000E+000  0.000000000000000E+000
+  0:   fhzero_fhour      :   0.000000000000000E+000  0.000000000000000E+000
+  0:   n_diag_buckets    :            1
+  0:   ldiag3d           :  F
+  0:   qdiag3d           :  F
+  0:   lssav             :  F
+  0:   naux2d            :            0
+  0:   naux3d            :            0
+  0:   fhcyc             :    1.00000000000000     
+  0:   thermodyn_id      :            1
+  0:   sfcpress_id       :            1
+  0:   gen_coord_hybrid  :  F
+  0:   hydrostatic       :  F
+  0:   
+  0:  grid extent parameters (FV3)
+  0:   isc               :            1
+  0:   jsc               :            1
+  0:   nx                :           48
+  0:   ny                :           32
+  0:   levs              :          127
+  0:   cnx               :          192
+  0:   cny               :          192
+  0:   lonr              :          768
+  0:   latr              :          384
+  0:   
+  0:  coupling parameters
+  0:   cplflx            :  T
+  0:   cplice            :  T
+  0:   cplocn2atm        :  T
+  0:   cplwav            :  F
+  0:   cplwav2atm        :  F
+  0:   cplaqm            :  F
+  0:   cplcat            :  F
+  0:   cplchm            :  F
+  0:   cpllnd            :  F
+  0:   cpllnd2atm        :  F
+  0:   rrfs_sd           :  F
+  0:   cpl_fire          :  F
+  0:   use_cice_alb      :  T
+  0:   use_med_flux      :  F
+  0:   use_cdeps_inline  :  F
+  0:   
+  0:   lsidea            :  F
+  0:   
+  0:  calendars and time parameters and activation triggers
+  0:   dtp               :    600.000000000000     
+  0:   dtf               :    600.000000000000     
+  0:   frain             :    1.00000000000000     
+  0:   nscyc             :            6
+  0:   nszero            :           36
+  0:   idat              :         2023           1          16           0
+  0:            0           0           0           0
+  0:   idate             :            0           1          16        2023
+  0:   
+  0:  radiation control parameters
+  0:   fhswr             :    3600.00000000000     
+  0:   fhlwr             :    3600.00000000000     
+  0:   nsswr             :            6
+  0:   nslwr             :            6
+  0:   nhfrad            :            0
+  0:   levr              :          127
+  0:   nfxr              :           45
+  0:   ntrcaer           :           15
+  0:   lmfshal           :  T
+  0:   lmfdeep2          :  T
+  0:   nrcm              :            2
+  0:   iflip             :            1
+  0:   isol              :            2
+  0:   ico2              :            2
+  0:   ialb              :            2
+  0:   iems              :            2
+  0:   iaer              :         1011
+  0:   iaermdl           :            1
+  0:   iaerflg           :            0
+  0:   lalw1bd           :  F
+  0:   aeros_file        : aerosol.dat               
+  0:   solar_file        : solarconstant_noaa_a0.txt 
+  0:   semis_file        : sfc_emissivity_idx.txt    
+  0:   icliq_sw          :            2
+  0:   icice_sw          :            3
+  0:   icliq_lw          :            1
+  0:   icice_lw          :            3
+  0:   iovr              :            3
+  0:   idcor             :            1
+  0:   dcorr_con         :    2.50000000000000     
+  0:   ictm              :            1
+  0:   isubc_sw          :            2
+  0:   isubc_lw          :            2
+  0:   iswmode           :            2
+  0:   lcrick            :  F
+  0:   lcnorm            :  F
+  0:   lnoprec           :  F
+  0:   lwhtr             :  T
+  0:   swhtr             :  T
+  0:   rad_hr_units      :            2
+  0:   inc_minor_gas     :  T
+  0:   ipsd0             :            0
+  0:   ipsdlim           :    100000000
+  0:   lrseeds           :  F
+  0:   nrstreams         :            2
+  0:   lextop            :  F
+  0:   xr_con            :    2000.00000000000     
+  0:   xr_exp            :   0.250000000000000     
+  0:   
+  0:  microphysical switch
+  0:   imp_physics       :            8
+  0:   
+  0:   Thompson microphysical parameters
+  0:   ltaerosol         :  F
+  0:   mraerosol         :  F
+  0:   lthailaware       :  F
+  0:   lradar            :  T
+  0:   nsfullradar_diag  :   -999.000000000000     
+  0:   lrefres           :  F
+  0:   ttendlim          :   -999.000000000000     
+  0:   ext_diag_thompson :  F
+  0:   dt_inner          :    300.000000000000     
+  0:   sedi_semi         :  T
+  0:   decfl             :           10
+  0:   nt_c_l            :    150000000.000000     
+  0:   nt_c_o            :    50000000.0000000     
+  0:   av_i              :   -999.000000000000     
+  0:   xnc_max           :    1000000.00000000     
+  0:   ssati_min         :   0.150000000000000     
+  0:   Nt_i_max          :    4999000.00000000     
+  0:   rr_min            :    1000.00000000000     
+  0:   fs_fac_rain       :    1.00000000000000     
+  0:   fs_fac_snow       :    1.00000000000000     
+  0:   
+  0:  land/surface model parameters
+  0:   lsm               :            2
+  0:   lsoil             :            4
+  0:   rdlai             :  F
+  0:   lsoil_lsm         :            4
+  0:   lsnow_lsm         :            3
+  0:   lsnow_lsm_lbound  :           -2
+  0:   lsnow_lsm_ubound  :            0
+  0:   zs  (may be unset):  -0.100000000000000      -0.400000000000000     
+  0:   -1.00000000000000       -2.00000000000000     
+  0:   dzs (may be unset):   0.100000000000000       0.300000000000000     
+  0:   0.600000000000000        1.00000000000000     
+  0:   iopt_thcnd        :            1
+  0:   ua_phys           :  F
+  0:   usemonalb         :  T
+  0:   aoasis            :    1.00000000000000     
+  0:   fasdas            :            0
+  0:   kice              :            2
+  0:   shape(pores)      :           30
+  0:   shape(resid)      :           30
+  0:   ivegsrc           :            1
+  0:   nvegcat           :           20
+  0:   isot              :            1
+  0:   nsoilcat          :           16
+  0:   Noah MP LSM is used, the options are
+  0:   iopt_dveg         :            4
+  0:   iopt_crs          :            2
+  0:   iopt_btr          :            1
+  0:   iopt_run          :            1
+  0:   iopt_sfc          :            3
+  0:   iopt_frz          :            1
+  0:   iopt_inf          :            1
+  0:   iopt_rad          :            3
+  0:   iopt_alb          :            1
+  0:   iopt_snf          :            4
+  0:   iopt_tbot         :            2
+  0:   iopt_stc          :            3
+  0:   iopt_trs          :            2
+  0:   iopt_diag         :            2
+  0:   use_ufo           :  T
+  0:   lcurr_sf          :  F
+  0:   pert_cd           :  F
+  0:   ntsflg            :            0
+  0:   sfenth            :   0.000000000000000E+000
+  0:   
+  0:  flake model parameters
+  0:  lkm                :            0
+  0:   
+  0:  tuning parameters for physical parameterizations
+  0:   ras               :  F
+  0:   flipv             :  T
+  0:   trans_trac        :  T
+  0:   old_monin         :  F
+  0:   do_gwd            :  T
+  0:   cnvgwd            :  T
+  0:   do_cnvgwd         :  F
+  0:   mstrat            :  F
+  0:   moist_adj         :  F
+  0:   cscnv             :  F
+  0:   cal_pre           :  F
+  0:   do_aw             :  F
+  0:   flx_form          :  F
+  0:   do_shoc           :  F
+  0:   shoc_parm         :    7000.00000000000        1.00000000000000     
+  0:    4.28571430000000       0.700000000000000       -999.000000000000     
+  0:   shocaftcnv        :  F
+  0:   shoc_cld          :  F
+  0:   uni_cld           :  F
+  0:   oz_phys           :  F
+  0:   oz_phys_2015      :  T
+  0:   h2o_phys          :  T
+  0:   pdfcld            :  F
+  0:   shcnvcw           :  F
+  0:   redrag            :  T
+  0:   hybedmf           :  F
+  0:   satmedmf          :  T
+  0:   tte_edmf          :  T
+  0:   isatmedmf         :            1
+  0:   shinhong          :  F
+  0:   do_ysu            :  F
+  0:   dspheat           :  T
+  0:   sa3dtke           :  F
+  0:   lheatstrg         :  F
+  0:   lseaspray         :  T
+  0:   cnvcld            :  T
+  0:   random_clds       :  F
+  0:   shal_cnv          :  T
+  0:   imfshalcnv        :            2
+  0:   imfdeepcnv        :            2
+  0:   do_deep           :  T
+  0:   conv_cf_opt        :            0
+  0:   nmtvr             :           24
+  0:   jcap              :            1
+  0:   cscale            :   0.200000000000000     
+  0:   cs_parm           :    8.00000000000000        4.00000000000000     
+  0:    1000.00000000000        3500.00000000000        20.0000000000000     
+  0:    1.00000000000000       -999.000000000000        1.00000000000000     
+  0:   0.600000000000000       0.000000000000000E+000
+  0:   flgmin            :   0.180000000000000       0.220000000000000     
+  0:   cgwf              :   0.500000000000000       5.000000000000000E-002
+  0:   ccwf              :    1.00000000000000        1.00000000000000     
+  0:   cdmbgwd           :    10.0000000000000        3.50000000000000     
+  0:    1.00000000000000        1.00000000000000     
+  0:   alpha_fd          :    35.0000000000000     
+  0:   psl_gwd_dx_factor :    6.00000000000000     
+  0:   sup               :    1.00000000000000     
+  0:   ctei_rm           :    10.0000000000000        10.0000000000000     
+  0:   crtrh             :   0.900000000000000       0.900000000000000     
+  0:   0.900000000000000     
+  0:   dlqf              :   0.150000000000000       0.150000000000000     
+  0:   seed0             :            0
+  0:   rbcr              :   0.250000000000000     
+  0:   do_mynnedmf       :  F
+  0:   do_mynnsfclay     :  F
+  0:   diag_flux         :  F
+  0:   diag_log          :  F
+  0:   do_myjsfc         :  F
+  0:   do_myjpbl         :  F
+  0:   do_ugwp           :  F
+  0:   gwd_opt           :            2
+  0:   do_ugwp_v0           :  F
+  0:   do_ugwp_v0_orog_only :  F
+  0:   do_ugwp_v0_nst_only  :  F
+  0:   do_gsl_drag_ls_bl    :  T
+  0:   do_gsl_drag_ss       :  F
+  0:   do_gsl_drag_tofd     :  T
+  0:   do_gwd_opt_psl       :  F
+  0:   do_ugwp_v1           :  T
+  0:   do_ngw_ec            :  T
+  0:   do_ugwp_v1_orog_only :  F
+  0:   do_ugwp_v1_w_gsldrag :  F
+  0:   hurr_pbl          :  F
+  0:   var_ric           :    1.00000000000000     
+  0:   coef_ric_l        :   0.160000000000000     
+  0:   coef_ric_s        :   0.250000000000000     
+  0:   
+  0:  Rayleigh friction
+  0:   prslrd0           :   0.000000000000000E+000
+  0:   ral_ts            :   0.000000000000000E+000
+  0:   
+  0:  mass flux deep convection
+  0:   clam_deep         :   0.100000000000000     
+  0:   c0s_deep          :   2.000000000000000E-003
+  0:   c1_deep           :   2.000000000000000E-003
+  0:   betal_deep        :   5.000000000000000E-002
+  0:   betas_deep        :   5.000000000000000E-002
+  0:   evef              :   9.000000000000000E-002
+  0:   evfact_deep       :   0.300000000000000     
+  0:   evfactl_deep      :   0.300000000000000     
+  0:   pgcon_deep        :   0.550000000000000     
+  0:   asolfac_deep      :   0.958000000000000     
+  0:   cat_adj_deep      :    1.00000000000000     
+  0:   
+  0:  mass flux shallow convection
+  0:   clam_shal         :   0.300000000000000     
+  0:   c0s_shal          :   2.000000000000000E-003
+  0:   c1_shal           :   5.000000000000000E-004
+  0:   pgcon_shal        :   0.550000000000000     
+  0:   asolfac_shal      :   0.958000000000000     
+  0:   cat_adj_shal      :    1.00000000000000     
+  0:   
+  0:  near surface sea temperature model
+  0:   nst_anl           :  T
+  0:   nstf_name         :            2           0           0           0
+  0:            0
+  0:   lsea              :            0
+  0:   
+  0:  surface layer options
+  0:   sfc_z0_type       :            0
+  0:   use_oceanuv       :  F
+  0:   
+  0:  vertical diffusion coefficients
+  0:   xkzm_m            :    1.00000000000000     
+  0:   xkzm_h            :    1.00000000000000     
+  0:   xkzm_s            :    1.00000000000000     
+  0:   xkzminv           :   0.300000000000000     
+  0:   moninq_fac        :    1.00000000000000     
+  0:   dspfac            :    1.00000000000000     
+  0:   bl_upfr           :   0.130000000000000     
+  0:   bl_dnfr           :   0.100000000000000     
+  0:   rlmx              :    300.000000000000     
+  0:   elmx              :    300.000000000000     
+  0:   sfc_rlm           :            0
+  0:   tc_pbl            :            0
+  0:   use_lpt           :            0
+  0:   
+  0:  parameters for canopy heat storage parametrization
+  0:   h0facu            :   0.250000000000000     
+  0:   h0facs            :    1.00000000000000     
+  0:   
+  0:  stochastic physics
+  0:   do_sppt           :  F
+  0:   pert_mp         :  F
+  0:   pert_clds       :  F
+  0:   pert_radtend    :  F
+  0:   do_shum           :  F
+  0:   do_skeb           :  F
+  0:   lndp_type         :            0
+  0:   n_var_lndp        :            0
+  0:   lndp_each_step    :  F
+  0:   do_spp            :  F
+  0:   n_var_spp         :            0
+  0:   
+  0:  convection
+  0:  betascu            :    8.00000000000000     
+  0:  betamcu            :    1.00000000000000     
+  0:  betadcu            :    2.00000000000000     
+  0:  sigmab_coldstart   :  F
+  0:   
+  0:  cellular automata
+  0:   nca               :            1
+  0:   ncells            :            5
+  0:   nlives            :           12
+  0:   nca_g             :            0
+  0:   ncells_g          :            1
+  0:   nlives_g          :          100
+  0:   nfracseed         :   0.500000000000000     
+  0:   nseed_g           :          100
+  0:   nseed             :            1
+  0:   ca_global         :  F
+  0:   ca_sgs            :  T
+  0:   do_ca             :  T
+  0:   ca_advect         :  F
+  0:   iseed_ca          :              820105278
+  0:   ca_smooth         :  F
+  0:   nspinup           :            1
+  0:   nthresh           :    18.0000000000000     
+  0:   ca_amplitude      :   0.350000000000000     
+  0:   nsmooth           :          100
+  0:   ca_closure        :  F
+  0:   ca_entr           :  F
+  0:   ca_trigger        :  T
+  0:   
+  0:  tracers
+  0:   tracer_names      : sphum                           
+  0:  liq_wat                         ice_wat                         
+  0:  rainwat                         snowwat                         
+  0:  graupel                         ice_nc                          
+  0:  rain_nc                         o3mr                            
+  0:  sgs_tke                         sigmab                          
+  0:   ntrac             :           11
+  0:   nqrimef           :          -99
+  0:   ntqv              :            1
+  0:   ntoz              :            9
+  0:   ntno2             :            0
+  0:   ntno              :            0
+  0:   nto3              :            0
+  0:   ntcw              :            2
+  0:   ntiw              :            3
+  0:   ntrw              :            4
+  0:   ntsw              :            5
+  0:   ntgl              :            6
+  0:   nthl              :          -99
+  0:   ntclamt           :          -99
+  0:   ntlnc             :          -99
+  0:   ntinc             :            7
+  0:   ntrnc             :            8
+  0:   ntsnc             :          -99
+  0:   ntgnc             :          -99
+  0:   nthnc             :          -99
+  0:   ntccn             :          -99
+  0:   ntccna            :          -99
+  0:   ntgv              :          -99
+  0:   nthv              :          -99
+  0:   ntrz              :          -99
+  0:   ntgz              :          -99
+  0:   nthz              :          -99
+  0:   ntke              :           10
+  0:   ntsigma           :           11
+  0:   ntomega           :          -99
+  0:   nto               :            0
+  0:   nto2              :            0
+  0:   ntwa              :          -99
+  0:   ntia              :          -99
+  0:   ntfsmoke          :            0
+  0:   ntsmoke           :            0
+  0:   ntdust            :            0
+  0:   ntcoarsepm        :            0
+  0:   nchem             :            0
+  0:   ndvel             :            0
+  0:   ntchm             :            0
+  0:   ntchs             :          -99
+  0:   ntche             :          -99
+  0:   ndchm             :            0
+  0:   ndchs             :          -99
+  0:   ndche             :          -99
+  0:   fscav             : 
+  0:   
+  0:  derived totals for phy_f*d
+  0:   ntot2d            :            1
+  0:   ntot3d            :            4
+  0:   num_p2d           :            1
+  0:   num_p3d           :            3
+  0:   nshoc_2d          :            0
+  0:   nshoc_3d          :            0
+  0:   ncnvcld3d         :            1
+  0:   npdf3d            :            0
+  0:   nctp              :            0
+  0:   nkbfshoc          :         -999
+  0:   nahdshoc          :         -999
+  0:   nscfshoc          :         -999
+  0:   
+  0:  debug flags
+  0:   debug             :  F
+  0:   pre_rad           :  F
+  0:   
+  0:  variables modified at each time step
+  0:   ipt               :            1
+  0:   lprnt             :  F
+  0:   lsswr             :  F
+  0:   lslwr             :  F
+  0:   solhr             :   -9999.00000000000     
+  0:   solcon            :   -9999.00000000000     
+  0:   slag              :   -9999.00000000000     
+  0:   sdec              :   -9999.00000000000     
+  0:   cdec              :   -9999.00000000000     
+  0:   clstp             :   -9999.00000000000     
+  0:   phour             :    3.00000000000000     
+  0:   fhour             :    3.16666666666667     
+  0:   zhour             :    3.00000000000000     
+  0:   kdt               :           19
+  0:   jdat              :         2023           1          16           0
+  0:            3           0           0           0
+  0:   si                :    1.00000000000000       0.997528171010504     
+  0:   0.994907626966057       0.992130130528982       0.989187277888729     
+  0:   0.986070383444211       0.982770282805349       0.979277571744755     
+  0:   0.975582427258355       0.971674739897534       0.967544080871402     
+  0:   0.963179800751764       0.958571080053299       0.953706779906056     
+  0:   0.948575631307435       0.943166274950776       0.937467231927173     
+  0:   0.931467132373091       0.925154478299479       0.918517999566635     
+  0:   0.911546617229852       0.904229462936050       0.896556126320339     
+  0:   0.888516559529414       0.880101520601538       0.871302203727619     
+  0:   0.862110777445435       0.852520262357281       0.842524899544132     
+  0:   0.832119939161636       0.821302161165424       0.810069634420674     
+  0:   0.798422142312000       0.786361140517125       0.773889911095153     
+  0:   0.761013778589588       0.747739934134509       0.734077857510209     
+  0:   0.720039061223354       0.705637335524051       0.690888729129813     
+  0:   0.675811399323914       0.660425735984860       0.644754308064926     
+  0:   0.628821639626245       0.612654154542217       0.596280069078379     
+  0:   0.579729127086930       0.563032506156064       0.546222460730961     
+  0:   0.529332266815185       0.512395738020321       0.495447185100595     
+  0:   0.478520973220262       0.461651322837136       0.444872004567912     
+  0:   0.428216151486840       0.411715854945179       0.395402067166287     
+  0:   0.379304325913558       0.363450561593891       0.347866945510831     
+  0:   0.332577674205834       0.317604929949544       0.302968779030236     
+  0:   0.288687104219600       0.274775566220676       0.261247552812069     
+  0:   0.248114324785109       0.235384825585279       0.223065665348516     
+  0:   0.211161213389435       0.199674016520641       0.188604751580140     
+  0:   0.177952399462064       0.167714393958685       0.157886658757076     
+  0:   0.148463882139208       0.139439513478345       0.130805950252988     
+  0:   0.122554716465002       0.114676466757733       0.107161230480356     
+  0:   9.999847522115983E-002  9.317715263642486E-002  8.668591030561897E-002
+  0:   8.051311555395080E-002  7.464694005795250E-002  6.907545034653749E-002
+  0:   6.378414497784386E-002  5.875063248360210E-002  5.395580549401686E-002
+  0:   4.938608886136722E-002  4.503258669545338E-002  4.089026313210482E-002
+  0:   3.695715683474986E-002  3.323362681954228E-002  2.972159587098355E-002
+  0:   2.642387829019864E-002  2.334346186262844E-002  2.048296571954249E-002
+  0:   1.784403434768548E-002  1.542694724956638E-002  1.323022137523451E-002
+  0:   1.125036535283193E-002  9.481810817718400E-003  7.916831091698315E-003
+  0:   6.545705029319050E-003  5.356904356837127E-003  4.337392751950344E-003
+  0:   3.472967993420848E-003  2.748677600582032E-003  2.149224232451783E-003
+  0:   1.659389609910713E-003  1.264369738000113E-003  9.501203686135573E-004
+  0:   7.036240037018729E-004  5.130571299370617E-004  3.678990228948089E-004
+  0:   2.590106959716909E-004  1.786052710109070E-004  1.201887007294877E-004
+  0:   7.844143005162349E-005  4.911965348939734E-005  2.886779028713346E-005
+  0:   1.512968336076114E-005  5.980814024497118E-006  0.000000000000000E+000
+  0:   sec               :   0.000000000000000E+000
+  0:   first_time_step   :  T
+  0:   restart           :  T
+  0:   lsm_cold_start    :  F
+  0:   do_canopy         :  F
+  0:   
+  0:  lightning threat indexes
+  0:   lightning_threat  :  F
+  0:  land_iau_nml
+  0:  &LAND_IAU_NML
+  0:  DO_LAND_IAU     = F,
+  0:  LAND_IAU_DELTHRS        =  0.000000000000000E+000,
+  0:  LAND_IAU_INC_FILES      =                                                                                                           
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                                      
+  0:                                                                                                                            ,
+  0:  LAND_IAU_FHRS   = 7*-1.00000000000000       ,
+  0:  LAND_IAU_FILTER_INCREMENTS      = F,
+  0:  LSOIL_INCR      =           4,
+  0:  LAND_IAU_UPD_STC        = F,
+  0:  LAND_IAU_UPD_SLC        = F,
+  0:  LAND_IAU_DO_STCSMC_ADJUSTMENT   = F,
+  0:  LAND_IAU_MIN_T_INCREMENT        =  1.000000000000000E-004,
+  0:  LAND_IAU_MIN_SLC_INCREMENT      =  1.000000000000000E-006
+  0:  /
+  0:  in iau_initincrement.atm.i006.nc   6.00000000000000     
+  0:            1 increment.atm.i006.nc
+  0:  nfiles =            1
+  0:  iau interval =    6.00000000000000       hours
+  0:  INPUT/increment.atm.i006.nc                                                    
+  0:                                                    DA increment dimensions:
+  0:          768         384         127
+  0:  filter wts           1         -18 -1.538939656700184E-009
+  0:  filter wts           2         -17  6.760516523752372E-003
+  0:  filter wts           3         -16  2.203417763130849E-002
+  0:  filter wts           4         -15  4.729689400526024E-002
+  0:  filter wts           5         -14  8.360887361258310E-002
+  0:  filter wts           6         -13  0.131493835180182     
+  0:  filter wts           7         -12  0.190845740635352     
+  0:  filter wts           8         -11  0.260873443199678     
+  0:  filter wts           9         -10  0.340088442005517     
+  0:  filter wts          10          -9  0.426339389293273     
+  0:  filter wts          11          -8  0.516893373581475     
+  0:  filter wts          12          -7  0.608560898827191     
+  0:  filter wts          13          -6  0.697856805994154     
+  0:  filter wts          14          -5  0.781187300009671     
+  0:  filter wts          15          -4  0.855052285848413     
+  0:  filter wts          16          -3  0.916247509465386     
+  0:  filter wts          17          -2  0.962054403586857     
+  0:  filter wts          18          -1  0.990403457164598     
+  0:  filter wts          19           0   1.00000000000000     
+  0:  filter wts          20           1  0.990403457164598     
+  0:  filter wts          21           2  0.962054403586857     
+  0:  filter wts          22           3  0.916247509465386     
+  0:  filter wts          23           4  0.855052285848413     
+  0:  filter wts          24           5  0.781187300009671     
+  0:  filter wts          25           6  0.697856805994154     
+  0:  filter wts          26           7  0.608560898827191     
+  0:  filter wts          27           8  0.516893373581475     
+  0:  filter wts          28           9  0.426339389293273     
+  0:  filter wts          29          10  0.340088442005517     
+  0:  filter wts          30          11  0.260873443199678     
+  0:  filter wts          31          12  0.190845740635352     
+  0:  filter wts          32          13  0.131493835180182     
+  0:  filter wts          33          14  8.360887361258310E-002
+  0:  filter wts          34          15  4.729689400526024E-002
+  0:  filter wts          35          16  2.203417763130849E-002
+  0:  filter wts          36          17  6.760516523752372E-003
+  0:  filter wts          37          18 -1.538939656700184E-009
+  0:  warning: no increment for ice_wat_inc found, assuming zero
+  0:  warning: no increment for rainwat_inc found, assuming zero
+  0:  warning: no increment for snowwat_inc found, assuming zero
+  0:  warning: no increment for graupel_inc found, assuming zero
+  0:  warning: no increment for ice_nc_inc found, assuming zero
+  0:  warning: no increment for rain_nc_inc found, assuming zero
+  0:  warning: no increment for sgs_tke_inc found, assuming zero
+  0:  warning: no increment for sigmab_inc found, assuming zero
+  0:  in setiauforcing  4.6296296E-05
+  0:  in fv3atm_diag_register, nrgst_bl=          59  nrgst_nb=         222 
+  0:   nrgst_vctbl=           2 hist%isco=           1          48 hist%jsco=
+  0:            1          32  hist%num_axes_phys=           3
+  0: NOTE from PE     0: reading topographic/orographic information from INPUT/oro_data.tile*.nc
+  0: NOTE from PE     0: reading topographic/orographic information from INPUT/oro_data_ls.tile*.nc
+  0: NOTE from PE     0: reading topographic/orographic information from INPUT/oro_data_ss.tile*.nc
+  0: NOTE from PE     0: reading surface properties data from INPUT/sfc_data.tile*.nc
+  0: NOTE from PE     0: gfs_driver:: - after put to container
+  0: NOTE from PE     0: reading physics restart data from INPUT/phy_data.tile*.nc
+120:  CA cubic mosaic domain decomposition
+120: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+120:   X-AXIS =  240 240 240 240
+120:   Y-AXIS =  160 160 160 160 160 160
+ 72:  CA cubic mosaic domain decomposition
+ 72: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 72:   X-AXIS =  240 240 240 240
+ 72:   Y-AXIS =  160 160 160 160 160 160
+ 48:  CA cubic mosaic domain decomposition
+ 48: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 48:   X-AXIS =  240 240 240 240
+ 48:   Y-AXIS =  160 160 160 160 160 160
+ 24:  CA cubic mosaic domain decomposition
+ 24: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 24:   X-AXIS =  240 240 240 240
+ 24:   Y-AXIS =  160 160 160 160 160 160
+ 96:  CA cubic mosaic domain decomposition
+ 96: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 96:   X-AXIS =  240 240 240 240
+ 96:   Y-AXIS =  160 160 160 160 160 160
+  0:  CA cubic mosaic domain decomposition
+  0: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+  0:   X-AXIS =  240 240 240 240
+  0:   Y-AXIS =  160 160 160 160 160 160
+  0: NOTE from PE     0: reading CA_sgs restart data from INPUT/ca_data.tile*.nc
+  0:   In rad_initialize (GFS_rrtmg_setup_init), before calling RRTMG initialization
+  0:   si =   1.00000000000000       0.997528171010504       0.994907626966057     
+  0:   0.992130130528982       0.989187277888729       0.986070383444211     
+  0:   0.982770282805349       0.979277571744755       0.975582427258355     
+  0:   0.971674739897534       0.967544080871402       0.963179800751764     
+  0:   0.958571080053299       0.953706779906056       0.948575631307435     
+  0:   0.943166274950776       0.937467231927173       0.931467132373091     
+  0:   0.925154478299479       0.918517999566635       0.911546617229852     
+  0:   0.904229462936050       0.896556126320339       0.888516559529414     
+  0:   0.880101520601538       0.871302203727619       0.862110777445435     
+  0:   0.852520262357281       0.842524899544132       0.832119939161636     
+  0:   0.821302161165424       0.810069634420674       0.798422142312000     
+  0:   0.786361140517125       0.773889911095153       0.761013778589588     
+  0:   0.747739934134509       0.734077857510209       0.720039061223354     
+  0:   0.705637335524051       0.690888729129813       0.675811399323914     
+  0:   0.660425735984860       0.644754308064926       0.628821639626245     
+  0:   0.612654154542217       0.596280069078379       0.579729127086930     
+  0:   0.563032506156064       0.546222460730961       0.529332266815185     
+  0:   0.512395738020321       0.495447185100595       0.478520973220262     
+  0:   0.461651322837136       0.444872004567912       0.428216151486840     
+  0:   0.411715854945179       0.395402067166287       0.379304325913558     
+  0:   0.363450561593891       0.347866945510831       0.332577674205834     
+  0:   0.317604929949544       0.302968779030236       0.288687104219600     
+  0:   0.274775566220676       0.261247552812069       0.248114324785109     
+  0:   0.235384825585279       0.223065665348516       0.211161213389435     
+  0:   0.199674016520641       0.188604751580140       0.177952399462064     
+  0:   0.167714393958685       0.157886658757076       0.148463882139208     
+  0:   0.139439513478345       0.130805950252988       0.122554716465002     
+  0:   0.114676466757733       0.107161230480356       9.999847522115983E-002
+  0:   9.317715263642486E-002  8.668591030561897E-002  8.051311555395080E-002
+  0:   7.464694005795250E-002  6.907545034653749E-002  6.378414497784386E-002
+  0:   5.875063248360210E-002  5.395580549401686E-002  4.938608886136722E-002
+  0:   4.503258669545338E-002  4.089026313210482E-002  3.695715683474986E-002
+  0:   3.323362681954228E-002  2.972159587098355E-002  2.642387829019864E-002
+  0:   2.334346186262844E-002  2.048296571954249E-002  1.784403434768548E-002
+  0:   1.542694724956638E-002  1.323022137523451E-002  1.125036535283193E-002
+  0:   9.481810817718400E-003  7.916831091698315E-003  6.545705029319050E-003
+  0:   5.356904356837127E-003  4.337392751950344E-003  3.472967993420848E-003
+  0:   2.748677600582032E-003  2.149224232451783E-003  1.659389609910713E-003
+  0:   1.264369738000113E-003  9.501203686135573E-004  7.036240037018729E-004
+  0:   5.130571299370617E-004  3.678990228948089E-004  2.590106959716909E-004
+  0:   1.786052710109070E-004  1.201887007294877E-004  7.844143005162349E-005
+  0:   4.911965348939734E-005  2.886779028713346E-005  1.512968336076114E-005
+  0:   5.980814024497118E-006  0.000000000000000E+000
+  0:   levr=         127  ictm=           1  isol=           2  ico2=           2 
+  0:   iaermdl=           1  iaerflg=          11
+  0:   np3d=           3  ntoz=           9  iovr=           3  isubcsw=           2 
+  0:   isubclw=           2  icliq_sw=           2  iflip=           1   mpirank=
+  0:            0
+  0:   lcrick= F  lcnorm= F  lnoprec= F
+  0:  lextop= F  ltp=           0
+  0:  NCEP-Radiation_astronomy v5.2  Jan 2013 
+  0:   - Using NOAA annual mean TSI table in TIM scale
+  0:   with cycle approximation (new values)!
+ 96:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+  0:  NCEP-Radiation_aerosols  v5.2  Jan 2013 
+  0:   - Using MERRA2-climatology for tropospheric aerosol effect
+  0:     IAER=          11   LW-trop-aer= T   SW-trop-aer= T   Volc-aer= F
+  0:   - No stratospheric volcanic aerosol effect
+  0:     - Compute multi-band aerosol optical properties for SW input parameters
+  0:     - Compute multi-band aerosol optical properties for LW input parameters
+  0:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 24:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 48:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 72:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+120:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+  0:  NCEP-Radiation_gases     v5.1  Nov 2012 
+  0:   - Using observed co2 monthly 2-d data
+  0:  NCEP-Radiation_clouds    v5.1  Nov 2012 
+  0:   - Using Prognostic Cloud Method
+  0:     --- Thompson cloud microphysics
+  0:   - Using AER Longwave Radiation, Version: 
+  0:  NCEP LW v5.1  Nov 2012 -RRTMG-LW v4.82  
+  0:     --- Include rare gases N2O, CH4, O2, CFCs absorptions in LW
+  0:     --- Using MCICA sub-colum clouds approximation 
+  0:  with provided input array of permutation seeds
+  0:   - Using AER Shortwave Radiation, Version: 
+  0:  NCEP SW v5.1  Nov 2012 -RRTMG-SW v3.8   
+  0:     --- PIFM 2-stream transfer scheme
+  0:     --- Include rare gases N2O, CH4, O2, absorptions in SW
+  0:     --- Using MCICA sub-colum clouds approximation 
+  0:  with provided input array of permutation seeds
+  0:    Radiation sub-cloud initial seed =       47164  IC-idate =           0
+  0:            1          16        2023
+  0:   return from rad_initialize (GFS_rrtmg_setup_init) - after calling RRTMG initia
+  0:  lization
+  0:  GFS is bottom-up
+  0:  MERRA2 dim:          575         361          72           1
+  0:           73          14  dimd of tau_ngw ugwp-v1 
+204: 
+204: WARNING from PE     0: read_field_3d:The variable h has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+204: 
+204: WARNING from PE     0: read_field_3d:The variable h has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+204: NOTE from PE     0: initialize_oda_incupd: Number of Timestep of inc. update:          11
+204: NOTE from PE     0: initialize_oda_incupd: Inc. update already done: 0.0
+204: 
+204: WARNING from PE     0: read_field_3d:The variable Temp has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+204: 
+204: WARNING from PE     0: read_field_3d:The variable Temp has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+  0:  In GFS_radiation_surface_init, before calling sfc_init
+  0:  ialb=           2  iems=           2
+  0:  NCEP-Radiation_surface   v5.1  Nov 2012 
+  0:   - Using Albedo From Land Model
+  0:   - Using Surface Emissivity From Land Model
+  0:   ================================================================== 
+  0:  CCPP cires_ugwp_namelist_extended_v1
+  0:  &CIRES_UGWP_NML
+  0:  KNOB_UGWP_SOLVER        =           2,
+  0:  KNOB_UGWP_SOURCE        = 2*1, 2*0,
+  0:  KNOB_UGWP_WVSPEC        =           1, 3*25,
+  0:  KNOB_UGWP_AZDIR =           2, 3*4,
+  0:  KNOB_UGWP_STOCH = 4*0,
+  0:  KNOB_UGWP_EFFAC = 4*1.00000000000000        ,
+  0:  KNOB_UGWP_DOAXYZ        =           1,
+  0:  KNOB_UGWP_DOHEAT        =           1,
+  0:  KNOB_UGWP_DOKDIS        =           2,
+  0:  KNOB_UGWP_NDX4LH        =           4,
+  0:  KNOB_UGWP_VERSION       =           1,
+  0:  KNOB_UGWP_PALAUNCH      =   27500.0000000000     ,
+  0:  KNOB_UGWP_NSLOPE        =           1,
+  0:  KNOB_UGWP_LZMAX =   15750.0000000000     ,
+  0:  KNOB_UGWP_LZMIN =   750.000000000000     ,
+  0:  KNOB_UGWP_LZSTAR        =   2000.00000000000     ,
+  0:  KNOB_UGWP_LHMET =   200000.000000000     ,
+  0:  KNOB_UGWP_TAUAMP        =  1.500000000000000E-003,
+  0:  KNOB_UGWP_TAUMIN        =  2.500000000000000E-004,
+  0:  KNOB_UGWP_TLIMB = T,
+  0:  KNOB_UGWP_OROSOLV       = pss-1986
+  0:  /
+  0:   ================================================================== 
+  0:  calendar_ugwp ddd_ugwp=          16
+  0:  calendar_ugwp curday_ugwp=    20230116
+  0:   ================================================================== 
+  0:           16  jdat_gfs ddd of year 
+  0:  cires_ugwpv1 klev_ngw =          66       29252
+  0:   CIRES_ugwpV1 is initialized  T
+  0:   ccpp: ugwpv1_gsldrag_init   
+  0:   ccpp do_ugwp_v1  flag  T
+  0:   ccpp do_gsl_drag_ls_bl  flag  T
+  0:   ccpp do_gsl_drag_ss  flag  F
+  0:   ccpp do_gsl_drag_tofd  flag  T
+  0:   ccpp: ugwpv1_gsldrag_init  
+  0: Using non-aerosol-aware version of Thompson microphysics
+  0:  creating microphysics lookup tables ... 
+  0:  using: mu_c_o=15.00 mu_i= 0.00 mu_r= 0.00 mu_g= 0.00
+  0:    calling table_ccnAct routine
+  0:    creating qc collision eff tables
+  0:    creating rain evap table
+  0:    creating ice converting to snow table
+  0: Calculating Thompson tables part 1 took      0.174 seconds.
+  0: Calling radar_init took      0.000 seconds.
+  0:    creating rain collecting graupel table
+  0: Computing rain collecting graupel table took      0.056 seconds.
+  0:    creating rain collecting snow table
+  0: Computing rain collecting snow table took      0.029 seconds.
+  0:    creating freezing of water drops table
+204: 
+204: WARNING from PE     0: read_field_3d:The variable Salt has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+204: 
+204: WARNING from PE     0: read_field_3d:The variable Salt has an unlimited dimension in INPUT/mom6_increment.nc but no time level is specified.
+204: 
+  0: Computing freezing of water drops table took      0.073 seconds.
+  0: Calculating Thompson tables part 2 took      0.073 seconds.
+  0:   ... DONE microphysical lookup tables
+  0:  in atmos_model, fhzero=   6.00000000000000      fhour=   3.000000    
+  0:            0
+  0:  Warning: in atmos_init,start at non multiple of fhzero
+  0: NOTE from PE     0: before create fcst grid
+  0:  dateS=hours since 2023-01-16 00:00:00date_init=        2023           1
+  0:           16           0           0           0
+  0:  in fv_phys bundle,nbdl=           2
+  0:  add 3D field to after nearest_stod, fld=cldfra
+  0:  fcst_initialize total time:    11.6197297100002     

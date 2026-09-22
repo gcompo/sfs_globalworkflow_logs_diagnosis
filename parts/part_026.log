@@ -1,0 +1,900 @@
+  0: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+  0: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+  0: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+  0: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+  0: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 65:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 65: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 65: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 65: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 65: libc.so.6          0000151292BEAEEC  Unknown               Unknown  Unknown
+ 65: libc.so.6          0000151292BEAFB5  __libc_start_main     Unknown  Unknown
+ 65: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 85:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 85: forrtl: error (78): process killed (SIGTERM)
+ 85: Image              PC                Routine            Line        Source             
+ 85: libc.so.6          00001485DEA01980  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000003FB2326  module_mp_thompso        3315  module_mp_thompson.F90
+ 85: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+ 85: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+ 85: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 85: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 85: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 85: libiomp5.so        00001485E1F63493  __kmp_invoke_micr     Unknown  Unknown
+ 85: libiomp5.so        00001485E1ED1CA4  __kmp_fork_call       Unknown  Unknown
+ 85: libiomp5.so        00001485E1E89D23  __kmpc_fork_call      Unknown  Unknown
+ 85: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 85: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 85: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 85: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 85: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 85: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 85: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 85: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+  0: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+  0: libc.so.6          0000151DAF7EAEEC  Unknown               Unknown  Unknown
+  0: libc.so.6          0000151DAF7EAFB5  __libc_start_main     Unknown  Unknown
+  0: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 54: forrtl: error (78): process killed (SIGTERM)
+ 54: Image              PC                Routine            Line        Source             
+ 54: libc.so.6          000014AD4B401980  Unknown               Unknown  Unknown
+ 54: libnetcdff.so.7.2  000014AD4F30AF6E  __libm_pow_l9         Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000003FB37A3  module_mp_thompso        3548  module_mp_thompson.F90
+ 54: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+ 54: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+ 54: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 54: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 54: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 54: libiomp5.so        000014AD4E963493  __kmp_invoke_micr     Unknown  Unknown
+ 54: libiomp5.so        000014AD4E8D1CA4  __kmp_fork_call       Unknown  Unknown
+ 54: libiomp5.so        000014AD4E889D23  __kmpc_fork_call      Unknown  Unknown
+ 54: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 54: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 54: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 54: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 54: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 54: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 54: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 85: libc.so.6          00001485DE9EAEEC  Unknown               Unknown  Unknown
+ 85: libc.so.6          00001485DE9EAFB5  __libc_start_main     Unknown  Unknown
+ 85: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 54:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 54: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 54: libc.so.6          000014AD4B3EAEEC  Unknown               Unknown  Unknown
+ 54: libc.so.6          000014AD4B3EAFB5  __libc_start_main     Unknown  Unknown
+ 54: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 39:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 39: forrtl: error (78): process killed (SIGTERM)
+ 39: Image              PC                Routine            Line        Source             
+ 39: libc.so.6          0000151EA6C01980  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000003DE3FD0  samfdeepcnv_mp_sa        3637  samfdeepcnv.f
+ 39: ufs_model_gfs.x    0000000003B509F4  _coupled_p8_ugwpv         745  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 39: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 39: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 39: libiomp5.so        0000151EAA163493  __kmp_invoke_micr     Unknown  Unknown
+ 39: libiomp5.so        0000151EAA0D1CA4  __kmp_fork_call       Unknown  Unknown
+ 39: libiomp5.so        0000151EAA089D23  __kmpc_fork_call      Unknown  Unknown
+ 39: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 39: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 39: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 39: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 39: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 39: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 39: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 39: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 39: libc.so.6          0000151EA6BEAEEC  Unknown               Unknown  Unknown
+ 39: libc.so.6          0000151EA6BEAFB5  __libc_start_main     Unknown  Unknown
+ 39: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 50: forrtl: error (78): process killed (SIGTERM)
+ 50: Image              PC                Routine            Line        Source             
+ 50: libc.so.6          000014CA8FC01980  Unknown               Unknown  Unknown
+ 50: libnetcdff.so.7.2  000014CA93B06F6E  __libm_pow_l9         Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000003FABE46  module_mp_thompso        2441  module_mp_thompson.F90
+ 50: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+ 50: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+ 50: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 50: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 50: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 50: libiomp5.so        000014CA93163493  __kmp_invoke_micr     Unknown  Unknown
+ 50: libiomp5.so        000014CA930D1CA4  __kmp_fork_call       Unknown  Unknown
+ 50: libiomp5.so        000014CA93089D23  __kmpc_fork_call      Unknown  Unknown
+ 50: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 50: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 50: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 50: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 50: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 50: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 50: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 50:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 50: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 50: libc.so.6          000014CA8FBEAEEC  Unknown               Unknown  Unknown
+ 50: libc.so.6          000014CA8FBEAFB5  __libc_start_main     Unknown  Unknown
+ 50: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 60: forrtl: error (78): process killed (SIGTERM)
+ 60: Image              PC                Routine            Line        Source             
+ 60: libc.so.6          00001545E7601980  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000003DD80F8  samfdeepcnv_mp_sa        2192  samfdeepcnv.f
+ 60: ufs_model_gfs.x    0000000003B509F4  _coupled_p8_ugwpv         745  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 60: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 60: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 60: libiomp5.so        00001545EAB63493  __kmp_invoke_micr     Unknown  Unknown
+ 60: libiomp5.so        00001545EAAD1CA4  __kmp_fork_call       Unknown  Unknown
+ 60: libiomp5.so        00001545EAA89D23  __kmpc_fork_call      Unknown  Unknown
+ 60: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 60: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 60: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 60: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 60: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 60: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 60:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 60: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 60: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 60: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 60: libc.so.6          00001545E75EAEEC  Unknown               Unknown  Unknown
+ 60: libc.so.6          00001545E75EAFB5  __libc_start_main     Unknown  Unknown
+ 60: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 36: forrtl: error (78): process killed (SIGTERM)
+ 36: Image              PC                Routine            Line        Source             
+ 36: libc.so.6          0000148D56E01980  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000003E4F712  gfs_pbl_generic_p         135  GFS_PBL_generic_pre.F90
+ 36: ufs_model_gfs.x    0000000003B2B401  _coupled_p8_ugwpv        2977  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ps_cap.F90
+ 36: ufs_model_gfs.x    00000000039AC664  ccpp_static_api_m         635  ccpp_static_api.F90
+ 36: ufs_model_gfs.x    00000000039A828A  ccpp_driver_mp_cc         226  CCPP_driver.F90
+ 36: libiomp5.so        0000148D5A363493  __kmp_invoke_micr     Unknown  Unknown
+ 36: libiomp5.so        0000148D5A2D1CA4  __kmp_fork_call       Unknown  Unknown
+ 36: libiomp5.so        0000148D5A289D23  __kmpc_fork_call      Unknown  Unknown
+ 36: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 36: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 36: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 36: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 36: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 36: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 36: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 36: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 36: libc.so.6          0000148D56DEAEEC  Unknown               Unknown  Unknown
+ 36: libc.so.6          0000148D56DEAFB5  __libc_start_main     Unknown  Unknown
+ 36:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 36: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+129:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+129: forrtl: error (78): process killed (SIGTERM)
+129: Image              PC                Routine            Line        Source             
+129: libc.so.6          000014E1DD601980  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000003DCB891  samfdeepcnv_mp_sa         764  samfdeepcnv.f
+129: ufs_model_gfs.x    0000000003B509F4  _coupled_p8_ugwpv         745  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+129: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+129: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+129: libiomp5.so        000014E1E0B63493  __kmp_invoke_micr     Unknown  Unknown
+129: libiomp5.so        000014E1E0AD1CA4  __kmp_fork_call       Unknown  Unknown
+129: libiomp5.so        000014E1E0A89D23  __kmpc_fork_call      Unknown  Unknown
+129: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+129: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+129: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+129: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+129: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+129: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+129: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+129: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+129: libc.so.6          000014E1DD5EAEEC  Unknown               Unknown  Unknown
+129: libc.so.6          000014E1DD5EAFB5  __libc_start_main     Unknown  Unknown
+129: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 43: forrtl: error (78): process killed (SIGTERM)
+ 43: Image              PC                Routine            Line        Source             
+ 43: libc.so.6          0000153547201980  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000003E655E9  gfs_photochemistr          52  GFS_photochemistry_post.F90
+ 43: ufs_model_gfs.x    0000000003B4A9DD  _coupled_p8_ugwpv         537  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 43: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 43: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 43: libiomp5.so        000015354A763493  __kmp_invoke_micr     Unknown  Unknown
+ 43: libiomp5.so        000015354A6D1CA4  __kmp_fork_call       Unknown  Unknown
+ 43: libiomp5.so        000015354A689D23  __kmpc_fork_call      Unknown  Unknown
+ 43: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 43: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 43: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 43: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 43: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 43: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 43:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 43: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 43: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 43: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 43: libc.so.6          00001535471EAEEC  Unknown               Unknown  Unknown
+ 43: libc.so.6          00001535471EAFB5  __libc_start_main     Unknown  Unknown
+ 43: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 93: forrtl: error (78): process killed (SIGTERM)
+ 93: Image              PC                Routine            Line        Source             
+ 93: libc.so.6          00001551B7001980  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000003E25ADB  gfs_gwd_generic_p          89  GFS_GWD_generic_post.F90
+ 93: ufs_model_gfs.x    0000000003B3EB9A  _coupled_p8_ugwpv        4100  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ps_cap.F90
+ 93: ufs_model_gfs.x    00000000039AC664  ccpp_static_api_m         635  ccpp_static_api.F90
+ 93: ufs_model_gfs.x    00000000039A828A  ccpp_driver_mp_cc         226  CCPP_driver.F90
+ 93: libiomp5.so        00001551BA563493  __kmp_invoke_micr     Unknown  Unknown
+ 93: libiomp5.so        00001551BA4D1CA4  __kmp_fork_call       Unknown  Unknown
+ 93: libiomp5.so        00001551BA489D23  __kmpc_fork_call      Unknown  Unknown
+ 93: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 93: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 93: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 93: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 93: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 93: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 93: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 93: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 93: libc.so.6          00001551B6FEAEEC  Unknown               Unknown  Unknown
+ 93: libc.so.6          00001551B6FEAFB5  __libc_start_main     Unknown  Unknown
+ 93:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 93: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+189: forrtl: error (78): process killed (SIGTERM)
+189: Image              PC                Routine            Line        Source             
+189: libc.so.6          000014F9D4001980  Unknown               Unknown  Unknown
+189: libmpi_intel.so.1  000014F9D49D111E  MPI_Probe             Unknown  Unknown
+189: ufs_model_gfs.x    0000000000CAC940  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    000000000101F1BA  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    000000000101D613  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000001277EB2  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000001269A7F  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000C260A6  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    00000000009D667F  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    000000000303A444  ufsatm_cap_mod_mp        1603  ufsatm_cap.F90
+189: ufs_model_gfs.x    0000000003038A72  ufsatm_cap_mod_mp        1440  ufsatm_cap.F90
+189: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+189: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+189: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+189: libc.so.6          000014F9D3FEAEEC  Unknown               Unknown  Unknown
+189: libc.so.6          000014F9D3FEAFB5  __libc_start_main     Unknown  Unknown
+189: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+  8:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+  8: forrtl: error (78): process killed (SIGTERM)
+  8: Image              PC                Routine            Line        Source             
+  8: libc.so.6          000014D9E9A01980  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000003FB40D6  module_mp_thompso        3696  module_mp_thompson.F90
+  8: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+  8: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+  8: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+  8: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+  8: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+  8: libiomp5.so        000014D9ECF63493  __kmp_invoke_micr     Unknown  Unknown
+  8: libiomp5.so        000014D9ECED1CA4  __kmp_fork_call       Unknown  Unknown
+  8: libiomp5.so        000014D9ECE89D23  __kmpc_fork_call      Unknown  Unknown
+  8: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+  8: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+  8: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+  8: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+  8: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+  8: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  8: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+  8: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+  8: libc.so.6          000014D9E99EAEEC  Unknown               Unknown  Unknown
+  8: libc.so.6          000014D9E99EAFB5  __libc_start_main     Unknown  Unknown
+  8: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 82:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 82: forrtl: error (78): process killed (SIGTERM)
+ 82: Image              PC                Routine            Line        Source             
+ 82: libc.so.6          0000148AEA601980  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000003FAB0BC  module_mp_thompso        2230  module_mp_thompson.F90
+ 82: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+ 82: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+ 82: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 82: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 82: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 82: libiomp5.so        0000148AEDB63493  __kmp_invoke_micr     Unknown  Unknown
+ 82: libiomp5.so        0000148AEDAD1CA4  __kmp_fork_call       Unknown  Unknown
+ 82: libiomp5.so        0000148AEDA89D23  __kmpc_fork_call      Unknown  Unknown
+ 82: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 82: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 82: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 82: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 82: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 82: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 82: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 82: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 82: libc.so.6          0000148AEA5EAEEC  Unknown               Unknown  Unknown
+ 82: libc.so.6          0000148AEA5EAFB5  __libc_start_main     Unknown  Unknown
+ 82: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 68: forrtl: error (78): process killed (SIGTERM)
+ 68: Image              PC                Routine            Line        Source             
+ 68: libc.so.6          0000147ED0601980  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000003FB8C0F  module_mp_thompso        4224  module_mp_thompson.F90
+ 68: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+ 68: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+ 68: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 68: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 68: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 68: libiomp5.so        0000147ED3B63493  __kmp_invoke_micr     Unknown  Unknown
+ 68: libiomp5.so        0000147ED3AD1CA4  __kmp_fork_call       Unknown  Unknown
+ 68: libiomp5.so        0000147ED3A89D23  __kmpc_fork_call      Unknown  Unknown
+ 68: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 68: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 68: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 68: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 68: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 68: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 68:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 68: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 68: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 68: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 68: libc.so.6          0000147ED05EAEEC  Unknown               Unknown  Unknown
+ 68: libc.so.6          0000147ED05EAFB5  __libc_start_main     Unknown  Unknown
+ 68: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+  9: forrtl: error (78): process killed (SIGTERM)
+  9: Image              PC                Routine            Line        Source             
+  9: libc.so.6          00001502C3A01980  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    00000000039D5C51  ccpp_typedefs_mp_        1478  CCPP_typedefs.F90
+  9: ufs_model_gfs.x    00000000039C0AE4  ccpp_typedefs_mp_         845  CCPP_typedefs.F90
+  9: ufs_model_gfs.x    00000000039A80D3  ccpp_driver_mp_cc         219  CCPP_driver.F90
+  9: libiomp5.so        00001502C6F63493  __kmp_invoke_micr     Unknown  Unknown
+  9: libiomp5.so        00001502C6ED1CA4  __kmp_fork_call       Unknown  Unknown
+  9: libiomp5.so        00001502C6E89D23  __kmpc_fork_call      Unknown  Unknown
+  9: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+  9: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+  9: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+  9: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+  9: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+  9: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+  9: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+  9: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+  9: libc.so.6          00001502C39EAEEC  Unknown               Unknown  Unknown
+  9: libc.so.6          00001502C39EAFB5  __libc_start_main     Unknown  Unknown
+  9: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+  9:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 31: forrtl: error (78): process killed (SIGTERM)
+ 31: Image              PC                Routine            Line        Source             
+ 31: libc.so.6          0000154C17201980  Unknown               Unknown  Unknown
+ 31: libnetcdff.so.7.2  0000154C1AF72F45  __libm_pow_l9         Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000003FB35DA  module_mp_thompso        6487  module_mp_thompson.F90
+ 31: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+ 31: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+ 31: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 31: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 31: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 31: libiomp5.so        0000154C1A763493  __kmp_invoke_micr     Unknown  Unknown
+ 31: libiomp5.so        0000154C1A6D1CA4  __kmp_fork_call       Unknown  Unknown
+ 31: libiomp5.so        0000154C1A689D23  __kmpc_fork_call      Unknown  Unknown
+ 31: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 31: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 31: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 31: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 31: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 31: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000006AC85DA  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000448377  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000447BCA  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000D5067C  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000B937FE  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000444BEF  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000C9628A  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 31: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 31:  NOTE: gocart aerosol initialization is reading input data with all MPI ranks
+ 31: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 31: libc.so.6          0000154C171EAEEC  Unknown               Unknown  Unknown
+ 31: libc.so.6          0000154C171EAFB5  __libc_start_main     Unknown  Unknown
+ 31: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+ 76: forrtl: error (78): process killed (SIGTERM)
+ 76: Image              PC                Routine            Line        Source             
+ 76: libc.so.6          00001508FD601980  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000003FABC0F  module_mp_thompso        2389  module_mp_thompson.F90
+ 76: ufs_model_gfs.x    0000000003F908D7  module_mp_thompso        1466  module_mp_thompson.F90
+ 76: ufs_model_gfs.x    0000000003FE262E  mp_thompson_mp_mp         897  mp_thompson.F90
+ 76: ufs_model_gfs.x    0000000003B5C49D  _coupled_p8_ugwpv        1349  ccpp_fv3_gfs_v17_coupled_p8_ugwpv1_phys_ts_cap.F90
+ 76: ufs_model_gfs.x    00000000039AC850  ccpp_static_api_m         644  ccpp_static_api.F90
+ 76: ufs_model_gfs.x    00000000039A8530  ccpp_driver_mp_cc         234  CCPP_driver.F90
+ 76: libiomp5.so        0000150900B63493  __kmp_invoke_micr     Unknown  Unknown
+ 76: libiomp5.so        0000150900AD1CA4  __kmp_fork_call       Unknown  Unknown
+ 76: libiomp5.so        0000150900A89D23  __kmpc_fork_call      Unknown  Unknown
+ 76: ufs_model_gfs.x    00000000039A7479  ccpp_driver_mp_cc         204  CCPP_driver.F90
+ 76: ufs_model_gfs.x    00000000031A5FC8  atmos_model_mod_m         387  atmos_model.F90
+ 76: ufs_model_gfs.x    000000000304CD3F  module_fcst_grid_        1481  module_fcst_grid_comp.F90
+ 76: ufs_model_gfs.x    0000000000FE7855  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000000FEC0FF  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000000C9649A  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000000CB7D0F  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000000FE92FA  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000000A18F00  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000000736BE1  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000003038F9F  ufsatm_cap_mod_mp        1497  ufsatm_cap.F90
+ 76: ufs_model_gfs.x    0000000003038A09  ufsatm_cap_mod_mp        1437  ufsatm_cap.F90
+ 76: ufs_model_gfs.x    0000000000D51C38  Unknown               Unknown  Unknown
+ 76: ufs_model_gfs.x    0000000000D51BA6  Unknown               Unknown  Unknown

@@ -1,0 +1,560 @@
+(med.F90:InitializeP0): Mediator verbosity is set to 0
+(med.F90:InitializeP0): Mediator profiling is set to 0
+ (internalstate init) atm and lnd is on same grid =  T
+ (internalstate init)      map_fracname_lnd2atm       = lfrin in fraclist_a
+ (internalstate init)      mrg_fracname_lnd2atm_state = lfrac in fraclist_a
+ (internalstate init)      mrg_fracname_lnd2atm_flux  = lfrac in fraclist_a
+ (internalstate init)      map_fracname_lnd2rof       = lfrac in fraclist_r
+ (internalstate init)      mrg_fracname_lnd2rof       = lfrac in fraclist_r
+ (internalstate init)      map_fracname_lnd2glc       = lfrac in fraclist_g
+ (internalstate init)      mrg_fracname_lnd2rof       = lfrac in fraclist_g
+ 
+ (internalstate init) comp_present(compmed) =    F
+ (internalstate init) comp_present(compatm) =    T
+ (internalstate init) comp_present(complnd) =    F
+ (internalstate init) comp_present(compocn) =    T
+ (internalstate init) comp_present(compice) =    T
+ (internalstate init) comp_present(comprof) =    F
+ (internalstate init) comp_present(compwav) =    F
+ 
+ (internalstate init) atm model= fv3
+ (internalstate init) ocn model= mom6
+ (internalstate init) ice model= cice6
+ 
+ ========================================================
+(med.F90:AdvertiseFields) Mediator aoflux scheme is cesm
+ ========================================================
+ ========================================================
+(med.F90:AdvertiseFields) Mediator Coupling Mode is ufs.frac
+ ========================================================
+ 
+ 
+(med.F90:AdvertiseFields):Fr_atm: cpl_scalars
+(med.F90:AdvertiseFields):Fr_atm: Sa_u
+(med.F90:AdvertiseFields):Fr_atm: Sa_v
+(med.F90:AdvertiseFields):Fr_atm: Sa_z
+(med.F90:AdvertiseFields):Fr_atm: Sa_tbot
+(med.F90:AdvertiseFields):Fr_atm: Sa_pbot
+(med.F90:AdvertiseFields):Fr_atm: Sa_pslv
+(med.F90:AdvertiseFields):Fr_atm: Sa_shum
+(med.F90:AdvertiseFields):Fr_atm: Sa_ptem
+(med.F90:AdvertiseFields):Fr_atm: Sa_dens
+(med.F90:AdvertiseFields):Fr_atm: Sa_u10m
+(med.F90:AdvertiseFields):Fr_atm: Sa_v10m
+(med.F90:AdvertiseFields):Fr_atm: Sa_t2m
+(med.F90:AdvertiseFields):Fr_atm: Sa_q2m
+(med.F90:AdvertiseFields):Fr_atm: Sa_ofrac
+(med.F90:AdvertiseFields):Fr_atm: Faxa_swndr
+(med.F90:AdvertiseFields):Fr_atm: Faxa_swndf
+(med.F90:AdvertiseFields):Fr_atm: Faxa_swvdr
+(med.F90:AdvertiseFields):Fr_atm: Faxa_swvdf
+(med.F90:AdvertiseFields):Fr_atm: Faxa_rain
+(med.F90:AdvertiseFields):Fr_atm: Faxa_snow
+(med.F90:AdvertiseFields):Fr_atm: Faxa_taux
+(med.F90:AdvertiseFields):Fr_atm: Faxa_tauy
+(med.F90:AdvertiseFields):Fr_atm: Faxa_lwnet
+(med.F90:AdvertiseFields):Fr_atm: Faxa_lwdn
+(med.F90:AdvertiseFields):Fr_atm: Faxa_sen
+(med.F90:AdvertiseFields):Fr_atm: Faxa_evap
+(med.F90:AdvertiseFields):To_atm: cpl_scalars
+(med.F90:AdvertiseFields):To_atm: Si_ifrac
+(med.F90:AdvertiseFields):To_atm: Faii_taux
+(med.F90:AdvertiseFields):To_atm: Faii_tauy
+(med.F90:AdvertiseFields):To_atm: Faii_lat
+(med.F90:AdvertiseFields):To_atm: Faii_sen
+(med.F90:AdvertiseFields):To_atm: Faii_lwup
+(med.F90:AdvertiseFields):To_atm: Faii_evap
+(med.F90:AdvertiseFields):To_atm: Si_vice
+(med.F90:AdvertiseFields):To_atm: Si_vsno
+(med.F90:AdvertiseFields):To_atm: Si_t
+(med.F90:AdvertiseFields):To_atm: Si_avsdr
+(med.F90:AdvertiseFields):To_atm: Si_avsdf
+(med.F90:AdvertiseFields):To_atm: Si_anidr
+(med.F90:AdvertiseFields):To_atm: Si_anidf
+(med.F90:AdvertiseFields):To_atm: So_t
+(med.F90:AdvertiseFields):To_atm: So_u
+(med.F90:AdvertiseFields):To_atm: So_v
+(med.F90:AdvertiseFields):To_atm: Faox_lat
+(med.F90:AdvertiseFields):To_atm: Faox_sen
+(med.F90:AdvertiseFields):To_atm: Faox_lwup
+(med.F90:AdvertiseFields):To_atm: Faox_taux
+(med.F90:AdvertiseFields):To_atm: Faox_tauy
+ 
+(med.F90:AdvertiseFields):Fr_lnd: cpl_scalars
+(med.F90:AdvertiseFields):To_lnd: cpl_scalars
+ 
+(med.F90:AdvertiseFields):Fr_ocn: cpl_scalars
+(med.F90:AdvertiseFields):Fr_ocn: So_omask
+(med.F90:AdvertiseFields):Fr_ocn: So_t
+(med.F90:AdvertiseFields):Fr_ocn: So_u
+(med.F90:AdvertiseFields):Fr_ocn: So_v
+(med.F90:AdvertiseFields):Fr_ocn: So_s
+(med.F90:AdvertiseFields):Fr_ocn: So_dhdx
+(med.F90:AdvertiseFields):Fr_ocn: So_dhdy
+(med.F90:AdvertiseFields):Fr_ocn: Fioo_q
+(med.F90:AdvertiseFields):To_ocn: cpl_scalars
+(med.F90:AdvertiseFields):To_ocn: Sa_pslv
+(med.F90:AdvertiseFields):To_ocn: Foxx_swnet_idr
+(med.F90:AdvertiseFields):To_ocn: Foxx_swnet_idf
+(med.F90:AdvertiseFields):To_ocn: Foxx_swnet_vdr
+(med.F90:AdvertiseFields):To_ocn: Foxx_swnet_vdf
+(med.F90:AdvertiseFields):To_ocn: Faxa_rain
+(med.F90:AdvertiseFields):To_ocn: Faxa_snow
+(med.F90:AdvertiseFields):To_ocn: Foxx_taux
+(med.F90:AdvertiseFields):To_ocn: Foxx_tauy
+(med.F90:AdvertiseFields):To_ocn: Foxx_lwnet
+(med.F90:AdvertiseFields):To_ocn: Foxx_sen
+(med.F90:AdvertiseFields):To_ocn: Foxx_evap
+(med.F90:AdvertiseFields):To_ocn: Fioi_meltw
+(med.F90:AdvertiseFields):To_ocn: Fioi_melth
+(med.F90:AdvertiseFields):To_ocn: Fioi_salt
+ 
+(med.F90:AdvertiseFields):Fr_ice: cpl_scalars
+(med.F90:AdvertiseFields):Fr_ice: Si_imask
+(med.F90:AdvertiseFields):Fr_ice: Si_ifrac
+(med.F90:AdvertiseFields):Fr_ice: Faii_taux
+(med.F90:AdvertiseFields):Fr_ice: Faii_tauy
+(med.F90:AdvertiseFields):Fr_ice: Faii_lat
+(med.F90:AdvertiseFields):Fr_ice: Faii_sen
+(med.F90:AdvertiseFields):Fr_ice: Faii_lwup
+(med.F90:AdvertiseFields):Fr_ice: Faii_evap
+(med.F90:AdvertiseFields):Fr_ice: Si_vice
+(med.F90:AdvertiseFields):Fr_ice: Si_vsno
+(med.F90:AdvertiseFields):Fr_ice: Si_t
+(med.F90:AdvertiseFields):Fr_ice: Si_avsdr
+(med.F90:AdvertiseFields):Fr_ice: Si_avsdf
+(med.F90:AdvertiseFields):Fr_ice: Si_anidr
+(med.F90:AdvertiseFields):Fr_ice: Si_anidf
+(med.F90:AdvertiseFields):Fr_ice: Fioi_swpen
+(med.F90:AdvertiseFields):Fr_ice: Fioi_swpen_idr
+(med.F90:AdvertiseFields):Fr_ice: Fioi_swpen_idf
+(med.F90:AdvertiseFields):Fr_ice: Fioi_swpen_vdr
+(med.F90:AdvertiseFields):Fr_ice: Fioi_swpen_vdf
+(med.F90:AdvertiseFields):Fr_ice: Fioi_taux
+(med.F90:AdvertiseFields):Fr_ice: Fioi_tauy
+(med.F90:AdvertiseFields):Fr_ice: Fioi_meltw
+(med.F90:AdvertiseFields):Fr_ice: Fioi_melth
+(med.F90:AdvertiseFields):Fr_ice: Fioi_salt
+(med.F90:AdvertiseFields):To_ice: cpl_scalars
+(med.F90:AdvertiseFields):To_ice: Faxa_lwdn
+(med.F90:AdvertiseFields):To_ice: Faxa_swndr
+(med.F90:AdvertiseFields):To_ice: Faxa_swvdr
+(med.F90:AdvertiseFields):To_ice: Faxa_swndf
+(med.F90:AdvertiseFields):To_ice: Faxa_swvdf
+(med.F90:AdvertiseFields):To_ice: Faxa_rain
+(med.F90:AdvertiseFields):To_ice: Faxa_snow
+(med.F90:AdvertiseFields):To_ice: Sa_z
+(med.F90:AdvertiseFields):To_ice: Sa_tbot
+(med.F90:AdvertiseFields):To_ice: Sa_pbot
+(med.F90:AdvertiseFields):To_ice: Sa_shum
+(med.F90:AdvertiseFields):To_ice: Sa_u
+(med.F90:AdvertiseFields):To_ice: Sa_v
+(med.F90:AdvertiseFields):To_ice: So_t
+(med.F90:AdvertiseFields):To_ice: So_s
+(med.F90:AdvertiseFields):To_ice: So_u
+(med.F90:AdvertiseFields):To_ice: So_v
+(med.F90:AdvertiseFields):To_ice: So_dhdx
+(med.F90:AdvertiseFields):To_ice: So_dhdy
+(med.F90:AdvertiseFields):To_ice: Fioo_q
+ 
+(med.F90:AdvertiseFields):Fr_rof: cpl_scalars
+(med.F90:AdvertiseFields):To_rof: cpl_scalars
+ 
+(med.F90:AdvertiseFields):Fr_wav: cpl_scalars
+(med.F90:AdvertiseFields):To_wav: cpl_scalars
+  check_for_nans is  F
+  Fields will NOT be checked for NaN values when passed from mediator to compone
+ nt
+  water_tracers_do_checks is  F
+ atm_use_data_first_import is  F
+ lnd_use_data_first_import is  F
+ ocn_use_data_first_import is  F
+ ice_use_data_first_import is  F
+ rof_use_data_first_import is  F
+ wav_use_data_first_import is  F
+ (internalstate allowed coupling)Initializing active coupling flags
+  
+ (internalstate allowed coupling) Allowed coupling flags
+  |from to -med  atm  lnd  ocn  ice  rof  wav  
+  |med         -    -    -    -    -    -    -
+  |atm         -    -    T    T    T    -    T
+  |lnd         -    T    -    -    -    T    -
+  |ocn         -    T    -    -    T    -    T
+  |ice         -    T    -    T    -    -    T
+  |rof         -    -    T    T    T    -    -
+  |wav         -    T    -    T    T    -    -
+  
+ (internalstate allowed coupling)  Active coupling flags
+  |from to -med  atm  lnd  ocn  ice  rof  wav  
+  |med         -    -    -    -    -    -    -
+  |atm         -    -    -    T    T    -    -
+  |lnd         -    -    -    -    -    -    -
+  |ocn         -    T    -    -    T    -    -
+  |ice         -    T    -    T    -    -    -
+  |rof         -    -    -    -    -    -    -
+  |wav         -    -    -    -    -    -    -
+  
+Creating mediator field bundles 
+(med.F90:DataInitialize) initializing FBs for atm
+(med.F90:DataInitialize) initializing FBs for atm_ocn
+(med.F90:DataInitialize) initializing FBs for atm_ice
+(med.F90:DataInitialize) initializing FBs for ocn
+(med.F90:DataInitialize) initializing FBs for ocn_atm
+(med.F90:DataInitialize) initializing FBs for ocn_ice
+(med.F90:DataInitialize) initializing FBs for ice
+(med.F90:DataInitialize) initializing FBs for ice_atm
+(med.F90:DataInitialize) initializing FBs for ice_ocn
+(med.F90:DataInitialize) initializing FB FBMed_ocnalb_a
+(med.F90:DataInitialize) initializing FB FBMed_ocnalb_o
+ 
+ (med_phases_aofluxes_init_fldbuns) initialized FB FBMed_aoflux_a
+ (med_phases_aofluxes_init_fldbuns) initialized FB FBMed_aoflux_o
+ (med_phases_aofluxes_init_fldbuns) following are the fields in FBMed_aoflux_o and FBMed_aoflux_a
+   FBmed_aoflux fieldname = So_tref
+   FBmed_aoflux fieldname = So_qref
+   FBmed_aoflux fieldname = So_ustar
+   FBmed_aoflux fieldname = So_re
+   FBmed_aoflux fieldname = So_ssq
+   FBmed_aoflux fieldname = So_u10
+   FBmed_aoflux fieldname = So_duu10n
+   FBmed_aoflux fieldname = Faox_lat
+   FBmed_aoflux fieldname = So_ugustOut
+   FBmed_aoflux fieldname = So_u10withGust
+   FBmed_aoflux fieldname = So_u10res
+   FBmed_aoflux fieldname = Faxa_rainc
+   FBmed_aoflux fieldname = Faox_sen
+   FBmed_aoflux fieldname = Faox_lwup
+   FBmed_aoflux fieldname = Faox_taux
+   FBmed_aoflux fieldname = Faox_tauy
+   FBmed_aoflux fieldname = Faox_evap
+ (med_phases_aofluxes_init_fldbuns) initializing FB for atm_ocn
+ (med_phases_aofluxes_init_fldbuns) initializing FB for ocn_atm
+  
+ mapping atm->ocn Sa_u via bilnr with one normalization
+ mapping atm->ocn Sa_v via bilnr with one normalization
+ mapping atm->ocn Sa_z via bilnr with one normalization
+ mapping atm->ocn Sa_tbot via bilnr with one normalization
+ mapping atm->ocn Sa_pbot via bilnr with one normalization
+ mapping atm->ocn Sa_pslv via bilnr with one normalization
+ mapping atm->ocn Sa_shum via bilnr with one normalization
+ mapping atm->ocn Sa_u10m via bilnr with one normalization
+ mapping atm->ocn Sa_v10m via bilnr with one normalization
+ mapping atm->ocn Sa_t2m via bilnr with one normalization
+ mapping atm->ocn Sa_q2m via bilnr with one normalization
+ mapping atm->ocn Faxa_swndr via consf with one normalization
+ mapping atm->ocn Faxa_swndf via consf with one normalization
+ mapping atm->ocn Faxa_swvdr via consf with one normalization
+ mapping atm->ocn Faxa_swvdf via consf with one normalization
+ mapping atm->ocn Faxa_rain via consf with one normalization
+ mapping atm->ocn Faxa_snow via consf with one normalization
+ mapping atm->ocn Faxa_taux via consf_uv3d with aofrac normalization
+ mapping atm->ocn Faxa_tauy via consf_uv3d with aofrac normalization
+ mapping atm->ocn Faxa_lwnet via consf_aofrac with aofrac normalization
+ mapping atm->ocn Faxa_sen via consf_aofrac with aofrac normalization
+ mapping atm->ocn Faxa_evap via consf_aofrac with aofrac normalization
+  
+ mapping atm->ice Sa_u via patch_uv3d with one normalization
+ mapping atm->ice Sa_v via patch_uv3d with one normalization
+ mapping atm->ice Sa_z via bilnr with one normalization
+ mapping atm->ice Sa_tbot via bilnr with one normalization
+ mapping atm->ice Sa_pbot via bilnr with one normalization
+ mapping atm->ice Sa_shum via bilnr with one normalization
+ mapping atm->ice Faxa_swndr via consf with one normalization
+ mapping atm->ice Faxa_swndf via consf with one normalization
+ mapping atm->ice Faxa_swvdr via consf with one normalization
+ mapping atm->ice Faxa_swvdf via consf with one normalization
+ mapping atm->ice Faxa_rain via consf with one normalization
+ mapping atm->ice Faxa_snow via consf with one normalization
+ mapping atm->ice Faxa_lwdn via consf with one normalization
+  
+ mapping ocn->atm So_t via consf with ofrac normalization
+ mapping ocn->atm So_u via consf with ofrac normalization
+ mapping ocn->atm So_v via consf with ofrac normalization
+  
+ mapping ocn->ice So_t via fcopy
+ mapping ocn->ice So_u via fcopy
+ mapping ocn->ice So_v via fcopy
+ mapping ocn->ice So_s via fcopy
+ mapping ocn->ice So_dhdx via fcopy
+ mapping ocn->ice So_dhdy via fcopy
+ mapping ocn->ice Fioo_q via fcopy
+  
+ mapping ice->atm Faii_taux via consf with ifrac normalization
+ mapping ice->atm Faii_tauy via consf with ifrac normalization
+ mapping ice->atm Faii_lat via consf with ifrac normalization
+ mapping ice->atm Faii_sen via consf with ifrac normalization
+ mapping ice->atm Faii_lwup via consf with ifrac normalization
+ mapping ice->atm Si_vice via consf with ifrac normalization
+ mapping ice->atm Si_vsno via consf with ifrac normalization
+ mapping ice->atm Si_t via consf with ifrac normalization
+ mapping ice->atm Si_avsdr via consf with ifrac normalization
+ mapping ice->atm Si_avsdf via consf with ifrac normalization
+ mapping ice->atm Si_anidr via consf with ifrac normalization
+ mapping ice->atm Si_anidf via consf with ifrac normalization
+  
+ mapping ice->ocn Fioi_swpen via fcopy
+ mapping ice->ocn Fioi_swpen_idr via fcopy
+ mapping ice->ocn Fioi_swpen_idf via fcopy
+ mapping ice->ocn Fioi_swpen_vdr via fcopy
+ mapping ice->ocn Fioi_swpen_vdf via fcopy
+ mapping ice->ocn Fioi_taux via fcopy
+ mapping ice->ocn Fioi_tauy via fcopy
+ mapping ice->ocn Fioi_meltw via fcopy
+ mapping ice->ocn Fioi_melth via fcopy
+ mapping ice->ocn Fioi_salt via fcopy
+ mapping ocn->atm Faox_lat via consf with ofrac normalization
+ mapping ocn->atm Faox_sen via consf with ofrac normalization
+ mapping ocn->atm Faox_lwup via consf with ofrac normalization
+ mapping ocn->atm Faox_taux via consf with ofrac normalization
+ mapping ocn->atm Faox_tauy via consf with ofrac normalization
+ 
+(merge_to_atm): Faii_taux(atm) = Faii_taux(ice)
+(merge_to_atm): Faii_tauy(atm) = Faii_tauy(ice)
+(merge_to_atm): Faii_lat(atm) = Faii_lat(ice)
+(merge_to_atm): Faii_sen(atm) = Faii_sen(ice)
+(merge_to_atm): Faii_lwup(atm) = Faii_lwup(ice)
+(merge_to_atm): Si_vice(atm) = Si_vice(ice)
+(merge_to_atm): Si_vsno(atm) = Si_vsno(ice)
+(merge_to_atm): Si_t(atm) = Si_t(ice)
+(merge_to_atm): Si_avsdr(atm) = Si_avsdr(ice)
+(merge_to_atm): Si_avsdf(atm) = Si_avsdf(ice)
+(merge_to_atm): Si_anidr(atm) = Si_anidr(ice)
+(merge_to_atm): Si_anidf(atm) = Si_anidf(ice)
+(merge_to_atm): So_t(atm) = So_t(ocn)
+(merge_to_atm): So_u(atm) = So_u(ocn)
+(merge_to_atm): So_v(atm) = So_v(ocn)
+(merge_to_ocn): Sa_pslv(ocn) = Sa_pslv(atm)
+(merge_to_ocn): Faxa_rain(ocn) = ofrac*Faxa_rain(atm)
+(merge_to_ocn): Faxa_snow(ocn) = ofrac*Faxa_snow(atm)
+(merge_to_ocn): Foxx_taux(ocn) = ofrac*Faxa_taux(atm) + ifrac*Fioi_taux(ice)
+(merge_to_ocn): Foxx_tauy(ocn) = ofrac*Faxa_tauy(atm) + ifrac*Fioi_tauy(ice)
+(merge_to_ocn): Foxx_lwnet(ocn) = ofrac*Faxa_lwnet(atm)
+(merge_to_ocn): Foxx_sen(ocn) = ofrac*Faxa_sen(atm)
+(merge_to_ocn): Foxx_evap(ocn) = ofrac*Faxa_evap(atm)
+(merge_to_ocn): Fioi_meltw(ocn) = ifrac*Fioi_meltw(ice)
+(merge_to_ocn): Fioi_melth(ocn) = ifrac*Fioi_melth(ice)
+(merge_to_ocn): Fioi_salt(ocn) = ifrac*Fioi_salt(ice)
+(merge_to_ice): Faxa_lwdn(ice) = Faxa_lwdn(atm)
+(merge_to_ice): Faxa_swndr(ice) = Faxa_swndr(atm)
+(merge_to_ice): Faxa_swvdr(ice) = Faxa_swvdr(atm)
+(merge_to_ice): Faxa_swndf(ice) = Faxa_swndf(atm)
+(merge_to_ice): Faxa_swvdf(ice) = Faxa_swvdf(atm)
+(merge_to_ice): Faxa_rain(ice) = Faxa_rain(atm)
+(merge_to_ice): Faxa_snow(ice) = Faxa_snow(atm)
+(merge_to_ice): Sa_z(ice) = Sa_z(atm)
+(merge_to_ice): Sa_tbot(ice) = Sa_tbot(atm)
+(merge_to_ice): Sa_pbot(ice) = Sa_pbot(atm)
+(merge_to_ice): Sa_shum(ice) = Sa_shum(atm)
+(merge_to_ice): Sa_u(ice) = Sa_u(atm)
+(merge_to_ice): Sa_v(ice) = Sa_v(atm)
+(merge_to_ice): So_t(ice) = So_t(ocn)
+(merge_to_ice): So_s(ice) = So_s(ocn)
+(merge_to_ice): So_u(ice) = So_u(ocn)
+(merge_to_ice): So_v(ice) = So_v(ocn)
+(merge_to_ice): So_dhdx(ice) = So_dhdx(ocn)
+(merge_to_ice): So_dhdy(ice) = So_dhdy(ocn)
+(merge_to_ice): Fioo_q(ice) = Fioo_q(ocn)
+  
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH bilnr for atm to ocn srcMask =    -987987 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consf for atm to ocn srcMask =    -987987 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consf_uv3d for atm to ocn srcMask =    -987987 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consf_aofrac for atm to ocn srcMask =    -987987 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH patch_uv3d for atm to ice srcMask =    -987987 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH bilnr for atm to ice srcMask =    -987987 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consf for atm to ice srcMask =    -987987 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consf for ocn to atm srcMask =          0 dstMask =          1
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH redist for ocn to ice srcMask =          0 dstMask =          0
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consf for ice to atm srcMask =          0 dstMask =          1
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH redist for ice to ocn srcMask =          0 dstMask =          0
+ 
+ (med_map_mod: RouteHandles_init)Initializing unity map normalizations
+ (med_map_mod: RouteHandles_init) created field_NormOne for atm->ocn with mapping bilnr
+ (med_map_mod: RouteHandles_init) created field_NormOne for atm->ocn with mapping consf
+ (med_map_mod: RouteHandles_init) created field_NormOne for atm->ocn with mapping consf_aofrac
+ (med_map_mod: RouteHandles_init) created field_NormOne for atm->ocn with mapping consf_uv3d
+ (med_map_mod: RouteHandles_init) created field_NormOne for atm->ice with mapping bilnr
+ (med_map_mod: RouteHandles_init) created field_NormOne for atm->ice with mapping consf
+ (med_map_mod: RouteHandles_init) created field_NormOne for atm->ice with mapping patch_uv3d
+ (med_map_mod: RouteHandles_init) created field_NormOne for ocn->atm with mapping consf
+ (med_map_mod: RouteHandles_init) created field_NormOne for ice->atm with mapping consf
+ 
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ofrac  So_t       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ofrac  So_u       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ofrac  So_v       3
+ 
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Faii_lat       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Faii_lwup       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Faii_sen       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Faii_taux       4
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Faii_tauy       5
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Si_anidf       6
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Si_anidr       7
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Si_avsdf       8
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Si_avsdr       9
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Si_t      10
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Si_vice      11
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   atm  consf  ifrac  Si_vsno      12
+ 
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_pbot       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_pslv       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_q2m       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_shum       4
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_t2m       5
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_tbot       6
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_u       7
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_u10m       8
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_v       9
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_v10m      10
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  bilnr  one  Sa_z      11
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf  one  Faxa_rain       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf  one  Faxa_snow       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf  one  Faxa_swndf       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf  one  Faxa_swndr       4
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf  one  Faxa_swvdf       5
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf  one  Faxa_swvdr       6
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf_aofrac  aofrac  Faxa_evap       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf_aofrac  aofrac  Faxa_lwnet       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf_aofrac  aofrac  Faxa_sen       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf_uv3d  aofrac  Faxa_taux       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  consf_uv3d  aofrac  Faxa_tauy       2
+ 
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_melth       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_meltw       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_salt       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_swpen       4
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_swpen_idf       5
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_swpen_idr       6
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_swpen_vdf       7
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_swpen_vdr       8
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_taux       9
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ocn  fcopy  unset  Fioi_tauy      10
+ 
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  bilnr  one  Sa_pbot       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  bilnr  one  Sa_shum       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  bilnr  one  Sa_tbot       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  bilnr  one  Sa_z       4
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  consf  one  Faxa_lwdn       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  consf  one  Faxa_rain       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  consf  one  Faxa_snow       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  consf  one  Faxa_swndf       4
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  consf  one  Faxa_swndr       5
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  consf  one  Faxa_swvdf       6
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  consf  one  Faxa_swvdr       7
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  patch_uv3d  one  Sa_u       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  patch_uv3d  one  Sa_v       2
+ 
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  fcopy  unset  Fioo_q       1
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  fcopy  unset  So_dhdx       2
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  fcopy  unset  So_dhdy       3
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  fcopy  unset  So_s       4
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  fcopy  unset  So_t       5
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  fcopy  unset  So_u       6
+ (med_map_mod:med_packed_field_create)Packed field: destcomp,mapping,mapnorm,fldname,index:   ice  fcopy  unset  So_v       7
+ 
+ (med_phases_prep_ocn_init) initializing ocean export accumulation FB for 
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consd for ice to atm srcMask =          0 dstMask =          1
+ (module_med_map: med_map_routehandles_initfrom_field) creating RH consd for ocn to atm srcMask =          0 dstMask =          1
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) Calculate orbit for year:      2000
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.670366E-02
+(shr_orb_params) Obliquity (deg)   =   2.343977E+01
+(shr_orb_params) Obliquity (rad)   =   4.091011E-01
+(shr_orb_params) Long of perh(deg) =   1.028955E+02
+(shr_orb_params) Long of perh(rad) =   4.937458E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.247250E-02
+(shr_orb_params) -----------------------------------------
+ 
+(med.F90:DataInitialize)Initialize-Data-Dependency allDone check Passed
+ 
+(med.F90:DataInitialize) med F F
+ 
+(med.F90:DataInitialize) atm T T
+global nx,ny,ntile sizes for atm:     192     192       6
+ 
+(med.F90:DataInitialize) lnd F T
+ 
+(med.F90:DataInitialize) ocn T T
+global nx,ny,ntile sizes for ocn:    1440    1080       0
+ 
+(med.F90:DataInitialize) ice T T
+global nx,ny,ntile sizes for ice:    1440    1080       0
+ 
+(med.F90:DataInitialize) rof F T
+ 
+(med.F90:DataInitialize) wav F T
+ 
+ (med_io_init) : pio_netcdf_format = 64BIT_OFFSET         512
+ (med_io_init) : pio_typename = PNETCDF           1
+ (med_io_init) : pio_root =            1
+ (med_io_init) : pio_stride =            4
+ (med_io_init) : pio_numiotasks =          -99
+ (med_io_init) : update pio_numiotasks =           36
+ (med_io_init) : pio_rearranger = BOX           1
+ (med_io_init) calling pio init
+ (med_io_init) : pio_debug_level =            0
+ (med_io_init) : pio_rearr_comm_type = P2P           0
+ (med_io_init) : pio_rearr_comm_fcd = 2DENABLE           0
+ (med_io_init) : pio_rearr_comm_enable_hs_comp2io =  T
+ (med_io_init) : pio_rearr_comm_enable_isend_comp2io =  F
+ (med_io_init) : pio_rearr_comm_max_pend_req_comp2io =            0
+ (med_io_init) : pio_rearr_comm_enable_hs_io2comp =  F
+ (med_io_init) : pio_rearr_comm_enable_isend_io2comp =  T
+ (med_io_init) : pio_rearr_comm_max_pend_req_io2comp =           64
+ (med_io_init) calling pio_set_rearr_opts
+ Creating budget_diags%comps 
+(med_phases_diag_init) budget table version is v1
+  Add c2a_atm to budgets with index            1
+  Add a2c_atm to budgets with index            2
+  Add c2i_inh to budgets with index            3
+  Add i2c_inh to budgets with index            4
+  Add c2i_ish to budgets with index            5
+  Add i2c_ish to budgets with index            6
+  Add c2l_lnd to budgets with index            7
+  Add l2c_lnd to budgets with index            8
+  Add c2o_ocn to budgets with index            9
+  Add o2c_ocn to budgets with index           10
+  Add c2r_rof to budgets with index           11
+  Add r2c_rof to budgets with index           12
+  Add c2g_glc to budgets with index           13
+  Add g2c_glc to budgets with index           14
+  Add c2a_inh to budgets with index           15
+  Add a2c_inh to budgets with index           16
+  Add c2a_ish to budgets with index           17
+  Add a2c_ish to budgets with index           18
+  Add c2a_lnd to budgets with index           19
+  Add a2c_lnd to budgets with index           20
+  Add c2a_ocn to budgets with index           21
+  Add a2c_ocn to budgets with index           22
+  Add area to budgets with index            1
+  Add hfreeze to budgets with index            2
+  Add hmelt to budgets with index            3
+  Add hnetsw to budgets with index            4
+  Add hlwdn to budgets with index            5
+  Add hlwup to budgets with index            6
+  Add hlatvap to budgets with index            7
+  Add hlatfus to budgets with index            8
+  Add hiroff to budgets with index            9
+  Add hiroff_glc to budgets with index           10
+  Add hsen to budgets with index           11
+  Add hrain to budgets with index           12
+  Add hsnow to budgets with index           13
+  Add hevap to budgets with index           14
+  Add hcond to budgets with index           15
+  Add hrofl to budgets with index           16
+  Add hrofl_glc to budgets with index           17
+  Add hrofi to budgets with index           18
+  Add hrofi_glc to budgets with index           19
+  Add wmelt to budgets with index           20
+  Add wrain to budgets with index           21
+  Add wsnow to budgets with index           22
+  Add wevap to budgets with index           23
+  Add wrunoff to budgets with index           24
+  Add wrunoff_glc to budgets with index           25
+  Add wfrzrof to budgets with index           26
+  Add wfrzrof_glc to budgets with index           27
+  Add saltf to budgets with index           28
+  Add     inst to budgets with index            1
+  Add all_time to budgets with index            2
+ 
+(med.F90:DataInitialize) read_restart =  T

@@ -1,0 +1,900 @@
++++++ CICE_TR_POND_LVL=.false.
++++++ export CICE_HS0=0.001
++++++ CICE_HS0=0.001
++++++ export CICE_HS1=0.005
++++++ CICE_HS1=0.005
++++++ export CICE_DPSCALE=0.01
++++++ CICE_DPSCALE=0.01
++++++ export CICE_RFRACMIN=0.1
++++++ CICE_RFRACMIN=0.1
++++++ export CICE_RFRACMAX=0.6
++++++ CICE_RFRACMAX=0.6
++++++ export CICE_PNDASPECT=1.2
++++++ CICE_PNDASPECT=1.2
++++++ export CICE_SNWREDIST=ITDrdg
++++++ CICE_SNWREDIST=ITDrdg
++++++ echo 'END: config.ice'
+END: config.ice
+++++ export cplice=.true.
+++++ cplice=.true.
+++++ model_list=atm.ocean.ice
+++++ [[ false == \t\r\u\e ]]
+++++ nthreads_cice6=1
+++++ case "${cice6_res}" in
+++++ [[ gdas = gfs ]]
+++++ [[ gdas = enkfgdas ]]
+++++ ntasks_cice6=40
+++++ cice6_processor_shape=slenderX2
+++++ export nthreads_cice6 ntasks_cice6
+++++ export cice6_processor_shape
+++++ [[ true == \f\a\l\s\e ]]
+++++ [[ true == \f\a\l\s\e ]]
+++++ case "${model_list}" in
+++++ default_template=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/ufs.configure.s2s.IN
+++++ export ufs_configure_template=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/ufs.configure.s2s.IN
+++++ ufs_configure_template=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/ufs.configure.s2s.IN
+++++ unset model_list default_template
+++++ export 'WW3_RSTFLDS= '
+++++ WW3_RSTFLDS=' '
+++++ [[ ! -r /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/ufs.configure.s2s.IN ]]
+++++ echo 'END: config.ufs'
+END: config.ufs
++++ case ${RUN} in
++++ export FHMAX_HF=0
++++ FHMAX_HF=0
++++ export FHOUT_HF=0
++++ FHOUT_HF=0
++++ export MERRA2_6ym=.true.
++++ MERRA2_6ym=.true.
++++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.resources fcst
+++++ ((  1 != 1  ))
+++++ step=fcst
+++++ echo 'BEGIN: config.resources'
+BEGIN: config.resources
+++++ case ${machine} in
+++++ max_tasks_per_node=192
+++++ mem_node_max=384GB
+++++ export max_tasks_per_node
+++++ case ${step} in
+++++ is_exclusive=True
+++++ [[ YES == \Y\E\S ]]
+++++ export UFS_THREADS=1
+++++ UFS_THREADS=1
+++++ ((  ntiles > 6  ))
+++++ [[ YES == \Y\E\S ]]
+++++ ((  FV3THREADS = nthreads_fv3  ))
+++++ ((  FV3PETS = ntasks_fv3 * nthreads_fv3  ))
+++++ echo 'FV3 using (nthreads, PETS) = (1, 144)'
+FV3 using (nthreads, PETS) = (1, 144)
+++++ QUILTPETS=0
+++++ QUILTTHREADS=0
+++++ [[ .true. == \.\t\r\u\e\. ]]
+++++ [[ YES == \Y\E\S ]]
+++++ ((  QUILTTHREADS = nthreads_fv3  ))
+++++ ((  QUILTPETS = ntasks_quilt * nthreads_fv3  ))
+++++ ((  WRTTASK_PER_GROUP = WRTTASK_PER_GROUP_PER_THREAD  ))
+++++ export WRTTASK_PER_GROUP
+++++ echo 'QUILT using (nthreads, PETS) = (1, 60)'
+QUILT using (nthreads, PETS) = (1, 60)
+++++ ATMTHREADS=1
+++++ ((  ATMPETS = FV3PETS + QUILTPETS  ))
+++++ export ATMPETS ATMTHREADS
+++++ echo 'FV3ATM using (nthreads, PETS) = (1, 204)'
+FV3ATM using (nthreads, PETS) = (1, 204)
+++++ NTASKS_TOT=204
+++++ MEDTHREADS=1
+++++ MEDPETS=144
+++++ ((  MEDPETS = FV3PETS  ))
+++++ ((  MEDTHREADS = FV3THREADS  ))
+++++ ((  144 > 4800  ))
+++++ export MEDPETS MEDTHREADS
+++++ echo 'MEDIATOR using (threads, PETS) = (1, 144)'
+MEDIATOR using (threads, PETS) = (1, 144)
+++++ CHMPETS=0
+++++ CHMTHREADS=0
+++++ [[ NO == \Y\E\S ]]
+++++ export CHMPETS CHMTHREADS
+++++ WAVPETS=0
+++++ WAVTHREADS=0
+++++ [[ NO == \Y\E\S ]]
+++++ export WAVPETS WAVTHREADS
+++++ OCNPETS=0
+++++ OCNTHREADS=0
+++++ [[ YES == \Y\E\S ]]
+++++ [[ YES == \Y\E\S ]]
+++++ ((  OCNTHREADS = nthreads_mom6  ))
+++++ ((  OCNPETS = ntasks_mom6 * nthreads_mom6  ))
+++++ echo 'MOM6 using (threads, PETS) = (1, 100)'
+MOM6 using (threads, PETS) = (1, 100)
+++++ ((  NTASKS_TOT = NTASKS_TOT + OCNPETS  ))
+++++ export OCNPETS OCNTHREADS
+++++ ICEPETS=0
+++++ ICETHREADS=0
+++++ [[ YES == \Y\E\S ]]
+++++ [[ YES == \Y\E\S ]]
+++++ ((  ICETHREADS = nthreads_cice6  ))
+++++ ((  ICEPETS = ntasks_cice6 * nthreads_cice6  ))
+++++ echo 'CICE6 using (threads, PETS) = (1, 40)'
+CICE6 using (threads, PETS) = (1, 40)
+++++ ((  NTASKS_TOT = NTASKS_TOT + ICEPETS  ))
+++++ export ICEPETS ICETHREADS
+++++ echo 'Total PETS for gdas = 344'
+Total PETS for gdas = 344
+++++ declare -x ntasks=344
+++++ declare -x threads_per_task=1
+++++ tasks_per_node=192
+++++ [[ gdas == gdas ]]
+++++ case "${CASE}" in
+++++ declare -x walltime=00:25:00
+++++ unset NTASKS_TOT
+++++ [[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.resources.GAEAC6 ]]
+++++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.resources.GAEAC6
++++++ unset memory
++++++ unset memory_gdas
++++++ case ${step} in
++++++ case "${CASE}" in
++++++ true
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=threads_per_task_gdas
+++++ [[ -n '' ]]
+++++ [[ -n 0 ]]
+++++ export threads_per_task
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=ntasks_gdas
+++++ [[ -n '' ]]
+++++ [[ -n 0 ]]
+++++ export ntasks
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=tasks_per_node_gdas
+++++ [[ -n '' ]]
+++++ [[ -n 0 ]]
+++++ export tasks_per_node
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=NTASKS_gdas
+++++ [[ -n '' ]]
+++++ [[ -n '' ]]
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=memory_gdas
+++++ [[ -n '' ]]
+++++ [[ -n '' ]]
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=walltime_gdas
+++++ [[ -n '' ]]
+++++ [[ -n 0 ]]
+++++ export walltime
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=is_exclusive_gdas
+++++ [[ -n '' ]]
+++++ [[ -n 0 ]]
+++++ export is_exclusive
+++++ for resource_var in threads_per_task ntasks tasks_per_node NTASKS memory walltime is_exclusive prepost
+++++ run_resource_var=prepost_gdas
+++++ [[ -n '' ]]
+++++ [[ -n '' ]]
+++++ echo 'END: config.resources'
+END: config.resources
++++ export domains_stack_size=16000000
++++ domains_stack_size=16000000
++++ [[ YES == \Y\E\S ]]
++++ source /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/EXPDIR/sfs2023/config.nsst
+++++ echo 'BEGIN: config.nsst'
+BEGIN: config.nsst
+++++ export NST_MODEL=2
+++++ NST_MODEL=2
+++++ [[ NO == \Y\E\S ]]
+++++ [[ NO == \Y\E\S ]]
+++++ export NST_SPINUP=0
+++++ NST_SPINUP=0
+++++ cdate=2023011606
+++++ ((  cdate < 2017072000  ))
+++++ export NST_RESV=0
+++++ NST_RESV=0
+++++ export ZSEA1=0
+++++ ZSEA1=0
+++++ export ZSEA2=0
+++++ ZSEA2=0
+++++ export NST_GSI=2
+++++ NST_GSI=2
+++++ export NSTINFO=0
+++++ NSTINFO=0
+++++ ((  NST_GSI > 0  ))
+++++ export NSTINFO=4
+++++ NSTINFO=4
+++++ echo 'END: config.nsst'
+END: config.nsst
++++ export esmf_profile=.false.
++++ esmf_profile=.false.
++++ export esmf_logkind=ESMF_LOGKIND_MULTI_ON_ERROR
++++ esmf_logkind=ESMF_LOGKIND_MULTI_ON_ERROR
++++ export FORECASTSH=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts/exglobal_forecast.sh
++++ FORECASTSH=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts/exglobal_forecast.sh
++++ export FCSTEXEC=ufs_model_gfs.x
++++ FCSTEXEC=ufs_model_gfs.x
++++ export TYPE=nh
++++ TYPE=nh
++++ export MONO=non-mono
++++ MONO=non-mono
++++ export h2o_phys=.true.
++++ h2o_phys=.true.
++++ export new_o3forc=YES
++++ new_o3forc=YES
++++ export gwd_opt=2
++++ gwd_opt=2
++++ [[ 2 -eq 1 ]]
++++ [[ 2 -eq 2 ]]
++++ export knob_ugwp_version=1
++++ knob_ugwp_version=1
++++ export do_ugwp=.false.
++++ do_ugwp=.false.
++++ export do_tofd=.false.
++++ do_tofd=.false.
++++ export do_ugwp_v0=.false.
++++ do_ugwp_v0=.false.
++++ export do_ugwp_v1=.true.
++++ do_ugwp_v1=.true.
++++ export do_ugwp_v0_orog_only=.false.
++++ do_ugwp_v0_orog_only=.false.
++++ export do_ugwp_v0_nst_only=.false.
++++ do_ugwp_v0_nst_only=.false.
++++ export do_gsl_drag_ls_bl=.true.
++++ do_gsl_drag_ls_bl=.true.
++++ export do_gsl_drag_ss=.false.
++++ do_gsl_drag_ss=.false.
++++ export do_gsl_drag_tofd=.true.
++++ do_gsl_drag_tofd=.true.
++++ export do_gwd_opt_psl=.false.
++++ do_gwd_opt_psl=.false.
++++ export do_ugwp_v1_orog_only=.false.
++++ do_ugwp_v1_orog_only=.false.
++++ export alpha_fd=35.0
++++ alpha_fd=35.0
++++ export do_ngw_ec=.true.
++++ do_ngw_ec=.true.
+++++ echo 128/2.35
+++++ bc
++++ launch_level=54
++++ export launch_level
++++ export d2_bg_k1=0.20
++++ d2_bg_k1=0.20
++++ export d2_bg_k2=0.04
++++ d2_bg_k2=0.04
++++ export dz_min=6
++++ dz_min=6
++++ export n_sponge=42
++++ n_sponge=42
++++ export hybedmf=.false.
++++ hybedmf=.false.
++++ [[ FV3_GFS_v17_coupled_p8_ugwpv1 == \F\V\3\_\g\l\o\b\a\l\_\n\e\s\t* ]]
++++ export satmedmf=.true.
++++ satmedmf=.true.
++++ export isatmedmf=1
++++ isatmedmf=1
++++ export tte_edmf=.true.
++++ tte_edmf=.true.
++++ tbf=
++++ [[ .true. == \.\t\r\u\e\. ]]
++++ tbf=_satmedmf
++++ export progsigma=.true.
++++ progsigma=.true.
++++ export cscale=0.2
++++ cscale=0.2
++++ tbp=
++++ [[ .true. == \.\t\r\u\e\. ]]
++++ tbp=_progsigma
++++ [[ NO == \Y\E\S ]]
++++ export IAER=1011
++++ IAER=1011
++++ export iovr_lw=3
++++ iovr_lw=3
++++ export iovr_sw=3
++++ iovr_sw=3
++++ export iovr=3
++++ iovr=3
++++ export icliq_sw=2
++++ icliq_sw=2
++++ export isubc_sw=2
++++ isubc_sw=2
++++ export isubc_lw=2
++++ isubc_lw=2
++++ export do_RRTMGP=.false.
++++ do_RRTMGP=.false.
++++ export doGP_cldoptics_LUT=.false.
++++ doGP_cldoptics_LUT=.false.
++++ export doGP_lwscat=.false.
++++ doGP_lwscat=.false.
++++ export iopt_sfc=3
++++ iopt_sfc=3
++++ export iopt_trs=2
++++ iopt_trs=2
++++ export dnats=0
++++ dnats=0
++++ export cal_pre=.true.
++++ cal_pre=.true.
++++ export do_sat_adj=.false.
++++ do_sat_adj=.false.
++++ export random_clds=.true.
++++ random_clds=.true.
++++ case ${imp_physics} in
++++ export ncld=2
++++ ncld=2
++++ export FIELD_TABLE=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/field_table_thompson_noaero_tke_progsigma
++++ FIELD_TABLE=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/field_table_thompson_noaero_tke_progsigma
++++ export nwat=6
++++ nwat=6
++++ export cal_pre=.false.
++++ cal_pre=.false.
++++ export random_clds=.false.
++++ random_clds=.false.
++++ export effr_in=.true.
++++ effr_in=.true.
++++ export ltaerosol=.false.
++++ ltaerosol=.false.
++++ export lradar=.true.
++++ lradar=.true.
++++ export ttendlim=-999
++++ ttendlim=-999
++++ export dt_inner=300
++++ dt_inner=300
++++ export sedi_semi=.true.
++++ sedi_semi=.true.
++++ [[ .true. == .true. ]]
++++ export dt_inner=600
++++ dt_inner=600
++++ [[ dt_inner -gt 300 ]]
++++ export dt_inner=300
++++ dt_inner=300
++++ export decfl=10
++++ decfl=10
++++ export hord_mt_nh_nonmono=5
++++ hord_mt_nh_nonmono=5
++++ export hord_xx_nh_nonmono=5
++++ hord_xx_nh_nonmono=5
++++ export hord_dp_nh_nonmono=-5
++++ hord_dp_nh_nonmono=-5
++++ export vtdm4_nh_nonmono=0.02
++++ vtdm4_nh_nonmono=0.02
++++ export nord=2
++++ nord=2
++++ export dddmp=0.1
++++ dddmp=0.1
++++ export d4_bg=0.12
++++ d4_bg=0.12
++++ [[ FV3_GFS_v17_coupled_p8_ugwpv1 == \F\V\3\_\g\l\o\b\a\l\_\n\e\s\t* ]]
++++ export DO_SPPT=NO
++++ DO_SPPT=NO
++++ export DO_SKEB=NO
++++ DO_SKEB=NO
++++ export DO_SHUM=NO
++++ DO_SHUM=NO
++++ export DO_LAND_PERT=NO
++++ DO_LAND_PERT=NO
++++ export DO_OCN_SPPT=NO
++++ DO_OCN_SPPT=NO
++++ export DO_OCN_PERT_EPBL=NO
++++ DO_OCN_PERT_EPBL=NO
++++ export cplmode=ufs.frac
++++ cplmode=ufs.frac
++++ [[ .true. == \.\f\a\l\s\e\. ]]
++++ export psm_bc=1
++++ psm_bc=1
++++ export min_lakeice=0.15
++++ min_lakeice=0.15
++++ export min_seaice=1.0e-6
++++ min_seaice=1.0e-6
++++ export use_cice_alb=.true.
++++ use_cice_alb=.true.
++++ export FSICL=99999
++++ FSICL=99999
++++ export FSICS=0
++++ FSICS=0
++++ export pbl_taper=0,0,0,0.1,0.2,0.4,0.6
++++ pbl_taper=0,0,0,0.1,0.2,0.4,0.6
++++ [[ gdas =~ gdas ]]
++++ export DIAG_TABLE=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/diag_table_da
++++ DIAG_TABLE=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/diag_table_da
++++ export restart_interval=3
++++ restart_interval=3
++++ export adjust_dry_mass=.true.
++++ adjust_dry_mass=.true.
++++ export CHECK_LAND_RESTART_OROG=YES
++++ CHECK_LAND_RESTART_OROG=YES
++++ echo 'END: config.fcst'
+END: config.fcst
+++ true
+++ export err=0
+++ err=0
+++ [[ 0 -ne 0 ]]
+++ source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/env/GAEAC6.env fcst
++++ [[ 1 -ne 1 ]]
++++ step=fcst
++++ export 'launcher=srun -l --export=ALL --distribution=block:block'
++++ launcher='srun -l --export=ALL --distribution=block:block'
++++ export 'mpmd_opt=--multi-prog --output=mpmd.%j.%t.out'
++++ mpmd_opt='--multi-prog --output=mpmd.%j.%t.out'
++++ export OMP_STACKSIZE=2048000
++++ OMP_STACKSIZE=2048000
++++ export NTHSTACK=1024000000
++++ NTHSTACK=1024000000
++++ export FI_CXI_RX_MATCH_MODE=hybrid
++++ FI_CXI_RX_MATCH_MODE=hybrid
++++ ulimit -s unlimited
++++ ulimit -a
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1540783
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 2097152
+open files                      (-n) 50000
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 1540783
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
++++ [[ -n 344 ]]
++++ [[ -n 192 ]]
++++ [[ -n 192 ]]
++++ max_threads_per_task=1
++++ NTHREADSmax=1
++++ NTHREADS1=1
++++ [[ 1 -gt 1 ]]
++++ [[ 1 -gt 1 ]]
++++ APRUN_default='srun -l --export=ALL --distribution=block:block -n 344'
++++ case ${step} in
++++ export OMP_STACKSIZE=1024M
++++ OMP_STACKSIZE=1024M
++++ export MPICH_COLL_SYNC=MPI_Bcast
++++ MPICH_COLL_SYNC=MPI_Bcast
++++ export FI_VERBS_PREFER_XRC=0
++++ FI_VERBS_PREFER_XRC=0
++++ export FI_CXI_RX_MATCH_MODE=software
++++ FI_CXI_RX_MATCH_MODE=software
++++ export COMEX_EAGER_THRESHOLD=65536
++++ COMEX_EAGER_THRESHOLD=65536
++++ export FI_CXI_RDZV_THRESHOLD=65536
++++ FI_CXI_RDZV_THRESHOLD=65536
++++ export FI_CXI_DEFAULT_CQ_SIZE=1048576
++++ FI_CXI_DEFAULT_CQ_SIZE=1048576
++++ export USE_CFP=YES
++++ USE_CFP=YES
++++ ((  nnodes = (ntasks+tasks_per_node-1)/tasks_per_node  ))
++++ ((  ufs_ntasks = nnodes*tasks_per_node  ))
++++ export 'APRUN_UFS=srun -l --export=ALL --distribution=block:block -n 384'
++++ APRUN_UFS='srun -l --export=ALL --distribution=block:block -n 384'
++++ unset nnodes ufs_ntasks
+++ true
+++ export err=0
+++ err=0
+++ [[ 0 -ne 0 ]]
++ source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/jjob_standard_vars.sh
++++ date +%s
+++ start_time=1790019934
+++ export start_time
++++ date -d@1790019934 -u +%H:%M:%S
+++ _start_time_human=19:45:34
+++ _calling_script=JGLOBAL_FORECAST
+++ echo 'Begin JGLOBAL_FORECAST at 19:45:34'
+Begin JGLOBAL_FORECAST at 19:45:34
+++ declare -x 'PS4=+ $(basename ${BASH_SOURCE[0]:-${FUNCNAME[0]:-"Unknown"}})[${LINENO}]'
+++ jjob_standard_vars.sh[46]export USHglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush
+++ jjob_standard_vars.sh[46]USHglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush
+++ jjob_standard_vars.sh[47]export FIXglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix
+++ jjob_standard_vars.sh[47]FIXglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix
+++ jjob_standard_vars.sh[48]export PARMglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm
+++ jjob_standard_vars.sh[48]PARMglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm
+++ jjob_standard_vars.sh[49]export SCRIPTSglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts
+++ jjob_standard_vars.sh[49]SCRIPTSglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts
+++ jjob_standard_vars.sh[54]export pid=2752185
+++ jjob_standard_vars.sh[54]pid=2752185
+++ jjob_standard_vars.sh[55]export pgmout=OUTPUT.2752185
+++ jjob_standard_vars.sh[55]pgmout=OUTPUT.2752185
+++ jjob_standard_vars.sh[56]export pgmerr=errfile
+++ jjob_standard_vars.sh[56]pgmerr=errfile
+++ jjob_standard_vars.sh[61]export envir=prod
+++ jjob_standard_vars.sh[61]envir=prod
+++ jjob_standard_vars.sh[62]export KEEPDATA=NO
+++ jjob_standard_vars.sh[62]KEEPDATA=NO
+++ jjob_standard_vars.sh[63]export SENDECF=NO
+++ jjob_standard_vars.sh[63]SENDECF=NO
+++ jjob_standard_vars.sh[64]export SENDDBN=NO
+++ jjob_standard_vars.sh[64]SENDDBN=NO
+++ jjob_standard_vars.sh[65]export SENDDBN_NTC=NO
+++ jjob_standard_vars.sh[65]SENDDBN_NTC=NO
+++ jjob_standard_vars.sh[66]export DBNROOT=/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/prod-util-2.1.1-dufpund/fakedbn
+++ jjob_standard_vars.sh[66]DBNROOT=/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/prod-util-2.1.1-dufpund/fakedbn
+++ jjob_standard_vars.sh[71]export DATA=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
+++ jjob_standard_vars.sh[71]DATA=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
+++ jjob_standard_vars.sh[77]export cycle=t06z
+++ jjob_standard_vars.sh[77]cycle=t06z
++ JGLOBAL_FORECAST[25]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/jjob_shell_setup.sh
+++ jjob_shell_setup.sh[27]export USHglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush
+++ jjob_shell_setup.sh[27]USHglobal=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush
+++ jjob_shell_setup.sh[28]export start_time=1790019934
+++ jjob_shell_setup.sh[28]start_time=1790019934
+++ jjob_shell_setup.sh[29]export _calling_script=JGLOBAL_FORECAST
+++ jjob_shell_setup.sh[29]_calling_script=JGLOBAL_FORECAST
+++ jjob_shell_setup.sh[34]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/wait_for_file.sh
++++ wait_for_file.sh[48]declare -xf wait_for_file
+++ jjob_shell_setup.sh[35]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/dataroot_com_path.sh
++++ dataroot_com_path.sh[48]declare -xf dataroot_com_path
+++ jjob_shell_setup.sh[36]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/timer.sh
++++ timer.sh[28][[ -z '' ]]
++++ timer.sh[29]_GW_TIMER_STACK=()
++++ timer.sh[29]declare -xa _GW_TIMER_STACK
++++ timer.sh[30]_GW_LABEL_STACK=()
++++ timer.sh[30]declare -xa _GW_LABEL_STACK
++++ timer.sh[89]declare -xf tick
++++ timer.sh[90]declare -xf tock
++++ timer.sh[93][[ /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/timer.sh == \/\g\p\f\s\/\f\6\/\i\r\a\-\d\a\/\p\r\o\j\-\s\h\a\r\e\d\/\B\a\i\d\i\n\g\.\L\i\u\/\g\l\o\b\a\l\-\w\o\r\k\f\l\o\w\-\s\f\s\/\d\e\v\/\j\o\b\s\/\J\G\L\O\B\A\L\_\F\O\R\E\C\A\S\T ]]
+++ jjob_shell_setup.sh[37]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/err_exit.sh
++++ err_exit.sh[81]declare -xf err_exit
+++ jjob_shell_setup.sh[38]shopt -s nullglob
+++ jjob_shell_setup.sh[43]export SHELLOPTS
+++ jjob_shell_setup.sh[47]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/setup_data_dir.sh /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
++++ setup_data_dir.sh[15]dir_to_create_=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
++++ setup_data_dir.sh[16][[ YES == \Y\E\S ]]
++++ setup_data_dir.sh[17]rm -rf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
++++ setup_data_dir.sh[19]mkdir -p /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
++++ setup_data_dir.sh[20]cd /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
+++ jjob_shell_setup.sh[50]set -x
+++ jjob_shell_setup.sh[56]trap '/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/postamble.sh 1790019934' EXIT
+++ jjob_shell_setup.sh[62]setpdy.sh
++ setpdy.sh[20]'[' /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138 == /ncrc/home1/Baiding.Liu ']'
++ setpdy.sh[25][[ ! t06z =~ t??z ]]
++ setpdy.sh[30]case $# in
++ setpdy.sh[31]dates_before_PDY=7
++ setpdy.sh[32]dates_after_PDY=7
++ setpdy.sh[50]COMDATEROOT=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT
++ setpdy.sh[53]'[' -z 20230116 ']'
++ setpdy.sh[57]sed 's/[0-9]\{8\}/20230116/' /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/date/t06z
+sed: can't read /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/date/t06z: No such file or directory
+++ setpdy.sh[62]finddate.sh 20230116 s-7
++ finddate.sh[19]set +x
++ setpdy.sh[62]DATElne_minus='20230115 20230114 20230113 20230112 20230111 20230110 20230109'
++ setpdy.sh[63]export err=0
++ setpdy.sh[63]err=0
++ setpdy.sh[63]err_chk
++ err_chk[13]'[' -z 0 ']'
++ err_chk[14]'[' 0 -eq 0 ']'
++ err_chk[14]echo 'JGLOBAL_FORECAST completed cleanly'
+JGLOBAL_FORECAST completed cleanly
++ err_chk[14]exit
+++ setpdy.sh[65]finddate.sh 20230116 s+7
++ finddate.sh[19]set +x
++ setpdy.sh[65]DATElne_plus='20230117 20230118 20230119 20230120 20230121 20230122 20230123'
++ setpdy.sh[66]export err=0
++ setpdy.sh[66]err=0
++ setpdy.sh[66]err_chk
++ err_chk[13]'[' -z 0 ']'
++ err_chk[14]'[' 0 -eq 0 ']'
++ err_chk[14]echo 'JGLOBAL_FORECAST completed cleanly'
+JGLOBAL_FORECAST completed cleanly
++ err_chk[14]exit
++ setpdy.sh[69]'[' -f PDY ']'
+++ setpdy.sh[70]seq 7 -1 1
++ setpdy.sh[70]for d in $(seq $dates_before_PDY -1 1)
++ setpdy.sh[72]echo 'export PDYm7=20230109'
++ setpdy.sh[70]for d in $(seq $dates_before_PDY -1 1)
++ setpdy.sh[72]echo 'export PDYm6=20230110'
++ setpdy.sh[70]for d in $(seq $dates_before_PDY -1 1)
++ setpdy.sh[72]echo 'export PDYm5=20230111'
++ setpdy.sh[70]for d in $(seq $dates_before_PDY -1 1)
++ setpdy.sh[72]echo 'export PDYm4=20230112'
++ setpdy.sh[70]for d in $(seq $dates_before_PDY -1 1)
++ setpdy.sh[72]echo 'export PDYm3=20230113'
++ setpdy.sh[70]for d in $(seq $dates_before_PDY -1 1)
++ setpdy.sh[72]echo 'export PDYm2=20230114'
++ setpdy.sh[70]for d in $(seq $dates_before_PDY -1 1)
++ setpdy.sh[72]echo 'export PDYm1=20230115'
++ setpdy.sh[74]echo 'export PDY=20230116'
+++ setpdy.sh[75]seq 7
++ setpdy.sh[75]for d in $(seq $dates_after_PDY)
++ setpdy.sh[77]echo 'export PDYp1=20230117'
++ setpdy.sh[75]for d in $(seq $dates_after_PDY)
++ setpdy.sh[77]echo 'export PDYp2=20230118'
++ setpdy.sh[75]for d in $(seq $dates_after_PDY)
++ setpdy.sh[77]echo 'export PDYp3=20230119'
++ setpdy.sh[75]for d in $(seq $dates_after_PDY)
++ setpdy.sh[77]echo 'export PDYp4=20230120'
++ setpdy.sh[75]for d in $(seq $dates_after_PDY)
++ setpdy.sh[77]echo 'export PDYp5=20230121'
++ setpdy.sh[75]for d in $(seq $dates_after_PDY)
++ setpdy.sh[77]echo 'export PDYp6=20230122'
++ setpdy.sh[75]for d in $(seq $dates_after_PDY)
++ setpdy.sh[77]echo 'export PDYp7=20230123'
++ setpdy.sh[80]chmod u+x PDY
++ setpdy.sh[82]echo 'Source PDY script to export PDYm7, ..., PDY, ..., PDYp7 variables.'
+Source PDY script to export PDYm7, ..., PDY, ..., PDYp7 variables.
+++ jjob_shell_setup.sh[63]source ./PDY
++++ PDY[1]export PDYm7=20230109
++++ PDY[1]PDYm7=20230109
++++ PDY[2]export PDYm6=20230110
++++ PDY[2]PDYm6=20230110
++++ PDY[3]export PDYm5=20230111
++++ PDY[3]PDYm5=20230111
++++ PDY[4]export PDYm4=20230112
++++ PDY[4]PDYm4=20230112
++++ PDY[5]export PDYm3=20230113
++++ PDY[5]PDYm3=20230113
++++ PDY[6]export PDYm2=20230114
++++ PDY[6]PDYm2=20230114
++++ PDY[7]export PDYm1=20230115
++++ PDY[7]PDYm1=20230115
++++ PDY[8]export PDY=20230116
++++ PDY[8]PDY=20230116
++++ PDY[9]export PDYp1=20230117
++++ PDY[9]PDYp1=20230117
++++ PDY[10]export PDYp2=20230118
++++ PDY[10]PDYp2=20230118
++++ PDY[11]export PDYp3=20230119
++++ PDY[11]PDYp3=20230119
++++ PDY[12]export PDYp4=20230120
++++ PDY[12]PDYp4=20230120
++++ PDY[13]export PDYp5=20230121
++++ PDY[13]PDYp5=20230121
++++ PDY[14]export PDYp6=20230122
++++ PDY[14]PDYp6=20230122
++++ PDY[15]export PDYp7=20230123
++++ PDY[15]PDYp7=20230123
++ JGLOBAL_FORECAST[28]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/set_strict.sh
+++ set_strict.sh[13][[ YES == \Y\E\S ]]
+++ set_strict.sh[15]set -eu
+++ set_strict.sh[17]set -o pipefail
++ JGLOBAL_FORECAST[31]PYTHONPATH=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/python:/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/sorc/wxflow/src:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/awscli-v2-2.15.53-no5jf2y/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-urllib3-1.26.12-2uqdxke/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-ruamel-yaml-0.17.16-wnpmf4w/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-prompt-toolkit-3.0.38-pl7tyk4/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-wcwidth-0.2.7-fzxcsmw/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-jmespath-1.0.1-62l3o7i/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-flit-core-3.8.0-n2hhfa3/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-docutils-0.19-q7hf5ps/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-distro-1.8.0-vutg4lg/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cryptography-38.0.1-hfqy3tq/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cffi-1.17.1-r32keed/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pycparser-2.21-njsy2ih/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-colorama-0.4.6-gz4qfwq/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-awscrt-0.19.19-5ahskxs/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-xarray-2024.7.0-v7pxjmr/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-setuptools-69.2.0-q5x6352/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-packaging-24.1-acctrjw/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-python-dateutil-2.8.2-adj27qi/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-six-1.16.0-t2uhjfg/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pandas-2.2.3-4bngjxo/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-tzdata-2023.3-t2nvl22/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pytz-2023.3-wutyxsa/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-jinja2-3.1.4-pvwvqnp/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-markupsafe-2.1.3-3mredvv/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pyyaml-6.0.2-4bqqjxa/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-netcdf4-1.7.1.post2-c25ja2t/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-cftime-1.0.3.4-t5euxp3/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-certifi-2023.7.22-5i3gpxz/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-f90nml-1.4.3-egb7j6f/lib/python3.11/site-packages:/ncrc/proj/ira-da/usw/bufr-11.7/lib64/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/esmf-8.8.0-yzvp7jx/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-pip-23.1.2-nlzr4dk/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-numpy-1.26.4-oqfay67/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/py-mpi4py-4.0.1-xqxmfsx/lib/python3.11/site-packages:/autofs/ncrc-svm1_proj/epic/spack-stack/c6/spack-stack-1.9.2/envs/ue-intel-2023.2.0/install/intel/2023.2.0/python-venv-1.0-7sbmn7s/lib/python3.11/site-packages:/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/sorc/wxflow/src:/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/python
++ JGLOBAL_FORECAST[32]export PYTHONPATH
++ JGLOBAL_FORECAST[35]export DATArestart=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart
++ JGLOBAL_FORECAST[35]DATArestart=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart
++ JGLOBAL_FORECAST[36][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart ]]
++ JGLOBAL_FORECAST[37]export DATAoutput=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output
++ JGLOBAL_FORECAST[37]DATAoutput=/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output
++ JGLOBAL_FORECAST[38][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output ]]
++ JGLOBAL_FORECAST[46]rCDUMP=gdas
++ JGLOBAL_FORECAST[47]export rCDUMP=gdas
++ JGLOBAL_FORECAST[47]rCDUMP=gdas
+++ JGLOBAL_FORECAST[51]date --utc -d '20230116 06 - 6 hours' +%Y%m%d%H
++ JGLOBAL_FORECAST[51]GDATE=2023011600
++ JGLOBAL_FORECAST[52]declare -rx GDATE
++ JGLOBAL_FORECAST[54]declare -rx gPDY=20230116
++ JGLOBAL_FORECAST[55]declare -rx gcyc=00
++ JGLOBAL_FORECAST[59][[ 10#-1 -ge 0 ]]
++ JGLOBAL_FORECAST[67]declare -rx COMIN=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06
++ JGLOBAL_FORECAST[68]declare -rx COMOUT=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06
++ JGLOBAL_FORECAST[69]declare -rx COMIN_RESTART=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06
++ JGLOBAL_FORECAST[70]declare -rx COMIN_RESTART_PREV=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00
++ JGLOBAL_FORECAST[73]declare -rx COMIN_ATMOS_INPUT=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/input
++ JGLOBAL_FORECAST[74]declare -rx COMIN_ATMOS_RESTART_PREV=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart
++ JGLOBAL_FORECAST[75]declare -rx COMIN_ATMOS_RESTART=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart
++ JGLOBAL_FORECAST[76]declare -rx COMOUT_CONF=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/conf
++ JGLOBAL_FORECAST[77]declare -rx COMOUT_ATMOS_RESTART=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart
++ JGLOBAL_FORECAST[78]declare -rx COMOUT_ATMOS_HISTORY=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history
++ JGLOBAL_FORECAST[79]declare -rx COMOUT_ATMOS_MASTER=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master
++ JGLOBAL_FORECAST[82][[ gdas =~ gcafs ]]
++ JGLOBAL_FORECAST[82][[ gdas =~ gcdas ]]
++ JGLOBAL_FORECAST[86]declare -rx COMIN_ATMOS_ANALYSIS=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/atmos
++ JGLOBAL_FORECAST[89][[ NO == \Y\E\S ]]
++ JGLOBAL_FORECAST[96][[ YES == \Y\E\S ]]
++ JGLOBAL_FORECAST[97]declare -rx COMIN_OCEAN_ANALYSIS=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/ocean
++ JGLOBAL_FORECAST[98]declare -rx COMOUT_MED_RESTART=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/med/restart
++ JGLOBAL_FORECAST[99]declare -rx COMOUT_OCEAN_RESTART=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ocean/restart
++ JGLOBAL_FORECAST[100]declare -rx COMOUT_OCEAN_HISTORY=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ocean/history
++ JGLOBAL_FORECAST[101]declare -rx COMIN_OCEAN_RESTART_PREV=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart
++ JGLOBAL_FORECAST[102]declare -rx COMIN_MED_RESTART_PREV=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/med/restart
++ JGLOBAL_FORECAST[105][[ YES == \Y\E\S ]]
++ JGLOBAL_FORECAST[106]declare -rx COMIN_ICE_ANALYSIS=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/ice
++ JGLOBAL_FORECAST[107]declare -rx COMOUT_ICE_RESTART=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ice/restart
++ JGLOBAL_FORECAST[108]declare -rx COMOUT_ICE_HISTORY=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ice/history
++ JGLOBAL_FORECAST[109]declare -rx COMIN_ICE_RESTART_PREV=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ice/restart
++ JGLOBAL_FORECAST[112][[ NO == \Y\E\S ]]
++ JGLOBAL_FORECAST[121]: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts/exglobal_forecast.sh
++ JGLOBAL_FORECAST[122]/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts/exglobal_forecast.sh
++ bash[8]'[' -z '' ']'
++ bash[9]case "$-" in
++ bash[12]__lmod_vx=x
++ bash[16]'[' -n x ']'
++ bash[16]set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/opt/cray/pe/lmod/lmod/init/bash)
+Shell debugging restarted
++ bash[178]unset __lmod_vx
++ exglobal_forecast.sh[81]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/forecast_predet.sh
++ exglobal_forecast.sh[82]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/forecast_det.sh
++ exglobal_forecast.sh[83]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/forecast_postdet.sh
++ exglobal_forecast.sh[84]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/parsing_ufs_configure.sh
++ exglobal_forecast.sh[86]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/atparse.bash
+++ exglobal_forecast.sh[89]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/scripts/exglobal_forecast.sh
++ exglobal_forecast.sh[89]pgm=exglobal_forecast.sh
++ exglobal_forecast.sh[90]export pgm
++ exglobal_forecast.sh[93]cpl=.true.
++ exglobal_forecast.sh[94]cplflx=.true.
++ exglobal_forecast.sh[95]cplwav=.false.
++ exglobal_forecast.sh[96]cplchm=.false.
++ exglobal_forecast.sh[97]cplice=.true.
++ exglobal_forecast.sh[99]OCNTIM=1800
++ exglobal_forecast.sh[100]DELTIM=600
++ exglobal_forecast.sh[101]ICETIM=600
++ exglobal_forecast.sh[103]CPL_SLOW=1800
++ exglobal_forecast.sh[104]CPL_FAST=600
++ exglobal_forecast.sh[106]echo 'MAIN: Loading common variables before determination of run type'
+MAIN: Loading common variables before determination of run type
++ exglobal_forecast.sh[107]common_predet
++ forecast_predet.sh[103]echo 'SUB common_predet: Defining variables for shared through model components'
+SUB common_predet: Defining variables for shared through model components
++ forecast_predet.sh[105]RUN=gdas
++ forecast_predet.sh[106]rCDUMP=gdas
++ forecast_predet.sh[108]ENSMEM=000
++ forecast_predet.sh[109]MEMBER=0
++ forecast_predet.sh[112]half_window=3
++ forecast_predet.sh[113]current_cycle=2023011606
+++ forecast_predet.sh[114]date --utc -d '20230116 06 - 6 hours' +%Y%m%d%H
++ forecast_predet.sh[114]previous_cycle=2023011600
+++ forecast_predet.sh[115]date --utc -d '20230116 06 + 6 hours' +%Y%m%d%H
++ forecast_predet.sh[115]next_cycle=2023011612
+++ forecast_predet.sh[116]date --utc -d '20230116 06 - 3 hours' +%Y%m%d%H
++ forecast_predet.sh[116]current_cycle_begin=2023011603
+++ forecast_predet.sh[117]date --utc -d '20230116 06 + 3 hours' +%Y%m%d%H
++ forecast_predet.sh[117]current_cycle_end=2023011609
+++ forecast_predet.sh[118]date --utc -d '20230116 12 - 3 hours' +%Y%m%d%H
++ forecast_predet.sh[118]next_cycle_begin=2023011609
+++ forecast_predet.sh[119]date --utc -d '20230116 06 + 9 hours' +%Y%m%d%H
++ forecast_predet.sh[119]forecast_end_cycle=2023011615
++ forecast_predet.sh[122][[ YES == \Y\E\S ]]
++ forecast_predet.sh[123]model_start_date_current_cycle=2023011603
++ forecast_predet.sh[124]model_start_date_next_cycle=2023011609
++ forecast_predet.sh[135]FHMIN=0
++ forecast_predet.sh[136]FHMAX=9
++ forecast_predet.sh[137]FHOUT=3
++ forecast_predet.sh[138]FHMAX_HF=0
++ forecast_predet.sh[139]FHOUT_HF=0
++ forecast_predet.sh[141]mkdir -p /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/conf
++ forecast_predet.sh[143]cd /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
++ forecast_predet.sh[143]true
++ forecast_predet.sh[144]err=0
++ forecast_predet.sh[145][[ 0 -ne 0 ]]
++ forecast_predet.sh[151]mkdir -p /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT
++ exglobal_forecast.sh[109]echo 'MAIN: Loading variables before determination of run type'
+MAIN: Loading variables before determination of run type
++ exglobal_forecast.sh[110]FV3_predet
++ forecast_predet.sh[157]echo 'SUB FV3_predet: Defining variables for FV3'
+SUB FV3_predet: Defining variables for FV3
++ forecast_predet.sh[159][[ ! -d /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history ]]
++ forecast_predet.sh[160][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT ]]
++ forecast_predet.sh[161][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/FV3_RESTART ]]
++ forecast_predet.sh[162][[ .true. == \.\t\r\u\e\. ]]
++ forecast_predet.sh[162][[ ! -d /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master ]]
++ forecast_predet.sh[168]/bin/ln -sf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/FV3ATM_OUTPUT
++ forecast_predet.sh[169]/bin/ln -sf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/FV3_RESTART /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/RESTART
++ forecast_predet.sh[171]FHZERO=6
++ forecast_predet.sh[172]FHCYC=1
++ forecast_predet.sh[176]FV3_OUTPUT_FH=
++ forecast_predet.sh[177]local fhr=0
++ forecast_predet.sh[178][[ 0 -gt 0 ]]
+++ forecast_predet.sh[182]seq -s ' ' 0 3 9
++ forecast_predet.sh[182]FV3_OUTPUT_FH=' 0 3 6 9'
++ forecast_predet.sh[184][[ 0 -eq 3 ]]
++ forecast_predet.sh[187]FV3_OUTPUT_FH_NML=' 0 3 6 9'
++ forecast_predet.sh[191]IAUFHRS=6,
++ forecast_predet.sh[192]IAU_DELTHRS=6
++ forecast_predet.sh[197]res=192
++ forecast_predet.sh[198]resh=192
++ forecast_predet.sh[199]resp=193
++ forecast_predet.sh[200]npx=193
++ forecast_predet.sh[201]npy=193
++ forecast_predet.sh[202]npz=127
++ forecast_predet.sh[203]io_layout=1,1
++ forecast_predet.sh[207]JCAP_CASE=382
++ forecast_predet.sh[208]LONB_CASE=768
++ forecast_predet.sh[209]LATB_CASE=384
++ forecast_predet.sh[211]JCAP_CASE_HIST=382
++ forecast_predet.sh[212]LONB_CASE_HIST=768
++ forecast_predet.sh[213]LATB_CASE_HIST=384
++ forecast_predet.sh[215]JCAP=382
++ forecast_predet.sh[216]LONB=768
++ forecast_predet.sh[217]LATB=384
++ forecast_predet.sh[219]LONB_IMO=768
++ forecast_predet.sh[220]LATB_JMO=384
++ forecast_predet.sh[230]NST_MODEL=2
++ forecast_predet.sh[231]NST_SPINUP=0
++ forecast_predet.sh[232]NST_RESV=0
++ forecast_predet.sh[233]ZSEA1=0
++ forecast_predet.sh[234]ZSEA2=0
++ forecast_predet.sh[235]nstf_name=2,0,0,0,0
++ forecast_predet.sh[236]nst_anl=.true.
++ forecast_predet.sh[242]blocksize=32
++ forecast_predet.sh[245]filtered_terrain=.true.
++ forecast_predet.sh[246]gfs_dwinds=.true.
++ forecast_predet.sh[249]no_dycore=.false.
++ forecast_predet.sh[250]dycore_only=.false.
++ forecast_predet.sh[251]chksum_debug=.false.
++ forecast_predet.sh[252]print_freq=6
++ forecast_predet.sh[258]na_init=1
++ forecast_predet.sh[260]local suite_file=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/suite_FV3_GFS_v17_coupled_p8_ugwpv1.xml
++ forecast_predet.sh[261][[ ! -f /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/suite_FV3_GFS_v17_coupled_p8_ugwpv1.xml ]]
++ forecast_predet.sh[267]local num_noahmpdrv
+++ forecast_predet.sh[268]grep -c noahmpdrv /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/suite_FV3_GFS_v17_coupled_p8_ugwpv1.xml
++ forecast_predet.sh[268]num_noahmpdrv=1
++ forecast_predet.sh[269][[ 1 -gt 0 ]]
++ forecast_predet.sh[270]lsm=2
++ forecast_predet.sh[271]lheatstrg=.false.
++ forecast_predet.sh[272]landice=.false.
++ forecast_predet.sh[273]iopt_dveg=4
++ forecast_predet.sh[274]iopt_crs=2
++ forecast_predet.sh[275]iopt_btr=1
++ forecast_predet.sh[276]iopt_run=1
++ forecast_predet.sh[277]iopt_sfc=3
++ forecast_predet.sh[278]iopt_frz=1
++ forecast_predet.sh[279]iopt_inf=1
++ forecast_predet.sh[280]iopt_rad=3
++ forecast_predet.sh[281]iopt_alb=1
++ forecast_predet.sh[282]iopt_snf=4
++ forecast_predet.sh[283]iopt_tbot=2
++ forecast_predet.sh[284]iopt_stc=3
++ forecast_predet.sh[285]IALB=2
++ forecast_predet.sh[286]IEMS=2
++ forecast_predet.sh[307][[ nh == \n\h ]]
++ forecast_predet.sh[308]hydrostatic=.false.
++ forecast_predet.sh[309]phys_hydrostatic=.false.
++ forecast_predet.sh[310]use_hydro_pressure=.false.
++ forecast_predet.sh[311]make_nh=.true.
++ forecast_predet.sh[312]pass_full_omega_to_physics_in_non_hydrostatic_mode=.true.
++ forecast_predet.sh[321]consv_te=1.
++ forecast_predet.sh[322][[ NO == \Y\E\S ]]
++ forecast_predet.sh[327]consv_te=1.
++ forecast_predet.sh[328]k_split=2
++ forecast_predet.sh[332]n_split=4
++ forecast_predet.sh[334][[ non- == \m\o\n\o ]]
++ forecast_predet.sh[351]d_con=1.
++ forecast_predet.sh[352]do_vort_damp=.true.
++ forecast_predet.sh[353][[ nh == \n\h ]]
++ forecast_predet.sh[354]hord_mt=5
++ forecast_predet.sh[355]hord_xx=5
++ forecast_predet.sh[356]hord_dp=-5
++ forecast_predet.sh[364][[ non- != \m\o\n\o ]]
++ forecast_predet.sh[364][[ nh == \n\h ]]
++ forecast_predet.sh[365]vtdm4=0.02
++ forecast_predet.sh[371]nggps_ic=.true.
++ forecast_predet.sh[372]ncep_ic=.false.
++ forecast_predet.sh[373]external_ic=.true.
++ forecast_predet.sh[374]mountain=.false.
++ forecast_predet.sh[375]warm_start=.false.
++ forecast_predet.sh[376]read_increment=.false.
++ forecast_predet.sh[377]res_latlon_dynamics='""'
++ forecast_predet.sh[378]increment_file_on_native_grid=.false.
++ forecast_predet.sh[381]do_skeb=.false.
++ forecast_predet.sh[382]do_shum=.false.
++ forecast_predet.sh[383]do_sppt=.false.
++ forecast_predet.sh[384]do_ca=.false.
++ forecast_predet.sh[385]ISEED=0
++ forecast_predet.sh[386]local imem=
++ forecast_predet.sh[387]local base_seed=20230116060000
++ forecast_predet.sh[389][[ NO == \Y\E\S ]]
++ forecast_predet.sh[394][[ NO == \Y\E\S ]]
++ forecast_predet.sh[399][[ NO == \Y\E\S ]]
++ forecast_predet.sh[404][[ YES == \Y\E\S ]]
++ forecast_predet.sh[405]do_ca=.true.
++ forecast_predet.sh[406]ISEED_CA=820105278
++ forecast_predet.sh[409][[ NO == \Y\E\S ]]
++ forecast_predet.sh[422]FNGLAC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_glacier.2x2.grb
++ forecast_predet.sh[423]FNMXIC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_maxice.2x2.grb
++ forecast_predet.sh[424]FNTSFC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/RTGSST.1982.2012.monthly.clim.grb
++ forecast_predet.sh[425]FNSNOC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_snoclim.1.875.grb
++ forecast_predet.sh[426]FNZORC=igbp
++ forecast_predet.sh[427]FNAISC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/IMS-NIC.blended.ice.monthly.clim.grb
++ forecast_predet.sh[428]FNALBC2=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.facsf.tileX.nc
++ forecast_predet.sh[429]FNTG3C=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.substrate_temperature.tileX.nc
++ forecast_predet.sh[430]FNVEGC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_greenness.tileX.nc
++ forecast_predet.sh[431]FNMSKH=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_slmask.t1534.3072.1536.grb
++ forecast_predet.sh[432]FNVMNC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_greenness.tileX.nc
++ forecast_predet.sh[433]FNVMXC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_greenness.tileX.nc
++ forecast_predet.sh[434]FNSLPC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.slope_type.tileX.nc
++ forecast_predet.sh[435]FNALBC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.snowfree_albedo.tileX.nc
++ forecast_predet.sh[436]FNVETC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.vegetation_type.tileX.nc
++ forecast_predet.sh[437]FNSOTC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.soil_type.tileX.nc
++ forecast_predet.sh[438]FNSOCC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.soil_color.tileX.nc
++ forecast_predet.sh[439]FNABSC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/sfc/C192.mx025.maximum_snow_albedo.tileX.nc
++ forecast_predet.sh[440]FNSMCC=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilmgldas.statsgo.t382.768.384.grb
++ forecast_predet.sh[443][[ ! -f /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_soilmgldas.statsgo.t382.768.384.grb ]]
++ forecast_predet.sh[448][[ .true. == \.\f\a\l\s\e\. ]]
++ forecast_predet.sh[451]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_mosaic.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_mosaic.nc

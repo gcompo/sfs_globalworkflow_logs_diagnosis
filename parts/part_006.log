@@ -1,0 +1,900 @@
+
+&ponds_nml
+    hp1             = 0.01
+    hs0             = 0.001
+    hs1             = 0.005
+    dpscale         = 0.01
+    frzpnd          = 'hlid'
+    rfracmin        = 0.1
+    rfracmax        = 0.6
+    pndaspect       = 1.2
+/
+
+&snow_nml
+    snwredist       = 'ITDrdg'
+    rhosnew         = 100.
+    rhosmin         = 100.
+    rhosmax         = 450.
+    windmin         = 10.
+    drhosdwind      = 27.3
+    snwlvlfac       = 0.3
+    snwgrain        = .true.
+/
+
+&forcing_nml
+    formdrag        = .false.
+    atmbndy         = 'default'
+    calc_strair     = .true.
+    calc_Tsfc       = .true.
+    highfreq        = .false.
+    natmiter        = 5
+    ustar_min       = 0.0005
+    emissivity      = 0.98
+    fbot_xfer_type  = 'mushy'
+    update_ocn_f    = .true.
+    l_mpond_fresh   = .false.
+    tfrz_option     = 'linear_salt'
+    restart_coszen  = .true.
+/
+
+&domain_nml
+    nprocs            = 40
+    nx_global         = 1440
+    ny_global         = 1080
+    block_size_x      = 72
+    block_size_y      = 540
+    max_blocks        = -1
+    processor_shape   = 'slenderX2'
+    distribution_type = 'cartesian'
+    distribution_wght = 'latitude'
+    ew_boundary_type  = 'cyclic'
+    ns_boundary_type  = 'tripole'
+    maskhalo_dyn      = .false.
+    maskhalo_remap    = .false.
+    maskhalo_bound    = .false.
+/
+
+&zbgc_nml
+/
+
+&icefields_nml
+    f_tlon         = .true.
+    f_tlat         = .true.
+    f_ulon         = .true.
+    f_ulat         = .true.
+    f_nlon         = .true.
+    f_nlat         = .true.
+    f_elon         = .true.
+    f_elat         = .true.
+    f_tmask        = .true.
+    f_blkmask      = .false.
+    f_tarea        = .true.
+    f_uarea        = .true.
+    f_dxt          = .false.
+    f_dyt          = .false.
+    f_dxu          = .false.
+    f_dyu          = .false.
+    f_HTN          = .false.
+    f_HTE          = .false.
+    f_ANGLE        = .true.
+    f_ANGLET       = .true.
+    f_NCAT         = .true.
+    f_VGRDi        = .false.
+    f_VGRDs        = .false.
+    f_VGRDb        = .false.
+    f_VGRDa        = .true.
+    f_bounds       = .false.
+    f_aice         = 'mdh1x'
+    f_hi           = 'mdh1x'
+    f_hs           = 'mdh1x'
+    f_Tsfc         = 'mdh1x'
+    f_sice         = 'mdh1x'
+    f_uvel         = 'mdh1x'
+    f_vvel         = 'mdh1x'
+    f_uatm         = 'mdh1x'
+    f_vatm         = 'mdh1x'
+    f_fswdn        = 'mdh1x'
+    f_flwdn        = 'mdh1x'
+    f_snowfrac     = 'x'
+    f_snow         = 'x'
+    f_snow_ai      = 'mdh1x'
+    f_rain         = 'x'
+    f_rain_ai      = 'mdh1x'
+    f_sst          = 'mdh1x'
+    f_sss          = 'mdh1x'
+    f_uocn         = 'mdh1x'
+    f_vocn         = 'mdh1x'
+    f_frzmlt       = 'mdh1x'
+    f_fswfac       = 'mdh1x'
+    f_fswint_ai    = 'mdh1x'
+    f_fswabs       = 'x'
+    f_fswabs_ai    = 'mdh1x'
+    f_albsni       = 'mdh1x'
+    f_alvdr        = 'mdh1x'
+    f_alidr        = 'mdh1x'
+    f_alvdf        = 'mdh1x'
+    f_alidf        = 'mdh1x'
+    f_alvdr_ai     = 'x'
+    f_alidr_ai     = 'x'
+    f_alvdf_ai     = 'x'
+    f_alidf_ai     = 'x'
+    f_albice       = 'x'
+    f_albsno       = 'x'
+    f_albpnd       = 'x'
+    f_coszen       = 'x'
+    f_flat         = 'x'
+    f_flat_ai      = 'mdh1x'
+    f_fsens        = 'x'
+    f_fsens_ai     = 'mdh1x'
+    f_fswup        = 'x'
+    f_flwup        = 'x'
+    f_flwup_ai     = 'mdh1x'
+    f_evap         = 'x'
+    f_evap_ai      = 'x'
+    f_Tair         = 'mdh1x'
+    f_Tref         = 'mdh1x'
+    f_Qref         = 'mdh1x'
+    f_congel       = 'mdh1x'
+    f_frazil       = 'mdh1x'
+    f_snoice       = 'mdh1x'
+    f_dsnow        = 'mdh1x'
+    f_melts        = 'mdh1x'
+    f_meltt        = 'mdh1x'
+    f_meltb        = 'mdh1x'
+    f_meltl        = 'mdh1x'
+    f_fresh        = 'x'
+    f_fresh_ai     = 'mdh1x'
+    f_fsalt        = 'x'
+    f_fsalt_ai     = 'mdh1x'
+    f_fbot         = 'mdh1x'
+    f_fhocn        = 'x'
+    f_fhocn_ai     = 'mdh1x'
+    f_fswthru      = 'x'
+    f_fswthru_ai   = 'mdh1x'
+    f_fsurf_ai     = 'mdh1x'
+    f_fcondtop_ai  = 'x'
+    f_fmeltt_ai    = 'x'
+    f_strairx      = 'mdh1x'
+    f_strairy      = 'mdh1x'
+    f_strtltx      = 'x'
+    f_strtlty      = 'x'
+    f_strcorx      = 'x'
+    f_strcory      = 'x'
+    f_strocnx      = 'mdh1x'
+    f_strocny      = 'mdh1x'
+    f_strintx      = 'x'
+    f_strinty      = 'x'
+    f_taubx        = 'x'
+    f_tauby        = 'x'
+    f_strength     = 'x'
+    f_divu         = 'mdh1x'
+    f_shear        = 'mdh1x'
+    f_sig1         = 'x'
+    f_sig2         = 'x'
+    f_sigP         = 'x'
+    f_dvidtt       = 'x'
+    f_dvidtd       = 'x'
+    f_daidtt       = 'x'
+    f_daidtd       = 'x'
+    f_dagedtt      = 'x'
+    f_dagedtd      = 'x'
+    f_mlt_onset    = 'x'
+    f_frz_onset    = 'x'
+    f_hisnap       = 'x'
+    f_aisnap       = 'x'
+    f_trsig        = 'x'
+    f_icepresent   = 'x'
+    f_iage         = 'x'
+    f_FY           = 'x'
+    f_aicen        = 'x'
+    f_vicen        = 'x'
+    f_vsnon        = 'x'
+    f_snowfracn    = 'x'
+    f_keffn_top    = 'x'
+    f_Tinz         = 'x'
+    f_Sinz         = 'x'
+    f_Tsnz         = 'x'
+    f_fsurfn_ai    = 'x'
+    f_fcondtopn_ai = 'x'
+    f_fmelttn_ai   = 'x'
+    f_flatn_ai     = 'x'
+    f_fsensn_ai     = 'x'
+    f_sitempsnic    = 'x'
+    f_sitemptop     = 'x'
+    f_sitempbot     = 'x'
+/
+
+&icefields_snow_nml
+    f_smassice   = 'mdh1x'
+    f_smassicen  = 'mdh1x'
+    f_smassliq   = 'mdh1x'
+    f_smassliqn  = 'mdh1x'
+    f_rhos_cmp   = 'x'
+    f_rhos_cmpn  = 'x'
+    f_rhos_cnt   = 'x'
+    f_rhos_cntn  = 'x'
+    f_rsnw       = 'mdh1x'
+    f_rsnwn      = 'mdh1x'
+    f_meltsliq   = 'x'
+    f_fsloss     = 'x'
+/
+
+&icefields_mechred_nml
+    f_alvl         = 'x'
+    f_vlvl         = 'x'
+    f_ardg         = 'x'
+    f_vrdg         = 'x'
+    f_dardg1dt     = 'x'
+    f_dardg2dt     = 'x'
+    f_dvirdgdt     = 'x'
+    f_opening      = 'x'
+    f_ardgn        = 'x'
+    f_vrdgn        = 'x'
+    f_dardg1ndt    = 'x'
+    f_dardg2ndt    = 'x'
+    f_dvirdgndt    = 'x'
+    f_krdgn        = 'x'
+    f_aparticn     = 'x'
+    f_aredistn     = 'x'
+    f_vredistn     = 'x'
+    f_araftn       = 'x'
+    f_vraftn       = 'x'
+/
+
+&icefields_pond_nml
+    f_apondn       = 'x'
+    f_apeffn       = 'x'
+    f_hpondn       = 'x'
+    f_apond        = 'x'
+    f_hpond        = 'x'
+    f_ipond        = 'x'
+    f_apeff        = 'x'
+    f_apond_ai     = 'mdh1x'
+    f_hpond_ai     = 'mdh1x'
+    f_ipond_ai     = 'x'
+    f_apeff_ai     = 'x'
+/
+
+&icefields_drag_nml
+    f_drag         = 'x'
+    f_Cdn_atm      = 'x'
+    f_Cdn_ocn      = 'x'
+/
+
+&icefields_bgc_nml
+/
+
+&ice_prescribed_nml
+  prescribed_ice_mode = .false.
+  stream_yearfirst = 2023
+  stream_yearlast = 2023
+  stream_yearalign = 2023
+  stream_varname = "ice_cov"
+  stream_meshfile = "INPUT/none"
+  stream_datafiles = "none"
+  stream_mapalgo = "bilinear"
+  stream_taxmode = "extend"
+/
++ parsing_namelists_CICE.sh[181]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ice.restart_file
++ parsing_namelists_CICE.sh[182][[ continue == \c\o\n\t\i\n\u\e ]]
++ parsing_namelists_CICE.sh[183]echo /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/cice_model.res.nc
++ exglobal_forecast.sh[162][[ .false. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[165]UFS_configure
++ parsing_ufs_configure.sh[12]echo 'SUB UFS_configure: ufs.configure begins'
+SUB UFS_configure: ufs.configure begins
++ parsing_ufs_configure.sh[15]local esmf_logkind=ESMF_LOGKIND_MULTI_ON_ERROR
++ parsing_ufs_configure.sh[16]local DumpFields=false
++ parsing_ufs_configure.sh[17]local cap_dbug_flag=0
++ parsing_ufs_configure.sh[23][[ -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ufs.cpld.cpl.r.nc ]]
++ parsing_ufs_configure.sh[24]local cmeps_run_type=continue
++ parsing_ufs_configure.sh[30]local atm_model=fv3
++ parsing_ufs_configure.sh[31]local 'atm_petlist_bounds=0 203'
++ parsing_ufs_configure.sh[32]local atm_omp_num_threads=1
++ parsing_ufs_configure.sh[34]local med_model=cmeps
++ parsing_ufs_configure.sh[35]local 'med_petlist_bounds=0 143'
++ parsing_ufs_configure.sh[36]local med_omp_num_threads=1
++ parsing_ufs_configure.sh[39]local MAPUV3D=true
++ parsing_ufs_configure.sh[41][[ .true. = \.\t\r\u\e\. ]]
++ parsing_ufs_configure.sh[42]local coupling_interval_slow_sec=1800
++ parsing_ufs_configure.sh[45]local WRITE_ENDOFRUN_RESTART=.false.
++ parsing_ufs_configure.sh[47][[ .true. = \.\t\r\u\e\. ]]
++ parsing_ufs_configure.sh[49]local use_coldstart=.false.
++ parsing_ufs_configure.sh[50]local use_mommesh=true
++ parsing_ufs_configure.sh[52]local ocn_model=mom6
++ parsing_ufs_configure.sh[53]local 'ocn_petlist_bounds=204 303'
++ parsing_ufs_configure.sh[54]local ocn_omp_num_threads=1
++ parsing_ufs_configure.sh[55]local RUNTYPE=continue
++ parsing_ufs_configure.sh[56]local CMEPS_RESTART_DIR=CMEPS_RESTART/
++ parsing_ufs_configure.sh[57]local CPLMODE=ufs.frac
++ parsing_ufs_configure.sh[58]local CMEPS_PIO_FORMAT=pnetcdf
++ parsing_ufs_configure.sh[59]local CMEPS_PIO_STRIDE=4
++ parsing_ufs_configure.sh[60]local CMEPS_PIO_IOTASKS=-99
++ parsing_ufs_configure.sh[61]local CMEPS_PIO_REARR=box
++ parsing_ufs_configure.sh[62]local CMEPS_PIO_ROOT=-99
++ parsing_ufs_configure.sh[63]local coupling_interval_fast_sec=600
++ parsing_ufs_configure.sh[64]local RESTART_N=999999
++ parsing_ufs_configure.sh[65]local ocean_albedo_limit=0.06
++ parsing_ufs_configure.sh[66]local ATMTILESIZE=192
++ parsing_ufs_configure.sh[67]local ocean_albedo_limit=0.06
++ parsing_ufs_configure.sh[68]local pio_rearranger=box
++ parsing_ufs_configure.sh[69]local MED_history_n=1000000
++ parsing_ufs_configure.sh[71]local histaux_enabled=.false.
++ parsing_ufs_configure.sh[72]local MOM6_OUTPUT_DIR=./MOM6_OUTPUT
++ parsing_ufs_configure.sh[73]local MOM6_RESTART_DIR=./MOM6_RESTART
++ parsing_ufs_configure.sh[74]local MOM6_HISTFREQ_N=3
++ parsing_ufs_configure.sh[77][[ .true. = \.\t\r\u\e\. ]]
++ parsing_ufs_configure.sh[79]local ice_model=cice6
++ parsing_ufs_configure.sh[80]local 'ice_petlist_bounds=304 343'
++ parsing_ufs_configure.sh[81]local ice_omp_num_threads=1
++ parsing_ufs_configure.sh[82]local FHMAX=120
++ parsing_ufs_configure.sh[85][[ .false. = \.\t\r\u\e\. ]]
++ parsing_ufs_configure.sh[102][[ .false. = \.\t\r\u\e\. ]]
++ parsing_ufs_configure.sh[112][[ YES = \Y\E\S ]]
++ parsing_ufs_configure.sh[113]local ESMF_THREADING=true
++ parsing_ufs_configure.sh[119][[ ! -r /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/ufs.configure.s2s.IN ]]
++ parsing_ufs_configure.sh[123]echo 'INFO: using ufs.configure template: '\''/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/ufs.configure.s2s.IN'\'''
+INFO: using ufs.configure template: '/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/ufs.configure.s2s.IN'
++ parsing_ufs_configure.sh[126]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ufs.configure
++ parsing_ufs_configure.sh[127]atparse
++ atparse.bash[13]local __text
++ atparse.bash[14]local __before
++ atparse.bash[15]local __after
++ atparse.bash[16]local __during
++ atparse.bash[17]local __set_x=:
++ atparse.bash[18]local __set_u=:
++ atparse.bash[19]local __set_e=:
++ atparse.bash[20]local __abort_on_undefined=NO
++ atparse.bash[24][[ -o xtrace ]]
++ atparse.bash[25]__set_x='set -x'
++ atparse.bash[27][[ -o errexit ]]
++ atparse.bash[28]__set_e='set -e'
++ atparse.bash[30][[ -o nounset ]]
++ atparse.bash[31]__set_u='set -u'
++ atparse.bash[32]__abort_on_undefined=YES
++ atparse.bash[34]set +eux
++ atparse.bash[102]eval 'set -u'
+++ atparse.bash[102]set -u
++ atparse.bash[103]eval 'set -e'
+++ atparse.bash[103]set -e
++ parsing_ufs_configure.sh[128]echo 'Rendered ufs.configure:'
+Rendered ufs.configure:
++ parsing_ufs_configure.sh[129]cat ufs.configure
+#############################################
+####  UFS Run-Time Configuration File  ######
+#############################################
+
+# ESMF #
+logKindFlag:            ESMF_LOGKIND_MULTI_ON_ERROR
+globalResourceControl:  true
+
+# EARTH #
+EARTH_component_list: MED ATM OCN ICE
+EARTH_attributes::
+  Verbosity = 0
+::
+
+# MED #
+MED_model:                      cmeps
+MED_petlist_bounds:             0 143
+MED_omp_num_threads:            1
+::
+
+# ATM #
+ATM_model:                      fv3
+ATM_petlist_bounds:             0 203
+ATM_omp_num_threads:            1
+ATM_attributes::
+  Verbosity = 0
+  DumpFields = false
+  ProfileMemory = false
+  OverwriteSlice = true
+::
+
+# OCN #
+OCN_model:                      mom6
+OCN_petlist_bounds:             204 303
+OCN_omp_num_threads:            1
+OCN_attributes::
+  Verbosity = 0
+  DumpFields = false
+  ProfileMemory = false
+  OverwriteSlice = true
+  mesh_ocn = mesh.mx025.nc
+  use_coldstart = .false.
+  use_mommesh = true
+  mom6_output_dir = ./MOM6_OUTPUT
+  mom6_output_fh = 3
+  mom6_restart_dir = ./MOM6_RESTART
+::
+
+# ICE #
+ICE_model:                      cice6
+ICE_petlist_bounds:             304 343
+ICE_omp_num_threads:            1
+ICE_attributes::
+  Verbosity = 0
+  DumpFields = false
+  ProfileMemory = false
+  OverwriteSlice = true
+  mesh_ice = mesh.mx025.nc
+  eps_imesh = 1.0e-1
+  stop_n = 999999
+  stop_option = nhours
+  stop_ymd = -999
+::
+
+# CMEPS warm run sequence
+runSeq::
+@1800
+   MED med_phases_prep_ocn_avg
+   MED -> OCN :remapMethod=redist
+   OCN
+   @600
+     MED med_phases_prep_atm
+     MED med_phases_prep_ice
+     MED -> ATM :remapMethod=redist
+     MED -> ICE :remapMethod=redist
+     ATM
+     ICE
+     ATM -> MED :remapMethod=redist
+     MED med_phases_post_atm
+     ICE -> MED :remapMethod=redist
+     MED med_phases_post_ice
+     MED med_phases_ocnalb_run
+     MED med_phases_prep_ocn_accum
+   @
+   OCN -> MED :remapMethod=redist
+   MED med_phases_post_ocn
+   MED med_phases_restart_write
+@
+::
+
+# CMEPS variables
+
+DRIVER_attributes::
+::
+
+MED_attributes::
+      ATM_model = fv3
+      ICE_model = cice6
+      OCN_model = mom6
+      coupling_mode = ufs.frac
+      pio_typename = pnetcdf
+      pio_numiotasks = -99
+      pio_stride = 4
+      pio_rearranger = box
+      pio_root = -99
+      ocean_albedo_limit = 0.06
+      mapuv_with_cart3d = true
+      histaux_ice2med_file1_auxname = ice.1h.aux
+      histaux_ice2med_file1_doavg = .false.
+      histaux_ice2med_file1_enabled = .false.
+      histaux_ice2med_file1_flds = all
+      histaux_ice2med_file1_history_n = 1000000
+      histaux_ice2med_file1_history_option = nhours
+      histaux_ice2med_file1_ntperfile = 9999
+      histaux_ocn2med_file1_auxname = ocn.1h.aux
+      histaux_ocn2med_file1_doavg = .false.
+      histaux_ocn2med_file1_enabled = .false.
+      histaux_ocn2med_file1_flds = all
+      histaux_ocn2med_file1_history_n = 1000000
+      histaux_ocn2med_file1_history_option = nhours
+      histaux_ocn2med_file1_ntperfile = 9999
+::
+
+ALLCOMP_attributes::
+      ScalarFieldCount = 3
+      ScalarFieldIdxGridNX = 1
+      ScalarFieldIdxGridNY = 2
+      ScalarFieldIdxGridNTile = 3
+      ScalarFieldName = cpl_scalars
+      start_type = continue
+      restart_dir = CMEPS_RESTART/
+      case_name = ufs.cpld
+      restart_n = 999999
+      restart_option = nhours
+      restart_ymd = -999
+      write_restart_at_endofrun = .false.
+      dbug_flag = 0
+      stop_n = 120
+      stop_option = nhours
+      stop_ymd = -999
+      orb_eccen = 1.e36
+      orb_iyear = 2000
+      orb_iyear_align = 2000
+      orb_mode = fixed_year
+      orb_mvelp = 1.e36
+      orb_obliq = 1.e36
+::
++ parsing_ufs_configure.sh[131]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fd_ufs.yaml fd_ufs.yaml
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fd_ufs.yaml fd_ufs.yaml
++ cpreq[4]'[' 0 -ne 0 ']'
++ parsing_ufs_configure.sh[133]echo 'SUB UFS_configure: ufs.configure ends'
+SUB UFS_configure: ufs.configure ends
++ exglobal_forecast.sh[166]echo 'MAIN: Name lists and model configuration written'
+MAIN: Name lists and model configuration written
++ exglobal_forecast.sh[171][[ .false. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[176][[ YES == \Y\E\S ]]
++ exglobal_forecast.sh[177]unset OMP_NUM_THREADS
++ exglobal_forecast.sh[182]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/exec/ufs_model_gfs.x /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/exec/ufs_model_gfs.x /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[4]'[' 0 -ne 0 ']'
++ exglobal_forecast.sh[183]srun -l --export=ALL --distribution=block:block -n 384 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ufs_model_gfs.x
+  0: 
+  0: 
+  0: * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . 
+  0:      PROGRAM ufs-weather-model HAS BEGUN. COMPILED       0.00     ORG: np23
+  0:      STARTING DATE-TIME  SEP 21,2026  15:46:23.084  264  MON   2461305
+  0: 
+  0: 
+  0: Compiler version: Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.10.0 Build 20230609_000000
+  0: 
+  0: MPI Library: MPI VERSION    : CRAY MPICH version 8.1.32.110 (ANL base 3.4a2)
+  0: MPI BUILD INFO : Thu Feb 06 23:14 2025 (git hash f9c5634)
+  0: 
+  0: MPI Version: 3.1
+304:  (input_data) Reading setup_nml
+304:  (input_data) Reading grid_nml
+304:  (input_data) Reading tracer_nml
+304:  (input_data) Reading thermo_nml
+304:  (input_data) Reading dynamics_nml
+304:  (input_data) Reading shortwave_nml
+304:  (input_data) Reading ponds_nml
+304:  (input_data) Reading snow_nml
+304:  (input_data) Reading forcing_nml
+304:  Diagnostic output will be in file 
+304:  ice_diag.d                                                                     
+304:   
+  0:  af ufs config,quilting= T  calendar=gregorian iau_offset=           6 
+  0:   noutput_fh=           4
+  0:  af ufs config,quilting= T  write_groups=           1          60 
+  0:   isrcTermProcessing=           0
+  0:  af ufs config,dt_atmos=         600 nfhmax=   15.00000    
+  0:  in fcst comp init, fcst_ntasks=         144
+  0:  af ufs config,num_restart_fh=           5
+  0:  af ufs config,restart_fh=   9.000000       12.00000       15.00000    
+  0:    18.00000       21.00000    
+204: NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+204:  &MPP_IO_NML
+204:  HEADER_BUFFER_VAL       =       16384,
+204:  GLOBAL_FIELD_ON_ROOT_PE = T,
+204:  IO_CLOCKS_ON    = F,
+204:  SHUFFLE =           0,
+204:  DEFLATE_LEVEL   =          -1,
+204:  CF_COMPLIANCE   = F
+204:  /
+204: NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+204: NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to 16000000.
+204:  (MOM_cap:InitializeAdvertise)current time: y,m,d-        2023           1
+204:           16 h,m,s=           3           0           0
+204:  (MOM_cap:InitializeAdvertise)start time: y,m,d-        2023           1
+204:           16 h,m,s=           0           0           0
+204: NOTE from PE     0: callTree: ---> ocean_model_init(), ocean_model_MOM.F90
+204: NOTE from PE     0: open_param_file: INPUT/MOM_input has been opened successfully.
+204: NOTE from PE     0: open_param_file: INPUT/MOM_override has been opened successfully.
+  0: NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+204: 
+204: WARNING from PE     0: MOM_obsolete_params: ETA_TOLERANCE_AUX is an obsolete run-time flag.
+204: 
+204: 
+204: WARNING from PE     0: MOM_obsolete_params: ETA_TOLERANCE_AUX is an obsolete run-time flag.
+204: 
+  0:  &MPP_IO_NML
+  0:  HEADER_BUFFER_VAL       =       16384,
+  0:  GLOBAL_FIELD_ON_ROOT_PE = T,
+  0:  IO_CLOCKS_ON    = F,
+  0:  SHUFFLE =           0,
+  0:  DEFLATE_LEVEL   =          -1,
+  0:  CF_COMPLIANCE   = F
+  0:  /
+  0: NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+204:  MOM_in domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+204:  MOM_inc domain decomposition
+204: whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+204:   X-AXIS =   72  72  72  72  72  72  72  72  72  72
+204:   Y-AXIS =   54  54  54  54  54  54  54  54  54  54
+  0: NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to 16000000.
+204:  MOM_in domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+204:  MOM_in domain decomposition
+204: whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+204:   X-AXIS =   72  72  72  72  72  72  72  72  72  72
+204:   Y-AXIS =   54  54  54  54  54  54  54  54  54  54
+204:  MOM_MOSAIC domain decomposition
+204: whalo =    9, ehalo =    9, shalo =    9, nhalo =    9
+204:   X-AXIS =  288 288 288 288 288 288 288 288 288 288
+204:   Y-AXIS =  216 216 216 216 216 216 216 216 216 216
+204:  MOM_MOSAIC domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+  0: StartTime= 2023    1   16    0    0    0
+  0: CurrTime = 2023    1   16    3    0    0
+  0: StopTime = 2023    1   16   15    0    0
+  0: INPUT/coupler.res: date_init=2023   1  16   0   0   0
+  0: INPUT/coupler.res: date     =2023   1  16   3   0   0
+  0:  time_init=        2023           1          16           0           0
+  0:            0 time=        2023           1          16           3           0
+  0:            0 time_end=        2023           1          16          15
+  0:            0           0 dt_atmos=         600
+  0:  frestart=           9          12          15          18          21
+  0: atmosphere_init: current_time_seconds =   10800.0
+  0: Using n_split from the namelist: 004
+  0:  Off center implicit scheme param=   1.000000    
+  0:   p_fac=  0.1000000    
+  0: Using n_sponge : 042
+  0: Using non_ortho :       T
+  0:  Starting PEs :          144
+  0:  Starting Threads :            1
+ 24:  Cubic: cubed-sphere domain decomposition
+ 24: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 24:   X-AXIS =   48  48  48  48
+ 24:   Y-AXIS =   32  32  32  32  32  32
+ 48:  Cubic: cubed-sphere domain decomposition
+ 48: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 48:   X-AXIS =   48  48  48  48
+ 48:   Y-AXIS =   32  32  32  32  32  32
+  0:  Cubic: cubed-sphere domain decomposition
+  0: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+  0:   X-AXIS =   48  48  48  48
+  0:   Y-AXIS =   32  32  32  32  32  32
+ 72:  Cubic: cubed-sphere domain decomposition
+ 72: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 72:   X-AXIS =   48  48  48  48
+ 72:   Y-AXIS =   32  32  32  32  32  32
+ 24:  Cubic: cubed-sphere domain decomposition
+ 24: whalo =    1, ehalo =    1, shalo =    1, nhalo =    1
+ 24:   X-AXIS =   48  48  48  48
+ 24:   Y-AXIS =   32  32  32  32  32  32
+ 48:  Cubic: cubed-sphere domain decomposition
+ 48: whalo =    1, ehalo =    1, shalo =    1, nhalo =    1
+ 48:   X-AXIS =   48  48  48  48
+ 48:   Y-AXIS =   32  32  32  32  32  32
+ 96:  Cubic: cubed-sphere domain decomposition
+ 96: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+ 96:   X-AXIS =   48  48  48  48
+ 96:   Y-AXIS =   32  32  32  32  32  32
+ 72:  Cubic: cubed-sphere domain decomposition
+ 72: whalo =    1, ehalo =    1, shalo =    1, nhalo =    1
+ 72:   X-AXIS =   48  48  48  48
+ 72:   Y-AXIS =   32  32  32  32  32  32
+  0:  Cubic: cubed-sphere domain decomposition
+  0: whalo =    1, ehalo =    1, shalo =    1, nhalo =    1
+  0:   X-AXIS =   48  48  48  48
+  0:   Y-AXIS =   32  32  32  32  32  32
+120:  Cubic: cubed-sphere domain decomposition
+120: whalo =    3, ehalo =    3, shalo =    3, nhalo =    3
+120:   X-AXIS =   48  48  48  48
+120:   Y-AXIS =   32  32  32  32  32  32
+ 96:  Cubic: cubed-sphere domain decomposition
+ 96: whalo =    1, ehalo =    1, shalo =    1, nhalo =    1
+ 96:   X-AXIS =   48  48  48  48
+ 96:   Y-AXIS =   32  32  32  32  32  32
+120:  Cubic: cubed-sphere domain decomposition
+120: whalo =    1, ehalo =    1, shalo =    1, nhalo =    1
+120:   X-AXIS =   48  48  48  48
+120:   Y-AXIS =   32  32  32  32  32  32
+  0: NOTE from PE     0: You are using the legacy version of the field_table
+  0:  ncnst=          11  num_prog=          11  pnats=           0  dnats=
+  0:            0  num_family=           0
+  0:  
+  0:  ==>Note from fv_grid_tools_mod(read_grid): read atmosphere grid from mosaic ver
+  0:  sion grid
+  0: MAX    AREA (m*m): 0.33369189764779E+10          MIN AREA (m*m): 0.14515359618740E+10
+  0: GLOBAL AREA (m*m): 0.51009649655351E+15 IDEAL GLOBAL AREA (m*m): 0.51009649655132E+15
+  0:  
+  0:   Radius is    6371200.00000000      , omega is   7.292100000000000E-005 
+  0:   small_fac =    1.00000000000000     
+  0:   Cubed-Sphere Grid Stats :          193 x         193 x           6
+  0:    40845.3164062500        57767.6601562500        289343.176837004     
+  0:    40845.3164062500        57767.6601562500     
+  0:       Grid Length               : min:    40845.32 max:    57767.66 avg:   289343.18 min/max:        0.71
+  0:       Deviation from Orthogonal : min:  0.00000000000000E+00 max:  0.29774816846746E+02 avg:  0.53004092394505E+02
+  0:       Aspect Ratio              : min:  0.10000000000000E+01 max:  0.10630996115167E+01 avg:  0.61073199973422E+01
+  0:  
+ 72:  Corner interpolation coefficient=   1.49659837114504     
+ 24:  Corner interpolation coefficient=   1.49659837114504     
+120:  Corner interpolation coefficient=   1.49659596517971     
+  0:  Corner interpolation coefficient=   1.49660194538123     
+ 96:  Corner interpolation coefficient=   1.49660194538123     
+ 48:  Corner interpolation coefficient=   1.49659596517971     
+260: Ocean topography edit:    12  953  550  685.97->  730.00  94  15
+260: Ocean topography edit:    13  952  550  679.21->  730.00  93  15
+260: Ocean topography edit:    14  952  551  188.74->   40.00  93  16
+260: Ocean topography edit:    15  953  552   98.68->   40.00  94  17
+260: Ocean topography edit:    16  954  553  230.73->   40.00  95  18
+260: Ocean topography edit:    17  954  554  134.81->   40.00  95  19
+260: Ocean topography edit:    18  955  555  257.78->   40.00  96  20
+260: Ocean topography edit:    19  956  558  495.10->   40.00  97  23
+260: Ocean topography edit:    20  956  559  148.92->   40.00  97  24
+260: Ocean topography edit:    21  956  560  343.66->   40.00  97  25
+260: Ocean topography edit:    22  955  557  705.76->  900.00  96  22
+260: Ocean topography edit:    23  956  561  831.60->  950.00  97  26
+260: Ocean topography edit:    24  956  564  609.99->  800.00  97  29
+260: Ocean topography edit:    25  955  565  897.07-> 1000.00  96  30
+260: Ocean topography edit:    26  944  578 1365.65-> 1850.00  85  43
+260: Ocean topography edit:    27  944  577 1234.00-> 1850.00  85  42
+260: Ocean topography edit:    28  942  575 1656.42-> 1400.00  83  40
+260: Ocean topography edit:    29  889  595  394.39->  500.00  30  60
+260: Ocean topography edit:    30  888  595  375.17->  500.00  29  60
+260: Ocean topography edit:    31  888  596  222.70->  500.00  29  61
+260: Ocean topography edit:    32  887  596  436.80->  500.00  28  61
+260: Ocean topography edit:    33  886  596  349.77->  500.00  27  61
+260: Ocean topography edit:    34  885  596  169.91->  500.00  26  61
+260: Ocean topography edit:    35  885  597  411.25->  500.00  26  62
+260: Ocean topography edit:    36  884  597  405.56->  500.00  25  62
+260: Ocean topography edit:    37  884  598  462.69->  500.00  25  63
+260: Ocean topography edit:    38  883  598  470.05->  500.00  24  63
+260: Ocean topography edit:    39  882  598  456.70->  500.00  23  63
+260: Ocean topography edit:    40  883  600  457.40->  500.00  24  65
+260: Ocean topography edit:    41  881  601  339.21->  500.00  22  66
+260: Ocean topography edit:    42  881  618  610.68->  700.00  22  83
+260: Ocean topography edit:    43  881  617  627.58->  730.00  22  82
+260: Ocean topography edit:    44  881  616  624.95->  730.00  22  81
+260: Ocean topography edit:    45  881  615  630.68->  730.00  22  80
+260: Ocean topography edit:    46  881  614  646.24->  730.00  22  79
+260: Ocean topography edit:    47  881  613  669.98->  730.00  22  78
+260: Ocean topography edit:    48  881  612  692.16->  730.00  22  77
+260: Ocean topography edit:    49  881  611  718.72->  730.00  22  76
+260: Ocean topography edit:    50  879  605  681.07->  730.00  20  70
+260: Ocean topography edit:    51  878  604  706.24->  730.00  19  69
+260: Ocean topography edit:    52  878  602  329.73->  730.00  19  67
+260: Ocean topography edit:    53  884  613  466.71->  600.00  25  78
+260: Ocean topography edit:    54  885  613  360.50->  600.00  26  78
+260: Ocean topography edit:    55  881  619  625.10->  710.00  22  84
+260: Ocean topography edit:    56  881  620  651.12->  710.00  22  85
+260: Ocean topography edit:    57  881  621  667.51->  710.00  22  86
+260: Ocean topography edit:    58  881  622  700.03->  710.00  22  87
+263: Ocean topography edit:    59 1424  612   51.14->   80.00 133  77
+263: Ocean topography edit:    60 1369  560  151.45->  180.00  78  25
+263: Ocean topography edit:    61 1369  559   97.29->  180.00  78  24
+263: Ocean topography edit:    62 1370  559   68.19->  180.00  79  24
+263: Ocean topography edit:    63 1370  558   93.68->  180.00  79  23
+263: Ocean topography edit:    64 1370  557   80.73->  180.00  79  22
+263: Ocean topography edit:    65 1371  557  127.90->  180.00  80  22
+263: Ocean topography edit:    66 1371  556   41.25->  180.00  80  21
+263: Ocean topography edit:    67 1372  556   96.19->  180.00  81  21
+263: Ocean topography edit:    68 1372  555   60.64->  180.00  81  20
+263: Ocean topography edit:    69 1373  555   32.38->  180.00  82  20
+263: Ocean topography edit:    70 1373  554  112.89->  180.00  82  19
+263: Ocean topography edit:    71 1373  553   31.54->  180.00  82  18
+272: Ocean topography edit:     9 1176  657  227.78->  280.00  29  14
+272: Ocean topography edit:    10 1177  657  201.30->  280.00  30  14
+272: Ocean topography edit:    11 1178  657  179.89->  280.00  31  14
+282: Ocean topography edit:     1 1166  818  664.73->  800.00  19  67
+282: Ocean topography edit:     2 1166  817  728.35->  800.00  19  66
+282: Ocean topography edit:     3 1166  816  557.18->  800.00  19  65
+282: Ocean topography edit:     4 1167  816  763.71->  800.00  20  65
+282: Ocean topography edit:     5 1168  816  584.82->  800.00  21  65
+282: Ocean topography edit:     6 1168  815  771.28->  800.00  21  64
+282: Ocean topography edit:     7 1168  814  623.90->  800.00  21  63
+282: Ocean topography edit:     8 1169  814  754.62->  800.00  22  63
+282: Ocean topography edit:    72 1166  808  599.70->  540.00  19  57
+282: Ocean topography edit:    73 1167  807  598.73->  510.00  20  56
+282: Ocean topography edit:    74 1168  807  647.22->  530.00  21  56
+282: Ocean topography edit:    75 1169  806  583.86->  610.00  22  55
+282: Ocean topography edit:    76 1170  805  544.52->  500.00  23  54
+282: Ocean topography edit:    77 1171  805  513.92->  460.00  24  54
+282: Ocean topography edit:    78 1172  805  553.43->  490.00  25  54
+282: Ocean topography edit:    79 1173  805  528.28->  330.00  26  54
+282: Ocean topography edit:    80 1174  804  499.22->  450.00  27  53
+272: read_face_lengths_list : Modifying dy_Cu gridpoint at    35.89   -5.75 (   35.80   36.20   -5.90   -5.40) to  12000.00m
+272: read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+272: read_face_lengths_list : Modifying dy_Cu gridpoint at    35.89   -5.50 (   35.80   36.20   -5.90   -5.40) to  12000.00m
+272: read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+272: read_face_lengths_list : G%mask2dCu=0 at    36.09   -5.75 (   35.80   36.20   -5.90   -5.40) so grid metric is unmodified.
+272: read_face_lengths_list : G%mask2dCu=0 at    36.09   -5.50 (   35.80   36.20   -5.90   -5.40) so grid metric is unmodified.
+273: read_face_lengths_list : Modifying dy_Cu gridpoint at    40.41   26.50 (   40.40   40.60   26.40   26.80) to   5000.00m
+273: read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+273: read_face_lengths_list : Modifying dy_Cu gridpoint at    40.41   26.75 (   40.40   40.60   26.40   26.80) to   5000.00m
+273: read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+266: read_face_lengths_list : Modifying dx_Cv gridpoint at    52.02 -218.38 (   52.00   52.15  141.50  141.70) to   2500.00m
+266: read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+263: read_face_lengths_list : Modifying dx_Cv gridpoint at    12.77   43.38 (   12.60   12.80   43.25   43.50) to  10000.00m
+263: read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+204: 
+204: WARNING from PE     0: reset_face_lengths_list unused v-face line: V_width,  28.8,  29.4, 41.1, 41.2,   2500.0
+204: 
+204: 
+204: WARNING from PE     0: reset_face_lengths_list unused v-face line: V_width,  28.8,  29.4, 41.1, 41.2,   2500.0
+204: 
+  0:  da_max/da_min=   2.29888825638862     
+  0:  da_max_c/da_min_c=   2.30414345534647     
+  0:   
+  0:  Divergence damping Coefficients
+  0:  For small dt=   75.00000    
+  0:  External mode del-2 (m**2/s)=  0.000000000000000E+000
+  0:  Internal mode del-2 SMAG dimensionless coeff=  0.1000000    
+  0:  Internal mode del-2 background diff=  0.000000000000000E+000
+  0:  Internal mode del-6 background diff=  0.1200000    
+  0:  tracer del-2 diff=  0.0000000E+00
+  0:  Vorticity del-4 (m**4/s)=   11237101.5952301     
+  0:  beta=  0.0000000E+00
+  0:   
+  0:  in fv_restart ncnst=          11
+  0:  FV_RESTART:            1 T F
+  0:  Warm starting, calling fv_io_restart
+  0:   ptop & ks   0.9990000              39
+204: NOTE from PE     0: init_coord_hycom: use_3d = .false.
+204:  MOM_in domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+204:  MOM_in domain decomposition
+204: whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+204:   X-AXIS =   72  72  72  72  72  72  72  72  72  72
+204:   Y-AXIS =   54  54  54  54  54  54  54  54  54  54
+204: NOTE from PE     0: MOM_restart: MOM run restarted using : INPUT/MOM.res.nc
+204:  MOM_in domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+204:  MOM_in domain decomposition
+204: whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+204:   X-AXIS =   72  72  72  72  72  72  72  72  72  72
+204:   Y-AXIS =   54  54  54  54  54  54  54  54  54  54
+204: NOTE from PE     0: MOM_restart: MOM run restarted using : INPUT/MOM.res_1.nc
+204:  MOM_in domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+204:  MOM_in domain decomposition
+204: whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+204:   X-AXIS =   72  72  72  72  72  72  72  72  72  72
+204:   Y-AXIS =   54  54  54  54  54  54  54  54  54  54
+204: NOTE from PE     0: MOM_restart: MOM run restarted using : INPUT/MOM.res_2.nc
+204:  MOM_in domain decomposition
+204: whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+204:   X-AXIS =  144 144 144 144 144 144 144 144 144 144
+204:   Y-AXIS =  108 108 108 108 108 108 108 108 108 108
+204:  MOM_in domain decomposition
+204: whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+204:   X-AXIS =   72  72  72  72  72  72  72  72  72  72
+204:   Y-AXIS =   54  54  54  54  54  54  54  54  54  54
+204: NOTE from PE     0: MOM_restart: MOM run restarted using : INPUT/MOM.res_3.nc
+  0: Tracer sphum initialized with surface value of  0.300000E-05 and vertical multiplier of      1.000000
+  0: Tracer liq_wat initialized with surface value of  0.100000E+31 and vertical multiplier of      1.000000
+  0: Tracer ice_wat initialized with surface value of  0.100000E+31 and vertical multiplier of      1.000000
+  0: Tracer rainwat initialized with surface value of  0.100000E+31 and vertical multiplier of      1.000000
+  0: Tracer snowwat initialized with surface value of  0.100000E+31 and vertical multiplier of      1.000000
+  0: Tracer graupel initialized with surface value of  0.100000E+31 and vertical multiplier of      1.000000
+  0: Tracer ice_nc initialized with surface value of  0.000000E+00 and vertical multiplier of      1.000000
+  0: Tracer rain_nc initialized with surface value of  0.000000E+00 and vertical multiplier of      1.000000
+  0: Tracer o3mr initialized with surface value of  0.100000E+31 and vertical multiplier of      1.000000
+  0: Tracer sgs_tke initialized with surface value of  0.000000E+00 and vertical multiplier of      1.000000
+  0: Tracer sigmab initialized with surface value of  0.000000E+00 and vertical multiplier of      1.000000
+  0:  in fv_restart ncnst=          11
+  0:  Global Area=   510096496553507.     
+  0:  Total surface pressure (mb) =    985.5085    
+  0:  mean dry surface pressure =    983.1872    
+  0:  Total Water (kg/m**2) =   23.6709592470415     
+  0:  dry mass to be added (pascals) =   1.281250    
+  0:  
+  0:  fv_restart u    =        110936416930176
+  0:  fv_restart v    =       -356365431788471
+  0:  fv_restart w    =      -4224496750609012
+  0:  fv_restart delp =      31948986460833617
+  0:  fv_restart phis =         82008178714461
+  0:  fv_restart pt   =      31786019372318225
+  0:  fv_restart q(prog) nq   =          11     86045728113265930
+  0:  fv_restart sphum =      26769057384168263
+  0:  fv_restart liq_wat =      -2336181569414001
+  0:  fv_restart ice_wat =        -64787795927370
+  0:  fv_restart rainwat =       -278077342875605
+  0:  fv_restart snowwat =        515185484810121
+  0:  fv_restart graupel =       -387102199967521
+  0:  fv_restart ice_nc =        264558549301211
+  0:  fv_restart rain_nc =         15618351002606
+  0:  fv_restart o3mr =      24783621890241795
+  0:  fv_restart sgs_tke =      28307825884884166
+  0:  fv_restart sigmab =       8456009477042265
+  0:  ZS   5697.555      -75.15992       235.0445    
+  0:  PS   1047.772       492.1694       985.5213    
+  0:  T    320.7330       137.5844       285.2908    
+  0:  sphum  2.0813890E-02  9.9999997E-10  9.0812603E-03
+  0:  liq_wat  2.3797993E-03 -6.1014134E-20  2.1168044E-06

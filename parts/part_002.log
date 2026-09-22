@@ -1,0 +1,900 @@
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_mosaic.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_mosaic.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[455]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/ugwp_limb_tau.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ugwp_limb_tau.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/ugwp_limb_tau.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ugwp_limb_tau.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[458]local tt
++ forecast_predet.sh[459](( tt = 1 ))
++ forecast_predet.sh[459](( tt <= ntiles ))
++ forecast_predet.sh[460]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[461]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[462]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[463]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[459](( tt++ ))
++ forecast_predet.sh[459](( tt <= ntiles ))
++ forecast_predet.sh[460]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[461]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[462]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[463]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[459](( tt++ ))
++ forecast_predet.sh[459](( tt <= ntiles ))
++ forecast_predet.sh[460]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[461]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[462]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[463]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[459](( tt++ ))
++ forecast_predet.sh[459](( tt <= ntiles ))
++ forecast_predet.sh[460]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[461]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[462]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[463]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[459](( tt++ ))
++ forecast_predet.sh[459](( tt <= ntiles ))
++ forecast_predet.sh[460]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[461]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[462]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[463]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[459](( tt++ ))
++ forecast_predet.sh[459](( tt <= ntiles ))
++ forecast_predet.sh[460]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192.mx025_oro_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[461]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/orog/C192/C192_grid.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/C192_grid.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[462]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ls.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ls.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[463]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/ugwd/C192/C192_oro_data_ss.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/oro_data_ss.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[459](( tt++ ))
++ forecast_predet.sh[459](( tt <= ntiles ))
++ forecast_predet.sh[465][[ NO == \Y\E\S ]]
++ forecast_predet.sh[474]local noahmptablefile=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/noahmptable.tbl
++ forecast_predet.sh[475]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/noahmptable.tbl /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/noahmptable.tbl
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/noahmptable.tbl /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/noahmptable.tbl
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[478](( imp_physics == 8 ))
++ forecast_predet.sh[479]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/CCN_ACTIVATE.BIN /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/CCN_ACTIVATE.BIN
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/CCN_ACTIVATE.BIN /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/CCN_ACTIVATE.BIN
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[480]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/freezeH2O.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/freezeH2O.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/freezeH2O.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/freezeH2O.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[481]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/qr_acr_qgV2.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/qr_acr_qgV2.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/qr_acr_qgV2.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/qr_acr_qgV2.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[482]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/qr_acr_qsV2.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/qr_acr_qsV2.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/qr_acr_qsV2.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/qr_acr_qsV2.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[485][[ YES == \Y\E\S ]]
++ forecast_predet.sh[486][[ McCormack == \M\c\C\o\r\m\a\c\k\-\e\m\p\i\r\i\c\a\l\-\s\h\-\o\z\h ]]
++ forecast_predet.sh[489]O3FORC=ozprdlos_2015_new_sbuvO3_tclm15_nuchem.f77
++ forecast_predet.sh[494]H2OFORC=global_h2o_pltc.f77
++ forecast_predet.sh[495]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/ozprdlos_2015_new_sbuvO3_tclm15_nuchem.f77 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/global_o3prdlos.f77
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/ozprdlos_2015_new_sbuvO3_tclm15_nuchem.f77 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/global_o3prdlos.f77
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[496]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_h2o_pltc.f77 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/global_h2oprdlos.f77
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_h2o_pltc.f77 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/global_h2oprdlos.f77
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[500]ISOL=2
++ forecast_predet.sh[502]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_solarconstant_noaa_an.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/solarconstant_noaa_an.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_solarconstant_noaa_an.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/solarconstant_noaa_an.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[503]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_sfc_emissivity_idx.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/sfc_emissivity_idx.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_sfc_emissivity_idx.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/sfc_emissivity_idx.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[506]IAER=1011
++ forecast_predet.sh[507]MERRA2_6ym=.true.
++ forecast_predet.sh[509](( IAER == 1011 ))
++ forecast_predet.sh[510][[ .true. == \.\f\a\l\s\e\. ]]
++ forecast_predet.sh[516][[ .true. == \.\t\r\u\e\. ]]
++ forecast_predet.sh[517]year=2023
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 1980 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 1985 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 1990 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 1995 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 2000 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 2005 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 2010 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 2015 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 2020 ]]
++ forecast_predet.sh[518]for i in {1980..2300..5}
++ forecast_predet.sh[519][[ 2023 -le 2025 ]]
+++ forecast_predet.sh[520]printf %04d 2025
++ forecast_predet.sh[520]Eyear=2025
++ forecast_predet.sh[521]Syear=2020
++ forecast_predet.sh[522]break
++ forecast_predet.sh[525](( Syear >= 2025 ))
++ forecast_predet.sh[529](( month = 1 ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 1
++ forecast_predet.sh[530]mm=01
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_01.nc aeroclim.m01.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_01.nc aeroclim.m01.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 2
++ forecast_predet.sh[530]mm=02
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_02.nc aeroclim.m02.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_02.nc aeroclim.m02.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 3
++ forecast_predet.sh[530]mm=03
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_03.nc aeroclim.m03.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_03.nc aeroclim.m03.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 4
++ forecast_predet.sh[530]mm=04
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_04.nc aeroclim.m04.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_04.nc aeroclim.m04.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 5
++ forecast_predet.sh[530]mm=05
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_05.nc aeroclim.m05.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_05.nc aeroclim.m05.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 6
++ forecast_predet.sh[530]mm=06
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_06.nc aeroclim.m06.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_06.nc aeroclim.m06.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 7
++ forecast_predet.sh[530]mm=07
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_07.nc aeroclim.m07.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_07.nc aeroclim.m07.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 8
++ forecast_predet.sh[530]mm=08
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_08.nc aeroclim.m08.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_08.nc aeroclim.m08.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 9
++ forecast_predet.sh[530]mm=09
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_09.nc aeroclim.m09.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_09.nc aeroclim.m09.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 10
++ forecast_predet.sh[530]mm=10
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_10.nc aeroclim.m10.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_10.nc aeroclim.m10.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 11
++ forecast_predet.sh[530]mm=11
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_11.nc aeroclim.m11.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_11.nc aeroclim.m11.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
+++ forecast_predet.sh[530]printf %02d 12
++ forecast_predet.sh[530]mm=12
++ forecast_predet.sh[531]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_12.nc aeroclim.m12.nc
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/aer/y2020-2025/merra2_2020-2025_12.nc aeroclim.m12.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[529](( month++ ))
++ forecast_predet.sh[529](( month <= 12 ))
++ forecast_predet.sh[536]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_climaeropac_global.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/aerosol.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_climaeropac_global.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/aerosol.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[537](( IAER > 0 ))
++ forecast_predet.sh[538]local file
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1850-1859.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1850-1859.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1850-1859.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1850-1859.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1850-1859.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1860-1869.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1860-1869.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1860-1869.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1860-1869.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1860-1869.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1870-1879.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1870-1879.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1870-1879.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1870-1879.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1870-1879.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1880-1889.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1880-1889.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1880-1889.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1880-1889.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1880-1889.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1890-1899.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1890-1899.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1890-1899.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1890-1899.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1890-1899.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1900-1909.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1900-1909.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1900-1909.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1900-1909.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1900-1909.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1910-1919.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1910-1919.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1910-1919.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1910-1919.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1910-1919.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1920-1929.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1920-1929.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1920-1929.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1920-1929.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1920-1929.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1930-1939.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1930-1939.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1930-1939.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1930-1939.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1930-1939.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1940-1949.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1940-1949.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1940-1949.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1940-1949.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1940-1949.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1950-1959.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1950-1959.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1950-1959.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1950-1959.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1950-1959.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1960-1969.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1960-1969.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1960-1969.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1960-1969.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1960-1969.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1970-1979.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1970-1979.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1970-1979.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1970-1979.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1970-1979.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1980-1989.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1980-1989.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1980-1989.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1980-1989.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1980-1989.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[539]for file in "${FIXglobal}/am/global_volcanic_aerosols"*
+++ forecast_predet.sh[540]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/volcanic_aerosols_1990-1999.txt
++ forecast_predet.sh[540]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1990-1999.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1990-1999.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_volcanic_aerosols_1990-1999.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/volcanic_aerosols_1990-1999.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[544]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_BC.v1_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_BC.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_BC.v1_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_BC.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[545]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_OC.v1_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_OC.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_OC.v1_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_OC.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[546]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_DU.v15_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_DU.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_DU.v15_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_DU.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[547]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_SS.v3_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_SS.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_SS.v3_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_SS.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[548]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_SU.v1_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_SU.dat
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/lut/optics_SU.v1_3.dat /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/optics_SU.dat
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[551]ICO2=2
++ forecast_predet.sh[553]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_co2historicaldata_glob.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_glob.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/global_co2historicaldata_glob.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_glob.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[554]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/co2monthlycyc.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2monthlycyc.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/co2monthlycyc.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2monthlycyc.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[557]local co2dir
++ forecast_predet.sh[558]co2dir=fix_co2_proj
++ forecast_predet.sh[559][[ '' == \Y\E\S ]]
++ forecast_predet.sh[562](( ICO2 > 0 ))
++ forecast_predet.sh[563]local file
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2009.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2009.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2009.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2010.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2010.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2010.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2011.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2011.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2011.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2012.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2012.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2012.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2013.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2013.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2013.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2014.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2014.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2014.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2015.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2015.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2015.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2016.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2016.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2016.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2017.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2017.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2017.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2018.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2018.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2018.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2019.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2019.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2019.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2020.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2020.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2020.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2021.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2021.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2021.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2022.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2022.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2022.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2022.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2022.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2023.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2023.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2023.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2023.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2023.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2024.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2024.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2024.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2024.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2024.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2025.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2025.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2025.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2025.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2025.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[564]for file in "${FIXglobal}/am/${co2dir}/global_co2historicaldata"*
+++ forecast_predet.sh[565]basename /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/co2historicaldata_2026.txt
++ forecast_predet.sh[565]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2026.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2026.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/am/fix_co2_proj/global_co2historicaldata_2026.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2026.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[568][[ -n /gpfs/f6/ira-da/world-shared/co2dat_4a ]]
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1956.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1956.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1956.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1956.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1956.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1957.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1957.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1957.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1957.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1957.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1958.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1958.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1958.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1958.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1958.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1959.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1959.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1959.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1959.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1959.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1960.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1960.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1960.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1960.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1960.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1961.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1961.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1961.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1961.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1961.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1962.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1962.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1962.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1962.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1962.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1963.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1963.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1963.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1963.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1963.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1964.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1964.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1964.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1964.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1964.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1965.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1965.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1965.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1965.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1965.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1966.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1966.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1966.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1966.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1966.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1967.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1967.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1967.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1967.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1967.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1968.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1968.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1968.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1968.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1968.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1969.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1969.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1969.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1969.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1969.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1970.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1970.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1970.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1970.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1970.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1971.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1971.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1971.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1971.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1971.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1972.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1972.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1972.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1972.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1972.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1973.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1973.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1973.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1973.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1973.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1974.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1974.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1974.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1974.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1974.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1975.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1975.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1975.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1975.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1975.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1976.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1976.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1976.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1976.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1976.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1977.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1977.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1977.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1977.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1977.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1978.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1978.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1978.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1978.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1978.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1979.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1979.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1979.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1979.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1979.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1980.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1980.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1980.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1980.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1980.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1981.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1981.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1981.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1981.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1981.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1982.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1982.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1982.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1982.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1982.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1983.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1983.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1983.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1983.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1983.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1984.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1984.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1984.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1984.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1984.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1985.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1985.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1985.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1985.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1985.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1986.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1986.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1986.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1986.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1986.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1987.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1987.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1987.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1987.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1987.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1988.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1988.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1988.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1988.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1988.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1989.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1989.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1989.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1989.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1989.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1990.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1990.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1990.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1990.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1990.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1991.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1991.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1991.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1991.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1991.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1992.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1992.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1992.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1992.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1992.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1993.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1993.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1993.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1993.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1993.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1994.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1994.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1994.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1994.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1994.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1995.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1995.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1995.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1995.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1995.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1996.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1996.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1996.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1996.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1996.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1997.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1997.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1997.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1997.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1997.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1998.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1998.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1998.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1998.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1998.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_1999.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1999.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1999.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_1999.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_1999.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2000.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2000.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2000.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2000.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2000.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2001.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2001.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2001.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2001.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2001.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2002.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2002.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2002.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2002.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2002.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2003.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2003.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2003.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2003.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2003.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2004.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2004.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2004.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2004.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2004.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2005.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2005.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2005.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2005.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2005.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2006.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2006.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2006.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2006.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2006.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2007.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2007.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2007.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2007.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2007.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2008.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2008.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2008.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2008.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2008.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2009.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2009.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2009.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2009.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2009.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2009.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2009.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2009.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2009.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2009.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2010.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2010.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2010.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2010.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2010.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2010.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2010.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2010.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2010.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2010.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2011.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2011.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2011.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2011.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2011.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2011.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2011.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2011.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2011.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2011.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2012.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2012.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2012.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2012.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2012.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2012.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2012.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2012.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2012.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2012.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2013.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2013.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2013.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2013.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2013.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2013.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2013.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2013.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2013.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2013.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2014.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2014.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2014.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2014.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2014.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2014.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2014.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2014.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2014.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2014.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2015.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2015.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2015.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2015.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2015.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2015.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2015.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2015.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2015.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2015.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2016.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2016.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2016.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2016.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2016.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2016.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2016.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2016.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2016.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2016.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2017.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2017.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2017.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2017.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2017.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2017.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2017.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2017.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2017.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2017.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2018.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2018.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2018.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2018.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2018.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2018.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2018.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2018.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2018.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2018.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2019.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2019.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2019.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2019.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2019.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2019.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2019.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2019.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2019.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2019.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2020.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2020.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2020.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2020.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2020.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2020.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2020.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2020.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2020.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2020.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2021.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2021.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2021.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2021.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2021.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2021.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2021.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2021.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt_proj_u

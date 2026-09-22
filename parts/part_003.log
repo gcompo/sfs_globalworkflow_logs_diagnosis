@@ -1,0 +1,900 @@
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2021.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2021.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2022.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2022.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2022.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2022.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2022.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2022.txt_proj_u
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2022.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2022.txt_proj_u
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2022.txt_proj_u /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2022.txt_proj_u
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_2023.txt_proj
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2023.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2023.txt_proj
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_2023.txt_proj /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_2023.txt_proj
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[569]for file in "${FIXCO2}/global_co2historicaldata"*
+++ forecast_predet.sh[570]basename /gpfs/f6/ira-da/world-shared/co2dat_4a/co2historicaldata_glob.txt
++ forecast_predet.sh[570]cpreq /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_glob.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_glob.txt
++ cpreq[3]cp /gpfs/f6/ira-da/world-shared/co2dat_4a/global_co2historicaldata_glob.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/co2historicaldata_glob.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[576][[ .true. == \.\t\r\u\e\. ]]
++ forecast_predet.sh[577]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/post/params_grib2_tbl_new /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/params_grib2_tbl_new
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/post/params_grib2_tbl_new /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/params_grib2_tbl_new
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[578]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/post_itag_gfs /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/itag
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/post_itag_gfs /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/itag
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[580]case ${NET} in
++ forecast_predet.sh[582]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/post/gfs/postxconfig-NT-gfs-two.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/postxconfig-NT.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/post/gfs/postxconfig-NT-gfs-two.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/postxconfig-NT.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[583]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/post/gfs/postxconfig-NT-gfs-f00-two.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/postxconfig-NT_FH00.txt
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/post/gfs/postxconfig-NT-gfs-f00-two.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/postxconfig-NT_FH00.txt
++ cpreq[4]'[' 0 -ne 0 ']'
++ exglobal_forecast.sh[111][[ .true. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[112]CMEPS_predet
++ forecast_predet.sh[766]echo 'SUB CMEPS_predet: CMEPS before run type determination'
+SUB CMEPS_predet: CMEPS before run type determination
++ forecast_predet.sh[768][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/CMEPS_RESTART ]]
++ forecast_predet.sh[771]/bin/ln -sf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/CMEPS_RESTART /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/CMEPS_RESTART
++ exglobal_forecast.sh[114][[ .true. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[115]MOM6_predet
++ forecast_predet.sh[709]echo 'SUB MOM6_predet: MOM6 before run type determination'
+SUB MOM6_predet: MOM6 before run type determination
++ forecast_predet.sh[711][[ ! -d /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ocean/history ]]
++ forecast_predet.sh[712][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT ]]
++ forecast_predet.sh[713][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/MOM6_RESTART ]]
++ forecast_predet.sh[716]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT/ocean_geometry.nc
++ forecast_predet.sh[719]/bin/ln -sf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/MOM6_OUTPUT
++ forecast_predet.sh[720]/bin/ln -sf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/MOM6_RESTART /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/MOM6_RESTART
+++ forecast_predet.sh[724]seq -s ' ' 0 3 9
++ forecast_predet.sh[724]MOM6_OUTPUT_FH='0 3 6 9'
++ forecast_predet.sh[728]local imem=
++ forecast_predet.sh[729]local base_seed=20230116060000
++ forecast_predet.sh[731][[ NO == \Y\E\S ]]
++ forecast_predet.sh[735][[ NO == \Y\E\S ]]
++ forecast_predet.sh[742]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/All_edits.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/geothermal_davies2013_v1.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/hycom1_75_800m.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/interpolate_zgrid_30L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/interpolate_zgrid_32L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/interpolate_zgrid_40L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/layer_coord.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/MOM_channels_global_025 /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/MOM_layout /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/MOM_override /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/oceanda_zgrid_75L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_hgrid.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_mask.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_mosaic.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_topog.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/runoff.daitren.clim.1440x1080.v20180328.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/seawifs-clim-1997-2010.1440x1080.v20180328.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/tidal_amplitude.v20140616.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/topog.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/All_edits.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/geothermal_davies2013_v1.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/hycom1_75_800m.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/interpolate_zgrid_30L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/interpolate_zgrid_32L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/interpolate_zgrid_40L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/layer_coord.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/MOM_channels_global_025 /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/MOM_layout /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/MOM_override /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/oceanda_zgrid_75L.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_hgrid.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_mask.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_mosaic.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/ocean_topog.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/runoff.daitren.clim.1440x1080.v20180328.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/seawifs-clim-1997-2010.1440x1080.v20180328.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/tidal_amplitude.v20140616.nc /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/mom6/025/topog.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[745]cat
++ forecast_predet.sh[752]local spec_file
++ forecast_predet.sh[753]spec_file=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cpl/aC192o025/grid_spec.nc
++ forecast_predet.sh[755][[ -s /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cpl/aC192o025/grid_spec.nc ]]
++ forecast_predet.sh[756]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cpl/aC192o025/grid_spec.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cpl/aC192o025/grid_spec.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/
++ cpreq[4]'[' 0 -ne 0 ']'
++ exglobal_forecast.sh[117][[ .false. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[120][[ .true. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[121]CICE_predet
++ forecast_predet.sh[686]echo 'SUB CICE_predet: CICE before run type determination'
+SUB CICE_predet: CICE before run type determination
++ forecast_predet.sh[688][[ ! -d /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ice/history ]]
++ forecast_predet.sh[689][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/CICE_OUTPUT ]]
++ forecast_predet.sh[690][[ ! -d /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/CICE_RESTART ]]
++ forecast_predet.sh[693]/bin/ln -sf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/CICE_OUTPUT /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/CICE_OUTPUT
++ forecast_predet.sh[694]/bin/ln -sf /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/CICE_RESTART /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/CICE_RESTART
++ forecast_predet.sh[698]mapfile -t CICE_OUTPUT_FH
+++ forecast_predet.sh[698]seq 0 3 9
++ forecast_predet.sh[701]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice/025/grid_cice_NEMS_mx025.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice/025/grid_cice_NEMS_mx025.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[702]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice/025/kmtu_cice_NEMS_mx025.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice/025/kmtu_cice_NEMS_mx025.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_predet.sh[703]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice/025/mesh.mx025.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/fix/cice/025/mesh.mx025.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/
++ cpreq[4]'[' 0 -ne 0 ']'
++ exglobal_forecast.sh[123][[ .false. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[126]echo 'MAIN: Variables before determination of run type loaded'
+MAIN: Variables before determination of run type loaded
++ exglobal_forecast.sh[128]echo 'MAIN: Determining run type'
+MAIN: Determining run type
++ exglobal_forecast.sh[129]UFS_det
++ forecast_det.sh[16]echo 'SUB UFS_det: Run type determination for UFS'
+SUB UFS_det: Run type determination for UFS
++ forecast_det.sh[19][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.coupler.res ]]
++ forecast_det.sh[20]warm_start=.true.
++ forecast_det.sh[24][[ .true. == \.\f\a\l\s\e\. ]]
++ forecast_det.sh[46]RERUN=NO
++ forecast_det.sh[49][[ gdas =~ gdas ]]
++ forecast_det.sh[50]echo 'RERUN is not available for RUN='\''gdas'\'''
+RERUN is not available for RUN='gdas'
++ forecast_det.sh[51]return 0
++ exglobal_forecast.sh[130]echo 'MAIN: run type determined'
+MAIN: run type determined
++ exglobal_forecast.sh[132]echo 'MAIN: Post-determination set up of run type'
+MAIN: Post-determination set up of run type
++ exglobal_forecast.sh[133]FV3_postdet
++ forecast_postdet.sh[18]echo 'SUB FV3_postdet: Entering for RUN = gdas'
+SUB FV3_postdet: Entering for RUN = gdas
++ forecast_postdet.sh[20]echo 'warm_start = .true.'
+warm_start = .true.
++ forecast_postdet.sh[21]echo 'RERUN = NO'
+RERUN = NO
++ forecast_postdet.sh[26][[ .true. == \.\f\a\l\s\e\. ]]
++ forecast_postdet.sh[38][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[41]local restart_date restart_dir
++ forecast_postdet.sh[42][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[46]restart_date=2023011603
++ forecast_postdet.sh[47]restart_dir=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart
++ forecast_postdet.sh[51]local file_list
+++ forecast_postdet.sh[52]FV3_restarts
+++ forecast_predet.sh[69]local fv3_restart_files tile_files
+++ forecast_predet.sh[70]fv3_restart_files=(coupler.res fv_core.res.nc)
+++ forecast_predet.sh[71]tile_files=(fv_core.res fv_srf_wnd.res fv_tracer.res phy_data sfc_data)
+++ forecast_predet.sh[72][[ YES == \Y\E\S ]]
+++ forecast_predet.sh[73]tile_files+=(ca_data)
+++ forecast_predet.sh[75]local nn tt
+++ forecast_predet.sh[76](( nn = 1 ))
+++ forecast_predet.sh[76](( nn <= ntiles ))
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[76](( nn++ ))
+++ forecast_predet.sh[76](( nn <= ntiles ))
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[76](( nn++ ))
+++ forecast_predet.sh[76](( nn <= ntiles ))
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[76](( nn++ ))
+++ forecast_predet.sh[76](( nn <= ntiles ))
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[76](( nn++ ))
+++ forecast_predet.sh[76](( nn <= ntiles ))
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[76](( nn++ ))
+++ forecast_predet.sh[76](( nn <= ntiles ))
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[77]for tt in "${tile_files[@]}"
+++ forecast_predet.sh[78]fv3_restart_files+=("${tt}.tile${nn}.nc")
+++ forecast_predet.sh[76](( nn++ ))
+++ forecast_predet.sh[76](( nn <= ntiles ))
+++ forecast_predet.sh[82]IFS=,
+++ forecast_predet.sh[82]echo 'coupler.res fv_core.res.nc fv_core.res.tile1.nc fv_srf_wnd.res.tile1.nc fv_tracer.res.tile1.nc phy_data.tile1.nc sfc_data.tile1.nc ca_data.tile1.nc fv_core.res.tile2.nc fv_srf_wnd.res.tile2.nc fv_tracer.res.tile2.nc phy_data.tile2.nc sfc_data.tile2.nc ca_data.tile2.nc fv_core.res.tile3.nc fv_srf_wnd.res.tile3.nc fv_tracer.res.tile3.nc phy_data.tile3.nc sfc_data.tile3.nc ca_data.tile3.nc fv_core.res.tile4.nc fv_srf_wnd.res.tile4.nc fv_tracer.res.tile4.nc phy_data.tile4.nc sfc_data.tile4.nc ca_data.tile4.nc fv_core.res.tile5.nc fv_srf_wnd.res.tile5.nc fv_tracer.res.tile5.nc phy_data.tile5.nc sfc_data.tile5.nc ca_data.tile5.nc fv_core.res.tile6.nc fv_srf_wnd.res.tile6.nc fv_tracer.res.tile6.nc phy_data.tile6.nc sfc_data.tile6.nc ca_data.tile6.nc'
++ forecast_postdet.sh[52]file_list='coupler.res fv_core.res.nc fv_core.res.tile1.nc fv_srf_wnd.res.tile1.nc fv_tracer.res.tile1.nc phy_data.tile1.nc sfc_data.tile1.nc ca_data.tile1.nc fv_core.res.tile2.nc fv_srf_wnd.res.tile2.nc fv_tracer.res.tile2.nc phy_data.tile2.nc sfc_data.tile2.nc ca_data.tile2.nc fv_core.res.tile3.nc fv_srf_wnd.res.tile3.nc fv_tracer.res.tile3.nc phy_data.tile3.nc sfc_data.tile3.nc ca_data.tile3.nc fv_core.res.tile4.nc fv_srf_wnd.res.tile4.nc fv_tracer.res.tile4.nc phy_data.tile4.nc sfc_data.tile4.nc ca_data.tile4.nc fv_core.res.tile5.nc fv_srf_wnd.res.tile5.nc fv_tracer.res.tile5.nc phy_data.tile5.nc sfc_data.tile5.nc ca_data.tile5.nc fv_core.res.tile6.nc fv_srf_wnd.res.tile6.nc fv_tracer.res.tile6.nc phy_data.tile6.nc sfc_data.tile6.nc ca_data.tile6.nc'
++ forecast_postdet.sh[53]echo 'Copying FV3 restarts for '\''RUN=gdas'\'' at '\''2023011603'\'' from '\''/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart'\'''
+Copying FV3 restarts for 'RUN=gdas' at '2023011603' from '/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart'
++ forecast_postdet.sh[54]local fv3_file restart_file
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.coupler.res
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.coupler.res /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/coupler.res
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.coupler.res /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/coupler.res
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_core.res.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_core.res.tile1.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_srf_wnd.res.tile1.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_tracer.res.tile1.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.phy_data.tile1.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.sfc_data.tile1.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.ca_data.tile1.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_core.res.tile2.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_srf_wnd.res.tile2.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_tracer.res.tile2.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.phy_data.tile2.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.sfc_data.tile2.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.ca_data.tile2.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_core.res.tile3.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_srf_wnd.res.tile3.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_tracer.res.tile3.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.phy_data.tile3.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.sfc_data.tile3.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.ca_data.tile3.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_core.res.tile4.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_srf_wnd.res.tile4.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_tracer.res.tile4.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.phy_data.tile4.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.sfc_data.tile4.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.ca_data.tile4.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_core.res.tile5.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_srf_wnd.res.tile5.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_tracer.res.tile5.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.phy_data.tile5.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.sfc_data.tile5.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.ca_data.tile5.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_core.res.tile6.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_core.res.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_core.res.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_srf_wnd.res.tile6.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_srf_wnd.res.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_srf_wnd.res.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.fv_tracer.res.tile6.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.fv_tracer.res.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/fv_tracer.res.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.phy_data.tile6.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.phy_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/phy_data.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.sfc_data.tile6.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.sfc_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[55]for fv3_file in ${file_list}
++ forecast_postdet.sh[56]restart_file=20230116.030000.ca_data.tile6.nc
++ forecast_postdet.sh[57]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/atmos/restart/20230116.030000.ca_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/ca_data.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[60][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[73]local nn
++ forecast_postdet.sh[74](( nn = 1 ))
++ forecast_postdet.sh[74](( nn <= ntiles ))
++ forecast_postdet.sh[75][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile1.nc ]]
++ forecast_postdet.sh[76]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile1.nc
++ forecast_postdet.sh[77]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[74](( nn++ ))
++ forecast_postdet.sh[74](( nn <= ntiles ))
++ forecast_postdet.sh[75][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile2.nc ]]
++ forecast_postdet.sh[76]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile2.nc
++ forecast_postdet.sh[77]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[74](( nn++ ))
++ forecast_postdet.sh[74](( nn <= ntiles ))
++ forecast_postdet.sh[75][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile3.nc ]]
++ forecast_postdet.sh[76]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile3.nc
++ forecast_postdet.sh[77]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[74](( nn++ ))
++ forecast_postdet.sh[74](( nn <= ntiles ))
++ forecast_postdet.sh[75][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile4.nc ]]
++ forecast_postdet.sh[76]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile4.nc
++ forecast_postdet.sh[77]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile4.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile4.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile4.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[74](( nn++ ))
++ forecast_postdet.sh[74](( nn <= ntiles ))
++ forecast_postdet.sh[75][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile5.nc ]]
++ forecast_postdet.sh[76]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile5.nc
++ forecast_postdet.sh[77]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile5.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile5.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile5.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[74](( nn++ ))
++ forecast_postdet.sh[74](( nn <= ntiles ))
++ forecast_postdet.sh[75][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile6.nc ]]
++ forecast_postdet.sh[76]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile6.nc
++ forecast_postdet.sh[77]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile6.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/restart/20230116.030000.sfcanl_data.tile6.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/sfc_data.tile6.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[74](( nn++ ))
++ forecast_postdet.sh[74](( nn <= ntiles ))
++ forecast_postdet.sh[92][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[120][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[122]/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/check_land_input_orography.py --input_dir /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT --orog_dir /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT
+2026-09-21 15:46:01,810 - INFO     - __main__    : BEGIN: __main__.count_points_from_input: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/check_land_input_orography.py
+2026-09-21 15:46:01,899 - INFO     - __main__    :   END: __main__.count_points_from_input: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/check_land_input_orography.py
+2026-09-21 15:46:01,899 - INFO     - __main__    : BEGIN: __main__.count_points_from_orog: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/check_land_input_orography.py
+2026-09-21 15:46:01,920 - INFO     - __main__    :   END: __main__.count_points_from_orog: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/check_land_input_orography.py
+2026-09-21 15:46:01,920 - INFO     - __main__    : BEGIN: __main__.compare_counts: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/check_land_input_orography.py
+2026-09-21 15:46:01,920 - INFO     - __main__    :   END: __main__.compare_counts: /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/check_land_input_orography.py
++ forecast_postdet.sh[123]err=0
++ forecast_postdet.sh[124][[ 0 -ne 0 ]]
++ forecast_postdet.sh[132][[ .true. == \.\f\a\l\s\e\. ]]
++ forecast_postdet.sh[151][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[154][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[169][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[170]local model_start_time=2023011600
++ forecast_postdet.sh[174]local model_current_time=2023011603
++ forecast_postdet.sh[175]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/coupler.res
++ forecast_postdet.sh[176]cat
++ forecast_postdet.sh[183]local inc_files inc_file iaufhrs iaufhr
++ forecast_postdet.sh[184][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[186]IFS=,
++ forecast_postdet.sh[186]read -ra iaufhrs
++ forecast_postdet.sh[187]inc_files=()
++ forecast_postdet.sh[188]delimiter=
++ forecast_postdet.sh[189]IAU_INC_FILES=
++ forecast_postdet.sh[190]for iaufhr in "${iaufhrs[@]}"
++ forecast_postdet.sh[191][[ NO == \Y\E\S ]]
+++ forecast_postdet.sh[198]printf %03i 6
++ forecast_postdet.sh[198]inc_file=increment.atm.i006.nc
++ forecast_postdet.sh[199]inc_files+=("${inc_file}")
++ forecast_postdet.sh[200]IAU_INC_FILES=''\''increment.atm.i006.nc'\'''
++ forecast_postdet.sh[203]delimiter=,
++ forecast_postdet.sh[248][[ gdas == \e\n\k\f\g\f\s ]]
++ forecast_postdet.sh[248][[ gdas == \e\n\k\f\g\d\a\s ]]
++ forecast_postdet.sh[255]prefix_atminc=
++ forecast_postdet.sh[258]local increment_file
++ forecast_postdet.sh[259]for inc_file in "${inc_files[@]}"
++ forecast_postdet.sh[260][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[266][[ gdas == \g\c\a\f\s ]]
++ forecast_postdet.sh[269]increment_file=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/atmos/gdas.t06z.increment.atm.i006.nc
++ forecast_postdet.sh[272]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/atmos/gdas.t06z.increment.atm.i006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/increment.atm.i006.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/atmos/gdas.t06z.increment.atm.i006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/increment.atm.i006.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[276][[ .false. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[295][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[296]FHMAX=15
++ forecast_postdet.sh[297][[ 0 -gt 0 ]]
++ forecast_postdet.sh[305][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[308]nggps_ic=.false.
++ forecast_postdet.sh[309]ncep_ic=.false.
++ forecast_postdet.sh[310]external_ic=.false.
++ forecast_postdet.sh[311]mountain=.true.
++ forecast_postdet.sh[314][[ nh == \n\h ]]
++ forecast_postdet.sh[315]make_nh=.false.
++ forecast_postdet.sh[319]na_init=0
++ forecast_postdet.sh[325][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[325][[ gaussian_grid == \g\a\u\s\s\i\a\n\_\g\r\i\d ]]
++ forecast_postdet.sh[326]local FH2 FH3
++ forecast_postdet.sh[327]for fhr in ${FV3_OUTPUT_FH}
+++ forecast_postdet.sh[328]printf %03i 0
++ forecast_postdet.sh[328]FH3=000
+++ forecast_postdet.sh[329]printf %02i 0
++ forecast_postdet.sh[329]FH2=00
++ forecast_postdet.sh[331]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.atm.f000.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/atmf000.nc
++ forecast_postdet.sh[332]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.sfc.f000.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/sfcf000.nc
++ forecast_postdet.sh[333]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.log.f000.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/log.atm.f000
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[338][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[339]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.master.f000.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSPRS.GrbF00
++ forecast_postdet.sh[340]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.sflux.f000.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSFLX.GrbF00
++ forecast_postdet.sh[341][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[327]for fhr in ${FV3_OUTPUT_FH}
+++ forecast_postdet.sh[328]printf %03i 3
++ forecast_postdet.sh[328]FH3=003
+++ forecast_postdet.sh[329]printf %02i 3
++ forecast_postdet.sh[329]FH2=03
++ forecast_postdet.sh[331]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.atm.f003.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/atmf003.nc
++ forecast_postdet.sh[332]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.sfc.f003.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/sfcf003.nc
++ forecast_postdet.sh[333]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.log.f003.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/log.atm.f003
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[338][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[339]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.master.f003.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSPRS.GrbF03
++ forecast_postdet.sh[340]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.sflux.f003.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSFLX.GrbF03
++ forecast_postdet.sh[341][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[327]for fhr in ${FV3_OUTPUT_FH}
+++ forecast_postdet.sh[328]printf %03i 6
++ forecast_postdet.sh[328]FH3=006
+++ forecast_postdet.sh[329]printf %02i 6
++ forecast_postdet.sh[329]FH2=06
++ forecast_postdet.sh[331]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.atm.f006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/atmf006.nc
++ forecast_postdet.sh[332]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.sfc.f006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/sfcf006.nc
++ forecast_postdet.sh[333]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.log.f006.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/log.atm.f006
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[338][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[339]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.master.f006.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSPRS.GrbF06
++ forecast_postdet.sh[340]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.sflux.f006.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSFLX.GrbF06
++ forecast_postdet.sh[341][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[327]for fhr in ${FV3_OUTPUT_FH}
+++ forecast_postdet.sh[328]printf %03i 9
++ forecast_postdet.sh[328]FH3=009
+++ forecast_postdet.sh[329]printf %02i 9
++ forecast_postdet.sh[329]FH2=09
++ forecast_postdet.sh[331]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.atm.f009.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/atmf009.nc
++ forecast_postdet.sh[332]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.sfc.f009.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/sfcf009.nc
++ forecast_postdet.sh[333]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/history/gdas.t06z.log.f009.txt /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/log.atm.f009
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[334][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[338][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[339]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.master.f009.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSPRS.GrbF09
++ forecast_postdet.sh[340]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/atmos/master/gdas.t06z.sflux.f009.grib2 /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT/GFSFLX.GrbF09
++ forecast_postdet.sh[341][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[349]restart_interval=3
++ forecast_postdet.sh[353][[ 3 -eq 0 ]]
++ forecast_postdet.sh[360][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[361][[ cycled = \c\y\c\l\e\d ]]
++ forecast_postdet.sh[361][[ 2023010106 = \2\0\2\3\0\1\1\6\0\6 ]]
++ forecast_postdet.sh[365]local restart_interval_start=9
++ forecast_postdet.sh[366]local restart_interval_end=21
+++ forecast_postdet.sh[372]seq -s ' ' 9 3 21
++ forecast_postdet.sh[372]FV3_RESTART_FH='9 12 15 18 21'
++ forecast_postdet.sh[374]export FV3_RESTART_FH
++ forecast_postdet.sh[375][[ -n 9 12 15 18 21 ]]
++ forecast_postdet.sh[375]mkdir -p /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/FV3_RESTART
++ exglobal_forecast.sh[134][[ .true. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[135]CMEPS_postdet
++ forecast_postdet.sh[1035]echo 'SUB CMEPS_postdet: Linking output data for CMEPS mediator'
+SUB CMEPS_postdet: Linking output data for CMEPS mediator
++ forecast_postdet.sh[1037][[ .true. == \.\t\r\u\e\. ]]
++ forecast_postdet.sh[1040]local restart_date cmeps_restart_file
++ forecast_postdet.sh[1041][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[1047]restart_date=2023011603
++ forecast_postdet.sh[1048]cmeps_restart_file=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/med/restart/20230116.030000.ufs.cpld.cpl.r.nc
++ forecast_postdet.sh[1052][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/med/restart/20230116.030000.ufs.cpld.cpl.r.nc ]]
++ forecast_postdet.sh[1053]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/med/restart/20230116.030000.ufs.cpld.cpl.r.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ufs.cpld.cpl.r.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/med/restart/20230116.030000.ufs.cpld.cpl.r.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/ufs.cpld.cpl.r.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[1054]rm -f /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/rpointer.cpl
++ forecast_postdet.sh[1055]touch /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/rpointer.cpl
++ forecast_postdet.sh[1056]echo ufs.cpld.cpl.r.nc
++ forecast_postdet.sh[1073]cmeps_restart_interval=3
++ forecast_postdet.sh[1077](( cmeps_restart_interval == 0 ))
++ forecast_postdet.sh[1084][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[1085][[ cycled = \c\y\c\l\e\d ]]
++ forecast_postdet.sh[1085][[ 2023010106 = \2\0\2\3\0\1\1\6\0\6 ]]
++ forecast_postdet.sh[1089]local restart_interval_start=6
++ forecast_postdet.sh[1090]local restart_interval_end=18
+++ forecast_postdet.sh[1096]seq -s ' ' 6 3 18
++ forecast_postdet.sh[1096]CMEPS_RESTART_FH='6 9 12 15 18'
++ forecast_postdet.sh[1098]export CMEPS_RESTART_FH
++ exglobal_forecast.sh[137][[ .true. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[138]MOM6_postdet
++ forecast_postdet.sh[640]echo 'SUB MOM6_postdet: MOM6 after run type determination'
+SUB MOM6_postdet: MOM6 after run type determination
++ forecast_postdet.sh[642]local restart_dir restart_date
++ forecast_postdet.sh[643][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[647]restart_dir=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart
++ forecast_postdet.sh[648]restart_date=2023011603
++ forecast_postdet.sh[652]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[1]case ${OCNRES} in
++ forecast_postdet.sh[655]local nn
++ forecast_postdet.sh[656](( nn = 1 ))
++ forecast_postdet.sh[656](( nn <= 4 ))
++ forecast_postdet.sh[657][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_1.nc ]]
++ forecast_postdet.sh[658]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_1.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_1.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_1.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[656](( nn++ ))
++ forecast_postdet.sh[656](( nn <= 4 ))
++ forecast_postdet.sh[657][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_2.nc ]]
++ forecast_postdet.sh[658]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_2.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_2.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_2.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[656](( nn++ ))
++ forecast_postdet.sh[656](( nn <= 4 ))
++ forecast_postdet.sh[657][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_3.nc ]]
++ forecast_postdet.sh[658]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_3.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_3.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/MOM.res_3.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[656](( nn++ ))
++ forecast_postdet.sh[656](( nn <= 4 ))
++ forecast_postdet.sh[657][[ -f /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ocean/restart/20230116.030000.MOM.res_4.nc ]]
++ forecast_postdet.sh[656](( nn++ ))
++ forecast_postdet.sh[656](( nn <= 4 ))
++ forecast_postdet.sh[666][[ NO == \N\O ]]
++ forecast_postdet.sh[667][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[668]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/ocean/gdas.t06z.mom6_increment.i006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/mom6_increment.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/ocean/gdas.t06z.mom6_increment.i006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/INPUT/mom6_increment.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[673]case ${RUN} in
++ forecast_postdet.sh[716]local fhr3 vdatestr
++ forecast_postdet.sh[717]for fhr in ${MOM6_OUTPUT_FH}
+++ forecast_postdet.sh[718]printf %03i 0
++ forecast_postdet.sh[718]fhr3=000
+++ forecast_postdet.sh[719]date --utc -d '20230116 06 + 0 hours' +%Y_%m_%d_%H
++ forecast_postdet.sh[719]vdatestr=2023_01_16_06
++ forecast_postdet.sh[720]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ocean/history/gdas.t06z.inst.f000.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT/ocn_2023_01_16_06.nc
++ forecast_postdet.sh[717]for fhr in ${MOM6_OUTPUT_FH}
+++ forecast_postdet.sh[718]printf %03i 3
++ forecast_postdet.sh[718]fhr3=003
+++ forecast_postdet.sh[719]date --utc -d '20230116 06 + 3 hours' +%Y_%m_%d_%H
++ forecast_postdet.sh[719]vdatestr=2023_01_16_09
++ forecast_postdet.sh[720]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ocean/history/gdas.t06z.inst.f003.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT/ocn_2023_01_16_09.nc
++ forecast_postdet.sh[717]for fhr in ${MOM6_OUTPUT_FH}
+++ forecast_postdet.sh[718]printf %03i 6
++ forecast_postdet.sh[718]fhr3=006
+++ forecast_postdet.sh[719]date --utc -d '20230116 06 + 6 hours' +%Y_%m_%d_%H
++ forecast_postdet.sh[719]vdatestr=2023_01_16_12
++ forecast_postdet.sh[720]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ocean/history/gdas.t06z.inst.f006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT/ocn_2023_01_16_12.nc
++ forecast_postdet.sh[717]for fhr in ${MOM6_OUTPUT_FH}
+++ forecast_postdet.sh[718]printf %03i 9
++ forecast_postdet.sh[718]fhr3=009
+++ forecast_postdet.sh[719]date --utc -d '20230116 06 + 9 hours' +%Y_%m_%d_%H
++ forecast_postdet.sh[719]vdatestr=2023_01_16_15
++ forecast_postdet.sh[720]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ocean/history/gdas.t06z.inst.f009.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT/ocn_2023_01_16_15.nc
++ forecast_postdet.sh[729]echo 'SUB MOM6_postdet: MOM6 input data linked/copied'
+SUB MOM6_postdet: MOM6 input data linked/copied
++ exglobal_forecast.sh[140][[ .false. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[143][[ .true. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[144]CICE_postdet
++ forecast_postdet.sh[809]echo 'SUB CICE_postdet: CICE after run type determination'
+SUB CICE_postdet: CICE after run type determination
++ forecast_postdet.sh[811]local restart_date cice_restart_file
++ forecast_postdet.sh[812][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[818]restart_date=2023011603
++ forecast_postdet.sh[819]cice_restart_file=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/00/model/ice/restart/20230116.030000.cice_model.res.nc
++ forecast_postdet.sh[820][[ YES == \Y\E\S ]]
++ forecast_postdet.sh[821][[ 0 -eq 0 ]]
++ forecast_postdet.sh[823]cice_restart_file=/gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/ice/20230116.030000.analysis.cice_model.res.nc
++ forecast_postdet.sh[832]cpreq /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/ice/20230116.030000.analysis.cice_model.res.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/cice_model.res.nc
++ cpreq[3]cp /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/analysis/ice/20230116.030000.analysis.cice_model.res.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138/cice_model.res.nc
++ cpreq[4]'[' 0 -ne 0 ']'
++ forecast_postdet.sh[836]local vdate seconds vdatestr fhr fhr3 interval last_fhr
+++ forecast_postdet.sh[837]to_seconds 030000
+++ forecast_predet.sh[16]local hhmmss hh mm ss seconds padded_seconds
+++ forecast_predet.sh[17]hhmmss=030000
+++ forecast_predet.sh[18]hh=03
+++ forecast_predet.sh[19]mm=00
+++ forecast_predet.sh[20]ss=00
+++ forecast_predet.sh[21]seconds=10800
++++ forecast_predet.sh[22]printf %05d 10800
+++ forecast_predet.sh[22]padded_seconds=10800
+++ forecast_predet.sh[23]echo 10800
++ forecast_postdet.sh[837]seconds=10800
++ forecast_postdet.sh[838]vdatestr=2023-01-16-10800
++ forecast_postdet.sh[839]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ice/history/gdas.t06z.ic.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/CICE_OUTPUT/iceh_ic.2023-01-16-10800.nc
++ forecast_postdet.sh[842]local source_file dest_file
++ forecast_postdet.sh[843]for fhr in "${CICE_OUTPUT_FH[@]}"
++ forecast_postdet.sh[845][[ -z '' ]]
++ forecast_postdet.sh[846]last_fhr=0
++ forecast_postdet.sh[847]continue
++ forecast_postdet.sh[843]for fhr in "${CICE_OUTPUT_FH[@]}"
++ forecast_postdet.sh[845][[ -z 0 ]]
+++ forecast_postdet.sh[850]printf %03i 3
++ forecast_postdet.sh[850]fhr3=003
++ forecast_postdet.sh[851](( interval = fhr - last_fhr ))
+++ forecast_postdet.sh[853]date --utc -d '20230116 06 + 3 hours' +%Y%m%d%H
++ forecast_postdet.sh[853]vdate=2023011609
+++ forecast_postdet.sh[854]to_seconds 090000
+++ forecast_predet.sh[16]local hhmmss hh mm ss seconds padded_seconds
+++ forecast_predet.sh[17]hhmmss=090000
+++ forecast_predet.sh[18]hh=09
+++ forecast_predet.sh[19]mm=00
+++ forecast_predet.sh[20]ss=00
+++ forecast_predet.sh[21]seconds=32400
++++ forecast_predet.sh[22]printf %05d 32400
+++ forecast_predet.sh[22]padded_seconds=32400
+++ forecast_predet.sh[23]echo 32400
++ forecast_postdet.sh[854]seconds=32400
++ forecast_postdet.sh[855]vdatestr=2023-01-16-32400
++ forecast_postdet.sh[857]case "${RUN}" in
++ forecast_postdet.sh[859]source_file=iceh_inst.2023-01-16-32400.nc
++ forecast_postdet.sh[860]dest_file=gdas.t06z.inst.f003.nc
++ forecast_postdet.sh[876]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ice/history/gdas.t06z.inst.f003.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/CICE_OUTPUT/iceh_inst.2023-01-16-32400.nc
++ forecast_postdet.sh[878]last_fhr=3
++ forecast_postdet.sh[843]for fhr in "${CICE_OUTPUT_FH[@]}"
++ forecast_postdet.sh[845][[ -z 3 ]]
+++ forecast_postdet.sh[850]printf %03i 6
++ forecast_postdet.sh[850]fhr3=006
++ forecast_postdet.sh[851](( interval = fhr - last_fhr ))
+++ forecast_postdet.sh[853]date --utc -d '20230116 06 + 6 hours' +%Y%m%d%H
++ forecast_postdet.sh[853]vdate=2023011612
+++ forecast_postdet.sh[854]to_seconds 120000
+++ forecast_predet.sh[16]local hhmmss hh mm ss seconds padded_seconds
+++ forecast_predet.sh[17]hhmmss=120000
+++ forecast_predet.sh[18]hh=12
+++ forecast_predet.sh[19]mm=00
+++ forecast_predet.sh[20]ss=00
+++ forecast_predet.sh[21]seconds=43200
++++ forecast_predet.sh[22]printf %05d 43200
+++ forecast_predet.sh[22]padded_seconds=43200
+++ forecast_predet.sh[23]echo 43200
++ forecast_postdet.sh[854]seconds=43200
++ forecast_postdet.sh[855]vdatestr=2023-01-16-43200
++ forecast_postdet.sh[857]case "${RUN}" in
++ forecast_postdet.sh[859]source_file=iceh_inst.2023-01-16-43200.nc
++ forecast_postdet.sh[860]dest_file=gdas.t06z.inst.f006.nc
++ forecast_postdet.sh[876]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ice/history/gdas.t06z.inst.f006.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/CICE_OUTPUT/iceh_inst.2023-01-16-43200.nc
++ forecast_postdet.sh[878]last_fhr=6
++ forecast_postdet.sh[843]for fhr in "${CICE_OUTPUT_FH[@]}"
++ forecast_postdet.sh[845][[ -z 6 ]]
+++ forecast_postdet.sh[850]printf %03i 9
++ forecast_postdet.sh[850]fhr3=009
++ forecast_postdet.sh[851](( interval = fhr - last_fhr ))
+++ forecast_postdet.sh[853]date --utc -d '20230116 06 + 9 hours' +%Y%m%d%H
++ forecast_postdet.sh[853]vdate=2023011615
+++ forecast_postdet.sh[854]to_seconds 150000
+++ forecast_predet.sh[16]local hhmmss hh mm ss seconds padded_seconds
+++ forecast_predet.sh[17]hhmmss=150000
+++ forecast_predet.sh[18]hh=15
+++ forecast_predet.sh[19]mm=00
+++ forecast_predet.sh[20]ss=00
+++ forecast_predet.sh[21]seconds=54000
++++ forecast_predet.sh[22]printf %05d 54000
+++ forecast_predet.sh[22]padded_seconds=54000
+++ forecast_predet.sh[23]echo 54000
++ forecast_postdet.sh[854]seconds=54000
++ forecast_postdet.sh[855]vdatestr=2023-01-16-54000
++ forecast_postdet.sh[857]case "${RUN}" in
++ forecast_postdet.sh[859]source_file=iceh_inst.2023-01-16-54000.nc
++ forecast_postdet.sh[860]dest_file=gdas.t06z.inst.f009.nc
++ forecast_postdet.sh[876]/bin/ln -sf /gpfs/f6/ira-da/scratch/Baiding.Liu/GWTESTS/COMROOT/sfs2023/gdas.20230116/06/model/ice/history/gdas.t06z.inst.f009.nc /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/CICE_OUTPUT/iceh_inst.2023-01-16-54000.nc
++ forecast_postdet.sh[878]last_fhr=9
++ exglobal_forecast.sh[146][[ .false. == \.\t\r\u\e\. ]]
++ exglobal_forecast.sh[149]echo 'MAIN: Post-determination set up of run type finished'
+MAIN: Post-determination set up of run type finished
++ exglobal_forecast.sh[151]echo 'MAIN: Writing namelists and model configuration'
+MAIN: Writing namelists and model configuration
++ exglobal_forecast.sh[152]FV3_nml
++ forecast_postdet.sh[381]echo 'SUB FV3_nml: Creating name lists and model configure file for FV3'
+SUB FV3_nml: Creating name lists and model configure file for FV3
++ forecast_postdet.sh[383]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/parsing_namelists_FV3.sh
++ forecast_postdet.sh[384]source /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/ush/parsing_model_configure_FV3.sh
++ forecast_postdet.sh[387][[ NO == \Y\E\S ]]
++ forecast_postdet.sh[392]FV3_namelists
++ parsing_namelists_FV3.sh[22]DIAG_TABLE=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/diag_table_da
++ parsing_namelists_FV3.sh[23]DIAG_TABLE_APPEND=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/diag_table_aod
++ parsing_namelists_FV3.sh[24]DATA_TABLE=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/MOM6_data_table.IN
++ parsing_namelists_FV3.sh[25]FIELD_TABLE=/gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/field_table_thompson_noaero_tke_progsigma
++ parsing_namelists_FV3.sh[28](( gwd_opt == 2 ))
++ parsing_namelists_FV3.sh[28][[ .true. == \.\t\r\u\e\. ]]
++ parsing_namelists_FV3.sh[29]cdmbgwd=10.0,3.5,1.0,1.0
++ parsing_namelists_FV3.sh[33]dnats=0
++ parsing_namelists_FV3.sh[37]echo UFS_Weather_Model_Forecast
++ parsing_namelists_FV3.sh[38][[ YES = \Y\E\S ]]
++ parsing_namelists_FV3.sh[39]echo '2023 01 16 00 0 0'
++ parsing_namelists_FV3.sh[43]cat /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/diag_table_da
++ parsing_namelists_FV3.sh[44][[ -n '' ]]
++ parsing_namelists_FV3.sh[47]cat /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/diag_table_aod
++ parsing_namelists_FV3.sh[50]local template=diag_table_template
++ parsing_namelists_FV3.sh[51]local SYEAR=2023
++ parsing_namelists_FV3.sh[52]local SMONTH=01
++ parsing_namelists_FV3.sh[53]local SDAY=16
++ parsing_namelists_FV3.sh[54]local CHOUR=06
++ parsing_namelists_FV3.sh[55]local MOM6_OUTPUT_DIR=./MOM6_OUTPUT
++ parsing_namelists_FV3.sh[57]atparse
++ atparse.bash[13]local __text
++ atparse.bash[14]local __before
++ atparse.bash[15]local __after
++ atparse.bash[16]local __during
++ atparse.bash[17]local __set_x=:
++ atparse.bash[18]local __set_u=:
++ atparse.bash[19]local __set_e=:
++ atparse.bash[20]local __abort_on_undefined=NO
++ atparse.bash[24][[ -o xtrace ]]
++ atparse.bash[25]__set_x='set -x'
++ atparse.bash[27][[ -o errexit ]]
++ atparse.bash[28]__set_e='set -e'
++ atparse.bash[30][[ -o nounset ]]
++ atparse.bash[31]__set_u='set -u'
++ atparse.bash[32]__abort_on_undefined=YES
++ atparse.bash[34]set +eux
++ atparse.bash[102]eval 'set -u'
+++ atparse.bash[102]set -u
++ atparse.bash[103]eval 'set -e'
+++ atparse.bash[103]set -e
++ parsing_namelists_FV3.sh[60]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/MOM6_data_table.IN data_table
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/MOM6_data_table.IN data_table
++ cpreq[4]'[' 0 -ne 0 ']'
++ parsing_namelists_FV3.sh[63][[ -n '' ]]
++ parsing_namelists_FV3.sh[79]cpreq /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/field_table_thompson_noaero_tke_progsigma field_table
++ cpreq[3]cp /gpfs/f6/ira-da/proj-shared/Baiding.Liu/global-workflow-sfs/parm/ufs/fv3/field_table_thompson_noaero_tke_progsigma field_table
++ cpreq[4]'[' 0 -ne 0 ']'
++ parsing_namelists_FV3.sh[84]local BLOCKSIZE=32
++ parsing_namelists_FV3.sh[85]local CHKSUM_DEBUG=.false.
++ parsing_namelists_FV3.sh[86]local DYCORE_ONLY=.false.
++ parsing_namelists_FV3.sh[87]local CCPP_SUITE=FV3_GFS_v17_coupled_p8_ugwpv1
++ parsing_namelists_FV3.sh[89]local MAX_OUTPUT_FIELDS=300
++ parsing_namelists_FV3.sh[91]local DOMAINS_STACK_SIZE=16000000
++ parsing_namelists_FV3.sh[92]local PRINT_MEMORY_USAGE=.false.
++ parsing_namelists_FV3.sh[94]local INPES=4
++ parsing_namelists_FV3.sh[95]local JNPES=6
++ parsing_namelists_FV3.sh[96]local IO_LAYOUT=1,1
++ parsing_namelists_FV3.sh[97]local NPX=193
++ parsing_namelists_FV3.sh[98]local NPY=193
++ parsing_namelists_FV3.sh[99]local NTILES=6
++ parsing_namelists_FV3.sh[100]local NPZ=127
++ parsing_namelists_FV3.sh[101]local DZ_MIN=6
++ parsing_namelists_FV3.sh[102]local PSM_BC=1
++ parsing_namelists_FV3.sh[103]local MAKE_NH=.false.
++ parsing_namelists_FV3.sh[104]local FV_DEBUG=.false.
++ parsing_namelists_FV3.sh[105]local RANGE_WARN=.true.
++ parsing_namelists_FV3.sh[106]local N_SPONGE=42
++ parsing_namelists_FV3.sh[107]local NUDGE_QV=.false.
++ parsing_namelists_FV3.sh[108]local NUDGE_DZ=.false.
++ parsing_namelists_FV3.sh[109]local TAU=6.0
++ parsing_namelists_FV3.sh[110]local FAST_TAU_W_SEC=0.2
++ parsing_namelists_FV3.sh[111]local RF_CUTOFF=300.0
++ parsing_namelists_FV3.sh[112]local D2_BG_K1=0.20
++ parsing_namelists_FV3.sh[113]local D2_BG_K2=0.04
++ parsing_namelists_FV3.sh[114]local KORD_TM=-9
++ parsing_namelists_FV3.sh[115]local KORD_MT=9
++ parsing_namelists_FV3.sh[116]local KORD_WZ=9
++ parsing_namelists_FV3.sh[117]local KORD_TR=9
++ parsing_namelists_FV3.sh[118]local HYDROSTATIC=.false.
++ parsing_namelists_FV3.sh[119]local PHYS_HYDROSTATIC=.false.
++ parsing_namelists_FV3.sh[120]local USE_HYDRO_PRESSURE=.false.
++ parsing_namelists_FV3.sh[121]local UPDATE_FULL_OMEGA=.true.
++ parsing_namelists_FV3.sh[122]local K_SPLIT=2
++ parsing_namelists_FV3.sh[123]local N_SPLIT=4
++ parsing_namelists_FV3.sh[124]local NWAT=6
++ parsing_namelists_FV3.sh[125]local NA_INIT=0
++ parsing_namelists_FV3.sh[126]local DNATS=0
++ parsing_namelists_FV3.sh[127]local FV_SG_ADJ=1800
++ parsing_namelists_FV3.sh[128]local NORD=2
++ parsing_namelists_FV3.sh[129]local DDDMP=0.1
++ parsing_namelists_FV3.sh[130]local D4_BG=0.12
++ parsing_namelists_FV3.sh[131]local VTDM4=0.02
++ parsing_namelists_FV3.sh[132]local DELT_MAX=0.002
++ parsing_namelists_FV3.sh[133]local DO_VORT_DAMP=.true.
++ parsing_namelists_FV3.sh[134]local EXTERNAL_IC=.false.
++ parsing_namelists_FV3.sh[135]local EXTERNAL_ETA=.true.
++ parsing_namelists_FV3.sh[136]local GFS_PHIL=.false.
++ parsing_namelists_FV3.sh[137]local NGGPS_IC=.false.
++ parsing_namelists_FV3.sh[138]local MOUNTAIN=.true.
++ parsing_namelists_FV3.sh[139]local NCEP_IC=.false.
++ parsing_namelists_FV3.sh[140]local D_CON=1.

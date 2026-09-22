@@ -1,0 +1,263 @@
+ 74: ufs_model_gfs.x    0000000000436749  MAIN__                    409  UFS.F90
+ 74: ufs_model_gfs.x    000000000043549D  Unknown               Unknown  Unknown
+ 74: libc.so.6          0000150DA25EAEEC  Unknown               Unknown  Unknown
+ 74: libc.so.6          0000150DA25EAFB5  __libc_start_main     Unknown  Unknown
+ 74: ufs_model_gfs.x    00000000004353A1  Unknown               Unknown  Unknown
+srun: error: c6n0448: tasks 192-313,315-383: Exited with exit code 1
+srun: error: c6n0276: tasks 0-191: Exited with exit code 1
++ exglobal_forecast.sh[184]export err=255
++ exglobal_forecast.sh[184]err=255
++ exglobal_forecast.sh[185][[ 255 -ne 0 ]]
+++ exglobal_forecast.sh[186]basename ufs_model_gfs.x
++ exglobal_forecast.sh[186]pgm=ufs_model_gfs.x
++ exglobal_forecast.sh[187]err_exit 'The forecast failed to run to completion!'
++ environment[0]set +eux
+
+    -------------------------------------------------------------
+    -- FATAL ERROR: The forecast failed to run to completion!, ERROR IN ufs_model_gfs.x RETURN CODE 255
+    -- ABNORMAL EXIT at Mon Sep 21 03:47:12 PM EDT 2026 on c6n0276
+    -------------------------------------------------------------
+    
+
+Currently Loaded Modules:
+  1) craype-x86-genoa                52) gsl/2.8
+  2) perftools-base/25.03.0          53) nco/5.2.4
+  3) xpmem/2.11.5-1.3_g73ade43320bc  54) bacio/2.4.1
+  4) cray-pmi/6.1.15                 55) w3emc/2.10.0
+  5) CmrsEnv/default                 56) prod_util/2.1.1
+  6) TimeZoneEDT/default             57) g2/3.5.1
+  7) Core/24.11                      58) ip/5.1.0
+  8) DefApps                         59) grib-util/1.4.0
+  9) cray-dsmml/0.3.1                60) g2tmpl/1.13.0
+ 10) PrgEnv-intel/8.5.0              61) gsi-ncdiag/1.1.2
+ 11) intel-classic/2023.2.0          62) crtm-fix/2.4.0.1_emc
+ 12) craype/2.7.30                   63) git-lfs/2.11.0
+ 13) stack-intel/2023.2.0            64) crtm/2.4.0.1
+ 14) libfabric/1.22.0                65) bufr/11.7.0
+ 15) craype-network-ofi              66) py-f90nml/1.4.3
+ 16) cray-mpich/8.1.30               67) py-certifi/2023.7.22
+ 17) stack-cray-mpich/8.1.30         68) py-cftime/1.0.3.4
+ 18) gettext/0.20.2                  69) py-netcdf4/1.7.1.post2
+ 19) glibc/2.31                      70) libyaml/0.2.5
+ 20) zlib/1.2.13                     71) py-pyyaml/6.0.2
+ 21) sqlite/3.46.0                   72) py-markupsafe/2.1.3
+ 22) util-linux-uuid/2.40.2          73) py-jinja2/3.1.4
+ 23) python/3.11.7                   74) py-pytz/2023.3
+ 24) stack-python/3.11.7             75) py-tzdata/2023.3
+ 25) cmake/3.27.9                    76) py-pandas/2.2.3
+ 26) libjpeg/2.1.0                   77) py-six/1.16.0
+ 27) jasper/2.0.32                   78) py-python-dateutil/2.8.2
+ 28) libpng/1.6.37                   79) py-packaging/24.1
+ 29) openjpeg/2.3.1                  80) py-setuptools/69.2.0
+ 30) eccodes/2.33.0                  81) py-xarray/2024.7.0
+ 31) fftw/3.3.10                     82) py-awscrt/0.19.19
+ 32) nghttp2/1.63.0                  83) py-colorama/0.4.6
+ 33) curl/8.10.1                     84) py-pycparser/2.21
+ 34) proj/9.4.1                      85) py-cffi/1.17.1
+ 35) udunits/2.2.28                  86) py-cryptography/38.0.1
+ 36) cdo/2.3.0                       87) py-distro/1.8.0
+ 37) hdf5/1.14.3                     88) py-docutils/0.19
+ 38) snappy/1.2.1                    89) py-flit-core/3.8.0
+ 39) zstd/1.5.6                      90) py-jmespath/1.0.1
+ 40) c-blosc/1.21.5                  91) py-wcwidth/0.2.7
+ 41) netcdf-c/4.9.2                  92) py-prompt-toolkit/3.0.38
+ 42) netcdf-fortran/4.6.1            93) py-ruamel-yaml/0.17.16
+ 43) parallel-netcdf/1.12.3          94) py-urllib3/1.26.12
+ 44) parallelio/2.6.2                95) awscli-v2/2.15.53
+ 45) python-venv/1.0                 96) gw_run.common
+ 46) py-mpi4py/4.0.1                 97) perlbrew/5.38.2
+ 47) openblas/0.3.24                 98) prepobs/1.1.3
+ 48) py-numpy/1.26.4                 99) fit2obs/1.1.10
+ 49) py-pip/23.1.2                  100) hsi/9.3
+ 50) esmf/8.8.0                     101) gw_run.gaeac6
+ 51) antlr/2.7.7
+
+ 
+
+
+The forecast failed to run to completion!, ERROR IN ufs_model_gfs.x RETURN CODE 255
+/gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/fcst.2752138
+total 13424403
+-rw-r--r-- 1 Baiding.Liu ira-da          0 Sep 21 15:45 ncepdate
+-rwxr--r-- 1 Baiding.Liu ira-da        328 Sep 21 15:45 PDY
+lrwxrwxrwx 1 Baiding.Liu ira-da        113 Sep 21 15:45 FV3ATM_OUTPUT -> /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/FV3ATM_OUTPUT
+lrwxrwxrwx 1 Baiding.Liu ira-da        112 Sep 21 15:45 RESTART -> /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/FV3_RESTART
+-rw-r--r-- 1 Baiding.Liu ira-da       4868 Sep 21 15:45 ugwp_limb_tau.nc
+-rw-r--r-- 1 Baiding.Liu ira-da      69015 Sep 21 15:45 noahmptable.tbl
+-rw-r--r-- 1 Baiding.Liu ira-da      35288 Sep 21 15:45 CCN_ACTIVATE.BIN
+-rw-r--r-- 1 Baiding.Liu ira-da  254944848 Sep 21 15:45 freezeH2O.dat
+-rw-r--r-- 1 Baiding.Liu ira-da   68077680 Sep 21 15:45 qr_acr_qgV2.dat
+-rw-r--r-- 1 Baiding.Liu ira-da   33118944 Sep 21 15:45 qr_acr_qsV2.dat
+-rw-r--r-- 1 Baiding.Liu ira-da    1114844 Sep 21 15:45 global_o3prdlos.f77
+-rw-r--r-- 1 Baiding.Liu ira-da     778256 Sep 21 15:45 global_h2oprdlos.f77
+-rw-r--r-- 1 Baiding.Liu ira-da       7973 Sep 21 15:45 solarconstant_noaa_an.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      65679 Sep 21 15:45 sfc_emissivity_idx.txt
+-rw-r--r-- 1 Baiding.Liu ira-da  776345120 Sep 21 15:45 aeroclim.m01.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  776080659 Sep 21 15:45 aeroclim.m02.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  775084533 Sep 21 15:45 aeroclim.m03.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  767504923 Sep 21 15:45 aeroclim.m04.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  768460951 Sep 21 15:45 aeroclim.m05.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  767979278 Sep 21 15:45 aeroclim.m06.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  775014936 Sep 21 15:45 aeroclim.m07.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  774438684 Sep 21 15:45 aeroclim.m08.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  786015031 Sep 21 15:45 aeroclim.m09.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  778846813 Sep 21 15:45 aeroclim.m10.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  774454966 Sep 21 15:45 aeroclim.m11.nc
+-rw-r--r-- 1 Baiding.Liu ira-da  774362436 Sep 21 15:45 aeroclim.m12.nc
+-rw-r--r-- 1 Baiding.Liu ira-da    3135393 Sep 21 15:45 aerosol.dat
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1850-1859.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1860-1869.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1870-1879.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1880-1889.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1890-1899.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1900-1909.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1910-1919.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1920-1929.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1930-1939.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1940-1949.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1950-1959.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1960-1969.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1970-1979.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1980-1989.txt
+-rw-r--r-- 1 Baiding.Liu ira-da       2689 Sep 21 15:45 volcanic_aerosols_1990-1999.txt
+-rw-r--r-- 1 Baiding.Liu ira-da     202000 Sep 21 15:45 optics_BC.dat
+-rw-r--r-- 1 Baiding.Liu ira-da     202000 Sep 21 15:45 optics_OC.dat
+-rw-r--r-- 1 Baiding.Liu ira-da     461637 Sep 21 15:45 optics_DU.dat
+-rw-r--r-- 1 Baiding.Liu ira-da     502753 Sep 21 15:45 optics_SS.dat
+-rw-r--r-- 1 Baiding.Liu ira-da     101749 Sep 21 15:45 optics_SU.dat
+-rw-r--r-- 1 Baiding.Liu ira-da      27302 Sep 21 15:45 co2monthlycyc.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2022.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2023.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2024.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2025.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2026.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1956.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1957.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1958.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1959.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1960.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1961.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1962.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1963.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1964.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1965.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1966.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1967.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1968.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1969.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1970.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1971.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1972.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1973.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1974.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1975.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1976.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1977.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1978.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1979.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1980.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1981.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1982.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1983.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1984.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1985.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1986.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1987.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1988.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1989.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1990.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1991.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1992.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1993.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1994.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1995.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1996.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1997.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1998.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_1999.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2000.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2001.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2002.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2003.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2004.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2005.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2006.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2007.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2008.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2009.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2009.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2009.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2010.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2010.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2010.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2011.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2011.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2011.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2012.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2012.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2012.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2013.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2013.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2013.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2014.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2014.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2014.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2015.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2015.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2015.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2016.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2016.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2016.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2017.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2017.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2017.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2018.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2018.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2018.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2019.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2019.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2019.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2020.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2020.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2020.txt_proj_u
+-rw-r--r-- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2021.txt
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2021.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2021.txt_proj_u
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2022.txt_proj
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2022.txt_proj_u
+-rw-r----- 1 Baiding.Liu ira-da      24484 Sep 21 15:45 co2historicaldata_2023.txt_proj
+-rw-r--r-- 1 Baiding.Liu ira-da       9037 Sep 21 15:45 co2historicaldata_glob.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      48207 Sep 21 15:45 params_grib2_tbl_new
+-rw-r--r-- 1 Baiding.Liu ira-da        333 Sep 21 15:45 itag
+-rw-r--r-- 1 Baiding.Liu ira-da      53894 Sep 21 15:45 postxconfig-NT.txt
+-rw-r--r-- 1 Baiding.Liu ira-da      36877 Sep 21 15:45 postxconfig-NT_FH00.txt
+lrwxrwxrwx 1 Baiding.Liu ira-da        114 Sep 21 15:45 CMEPS_RESTART -> /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/CMEPS_RESTART
+lrwxrwxrwx 1 Baiding.Liu ira-da        111 Sep 21 15:45 MOM6_OUTPUT -> /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/MOM6_OUTPUT
+lrwxrwxrwx 1 Baiding.Liu ira-da        113 Sep 21 15:45 MOM6_RESTART -> /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/MOM6_RESTART
+lrwxrwxrwx 1 Baiding.Liu ira-da        111 Sep 21 15:45 CICE_OUTPUT -> /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/output/CICE_OUTPUT
+lrwxrwxrwx 1 Baiding.Liu ira-da        113 Sep 21 15:45 CICE_RESTART -> /gpfs/f6/ira-da/world-shared/Baiding.Liu/RUNDIRS/sfs2023/gdas.2023011606/gdasfcst.2023011606/restart/CICE_RESTART
+-rw-r--r-- 1 Baiding.Liu ira-da   68429828 Sep 21 15:45 grid_cice_NEMS_mx025.nc
+-rw-r--r-- 1 Baiding.Liu ira-da    6221520 Sep 21 15:45 kmtu_cice_NEMS_mx025.nc
+-rw-r--r-- 1 Baiding.Liu ira-da   87107397 Sep 21 15:45 mesh.mx025.nc
+-rw-r--r-- 1 Baiding.Liu ira-da 1455253036 Sep 21 15:46 ufs.cpld.cpl.r.nc
+-rw-r--r-- 1 Baiding.Liu ira-da         18 Sep 21 15:46 rpointer.cpl
+-rw-r--r-- 1 Baiding.Liu ira-da 2090191872 Sep 21 15:46 cice_model.res.nc
+-rw-r--r-- 1 Baiding.Liu ira-da      19234 Sep 21 15:46 diag_table_template
+-rw-r--r-- 1 Baiding.Liu ira-da      19184 Sep 21 15:46 diag_table
+-rw-r--r-- 1 Baiding.Liu ira-da       3157 Sep 21 15:46 field_table
+-rw-r--r-- 1 Baiding.Liu ira-da      11957 Sep 21 15:46 input.nml
+-rw-r--r-- 1 Baiding.Liu ira-da       1218 Sep 21 15:46 model_configure
+drwxr-sr-x 2 Baiding.Liu ira-da     262144 Sep 21 15:46 INPUT
+-rw-r--r-- 1 Baiding.Liu ira-da         95 Sep 21 15:46 data_table
+-rw-r--r-- 1 Baiding.Liu ira-da      10983 Sep 21 15:46 ice_in
+-rw-r--r-- 1 Baiding.Liu ira-da        124 Sep 21 15:46 ice.restart_file
+-rw-r--r-- 1 Baiding.Liu ira-da       3586 Sep 21 15:46 ufs.configure
+-rw-r--r-- 1 Baiding.Liu ira-da      38764 Sep 21 15:46 fd_ufs.yaml
+-rwxr-xr-x 1 Baiding.Liu ira-da  382919504 Sep 21 15:46 ufs_model_gfs.x
+-rw-r--r-- 1 Baiding.Liu ira-da      18427 Sep 21 15:46 logfile.000000.out
+-rw-r--r-- 1 Baiding.Liu ira-da      32183 Sep 21 15:46 mediator.log
+-rw-r--r-- 1 Baiding.Liu ira-da       4012 Sep 21 15:47 warnfile.000000.out
+-rw-r--r-- 1 Baiding.Liu ira-da      53412 Sep 21 15:47 ice_diag.d
+cat: OUTPUT.2752185: No such file or directory
+SUB FV3_out: copying output data for FV3
+[2026-09-21T15:47:12.856] error: *** JOB 221391455 ON c6n0276 CANCELLED AT 2026-09-21T15:47:12 DUE to SIGNAL Terminated ***
